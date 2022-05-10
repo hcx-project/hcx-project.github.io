@@ -1,0 +1,364 @@
+﻿HCX Core : Validation Results
+=========================================
+
+err = 234, warn = 44, info = 0
+IG Publisher Version: 1.1.77 Out of date - current version is 1.1.80
+Generated Wed Sep 22 10:39:07 IST 2021. FHIR version 4.0.1 for ig#0.0.1 (canonical = https://fhir-ig-demo)
+
+ Build Errors : 23 / 1 / 0
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-Claim : 1 / 9 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-ClaimRequestDocument : 4 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-ClaimResponse : 2 / 3 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-ClaimResponseDocument : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-Condition : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-Coverage : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-CoverageEligibilityRequest : 0 / 2 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-CoverageEligibilityRequestDocument : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-CoverageEligibilityResponse : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-CoverageEligibilityResponseDocument : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-Encounter : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-HCXOrganizationExtension : 0 / 2 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-HCXSignature : 2 / 2 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-Organization : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-Patient : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-PaymentNotice : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-PaymentNoticeDocument : 35 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-PaymentReconciliation : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-Practitioner : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\structuredefinition-PractitionerRole : 0 / 3 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\valueset-claim-denial-codes : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\valueset-claim-service-categories : 0 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\valueset-health-service-provider-role : 13 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\valueset-insurance-company-owners : 51 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\valueset-medical-specialty-provider : 89 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\valueset-procedure-type-description : 32 / 1 / 1
+ C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\ig : 4 / 2 / 1
+</table>
+== n/a ==
+ERROR: ImplementationGuide.definition.parameter[23].value: Supressed messages file not found
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be ig
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-Condition-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 287, column 94: The link 'resource.html#identifiers' for "discussion" cannot be resolved
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 274, column 356: The link 'extensibility.html#modifierExtension' for "definition of modifier extensions" cannot be resolved
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 274, column 625: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.amount' for "amount" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 275, column 630: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.created' for "created" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 276, column 646: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.payee' for "payee" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 277, column 640: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.payment' for "payment" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 278, column 636: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.paymentDate' for "paymentDate" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 279, column 619: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.paymentStatus' for "paymentStatus" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 280, column 646: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.provider' for "provider" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 281, column 640: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.recipient' for "recipient" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 282, column 646: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.request' for "request" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 283, column 640: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.response' for "response" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 495, column 625: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.amount' for "amount" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 496, column 630: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.created' for "created" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 497, column 646: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.payee' for "payee" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 498, column 640: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.payment' for "payment" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 499, column 636: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.paymentDate' for "paymentDate" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 500, column 619: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.paymentStatus' for "paymentStatus" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 501, column 646: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.provider' for "provider" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 502, column 640: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.recipient' for "recipient" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 503, column 646: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.request' for "request" cannot be resolved (valid targets: 71 targets)
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\output\StructureDefinition-PaymentNoticeDocument.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 504, column 640: The link 'StructureDefinition-PaymentNoticeDocument-definitions.html#Composition.response' for "response" cannot be resolved (valid targets: 71 targets)
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-Claim.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXClaim'): The element Claim.diagnosis.type is out of order (and maybe others after it)
+WARNING: StructureDefinition/Claim: StructureDefinition.differential.element[6].binding: The valueSet reference https://swasth-digital-health-foundation.github.io/standards/output/ValueSet-health-service-provider-role.html on element Claim.careTeam.role could not be resolved
+WARNING: StructureDefinition/Claim: StructureDefinition.differential.element[8].binding: The valueSet reference https://swasth-digital-health-foundation.github.io/standards/output/ValueSet-procedure-type-description.html on element Claim.procedure.type could not be resolved
+WARNING: StructureDefinition/Claim: StructureDefinition.differential.element[9].binding: The valueSet reference https://icd.who.int/browse10/2010/en on element Claim.procedure.procedure[x] could not be resolved
+WARNING: StructureDefinition/Claim: StructureDefinition.differential.element[10].binding: The valueSet reference https://swasth-digital-health-foundation.github.io/standards/output/ValueSet-claim-service-categories.html on element Claim.item.category could not be resolved
+WARNING: StructureDefinition/Claim: StructureDefinition.snapshot.element[46].binding: The valueSet reference https://swasth-digital-health-foundation.github.io/standards/output/ValueSet-health-service-provider-role.html on element Claim.careTeam.role could not be resolved
+WARNING: StructureDefinition/Claim: StructureDefinition.snapshot.element[72].binding: The valueSet reference https://swasth-digital-health-foundation.github.io/standards/output/ValueSet-procedure-type-description.html on element Claim.procedure.type could not be resolved
+WARNING: StructureDefinition/Claim: StructureDefinition.snapshot.element[74].binding: The valueSet reference https://icd.who.int/browse10/2010/en on element Claim.procedure.procedure[x] could not be resolved
+WARNING: StructureDefinition/Claim: StructureDefinition.snapshot.element[104].binding: The valueSet reference https://swasth-digital-health-foundation.github.io/standards/output/ValueSet-claim-service-categories.html on element Claim.item.category could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXClaim'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-ClaimRequestDocument.json ==
+ERROR: Composition.section.entry: The target profile https://swasth-digital-health-foundation.github.io/standards/output/StructureDefinition-HCXSignature.html is not a valid constraint on the base ([CanonicalType[http://hl7.org/fhir/StructureDefinition/Resource]]) at Composition.section.entry
+ERROR: StructureDefinition/ClaimRequestDocument: StructureDefinition: The target profile https://swasth-digital-health-foundation.github.io/standards/output/StructureDefinition-HCXSignature.html is not a valid constraint on the base ([CanonicalType[http://hl7.org/fhir/StructureDefinition/Resource]]) at Composition.section.entry
+ERROR: StructureDefinition/ClaimRequestDocument: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Profile https://swasth-digital-health-foundation.github.io/standards/output/StructureDefinition-HCXSignature.html is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/Extension], which is not a Resource (which is required because the Composition.section.entry element has type Reference)
+ERROR: StructureDefinition/ClaimRequestDocument: StructureDefinition.snapshot.element[53].type[0].targetProfile[0]: Profile https://swasth-digital-health-foundation.github.io/standards/output/StructureDefinition-HCXSignature.html is for type StructureDefinition[http://hl7.org/fhir/StructureDefinition/Extension], which is not a Resource (which is required because the Composition.section.entry element has type Reference)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXClaimRequestDocument'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-ClaimResponse.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXClaimResponse'): The element ClaimResponse.insurer is out of order (and maybe others after it)
+ERROR: StructureDefinition/ClaimResponse: StructureDefinition: sdf-1: 'Element paths must be unique unless the structure is a constraint' Rule 'Element paths must be unique unless the structure is a constraint' Failed
+WARNING: StructureDefinition/ClaimResponse: StructureDefinition.differential.element[7].binding: The valueSet reference https://swasth-digital-health-foundation.github.io/standards/output/ValueSet-claim-denial-codes.html on element ClaimResponse.item.adjudication.reason could not be resolved
+WARNING: StructureDefinition/ClaimResponse: StructureDefinition.snapshot.element[36].binding: The valueSet reference https://swasth-digital-health-foundation.github.io/standards/output/ValueSet-claim-denial-codes.html on element ClaimResponse.item.adjudication.reason could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXClaimResponse'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-ClaimResponseDocument.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXClaimResponseDocument'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-Condition.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXCondition'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-Coverage.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXCoverage'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-CoverageEligibilityRequest.json ==
+WARNING: StructureDefinition/CoverageEligibilityRequest: StructureDefinition.differential.element[5].binding: The valueSet reference https://swasth-digital-health-foundation.github.io/standards/output/ValueSet-insurance-company-owners.html on element CoverageEligibilityRequest.insurer could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXCoverageEligibilityRequest'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-CoverageEligibilityRequestDocument.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXCoverageEligibilityRequestDocument'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-CoverageEligibilityResponse.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXCoverageEligibilityResponse'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-CoverageEligibilityResponseDocument.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXCoverageEligibilityResponseDocument'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-Encounter.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXEncounter'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-HCXOrganizationExtension.json ==
+WARNING: StructureDefinition/HCXOrganizationExtension: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition.where(url = 'https://swasth-digital-health-foundation.github.io/standards/output/StructureDefinition-HCXOrganizationExtension.html'): The Implementation Guide contains no examples for this extension
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-HCXSignature.json ==
+WARNING: StructureDefinition/HCXSignature: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: StructureDefinition/HCXSignature: StructureDefinition.snapshot.element[3].fixed.ofType(uri): URL value 'http://hl7.org/fhir/StructureDefinition/HCXSignature' does not resolve
+ERROR: StructureDefinition/HCXSignature: StructureDefinition.differential.element[2].fixed.ofType(uri): URL value 'http://hl7.org/fhir/StructureDefinition/HCXSignature' does not resolve
+WARNING: StructureDefinition.where(url = 'https://swasth-digital-health-foundation.github.io/standards/output/StructureDefinition-HCXSignature.html'): The Implementation Guide contains no examples for this extension
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-Organization.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXOrganization'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-Patient.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPatient'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-PaymentNotice.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentNotice'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-PaymentNoticeDocument.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument'): StructureDefinition profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument: Differential contains path Composition.payment which is not found in the in base profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument'): StructureDefinition profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument: Differential contains path Composition.created which is not found in the in base profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument'): StructureDefinition profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument: Differential contains path Composition.response which is not found in the in base profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument'): StructureDefinition profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument: Differential contains path Composition.paymentStatus which is not found in the in base profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument'): StructureDefinition profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument: Differential contains path Composition.payee which is not found in the in base profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument'): StructureDefinition profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument: Differential contains path Composition.amount which is not found in the in base profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument'): StructureDefinition profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument: Differential contains path Composition.paymentDate which is not found in the in base profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument'): StructureDefinition profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument: Differential contains path Composition.request which is not found in the in base profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument'): StructureDefinition profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument: Differential contains path Composition.provider which is not found in the in base profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument'): StructureDefinition profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument: Differential contains path Composition.recipient which is not found in the in base profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument'): The element Composition.id is out of order (and maybe others after it)
+ERROR: PaymentNoticeDocument.Composition.status: Binding http://hl7.org/fhir/ValueSet/fm-status|4.0.1 is not a subset of binding http://hl7.org/fhir/ValueSet/composition-status|4.0.1
+ERROR: http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument#Composition.amount: No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument#Composition.created: No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument#Composition.payee: No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument#Composition.payment: No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument#Composition.paymentDate: No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument#Composition.paymentStatus: No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument#Composition.provider: No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument#Composition.recipient: No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument#Composition.request: No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument#Composition.response: No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument: The profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument has 10 elements in the differential (id: Composition.amount, id: Composition.created, id: Composition.payee, id: Composition.payment, id: Composition.paymentDate, id: Composition.paymentStatus, id: Composition.provider, id: Composition.recipient, id: Composition.request, id: Composition.response) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/PaymentNoticeDocument: StructureDefinition: Binding http://hl7.org/fhir/ValueSet/fm-status|4.0.1 is not a subset of binding http://hl7.org/fhir/ValueSet/composition-status|4.0.1
+ERROR: StructureDefinition/PaymentNoticeDocument: StructureDefinition.differential.element.where(path = 'Composition.amount'): No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/PaymentNoticeDocument: StructureDefinition.differential.element.where(path = 'Composition.created'): No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/PaymentNoticeDocument: StructureDefinition.differential.element.where(path = 'Composition.payee'): No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/PaymentNoticeDocument: StructureDefinition.differential.element.where(path = 'Composition.payment'): No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/PaymentNoticeDocument: StructureDefinition.differential.element.where(path = 'Composition.paymentDate'): No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/PaymentNoticeDocument: StructureDefinition.differential.element.where(path = 'Composition.paymentStatus'): No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/PaymentNoticeDocument: StructureDefinition.differential.element.where(path = 'Composition.provider'): No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/PaymentNoticeDocument: StructureDefinition.differential.element.where(path = 'Composition.recipient'): No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/PaymentNoticeDocument: StructureDefinition.differential.element.where(path = 'Composition.request'): No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/PaymentNoticeDocument: StructureDefinition.differential.element.where(path = 'Composition.response'): No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)
+ERROR: StructureDefinition/PaymentNoticeDocument: StructureDefinition: The profile http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument has 10 elements in the differential (id: Composition.amount, id: Composition.created, id: Composition.payee, id: Composition.payment, id: Composition.paymentDate, id: Composition.paymentStatus, id: Composition.provider, id: Composition.recipient, id: Composition.request, id: Composition.response) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentNoticeDocument'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-PaymentReconciliation.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPaymentReconciliation'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-Practitioner.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPractitioner'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\StructureDefinition-PractitionerRole.json ==
+WARNING: StructureDefinition/PractitionerRole: StructureDefinition.differential.element[2].binding: The valueSet reference https://swasth-digital-health-foundation.github.io/standards/output/ValueSet-medical-specialty-provider.html on element PractitionerRole.specialty could not be resolved
+WARNING: StructureDefinition/PractitionerRole: StructureDefinition.snapshot.element[15].binding: The valueSet reference https://swasth-digital-health-foundation.github.io/standards/output/ValueSet-medical-specialty-provider.html on element PractitionerRole.specialty could not be resolved
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/HCXPractitionerRole'): The Implementation Guide contains no examples for this profile
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\ValueSet-claim-denial-codes.json ==
+WARNING: ValueSet/claim-denial-codes: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\ValueSet-claim-service-categories.json ==
+WARNING: ValueSet/claim-service-categories: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\ValueSet-health-service-provider-role.json ==
+ERROR: ValueSet.expansion.contains[0].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[1].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[2].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[3].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[4].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[5].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[6].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[7].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[8].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[9].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[10].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[11].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[12].code: Error parsing JSON: the primitive value must be a string
+WARNING: ValueSet/health-service-provider-role: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\ValueSet-insurance-company-owners.json ==
+ERROR: ValueSet.expansion.contains[0].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[1].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[2].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[3].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[4].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[5].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[6].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[7].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[8].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[9].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[10].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[11].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[12].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[13].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[14].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[15].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[16].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[17].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[18].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[19].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[20].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[21].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[22].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[23].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[24].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[25].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[26].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[27].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[28].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[29].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[30].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[31].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[32].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[33].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[34].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[35].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[36].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[37].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[38].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[39].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[40].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[41].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[42].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[43].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[44].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[45].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[46].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[47].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[48].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[49].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[50].code: Error parsing JSON: the primitive value must be a string
+WARNING: ValueSet/insurance-company-owners: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\ValueSet-medical-specialty-provider.json ==
+ERROR: ValueSet.expansion.contains[0].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[1].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[2].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[3].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[4].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[5].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[6].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[7].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[8].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[9].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[10].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[11].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[12].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[13].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[14].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[15].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[16].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[17].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[18].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[19].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[20].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[21].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[22].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[23].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[24].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[25].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[26].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[27].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[28].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[29].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[30].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[31].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[32].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[33].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[34].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[35].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[36].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[37].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[38].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[39].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[40].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[41].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[42].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[43].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[44].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[45].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[46].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[47].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[48].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[49].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[50].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[51].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[52].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[53].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[54].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[55].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[56].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[57].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[58].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[59].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[60].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[61].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[62].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[63].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[64].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[65].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[66].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[67].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[68].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[69].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[70].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[71].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[72].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[73].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[74].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[75].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[76].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[77].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[78].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[79].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[80].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[81].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[82].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[83].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[84].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[85].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[86].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[87].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[88].code: Error parsing JSON: the primitive value must be a string
+WARNING: ValueSet/medical-specialty-provider: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\hcx-definitions\ValueSet-procedure-type-description.json ==
+ERROR: ValueSet.expansion.contains[0].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[1].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[2].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[3].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[4].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[5].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[6].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[7].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[8].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[9].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[10].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[11].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[12].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[13].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[14].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[15].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[16].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[17].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[18].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[19].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[20].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[21].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[22].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[23].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[24].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[25].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[26].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[27].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[28].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[29].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[30].code: Error parsing JSON: the primitive value must be a string
+ERROR: ValueSet.expansion.contains[31].code: Error parsing JSON: the primitive value must be a string
+WARNING: ValueSet/procedure-type-description: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\ig.json ==
+ERROR: ImplementationGuide.where(url = 'https://fhir-ig-demo/ImplementationGuide/ig'): Conformance resource C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\ig.json - the canonical URL (https://fhir-ig-demo/ImplementationGuide/hl7.fhir.in.core) does not match the URL (https://fhir-ig-demo/ImplementationGuide/ig)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: hl7.fhir.in.core/https://fhir-ig-demo/ImplementationGuide/ig
+WARNING: ImplementationGuide/hl7.fhir.in.core: ImplementationGuide: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: ImplementationGuide/hl7.fhir.in.core: ImplementationGuide.definition.page: ImplementationGuide.definition.page.title: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
+WARNING: ImplementationGuide/hl7.fhir.in.core: ImplementationGuide.definition.page.page[0].page[10].title: value should not start or finish with whitespace
+ERROR: C:\Users\Test\Documents\swas\FHIR\standards\IG-Publisher\input\ig: URL Mismatch https://fhir-ig-demo/ImplementationGuide/hl7.fhir.in.core vs https://fhir-ig-demo/ImplementationGuide/ig

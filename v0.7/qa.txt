@@ -1,0 +1,103 @@
+﻿HCXFHIRImplementationGuide : Validation Results
+=========================================
+
+err = 1, warn = 32, info = 1
+IG Publisher Version: 1.1.118
+Generated Tue May 10 00:03:46 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.7.0 (canonical = https://hcxprotocol.io/fhir/r4)
+ Build Errors : 1 / 0 / 0
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-Claim : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-ClaimRequestDocument : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-ClaimResponse : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-ClaimResponseDocument : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-Communication : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CommunicationDocument : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CommunicationRequest : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-Coverage : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CoverageEligibilityRequest : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CoverageEligibilityRequestDocument : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CoverageEligibilityResponse : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CoverageEligibilityResponseDocument : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXDiagnosticDocumentsExtension : 0 / 3 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXInformationalMessagesExtension : 0 / 5 / 2
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXInsurancePlan : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXProofOfIdentificationExtension : 0 / 3 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXProofOfPresenceExtension : 0 / 3 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXQuestionnairesExtension : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXSignatureExtension : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-PaymentNotice : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-PaymentReconciliation : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-Task : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-claim-denial-codes : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-claim-service-categories : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-claim-service-codes : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-health-service-provider-role : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-insurance-company-owners : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-medical-speciality-type-provider : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-procedure-type-description : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/ig : 0 / 0 / 1
+</table>
+== n/a ==
+ERROR: ImplementationGuide.definition.parameter[23].value: Supressed messages file not found
+== input/hcx-definitions/StructureDefinition-Claim.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Claim.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-ClaimRequestDocument.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-ClaimRequestDocument.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-ClaimResponse.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-ClaimResponse.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-ClaimResponseDocument.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-ClaimResponseDocument.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-Communication.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Communication.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-CommunicationDocument.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CommunicationDocument.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-CommunicationRequest.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CommunicationRequest.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-Coverage.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Coverage.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-CoverageEligibilityRequest.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityRequest.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-CoverageEligibilityRequestDocument.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityRequestDocument.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-CoverageEligibilityResponse.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityResponse.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-CoverageEligibilityResponseDocument.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityResponseDocument.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-HCXDiagnosticDocumentsExtension.json ==
+WARNING: StructureDefinition/HCXDiagnosticDocumentsExtension: StructureDefinition.differential.element[4].binding: The valueSet reference https://hcx-valuesets/clinicalDiagnosticsDocumentCodes on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition/HCXDiagnosticDocumentsExtension: StructureDefinition.snapshot.element[11].binding: The valueSet reference https://hcx-valuesets/clinicalDiagnosticsDocumentCodes on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html'): The Implementation Guide contains no examples for this extension
+== input/hcx-definitions/StructureDefinition-HCXInformationalMessagesExtension.json ==
+INFORMATION: StructureDefinition/HCXInformationalMessagesExtension: StructureDefinition.differential.element[4].binding: The element Extension.extension.value[x] has a binding, and has multiple types subject to bindings ([string, CodeableConcept]). The binding will apply to all the types
+WARNING: StructureDefinition/HCXInformationalMessagesExtension: StructureDefinition.differential.element[4].binding: The valueSet reference https://hcx-valuesets/InformationalMessagesCodes on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition/HCXInformationalMessagesExtension: StructureDefinition.differential.element[7].binding: The valueSet reference http://www.hl7.org/fhir/valueset-issue-severity.html on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition/HCXInformationalMessagesExtension: StructureDefinition.snapshot.element[11].binding: The valueSet reference https://hcx-valuesets/InformationalMessagesCodes on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition/HCXInformationalMessagesExtension: StructureDefinition.snapshot.element[20].binding: The valueSet reference http://www.hl7.org/fhir/valueset-issue-severity.html on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html'): The Implementation Guide contains no examples for this extension
+== input/hcx-definitions/StructureDefinition-HCXInsurancePlan.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXInsurancePlan.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-HCXProofOfIdentificationExtension.json ==
+WARNING: StructureDefinition/HCXProofOfIdentificationExtension: StructureDefinition.differential.element[4].binding: The valueSet reference https://hcx-valuesets/proofOfIdentificationDocumentCodes on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition/HCXProofOfIdentificationExtension: StructureDefinition.snapshot.element[11].binding: The valueSet reference https://hcx-valuesets/proofOfIdentificationDocumentCodes on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html'): The Implementation Guide contains no examples for this extension
+== input/hcx-definitions/StructureDefinition-HCXProofOfPresenceExtension.json ==
+WARNING: StructureDefinition/HCXProofOfPresenceExtension: StructureDefinition.differential.element[4].binding: The valueSet reference https://hcx-valuesets/proofOfPresenceDocumentCodes on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition/HCXProofOfPresenceExtension: StructureDefinition.snapshot.element[11].binding: The valueSet reference https://hcx-valuesets/proofOfPresenceDocumentCodes on element Extension.extension.value[x] could not be resolved
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html'): The Implementation Guide contains no examples for this extension
+== input/hcx-definitions/StructureDefinition-HCXQuestionnairesExtension.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXQuestionnairesExtension.html'): The Implementation Guide contains no examples for this extension
+== input/hcx-definitions/StructureDefinition-HCXSignatureExtension.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXSignatureExtension.html'): The Implementation Guide contains no examples for this extension
+== input/hcx-definitions/StructureDefinition-PaymentNotice.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-PaymentNotice.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-PaymentReconciliation.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-PaymentReconciliation.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/StructureDefinition-Task.json ==
+WARNING: StructureDefinition.where(url = 'https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Task.html'): The Implementation Guide contains no examples for this profile
+== input/hcx-definitions/ValueSet-claim-denial-codes.json ==
+== input/hcx-definitions/ValueSet-claim-service-categories.json ==
+== input/hcx-definitions/ValueSet-claim-service-codes.json ==
+== input/hcx-definitions/ValueSet-health-service-provider-role.json ==
+== input/hcx-definitions/ValueSet-insurance-company-owners.json ==
+== input/hcx-definitions/ValueSet-medical-speciality-type-provider.json ==
+== input/hcx-definitions/ValueSet-procedure-type-description.json ==
+== input/ig.json ==
