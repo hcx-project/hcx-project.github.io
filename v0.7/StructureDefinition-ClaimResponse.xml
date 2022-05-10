@@ -126,10 +126,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-    <valueCode value="fm"/>
-  </extension>
-  <url value="https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-ClaimResponse.html"/>
+  <url value="https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html"/>
   <version value="0.7.0"/>
   <name value="ClaimResponse"/>
   <status value="draft"/>
@@ -828,7 +825,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Claim.html"/>
+        <targetProfile value="https://ig.hcxprotocol.io/v0.7/StructureDefinition-Claim.html"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1397,7 +1394,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="The adjudication reason codes."/>
-        <valueSet value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-claim-denial-codes.html"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-denial-codes.html"/>
       </binding>
     </element>
     <element id="ClaimResponse.item.adjudication.amount">
@@ -4447,7 +4444,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Coverage.html"/>
+        <targetProfile value="https://ig.hcxprotocol.io/v0.7/StructureDefinition-Coverage.html"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -4501,7 +4498,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-ClaimResponse.html"/>
+        <targetProfile value="https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -4915,7 +4912,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Claim.html"/>
+        <targetProfile value="https://ig.hcxprotocol.io/v0.7/StructureDefinition-Claim.html"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -4968,7 +4965,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="The adjudication reason codes."/>
-        <valueSet value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-claim-denial-codes.html"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-denial-codes.html"/>
       </binding>
     </element>
     <element id="ClaimResponse.addItem.provider">
@@ -5048,7 +5045,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Coverage.html"/>
+        <targetProfile value="https://ig.hcxprotocol.io/v0.7/StructureDefinition-Coverage.html"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -5076,7 +5073,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-ClaimResponse.html"/>
+        <targetProfile value="https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html"/>
       </type>
       <constraint>
         <key value="ele-1"/>

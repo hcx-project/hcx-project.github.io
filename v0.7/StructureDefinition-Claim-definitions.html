@@ -474,7 +474,7 @@ For whom funds are to be reserved: (Patient, Provider, None).</p>
   <tr><td>Definition</td><td><p>Reference to a related claim.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-Claim.html" title="https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Claim.html">Claim</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-Claim.html" title="https://ig.hcxprotocol.io/v0.7/StructureDefinition-Claim.html">Claim</a>)</td></tr>
   <tr><td>Requirements</td><td><p>For workplace or other accidents it is common to relate separate claims arising from the same event.</p>
 </td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
@@ -1083,7 +1083,7 @@ Example ICD10 Procedure codes.</p>
   <tr><td>Definition</td><td><p>Reference to the insurance card level information contained in the Coverage resource. The coverage issuing insurer will use these details to locate the patient's actual coverage within the insurer's information system.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-Coverage.html" title="https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Coverage.html">Coverage</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-Coverage.html" title="https://ig.hcxprotocol.io/v0.7/StructureDefinition-Coverage.html">Coverage</a>)</td></tr>
   <tr><td>Requirements</td><td><p>Required to allow the adjudicator to locate the correct policy and history within their information system.</p>
 </td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
@@ -1112,7 +1112,7 @@ Example ICD10 Procedure codes.</p>
   <tr><td>Definition</td><td><p>The result of the adjudication of the line items for the Coverage specified in this insurance.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-ClaimResponse.html" title="https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-ClaimResponse.html">ClaimResponse</a>)</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/references.html#Reference">Reference</a>(<a href="StructureDefinition-ClaimResponse.html" title="https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html">ClaimResponse</a>)</td></tr>
   <tr><td>Requirements</td><td><p>An insurer need the adjudication results from prior insurers to determine the outstanding balance remaining by item for the items in the curent claim.</p>
 </td></tr>
   <tr><td>Comments</td><td><p>Must not be specified when 'focal=true' for this insurance.</p>
@@ -1843,7 +1843,7 @@ Program specific reason codes.</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hcxprotocol.io/">HCX Open Community</a>.  Package hcxprotocol.io#0.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 10, 2022 00:02+0530">2022-05-10</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hcxprotocol.io/">HCX Open Community</a>.  Package hcxprotocol.io#0.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, May 10, 2022 23:18+0530">2022-05-10</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

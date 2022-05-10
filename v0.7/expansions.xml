@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="685441ad-140c-4fa7-aa05-8df9f7b172d5"/>
+  <id value="2db4dbed-ffd5-4df0-b83a-b54b3ede46bc"/>
   <meta>
-    <lastUpdated value="2022-05-10T00:02:35.474+05:30"/>
+    <lastUpdated value="2022-05-10T23:18:03.933+05:30"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-medical-speciality-type-provider.html"/>
+    <fullUrl value="https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html"/>
     <resource>
       <ValueSet>
         <id value="medical-speciality-type-provider"/>
@@ -546,7 +546,7 @@
             </table>
           </div>
         </text>
-        <url value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-medical-speciality-type-provider.html"/>
+        <url value="https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html"/>
         <version value="0.7.0"/>
         <name value="MedicalSpecialityTypeProvider"/>
         <status value="active"/>
@@ -997,7 +997,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-procedure-type-description.html"/>
+    <fullUrl value="https://ig.hcxprotocol.io/v0.7/ValueSet-procedure-type-description.html"/>
     <resource>
       <ValueSet>
         <id value="procedure-type-description"/>
@@ -1212,7 +1212,7 @@
             </table>
           </div>
         </text>
-        <url value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-procedure-type-description.html"/>
+        <url value="https://ig.hcxprotocol.io/v0.7/ValueSet-procedure-type-description.html"/>
         <version value="0.7.0"/>
         <name value="ProcedureTypeDescriptions"/>
         <status value="active"/>
@@ -1393,7 +1393,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-claim-denial-codes.html"/>
+    <fullUrl value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-denial-codes.html"/>
     <resource>
       <ValueSet>
         <id value="claim-denial-codes"/>
@@ -1806,7 +1806,7 @@
             </table>
           </div>
         </text>
-        <url value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-claim-denial-codes.html"/>
+        <url value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-denial-codes.html"/>
         <version value="0.7.0"/>
         <name value="ClaimDenialCodes"/>
         <status value="active"/>
@@ -2152,7 +2152,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-claim-service-categories.html"/>
+    <fullUrl value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html"/>
     <resource>
       <ValueSet>
         <id value="claim-service-categories"/>
@@ -2229,7 +2229,7 @@
             </table>
           </div>
         </text>
-        <url value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-claim-service-categories.html"/>
+        <url value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html"/>
         <version value="0.7.0"/>
         <name value="ClaimServiceCategories"/>
         <status value="active"/>
@@ -2295,7 +2295,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-claim-service-codes.html"/>
+    <fullUrl value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-codes.html"/>
     <resource>
       <ValueSet>
         <id value="claim-service-codes"/>
@@ -2608,7 +2608,7 @@
             </table>
           </div>
         </text>
-        <url value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-claim-service-codes.html"/>
+        <url value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-codes.html"/>
         <version value="0.7.0"/>
         <name value="ClaimServiceCodes"/>
         <status value="active"/>
@@ -2834,7 +2834,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-health-service-provider-role.html"/>
+    <fullUrl value="https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html"/>
     <resource>
       <ValueSet>
         <id value="health-service-provider-role"/>
@@ -2935,7 +2935,7 @@
             </table>
           </div>
         </text>
-        <url value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-health-service-provider-role.html"/>
+        <url value="https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html"/>
         <version value="0.7.0"/>
         <name value="HealthServiceProviderRoles"/>
         <status value="active"/>
@@ -3021,7 +3021,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-insurance-company-owners.html"/>
+    <fullUrl value="https://ig.hcxprotocol.io/v0.7/ValueSet-insurance-company-owners.html"/>
     <resource>
       <ValueSet>
         <id value="insurance-company-owners"/>
@@ -3350,7 +3350,7 @@
             </table>
           </div>
         </text>
-        <url value="https://hcx-project.github.io/hcx-specs/v0.7/ValueSet-insurance-company-owners.html"/>
+        <url value="https://ig.hcxprotocol.io/v0.7/ValueSet-insurance-company-owners.html"/>
         <version value="0.7.0"/>
         <name value="InsuranceCompanyOwners"/>
         <status value="active"/>

@@ -31,12 +31,8 @@
      fhir:index 3;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
-  ], [
-     fhir:index 4;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ];
-     fhir:Extension.valueCode [ fhir:value "fm" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityResponse.html"];
+  fhir:StructureDefinition.url [ fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityResponse.html"];
   fhir:StructureDefinition.version [ fhir:value "0.7.0"];
   fhir:StructureDefinition.name [ fhir:value "CoverageEligibilityResponse"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
@@ -864,9 +860,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityRequest.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequest.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityRequest.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequest.html>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -1228,9 +1224,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Coverage.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-Coverage.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Coverage.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-Coverage.html>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -2799,9 +2795,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityRequest.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequest.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityRequest.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequest.html>
          ]
        ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
@@ -2850,9 +2846,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Coverage.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-Coverage.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Coverage.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-Coverage.html>
          ]
        ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]

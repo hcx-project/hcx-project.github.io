@@ -4,7 +4,7 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html",
+      "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html",
       "title": "HCX Diagnostic Documents Extension",
       "types": [
         "base64Binary",
@@ -315,7 +315,7 @@
       ]
     },
     {
-      "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html",
+      "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html",
       "title": "HCX Informational Messages Extension",
       "types": [
         "base64Binary",
@@ -576,7 +576,7 @@
       ]
     },
     {
-      "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html",
+      "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html",
       "title": "HCX Proof Of Identification Extension",
       "types": [
         "base64Binary",
@@ -887,7 +887,7 @@
       ]
     },
     {
-      "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html",
+      "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html",
       "title": "HCX Proof Of Presence Extension",
       "types": [
         "base64Binary",
@@ -1198,7 +1198,7 @@
       ]
     },
     {
-      "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXQuestionnairesExtension.html",
+      "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXQuestionnairesExtension.html",
       "title": "HCX Questionnaires Extension",
       "types": [
         "base64Binary",
@@ -1458,7 +1458,7 @@
       ]
     },
     {
-      "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXSignatureExtension.html",
+      "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXSignatureExtension.html",
       "title": "HCXSignatureExtension",
       "types": [
         "Signature"
@@ -1468,73 +1468,73 @@
   "profiles": {
     "Claim": [
       {
-        "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Claim.html",
+        "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-Claim.html",
         "title": "Claim"
       }
     ],
     "Composition": [
       {
-        "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityResponseDocument.html",
+        "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityResponseDocument.html",
         "title": "CovereageEligibilityResponseDocument"
       }
     ],
     "ClaimResponse": [
       {
-        "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-ClaimResponse.html",
+        "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html",
         "title": "ClaimResponse"
       }
     ],
     "Communication": [
       {
-        "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Communication.html",
+        "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-Communication.html",
         "title": "Communication"
       }
     ],
     "CommunicationRequest": [
       {
-        "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CommunicationRequest.html",
+        "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-CommunicationRequest.html",
         "title": "CommunicationRequest"
       }
     ],
     "Coverage": [
       {
-        "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Coverage.html",
+        "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-Coverage.html",
         "title": "Coverage"
       }
     ],
     "CoverageEligibilityRequest": [
       {
-        "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityRequest.html",
+        "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequest.html",
         "title": "CoverageEligibilityRequest"
       }
     ],
     "CoverageEligibilityResponse": [
       {
-        "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityResponse.html",
+        "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityResponse.html",
         "title": "CoverageEligibilityResponse"
       }
     ],
     "InsurancePlan": [
       {
-        "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXInsurancePlan.html",
+        "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXInsurancePlan.html",
         "title": "HCXInsurancePlan"
       }
     ],
     "PaymentNotice": [
       {
-        "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-PaymentNotice.html",
+        "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-PaymentNotice.html",
         "title": "PaymentNotice"
       }
     ],
     "PaymentReconciliation": [
       {
-        "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-PaymentReconciliation.html",
+        "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-PaymentReconciliation.html",
         "title": "PaymentReconciliation"
       }
     ],
     "Task": [
       {
-        "url": "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-Task.html",
+        "url": "https://ig.hcxprotocol.io/v0.7/StructureDefinition-Task.html",
         "title": "Task"
       }
     ]
@@ -1577,9 +1577,6 @@
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
-      "StructureDefinition"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg": [
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/Claim": [
@@ -1675,19 +1672,19 @@
     "http://hl7.org/fhir/tools/ValueSet/procedure-type-description": [
       "ImplementationGuide.definition.resource"
     ],
-    "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html": [
+    "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html": [
       "InsurancePlan.plan.specificCost.benefit"
     ],
-    "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html": [
+    "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html": [
       "InsurancePlan.plan.specificCost.benefit"
     ],
-    "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html": [
+    "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html": [
       "InsurancePlan.plan"
     ],
-    "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html": [
+    "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html": [
       "InsurancePlan.plan"
     ],
-    "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXQuestionnairesExtension.html": [
+    "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXQuestionnairesExtension.html": [
       "InsurancePlan.plan.specificCost.benefit"
     ]
   }

@@ -58,10 +58,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="not-classified"/>
   </extension>
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-    <valueCode value="sd"/>
-  </extension>
-  <url value="https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityRequestDocument.html"/>
+  <url value="https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequestDocument.html"/>
   <version value="0.7.0"/>
   <name value="CovereageEligibilityRequestDocument"/>
   <status value="draft"/>
@@ -2188,7 +2185,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityRequest.html"/>
+        <targetProfile value="https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequest.html"/>
       </type>
       <condition value="cmp-2"/>
       <constraint>
@@ -2320,7 +2317,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <path value="Composition.section.entry"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-CoverageEligibilityRequest.html"/>
+        <targetProfile value="https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequest.html"/>
       </type>
     </element>
   </differential>

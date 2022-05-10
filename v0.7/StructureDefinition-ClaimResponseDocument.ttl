@@ -31,12 +31,8 @@
      fhir:index 3;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "not-classified" ]
-  ], [
-     fhir:index 4;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ];
-     fhir:Extension.valueCode [ fhir:value "sd" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-ClaimResponseDocument.html"];
+  fhir:StructureDefinition.url [ fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponseDocument.html"];
   fhir:StructureDefinition.version [ fhir:value "0.7.0"];
   fhir:StructureDefinition.name [ fhir:value "ClaimResponseDocument"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
@@ -2794,9 +2790,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-ClaimResponse.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-ClaimResponse.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -2977,9 +2973,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-ClaimResponse.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-ClaimResponse.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html>
          ]
        ]
      ]

@@ -31,12 +31,8 @@
      fhir:index 3;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "business" ]
-  ], [
-     fhir:index 4;
-     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ];
-     fhir:Extension.valueCode [ fhir:value "pa" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXInsurancePlan.html"];
+  fhir:StructureDefinition.url [ fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXInsurancePlan.html"];
   fhir:StructureDefinition.version [ fhir:value "0.7.0"];
   fhir:StructureDefinition.name [ fhir:value "HCXInsurancePlan"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
@@ -2184,9 +2180,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -2235,9 +2231,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -3123,9 +3119,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -3174,9 +3170,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -3225,9 +3221,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXQuestionnairesExtension.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXQuestionnairesExtension.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXQuestionnairesExtension.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXQuestionnairesExtension.html>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -3695,9 +3691,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html>
          ]
        ]
      ], [
@@ -3711,9 +3707,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html>
          ]
        ]
      ], [
@@ -3727,9 +3723,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html>
          ]
        ]
      ], [
@@ -3743,9 +3739,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html>
          ]
        ]
      ], [
@@ -3759,9 +3755,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXQuestionnairesExtension.html";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXQuestionnairesExtension.html";
            fhir:index 0;
-           fhir:link <https://hcx-project.github.io/hcx-specs/v0.7/StructureDefinition-HCXQuestionnairesExtension.html>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXQuestionnairesExtension.html>
          ]
        ]
      ]
