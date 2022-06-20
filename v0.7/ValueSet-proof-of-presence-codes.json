@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "proof-of-presence-codes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p>All codes in this table are from the system <code>http://hcxprotocol.io/codes/proof-of-presence-codes</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-presence-codes-PoPr.locationPhoto\"> </a>  PoPr.locationPhoto</td><td>Photo of the location with subject</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-presence-codes-PoPr.deviceLocation\"> </a>  PoPr.deviceLocation</td><td>Real time geolocation from certified devices</td></tr></table></div>"
+  },
+  "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-proof-of-presence-codes.html",
+  "version": "0.7.0",
+  "name": "ProofOfPresenceCodes",
+  "status": "active",
+  "date": "2022-06-01",
+  "publisher": "HCX Open Community",
+  "contact": [
+    {
+      "name": "HCX Open Community",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hcxprotocol.io/"
+        }
+      ]
+    }
+  ],
+  "description": "This is the value set listing the Proof of Presence codes",
+  "expansion": {
+    "timestamp": "2022-06-01T08:15:30+05:30",
+    "contains": [
+      {
+        "system": "http://hcxprotocol.io/codes/proof-of-presence-codes",
+        "code": "PoPr.locationPhoto",
+        "display": "Photo of the location with subject"
+      },
+      {
+        "system": "http://hcxprotocol.io/codes/proof-of-presence-codes",
+        "code": "PoPr.deviceLocation",
+        "display": "Real time geolocation from certified devices"
+      }
+    ]
+  }
+}

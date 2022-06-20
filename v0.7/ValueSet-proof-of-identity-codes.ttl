@@ -1,0 +1,157 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/ValueSet/proof-of-identity-codes> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "proof-of-identity-codes"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 23 concepts</p><p>All codes in this table are from the system <code>http://hcxprotocol.io/codes/proof-of-identity-codes</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-1\"> </a>  POI-1</td><td>Aadhar Identity Card</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-2\"> </a>  POI-2</td><td>Passport</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-3\"> </a>  POI-3</td><td>Driving License</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-4\"> </a>  POI-4</td><td>Election Commision's Voter ID card</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-5\"> </a>  POI-5</td><td>Income Tax PAN Card</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-6\"> </a>  POI-6</td><td>Photo Credit Card/ Debit card (with Photo)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-7\"> </a>  POI-7</td><td>ECHS / CGHS Card having photo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-8\"> </a>  POI-8</td><td>Domicile Certificate / Caste Certificate with photograph</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-9\"> </a>  POI-9</td><td>Current passbook of Post Office / Govt. /PSU Bank/private banks</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-10\"> </a>  POI-10</td><td>Student ID card of the Govt. recognized educational institutions with photograph on it.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-11\"> </a>  POI-11</td><td>Ration Card with photograph &amp; address. (Issued from Maharashtra state not valid )</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-12\"> </a>  POI-12</td><td>Smart Card issued by CSD, Defence / Paramilitary Forces</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-13\"> </a>  POI-13</td><td>Arms License</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-14\"> </a>  POI-14</td><td>Senior Citizen Card having photo issued by the Govt.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-15\"> </a>  POI-15</td><td>Pensioners Card having photo issued by the Govt.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-16\"> </a>  POI-16</td><td>ID Card issued to Tibetan (Refugees) Citizens by State Govt. / Central Govt. of India having photo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-17\"> </a>  POI-17</td><td>Defence Personnel - Armed Forces ;Certificate from Competent Unit Authority</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-18\"> </a>  POI-18</td><td>Certificate of Address having Photo, issued by MP/ MLA / Group A Gazetted Officer on letter head with seal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-19\"> </a>  POI-19</td><td>Certificate of address with photo from Govt. recognized educational institution (for students only)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-20\"> </a>  POI-20</td><td>Certificate of Address having Photo, issued by Head of Village / Gram Panchayat or its equivalent Authority. (for Rural Areas)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-21\"> </a>  POI-21</td><td>Address Card with Photo issued by Dept. of Posts</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-23\"> </a>  POI-23</td><td>Freedom fighter card with photo</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-proof-of-identity-codes-POI-24\"> </a>  POI-24</td><td>Kissan Passbook with photo</td></tr></table></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-proof-of-identity-codes.html"];
+  fhir:ValueSet.version [ fhir:value "0.7.0"];
+  fhir:ValueSet.name [ fhir:value "ProofOfIdentityCodes"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2022-06-01"^^xsd:date];
+  fhir:ValueSet.publisher [ fhir:value "HCX Open Community"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HCX Open Community" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://hcxprotocol.io/" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "This is the value set listing the Proof of Identification codes"];
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2022-06-01T08:15:30+05:30"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.contains [
+       fhir:index 0;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-1" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Aadhar Identity Card" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-2" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Passport" ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-3" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Driving License" ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-4" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Election Commision's Voter ID card" ]
+     ], [
+       fhir:index 4;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-5" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Income Tax PAN Card" ]
+     ], [
+       fhir:index 5;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-6" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Photo Credit Card/ Debit card (with Photo)" ]
+     ], [
+       fhir:index 6;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-7" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "ECHS / CGHS Card having photo" ]
+     ], [
+       fhir:index 7;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-8" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Domicile Certificate / Caste Certificate with photograph" ]
+     ], [
+       fhir:index 8;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-9" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Current passbook of Post Office / Govt. /PSU Bank/private banks" ]
+     ], [
+       fhir:index 9;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-10" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Student ID card of the Govt. recognized educational institutions with photograph on it." ]
+     ], [
+       fhir:index 10;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-11" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Ration Card with photograph & address. (Issued from Maharashtra state not valid )" ]
+     ], [
+       fhir:index 11;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-12" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Smart Card issued by CSD, Defence / Paramilitary Forces" ]
+     ], [
+       fhir:index 12;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-13" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Arms License" ]
+     ], [
+       fhir:index 13;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-14" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Senior Citizen Card having photo issued by the Govt." ]
+     ], [
+       fhir:index 14;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-15" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pensioners Card having photo issued by the Govt." ]
+     ], [
+       fhir:index 15;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-16" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "ID Card issued to Tibetan (Refugees) Citizens by State Govt. / Central Govt. of India having photo" ]
+     ], [
+       fhir:index 16;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-17" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Defence Personnel - Armed Forces ;Certificate from Competent Unit Authority" ]
+     ], [
+       fhir:index 17;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-18" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Certificate of Address having Photo, issued by MP/ MLA / Group A Gazetted Officer on letter head with seal" ]
+     ], [
+       fhir:index 18;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-19" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Certificate of address with photo from Govt. recognized educational institution (for students only)" ]
+     ], [
+       fhir:index 19;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-20" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Certificate of Address having Photo, issued by Head of Village / Gram Panchayat or its equivalent Authority. (for Rural Areas)" ]
+     ], [
+       fhir:index 20;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-21" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Address Card with Photo issued by Dept. of Posts" ]
+     ], [
+       fhir:index 21;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-23" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Freedom fighter card with photo" ]
+     ], [
+       fhir:index 22;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/proof-of-identity-codes" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI-24" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Kissan Passbook with photo" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/ValueSet/proof-of-identity-codes.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

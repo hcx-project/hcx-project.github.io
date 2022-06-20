@@ -182,11 +182,25 @@
     "name": "ClaimServiceCodes"
   },
   {
+    "id": "clinical-diagnostics-document-codes",
+    "type": "ValueSet",
+    "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-clinical-diagnostics-document-codes.html",
+    "version": "0.7.0",
+    "name": "ClinicalDiagnosticsDocumentCodes"
+  },
+  {
     "id": "health-service-provider-role",
     "type": "ValueSet",
     "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html",
     "version": "0.7.0",
     "name": "HealthServiceProviderRoles"
+  },
+  {
+    "id": "informational-messages-codes",
+    "type": "ValueSet",
+    "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-informational-messages-codes.html",
+    "version": "0.7.0",
+    "name": "InformationalMessagesCodes"
   },
   {
     "id": "insurance-company-owners",
@@ -208,5 +222,19 @@
     "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-procedure-type-description.html",
     "version": "0.7.0",
     "name": "ProcedureTypeDescriptions"
+  },
+  {
+    "id": "proof-of-identity-codes",
+    "type": "ValueSet",
+    "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-proof-of-identity-codes.html",
+    "version": "0.7.0",
+    "name": "ProofOfIdentityCodes"
+  },
+  {
+    "id": "proof-of-presence-codes",
+    "type": "ValueSet",
+    "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-proof-of-presence-codes.html",
+    "version": "0.7.0",
+    "name": "ProofOfPresenceCodes"
   }
 ]

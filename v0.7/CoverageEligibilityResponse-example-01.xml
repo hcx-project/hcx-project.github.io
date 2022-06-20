@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CoverageEligibilityResponse xmlns="http://hl7.org/fhir">
+  <id value="example-01"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "example-01" </p></div><p><b>identifier</b>: id: urn:uuiad:581da6a9</p><p><b>status</b>: active</p><p><b>purpose</b>: discovery, benefits</p><p><b>patient</b>: <span></span></p><p><b>serviced</b>: 2021-12-22 --&gt; 2021-12-25</p><p><b>created</b>: 2021-12-22</p><p><b>requestor</b>: <span></span></p><p><b>request</b>: <span></span></p><p><b>outcome</b>: complete</p><p><b>insurer</b>: <span></span></p><blockquote><p><b>insurance</b></p><p><b>coverage</b>: <span></span></p><p><b>inforce</b>: true</p><blockquote><p><b>item</b></p><p><b>category</b>: Health Benefit Plan Coverage <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-ex-benefitcategory.html">Benefit Category Codes</a>#30)</span></p><p><b>network</b>: In Network <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-network.html">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-unit.html">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Annual <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-term.html">Benefit Term Codes</a>#annual)</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: Benefit <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-type.html">Benefit Type Codes</a>#benefit)</span></p><p><b>allowed</b>: <span title="Indian Rupee">₹500,000.00</span> (INR)</p></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: Copayment maximum per service <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-type.html">Benefit Type Codes</a>#copay-maximum)</span></p><p><b>allowed</b>: <span title="Indian Rupee">₹100.00</span> (INR)</p></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: Copayment Percent per service <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-type.html">Benefit Type Codes</a>#copay-percent)</span></p><p><b>allowed</b>: 20</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>category</b>: Maternity <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-ex-benefitcategory.html">Benefit Category Codes</a>#69)</span></p><p><b>network</b>: In Network <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-network.html">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-unit.html">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Annual <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-term.html">Benefit Term Codes</a>#annual)</span></p><h3>Benefits</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Allowed[x]</b></td></tr><tr><td>*</td><td>Benefit <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-type.html">Benefit Type Codes</a>#benefit)</span></td><td><span title="Indian Rupee">₹15,000.00</span> (INR)</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>category</b>: Dental Coverage <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-ex-benefitcategory.html">Benefit Category Codes</a>#F3)</span></p><p><b>network</b>: In Network <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-network.html">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-unit.html">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Annual <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-term.html">Benefit Term Codes</a>#annual)</span></p><h3>Benefits</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Allowed[x]</b></td></tr><tr><td>*</td><td>Benefit <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-type.html">Benefit Type Codes</a>#benefit)</span></td><td><span title="Indian Rupee">₹2,000.00</span> (INR)</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>category</b>: Vision Coverage <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-ex-benefitcategory.html">Benefit Category Codes</a>#F6)</span></p><p><b>network</b>: In Network <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-network.html">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-unit.html">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Annual <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-term.html">Benefit Term Codes</a>#annual)</span></p><h3>Benefits</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Allowed[x]</b></td></tr><tr><td>*</td><td>Benefit <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-type.html">Benefit Type Codes</a>#benefit)</span></td><td><span title="Indian Rupee">₹400.00</span> (INR)</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>category</b>: Hospital Room and Board <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-ex-benefitcategory.html">Benefit Category Codes</a>#49)</span></p><p><b>network</b>: In Network <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-network.html">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-unit.html">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Day <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-term.html">Benefit Term Codes</a>#day)</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: Room <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-type.html">Benefit Type Codes</a>#room)</span></p><p><b>allowed</b>: shared</p></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: Benefit <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.1.0/CodeSystem-benefit-type.html">Benefit Type Codes</a>#benefit)</span></p><p><b>allowed</b>: <span title="Indian Rupee">₹600.00</span> (INR)</p></blockquote></blockquote></blockquote></div>
+  </text>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuiad:581da6a9"/>
+  </identifier>
+  <status value="active"/>
+  <purpose value="discovery"/>
+  <purpose value="benefits"/>
+  <patient id="RVH1003">
+    <identifier>
+      <type>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+          <code value="SN"/>
+          <display value="Subscriber Number"/>
+        </coding>
+      </type>
+      <system value="http://gicofIndia.com/beneficiaries"/>
+      <value value="BEN-101"/>
+    </identifier>
+  </patient>
+  <servicedPeriod>
+    <start value="2021-12-22"/>
+    <end value="2021-12-25"/>
+  </servicedPeriod>
+  <created value="2021-12-22"/>
+  <requestor id="NPR-6897">
+    <identifier>
+      <system value="https://ndhm.gov.in/npr"/>
+      <value value="NPR-6897"/>
+    </identifier>
+  </requestor>
+  <request id="example-01">
+    <identifier>
+      <system value="https://www.tmh.in/coverage-eligibility-request"/>
+      <value value="dc82673b-8c71-48c2-8a17-16dcb3b035f6"/>
+    </identifier>
+  </request>
+  <outcome value="complete"/>
+  <insurer id="GICOFINDIA">
+    <identifier>
+      <system value="http://irdai.gov.in/insurers"/>
+      <value value="112"/>
+    </identifier>
+  </insurer>
+  <insurance>
+    <coverage id="dadde132-ad64-4d18-8c18-1d52d7e86abc">
+      <identifier>
+        <system value="https://www.gicofIndia.in/policies"/>
+        <value value="policy-RVH1003"/>
+      </identifier>
+    </coverage>
+    <inforce value="true"/>
+    <item>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/ex-benefitcategory"/>
+          <code value="30"/>
+          <display value="Health Benefit Plan Coverage"/>
+        </coding>
+      </category>
+      <network>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-network"/>
+          <code value="in"/>
+        </coding>
+      </network>
+      <unit>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-unit"/>
+          <code value="individual"/>
+        </coding>
+      </unit>
+      <term>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-term"/>
+          <code value="annual"/>
+        </coding>
+      </term>
+      <benefit>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/benefit-type"/>
+            <code value="benefit"/>
+          </coding>
+        </type>
+        <allowedMoney>
+          <value value="500000"/>
+          <currency value="INR"/>
+        </allowedMoney>
+      </benefit>
+      <benefit>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/benefit-type"/>
+            <code value="copay-maximum"/>
+          </coding>
+        </type>
+        <allowedMoney>
+          <value value="100"/>
+          <currency value="INR"/>
+        </allowedMoney>
+      </benefit>
+      <benefit>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/benefit-type"/>
+            <code value="copay-percent"/>
+          </coding>
+        </type>
+        <allowedUnsignedInt value="20"/>
+      </benefit>
+    </item>
+    <item>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/ex-benefitcategory"/>
+          <code value="69"/>
+          <display value="Maternity"/>
+        </coding>
+      </category>
+      <network>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-network"/>
+          <code value="in"/>
+        </coding>
+      </network>
+      <unit>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-unit"/>
+          <code value="individual"/>
+        </coding>
+      </unit>
+      <term>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-term"/>
+          <code value="annual"/>
+        </coding>
+      </term>
+      <benefit>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/benefit-type"/>
+            <code value="benefit"/>
+          </coding>
+        </type>
+        <allowedMoney>
+          <value value="15000"/>
+          <currency value="INR"/>
+        </allowedMoney>
+      </benefit>
+    </item>
+    <item>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/ex-benefitcategory"/>
+          <code value="F3"/>
+          <display value="Dental Coverage"/>
+        </coding>
+      </category>
+      <network>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-network"/>
+          <code value="in"/>
+        </coding>
+      </network>
+      <unit>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-unit"/>
+          <code value="individual"/>
+        </coding>
+      </unit>
+      <term>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-term"/>
+          <code value="annual"/>
+        </coding>
+      </term>
+      <benefit>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/benefit-type"/>
+            <code value="benefit"/>
+          </coding>
+        </type>
+        <allowedMoney>
+          <value value="2000"/>
+          <currency value="INR"/>
+        </allowedMoney>
+      </benefit>
+    </item>
+    <item>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/ex-benefitcategory"/>
+          <code value="F6"/>
+          <display value="Vision Coverage"/>
+        </coding>
+      </category>
+      <network>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-network"/>
+          <code value="in"/>
+        </coding>
+      </network>
+      <unit>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-unit"/>
+          <code value="individual"/>
+        </coding>
+      </unit>
+      <term>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-term"/>
+          <code value="annual"/>
+        </coding>
+      </term>
+      <benefit>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/benefit-type"/>
+            <code value="benefit"/>
+          </coding>
+        </type>
+        <allowedMoney>
+          <value value="400"/>
+          <currency value="INR"/>
+        </allowedMoney>
+      </benefit>
+    </item>
+    <item>
+      <category>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/ex-benefitcategory"/>
+          <code value="49"/>
+          <display value="Hospital Room and Board"/>
+        </coding>
+      </category>
+      <network>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-network"/>
+          <code value="in"/>
+        </coding>
+      </network>
+      <unit>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-unit"/>
+          <code value="individual"/>
+        </coding>
+      </unit>
+      <term>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/benefit-term"/>
+          <code value="day"/>
+        </coding>
+      </term>
+      <benefit>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/benefit-type"/>
+            <code value="room"/>
+          </coding>
+        </type>
+        <allowedString value="shared"/>
+      </benefit>
+      <benefit>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/benefit-type"/>
+            <code value="benefit"/>
+          </coding>
+        </type>
+        <allowedMoney>
+          <value value="600"/>
+          <currency value="INR"/>
+        </allowedMoney>
+      </benefit>
+    </item>
+  </insurance>
+</CoverageEligibilityResponse>

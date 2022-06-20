@@ -1,0 +1,481 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/Bundle/CoverageEligibilityResponseDocument-example-01> a fhir:Bundle;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CoverageEligibilityResponseDocument-example-01"];
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2021-12-22T15:32:26.605+05:30"^^xsd:dateTime ]
+  ];
+  fhir:Bundle.identifier [
+     fhir:Identifier.system [ fhir:value "https://www.tmh.in/bundle" ];
+     fhir:Identifier.value [ fhir:value "CoverageEligibilityResponseDocument-example-01" ]
+  ];
+  fhir:Bundle.type [ fhir:value "document"];
+  fhir:Bundle.timestamp [ fhir:value "2021-12-22T15:32:26.605+05:30"^^xsd:dateTime];
+  fhir:Bundle.entry [
+     fhir:index 0;
+     fhir:Bundle.entry.fullUrl [ fhir:value "Composition/42ff4a07-3e36-402f-a99e-29f16c0c9eee" ];
+     fhir:Bundle.entry.resource <Composition/42ff4a07-3e36-402f-a99e-29f16c0c9eee>
+  ], [
+     fhir:index 1;
+     fhir:Bundle.entry.fullUrl [ fhir:value "CoverageEligibilityResponse/res-id-1" ];
+     fhir:Bundle.entry.resource <CoverageEligibilityResponse/res-id-1>
+  ], [
+     fhir:index 2;
+     fhir:Bundle.entry.fullUrl [ fhir:value "Patient/1" ];
+     fhir:Bundle.entry.resource <Patient/1>
+  ], [
+     fhir:index 3;
+     fhir:Bundle.entry.fullUrl [ fhir:value "Organization/MaxSaket01" ];
+     fhir:Bundle.entry.resource <Organization/MaxSaket01>
+  ], [
+     fhir:index 4;
+     fhir:Bundle.entry.fullUrl [ fhir:value "Organization/2" ];
+     fhir:Bundle.entry.resource <Organization/2>
+  ], [
+     fhir:index 5;
+     fhir:Bundle.entry.fullUrl [ fhir:value "Practitioner/1" ];
+     fhir:Bundle.entry.resource <Practitioner/1>
+  ] .
+
+<Composition/42ff4a07-3e36-402f-a99e-29f16c0c9eee> a fhir:Composition;
+  fhir:Resource.id [ fhir:value "42ff4a07-3e36-402f-a99e-29f16c0c9eee"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"> Coverage Eligibility Response document example</div>"
+  ];
+  fhir:Composition.identifier [
+     fhir:Identifier.system [ fhir:value "https://www.tmh.in/hcx-documents" ];
+     fhir:Identifier.value [ fhir:value "42ff4a07-3e36-402f-a99e-29f16c0c9eee" ]
+  ];
+  fhir:Composition.status [ fhir:value "final"];
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://hcx.org/document-types" ];
+       fhir:Coding.code [ fhir:value "HCXCoverageElibilityResponse" ];
+       fhir:Coding.display [ fhir:value "Coverage Eligibility Response" ]
+     ]
+  ];
+  fhir:Composition.subject [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Patient/RVH1003>;
+     fhir:Reference.reference [ fhir:value "Patient/RVH1003" ]
+  ];
+  fhir:Composition.date [ fhir:value "2021-12-22T15:32:26.605+05:30"^^xsd:dateTime];
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:link <https://hcxprotocol.io/fhir/r4/Practitioner/1>;
+     fhir:Reference.reference [ fhir:value "Practitioner/1" ]
+  ];
+  fhir:Composition.title [ fhir:value "Coverage Eligibility Response"];
+  fhir:Composition.section [
+     fhir:index 0;
+     fhir:Composition.section.title [ fhir:value "Coverage Eligibility Response" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://www.hl7.org/fhir/valueset-resource-types" ];
+         fhir:Coding.code [ fhir:value "CoverageEligibilityResponse" ];
+         fhir:Coding.display [ fhir:value "Coverage Eligibility Response" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "CoverageEligibilityResponse" ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <https://hcxprotocol.io/fhir/r4/CoverageEligibilityResponse/res-id-1>;
+       fhir:Reference.reference [ fhir:value "CoverageEligibilityResponse/res-id-1" ]
+     ]
+  ] .
+
+<CoverageEligibilityResponse/res-id-1> a fhir:CoverageEligibilityResponse;
+  fhir:Resource.id [ fhir:value "res-id-1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"res-id-1\" </p></div><p><b>identifier</b>: id: urn:uuiad:581da6a9</p><p><b>status</b>: active</p><p><b>purpose</b>: discovery, benefits</p><p><b>patient</b>: <a href=\"#Patient_1\">See above (Patient/1: Hina Patel)</a></p><p><b>serviced</b>: 2021-12-22 --&gt; 2021-12-25</p><p><b>created</b>: 2021-12-22</p><blockquote><p><b>insurance</b></p><p><b>coverage</b>: <a href=\"Coverage/9876B1\">Coverage/9876B1</a></p><p><b>inforce</b>: true</p><blockquote><p><b>item</b></p><p><b>category</b>: Health Benefit Plan Coverage <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-ex-benefitcategory.html\">Benefit Category Codes</a>#30)</span></p><p><b>network</b>: In Network <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-network.html\">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-unit.html\">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Annual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-term.html\">Benefit Term Codes</a>#annual)</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#benefit)</span></p><p><b>allowed</b>: <span title=\"Indian Rupee\">₹500,000.00</span> (INR)</p></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: copay-maximum <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#copay-maximum)</span></p><p><b>allowed</b>: <span title=\"Indian Rupee\">₹100.00</span> (INR)</p></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: copay-percent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#copay-percent)</span></p><p><b>allowed</b>: 20</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>category</b>: Maternity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-ex-benefitcategory.html\">Benefit Category Codes</a>#69)</span></p><p><b>network</b>: In Network <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-network.html\">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-unit.html\">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Annual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-term.html\">Benefit Term Codes</a>#annual)</span></p><h3>Benefits</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Allowed[x]</b></td></tr><tr><td>*</td><td>benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#benefit)</span></td><td><span title=\"Indian Rupee\">₹15,000.00</span> (INR)</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>category</b>: Dental Coverage <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-ex-benefitcategory.html\">Benefit Category Codes</a>#F3)</span></p><p><b>network</b>: In Network <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-network.html\">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-unit.html\">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Annual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-term.html\">Benefit Term Codes</a>#annual)</span></p><h3>Benefits</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Allowed[x]</b></td></tr><tr><td>*</td><td>benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#benefit)</span></td><td><span title=\"Indian Rupee\">₹2,000.00</span> (INR)</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>category</b>: Vision Coverage <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-ex-benefitcategory.html\">Benefit Category Codes</a>#F6)</span></p><p><b>network</b>: In Network <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-network.html\">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-unit.html\">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Annual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-term.html\">Benefit Term Codes</a>#annual)</span></p><h3>Benefits</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Allowed[x]</b></td></tr><tr><td>*</td><td>benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#benefit)</span></td><td><span title=\"Indian Rupee\">₹400.00</span> (INR)</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>category</b>: Hospital Room and Board <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-ex-benefitcategory.html\">Benefit Category Codes</a>#49)</span></p><p><b>network</b>: In Network <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-network.html\">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-unit.html\">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Day <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-benefit-term.html\">Benefit Term Codes</a>#day)</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: room <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#room)</span></p><p><b>allowed</b>: shared</p></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#benefit)</span></p><p><b>allowed</b>: <span title=\"Indian Rupee\">₹600.00</span> (INR)</p></blockquote></blockquote></blockquote></div>"
+  ];
+  fhir:CoverageEligibilityResponse.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
+     fhir:Identifier.value [ fhir:value "urn:uuiad:581da6a9" ]
+  ];
+  fhir:CoverageEligibilityResponse.status [ fhir:value "active"];
+  fhir:CoverageEligibilityResponse.purpose [
+     fhir:value "discovery";
+     fhir:index 0
+  ], [
+     fhir:value "benefits";
+     fhir:index 1
+  ];
+  fhir:CoverageEligibilityResponse.patient [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Patient/1>;
+     fhir:Reference.reference [ fhir:value "Patient/1" ];
+     fhir:Reference.display [ fhir:value "Hina Patel" ]
+  ];
+  fhir:CoverageEligibilityResponse.servicedPeriod [
+     fhir:Period.start [ fhir:value "2021-12-22"^^xsd:date ];
+     fhir:Period.end [ fhir:value "2021-12-25"^^xsd:date ]
+  ];
+  fhir:CoverageEligibilityResponse.created [ fhir:value "2021-12-22"^^xsd:date];
+  fhir:CoverageEligibilityResponse.insurance [
+     fhir:index 0;
+     fhir:CoverageEligibilityResponse.insurance.coverage [
+       fhir:link <https://hcxprotocol.io/fhir/r4/Coverage/9876B1>;
+       fhir:Reference.reference [ fhir:value "Coverage/9876B1" ]
+     ];
+     fhir:CoverageEligibilityResponse.insurance.inforce [ fhir:value "true"^^xsd:boolean ];
+     fhir:CoverageEligibilityResponse.insurance.item [
+       fhir:index 0;
+       fhir:CoverageEligibilityResponse.insurance.item.category [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/ex-benefitcategory" ];
+           fhir:Coding.code [ fhir:value "30" ];
+           fhir:Coding.display [ fhir:value "Health Benefit Plan Coverage" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.network [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-network" ];
+           fhir:Coding.code [ fhir:value "in" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.unit [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-unit" ];
+           fhir:Coding.code [ fhir:value "individual" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.term [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-term" ];
+           fhir:Coding.code [ fhir:value "annual" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.benefit [
+         fhir:index 0;
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.code [ fhir:value "benefit" ]
+           ]
+         ];
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.allowedMoney [
+           fhir:Money.value [ fhir:value "500000"^^xsd:decimal ];
+           fhir:Money.currency [ fhir:value "INR" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.code [ fhir:value "copay-maximum" ]
+           ]
+         ];
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.allowedMoney [
+           fhir:Money.value [ fhir:value "100"^^xsd:decimal ];
+           fhir:Money.currency [ fhir:value "INR" ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.code [ fhir:value "copay-percent" ]
+           ]
+         ];
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.allowedUnsignedInt [ fhir:value "20"^^xsd:nonNegativeInteger ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:CoverageEligibilityResponse.insurance.item.category [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/ex-benefitcategory" ];
+           fhir:Coding.code [ fhir:value "69" ];
+           fhir:Coding.display [ fhir:value "Maternity" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.network [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-network" ];
+           fhir:Coding.code [ fhir:value "in" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.unit [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-unit" ];
+           fhir:Coding.code [ fhir:value "individual" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.term [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-term" ];
+           fhir:Coding.code [ fhir:value "annual" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.benefit [
+         fhir:index 0;
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.code [ fhir:value "benefit" ]
+           ]
+         ];
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.allowedMoney [
+           fhir:Money.value [ fhir:value "15000"^^xsd:decimal ];
+           fhir:Money.currency [ fhir:value "INR" ]
+         ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:CoverageEligibilityResponse.insurance.item.category [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/ex-benefitcategory" ];
+           fhir:Coding.code [ fhir:value "F3" ];
+           fhir:Coding.display [ fhir:value "Dental Coverage" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.network [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-network" ];
+           fhir:Coding.code [ fhir:value "in" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.unit [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-unit" ];
+           fhir:Coding.code [ fhir:value "individual" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.term [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-term" ];
+           fhir:Coding.code [ fhir:value "annual" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.benefit [
+         fhir:index 0;
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.code [ fhir:value "benefit" ]
+           ]
+         ];
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.allowedMoney [
+           fhir:Money.value [ fhir:value "2000"^^xsd:decimal ];
+           fhir:Money.currency [ fhir:value "INR" ]
+         ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:CoverageEligibilityResponse.insurance.item.category [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/ex-benefitcategory" ];
+           fhir:Coding.code [ fhir:value "F6" ];
+           fhir:Coding.display [ fhir:value "Vision Coverage" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.network [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-network" ];
+           fhir:Coding.code [ fhir:value "in" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.unit [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-unit" ];
+           fhir:Coding.code [ fhir:value "individual" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.term [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-term" ];
+           fhir:Coding.code [ fhir:value "annual" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.benefit [
+         fhir:index 0;
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.code [ fhir:value "benefit" ]
+           ]
+         ];
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.allowedMoney [
+           fhir:Money.value [ fhir:value "400"^^xsd:decimal ];
+           fhir:Money.currency [ fhir:value "INR" ]
+         ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:CoverageEligibilityResponse.insurance.item.category [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/ex-benefitcategory" ];
+           fhir:Coding.code [ fhir:value "49" ];
+           fhir:Coding.display [ fhir:value "Hospital Room and Board" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.network [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-network" ];
+           fhir:Coding.code [ fhir:value "in" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.unit [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-unit" ];
+           fhir:Coding.code [ fhir:value "individual" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.term [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/benefit-term" ];
+           fhir:Coding.code [ fhir:value "day" ]
+         ]
+       ];
+       fhir:CoverageEligibilityResponse.insurance.item.benefit [
+         fhir:index 0;
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.code [ fhir:value "room" ]
+           ]
+         ];
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.allowedString [ fhir:value "shared" ]
+       ], [
+         fhir:index 1;
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.code [ fhir:value "benefit" ]
+           ]
+         ];
+         fhir:CoverageEligibilityResponse.insurance.item.benefit.allowedMoney [
+           fhir:Money.value [ fhir:value "600"^^xsd:decimal ];
+           fhir:Money.currency [ fhir:value "INR" ]
+         ]
+       ]
+     ]
+  ] .
+
+<Patient/1> a fhir:Patient;
+  fhir:Resource.id [ fhir:value "1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"1\" </p></div><p><b>identifier</b>: PHRADDR: 654321, PMJAYID: QWRT12345</p><p><b>name</b>: Hina Patel (OFFICIAL)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1974-12-25</p></div>"
+  ];
+  fhir:Patient.identifier [
+     fhir:index 0;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ndhm.gov.in/ValueSet/identifier-type" ];
+         fhir:Coding.code [ fhir:value "PHRADDR" ]
+       ]
+     ];
+     fhir:Identifier.system [ fhir:value "http://ndhm.gov.in/healthId" ];
+     fhir:Identifier.value [ fhir:value "654321" ]
+  ], [
+     fhir:index 1;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://ndhm.gov.in/ValueSet/identifier-type" ];
+         fhir:Coding.code [ fhir:value "PMJAYID" ]
+       ]
+     ];
+     fhir:Identifier.system [ fhir:value "http://ndhm.gov.in/pmjay" ];
+     fhir:Identifier.value [ fhir:value "QWRT12345" ]
+  ];
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.use [ fhir:value "official" ];
+     fhir:HumanName.family [ fhir:value "Patel" ];
+     fhir:HumanName.given [
+       fhir:value "Hina";
+       fhir:index 0
+     ]
+  ];
+  fhir:Patient.gender [ fhir:value "female"];
+  fhir:Patient.birthDate [ fhir:value "1974-12-25"^^xsd:date] .
+
+<Organization/MaxSaket01> a fhir:Organization;
+  fhir:Resource.id [ fhir:value "MaxSaket01"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"MaxSaket01\" </p></div><p><b>identifier</b>: id: HFR-10000005</p><p><b>name</b>: Max Super Speciality Hospital, Saket</p></div>"
+  ];
+  fhir:Organization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://ndhm.gov.in/hfr" ];
+     fhir:Identifier.value [ fhir:value "HFR-10000005" ]
+  ];
+  fhir:Organization.name [ fhir:value "Max Super Speciality Hospital, Saket"] .
+
+<Organization/2> a fhir:Organization;
+  fhir:Resource.id [ fhir:value "2"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"2\" </p></div><p><b>identifier</b>: id: PMJAY</p><p><b>name</b>: PMJAY, MoHFW, Govt Of India</p></div>"
+  ];
+  fhir:Organization.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://hcx.org/orgs" ];
+     fhir:Identifier.value [ fhir:value "PMJAY" ]
+  ];
+  fhir:Organization.name [ fhir:value "PMJAY, MoHFW, Govt Of India"] .
+
+<Practitioner/1> a fhir:Practitioner;
+  fhir:Resource.id [ fhir:value "1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"1\" </p></div><p><b>identifier</b>: id: NPR-6897</p><p><b>name</b>: Sudhir Naik (PMJAY Gujrat)</p></div>"
+  ];
+  fhir:Practitioner.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://ndhm.gov.in/npr" ];
+     fhir:Identifier.value [ fhir:value "NPR-6897" ]
+  ];
+  fhir:Practitioner.name [
+     fhir:index 0;
+     fhir:HumanName.text [ fhir:value "Sudhir Naik (PMJAY Gujrat)" ];
+     fhir:HumanName.prefix [
+       fhir:value "Dr";
+       fhir:index 0
+     ];
+     fhir:HumanName.suffix [
+       fhir:value "MD";
+       fhir:index 0
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/Bundle/CoverageEligibilityResponseDocument-example-01.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

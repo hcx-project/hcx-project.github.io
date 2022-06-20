@@ -1,27 +1,35 @@
 ﻿HCXFHIRImplementationGuide : Validation Results
 =========================================
 
-err = 1, warn = 32, info = 1
-IG Publisher Version: 1.1.118
-Generated Tue May 10 23:19:05 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.7.0 (canonical = https://hcxprotocol.io/fhir/r4)
+err = 26, warn = 14, info = 10
+IG Publisher Version: 1.1.121
+Generated Mon Jun 20 15:03:34 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.7.0 (canonical = https://hcxprotocol.io/fhir/r4)
  Build Errors : 1 / 0 / 0
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-Claim : 0 / 1 / 1
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-ClaimRequestDocument : 0 / 1 / 1
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-ClaimResponse : 0 / 1 / 1
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-ClaimResponseDocument : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-ClaimRequestDocument-example-01 : 7 / 0 / 4
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-ClaimResponseDocument-example-01 : 5 / 0 / 2
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-CoverageEligibilityRequestDocument-example-01 : 6 / 0 / 4
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-CoverageEligibilityResponseDocument-example-01 : 7 / 0 / 3
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/claim-example-01 : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/claimresponse-example-01 : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/coverageeligibilityrequest-example-01 : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/coverageeligibilityresponse-example-01 : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-Claim : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-ClaimRequestDocument : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-ClaimResponse : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-ClaimResponseDocument : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-Communication : 0 / 1 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CommunicationDocument : 0 / 1 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CommunicationRequest : 0 / 1 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-Coverage : 0 / 1 / 1
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CoverageEligibilityRequest : 0 / 1 / 1
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CoverageEligibilityRequestDocument : 0 / 1 / 1
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CoverageEligibilityResponse : 0 / 1 / 1
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CoverageEligibilityResponseDocument : 0 / 1 / 1
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXDiagnosticDocumentsExtension : 0 / 3 / 1
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXInformationalMessagesExtension : 0 / 5 / 2
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CoverageEligibilityRequest : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CoverageEligibilityRequestDocument : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CoverageEligibilityResponse : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-CoverageEligibilityResponseDocument : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXDiagnosticDocumentsExtension : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXInformationalMessagesExtension : 0 / 1 / 2
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXInsurancePlan : 0 / 1 / 1
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXProofOfIdentificationExtension : 0 / 3 / 1
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXProofOfPresenceExtension : 0 / 3 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXProofOfIdentificationExtension : 0 / 1 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXProofOfPresenceExtension : 0 / 1 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXQuestionnairesExtension : 0 / 1 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-HCXSignatureExtension : 0 / 1 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-PaymentNotice : 0 / 1 / 1
@@ -30,22 +38,64 @@ Generated Tue May 10 23:19:05 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-claim-denial-codes : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-claim-service-categories : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-claim-service-codes : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-clinical-diagnostics-document-codes : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-health-service-provider-role : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-informational-messages-codes : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-insurance-company-owners : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-medical-speciality-type-provider : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-procedure-type-description : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-proof-of-identity-codes : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-proof-of-presence-codes : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/ig : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: ImplementationGuide.definition.parameter[23].value: Supressed messages file not found
+ERROR: ImplementationGuide.definition.parameter[25].value: Supressed messages file not found
+== input/examples/Bundle-ClaimRequestDocument-example-01.json ==
+ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes), and a coding from this value set is required) (codes = https://www.hcx.org/document-type#HcxClaimRequest)
+INFORMATION: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.type.coding[0]: Code System URI 'https://www.hcx.org/document-type' is unknown so the code cannot be validated
+INFORMATION: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.author[0]: Details for Organization/Tmh01 matching against Profile http://hl7.org/fhir/StructureDefinition/Organization
+ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].code.text: Value is 'ClaimRequest' but must be 'Claim'
+ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].code: Expected 0 but found 1 coding elements
+ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].code: None of the codings provided are in the value set 'Document Section Codes' (http://hl7.org/fhir/ValueSet/doc-section-codes), and a coding from this value set is required) (codes = http://hl7.org/fhir/ValueSet/resource-types#ClaimRequest)
+ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].code.coding[0]: The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/resource-types')
+ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].code.coding[0]: Unknown Code System 'http://hl7.org/fhir/ValueSet/resource-types'
+ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Unable to find a match for profile ClaimRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6 among choices: https://ig.hcxprotocol.io/v0.7/StructureDefinition-Claim.html
+INFORMATION: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Details for ClaimRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6 matching against Profile https://ig.hcxprotocol.io/v0.7/StructureDefinition-Claim.html
+== input/examples/Bundle-ClaimResponseDocument-example-01.json ==
+ERROR: Bundle/ClaimResponseDocument-example-01: Bundle.entry[0].resource.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes), and a coding from this value set is required) (codes = https://hcx.org/document-types#HCXClaimResponse)
+INFORMATION: Bundle/ClaimResponseDocument-example-01: Bundle.entry[0].resource.type.coding[0]: Code System URI 'https://hcx.org/document-types' is unknown so the code cannot be validated
+ERROR: Bundle/ClaimResponseDocument-example-01: Bundle.entry[0].resource.section[0].code: Expected 0 but found 1 coding elements
+ERROR: Bundle/ClaimResponseDocument-example-01: Bundle.entry[0].resource.section[0].code: None of the codings provided are in the value set 'Document Section Codes' (http://hl7.org/fhir/ValueSet/doc-section-codes), and a coding from this value set is required) (codes = https://www.hl7.org/fhir/valueset-resource-types#ClaimResponse)
+ERROR: Bundle/ClaimResponseDocument-example-01: Bundle.entry[0].resource.section[0].code.coding[0]: Unknown Code System 'https://www.hl7.org/fhir/valueset-resource-types'
+ERROR: Bundle/ClaimResponseDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Unable to resolve resource with reference 'ClaimResponse/res-id-1'
+== input/examples/Bundle-CoverageEligibilityRequestDocument-example-01.json ==
+ERROR: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes), and a coding from this value set is required) (codes = https://www.hcx.org/document-type#HcxCoverageEligibilityRequest)
+INFORMATION: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.type.coding[0]: Code System URI 'https://www.hcx.org/document-type' is unknown so the code cannot be validated
+INFORMATION: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.author[0]: Details for Organization/Tmh01 matching against Profile http://hl7.org/fhir/StructureDefinition/Organization
+ERROR: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.section[0].code: Expected 0 but found 1 coding elements
+ERROR: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.section[0].code: None of the codings provided are in the value set 'Document Section Codes' (http://hl7.org/fhir/ValueSet/doc-section-codes), and a coding from this value set is required) (codes = http://hl7.org/fhir/ValueSet/resource-types#CoverageEligibilityRequest)
+ERROR: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.section[0].code.coding[0]: The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/resource-types')
+ERROR: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.section[0].code.coding[0]: Unknown Code System 'http://hl7.org/fhir/ValueSet/resource-types'
+ERROR: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Unable to find a match for profile CoverageEligibilityRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6 among choices: https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequest.html
+INFORMATION: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Details for CoverageEligibilityRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6 matching against Profile https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequest.html
+== input/examples/Bundle-CoverageEligibilityResponseDocument-example-01.json ==
+ERROR: Bundle: Unrecognised property '@text'
+ERROR: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes), and a coding from this value set is required) (codes = https://hcx.org/document-types#HCXCoverageElibilityResponse)
+INFORMATION: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.type.coding[0]: Code System URI 'https://hcx.org/document-types' is unknown so the code cannot be validated
+ERROR: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.subject: Unable to resolve resource with reference 'Patient/RVH1003'
+ERROR: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.section[0].code: Expected 0 but found 1 coding elements
+ERROR: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.section[0].code: None of the codings provided are in the value set 'Document Section Codes' (http://hl7.org/fhir/ValueSet/doc-section-codes), and a coding from this value set is required) (codes = https://www.hl7.org/fhir/valueset-resource-types#CoverageEligibilityResponse)
+ERROR: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.section[0].code.coding[0]: Unknown Code System 'https://www.hl7.org/fhir/valueset-resource-types'
+ERROR: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Unable to find a match for profile CoverageEligibilityResponse/res-id-1 among choices: https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityResponse.html
+INFORMATION: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Details for CoverageEligibilityResponse/res-id-1 matching against Profile https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityResponse.html
+== input/examples/Claim-example-01.json ==
+== input/examples/ClaimResponse-example-01.json ==
+== input/examples/CoverageEligibilityRequest-example-01.json ==
+== input/examples/CoverageEligibilityResponse-example-01.json ==
 == input/hcx-definitions/StructureDefinition-Claim.json ==
-WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-Claim.html'): The Implementation Guide contains no examples for this profile
 == input/hcx-definitions/StructureDefinition-ClaimRequestDocument.json ==
-WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimRequestDocument.html'): The Implementation Guide contains no examples for this profile
 == input/hcx-definitions/StructureDefinition-ClaimResponse.json ==
-WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html'): The Implementation Guide contains no examples for this profile
 == input/hcx-definitions/StructureDefinition-ClaimResponseDocument.json ==
-WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponseDocument.html'): The Implementation Guide contains no examples for this profile
 == input/hcx-definitions/StructureDefinition-Communication.json ==
 WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-Communication.html'): The Implementation Guide contains no examples for this profile
 == input/hcx-definitions/StructureDefinition-CommunicationDocument.json ==
@@ -55,33 +105,19 @@ WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/Structu
 == input/hcx-definitions/StructureDefinition-Coverage.json ==
 WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-Coverage.html'): The Implementation Guide contains no examples for this profile
 == input/hcx-definitions/StructureDefinition-CoverageEligibilityRequest.json ==
-WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequest.html'): The Implementation Guide contains no examples for this profile
 == input/hcx-definitions/StructureDefinition-CoverageEligibilityRequestDocument.json ==
-WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequestDocument.html'): The Implementation Guide contains no examples for this profile
 == input/hcx-definitions/StructureDefinition-CoverageEligibilityResponse.json ==
-WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityResponse.html'): The Implementation Guide contains no examples for this profile
 == input/hcx-definitions/StructureDefinition-CoverageEligibilityResponseDocument.json ==
-WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityResponseDocument.html'): The Implementation Guide contains no examples for this profile
 == input/hcx-definitions/StructureDefinition-HCXDiagnosticDocumentsExtension.json ==
-WARNING: StructureDefinition/HCXDiagnosticDocumentsExtension: StructureDefinition.differential.element[4].binding: The valueSet reference https://hcx-valuesets/clinicalDiagnosticsDocumentCodes on element Extension.extension.value[x] could not be resolved
-WARNING: StructureDefinition/HCXDiagnosticDocumentsExtension: StructureDefinition.snapshot.element[11].binding: The valueSet reference https://hcx-valuesets/clinicalDiagnosticsDocumentCodes on element Extension.extension.value[x] could not be resolved
 WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXDiagnosticDocumentsExtension.html'): The Implementation Guide contains no examples for this extension
 == input/hcx-definitions/StructureDefinition-HCXInformationalMessagesExtension.json ==
 INFORMATION: StructureDefinition/HCXInformationalMessagesExtension: StructureDefinition.differential.element[4].binding: The element Extension.extension.value[x] has a binding, and has multiple types subject to bindings ([string, CodeableConcept]). The binding will apply to all the types
-WARNING: StructureDefinition/HCXInformationalMessagesExtension: StructureDefinition.differential.element[4].binding: The valueSet reference https://hcx-valuesets/InformationalMessagesCodes on element Extension.extension.value[x] could not be resolved
-WARNING: StructureDefinition/HCXInformationalMessagesExtension: StructureDefinition.differential.element[7].binding: The valueSet reference http://www.hl7.org/fhir/valueset-issue-severity.html on element Extension.extension.value[x] could not be resolved
-WARNING: StructureDefinition/HCXInformationalMessagesExtension: StructureDefinition.snapshot.element[11].binding: The valueSet reference https://hcx-valuesets/InformationalMessagesCodes on element Extension.extension.value[x] could not be resolved
-WARNING: StructureDefinition/HCXInformationalMessagesExtension: StructureDefinition.snapshot.element[20].binding: The valueSet reference http://www.hl7.org/fhir/valueset-issue-severity.html on element Extension.extension.value[x] could not be resolved
 WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXInformationalMessagesExtension.html'): The Implementation Guide contains no examples for this extension
 == input/hcx-definitions/StructureDefinition-HCXInsurancePlan.json ==
 WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXInsurancePlan.html'): The Implementation Guide contains no examples for this profile
 == input/hcx-definitions/StructureDefinition-HCXProofOfIdentificationExtension.json ==
-WARNING: StructureDefinition/HCXProofOfIdentificationExtension: StructureDefinition.differential.element[4].binding: The valueSet reference https://hcx-valuesets/proofOfIdentificationDocumentCodes on element Extension.extension.value[x] could not be resolved
-WARNING: StructureDefinition/HCXProofOfIdentificationExtension: StructureDefinition.snapshot.element[11].binding: The valueSet reference https://hcx-valuesets/proofOfIdentificationDocumentCodes on element Extension.extension.value[x] could not be resolved
 WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfIdentificationExtension.html'): The Implementation Guide contains no examples for this extension
 == input/hcx-definitions/StructureDefinition-HCXProofOfPresenceExtension.json ==
-WARNING: StructureDefinition/HCXProofOfPresenceExtension: StructureDefinition.differential.element[4].binding: The valueSet reference https://hcx-valuesets/proofOfPresenceDocumentCodes on element Extension.extension.value[x] could not be resolved
-WARNING: StructureDefinition/HCXProofOfPresenceExtension: StructureDefinition.snapshot.element[11].binding: The valueSet reference https://hcx-valuesets/proofOfPresenceDocumentCodes on element Extension.extension.value[x] could not be resolved
 WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXProofOfPresenceExtension.html'): The Implementation Guide contains no examples for this extension
 == input/hcx-definitions/StructureDefinition-HCXQuestionnairesExtension.json ==
 WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-HCXQuestionnairesExtension.html'): The Implementation Guide contains no examples for this extension
@@ -96,8 +132,12 @@ WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/Structu
 == input/hcx-definitions/ValueSet-claim-denial-codes.json ==
 == input/hcx-definitions/ValueSet-claim-service-categories.json ==
 == input/hcx-definitions/ValueSet-claim-service-codes.json ==
+== input/hcx-definitions/ValueSet-clinical-diagnostics-document-codes.json ==
 == input/hcx-definitions/ValueSet-health-service-provider-role.json ==
+== input/hcx-definitions/ValueSet-informational-messages-codes.json ==
 == input/hcx-definitions/ValueSet-insurance-company-owners.json ==
 == input/hcx-definitions/ValueSet-medical-speciality-type-provider.json ==
 == input/hcx-definitions/ValueSet-procedure-type-description.json ==
+== input/hcx-definitions/ValueSet-proof-of-identity-codes.json ==
+== input/hcx-definitions/ValueSet-proof-of-presence-codes.json ==
 == input/ig.json ==

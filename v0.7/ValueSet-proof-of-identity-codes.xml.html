@@ -1,0 +1,386 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HCXPROTOCOL.IO\HCX proof-of-identity-codes - XML Representation - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"5.32"}
+    h3,h4,h5,h6{--heading-prefix:"5.32"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+  <a id="family-logo" no-external="true"><img height="50" alt="HCX Protocol"
+      src="assets/images/HCX_logo-final-2.png" />
+  </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:25pt;font-weight:bold">FHIR Implementation Guide for HCX</span><br/>0.7.0 - CI Build</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+<a href="index.html">Home</a>
+</li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artifacts<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="profiles.html">Profiles</a>
+      </li>
+      <li>
+        <a href="valuesets.html">Value Sets</a>
+      </li>
+    </ul>
+  </li>
+<li>
+  <a href="downloads.html">Downloads</a>
+</li>
+</ul>      
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>HCX proof-of-identity-codes</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">FHIR Implementation Guide for HCX - Local Development build (v0.7.0). See the <a href="https://hcxprotocol.io/fhir/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ValueSet-proof-of-identity-codes.html">Narrative Content</a>
+  </li>
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-proof-of-identity-codes.json.html">JSON</a>
+    </li>
+  
+
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: HCX proof-of-identity-codes - XML Representation</h2>
+
+<p><a href="ValueSet-proof-of-identity-codes.xml" no-download="true">Raw xml</a> | <a href="ValueSet-proof-of-identity-codes.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml"><code class="language-xml">
+
+&lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">ValueSet</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;proof-of-identity-codes&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;This value set contains 23 concepts&lt;/p&gt;&lt;p&gt;All codes in this table are from the system &lt;code&gt;http://hcxprotocol.io/codes/proof-of-identity-codes&lt;/code&gt;&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-1&quot;&gt; &lt;/a&gt;  POI-1&lt;/td&gt;&lt;td&gt;Aadhar Identity Card&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-2&quot;&gt; &lt;/a&gt;  POI-2&lt;/td&gt;&lt;td&gt;Passport&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-3&quot;&gt; &lt;/a&gt;  POI-3&lt;/td&gt;&lt;td&gt;Driving License&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-4&quot;&gt; &lt;/a&gt;  POI-4&lt;/td&gt;&lt;td&gt;Election Commision's Voter ID card&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-5&quot;&gt; &lt;/a&gt;  POI-5&lt;/td&gt;&lt;td&gt;Income Tax PAN Card&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-6&quot;&gt; &lt;/a&gt;  POI-6&lt;/td&gt;&lt;td&gt;Photo Credit Card/ Debit card (with Photo)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-7&quot;&gt; &lt;/a&gt;  POI-7&lt;/td&gt;&lt;td&gt;ECHS / CGHS Card having photo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-8&quot;&gt; &lt;/a&gt;  POI-8&lt;/td&gt;&lt;td&gt;Domicile Certificate / Caste Certificate with photograph&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-9&quot;&gt; &lt;/a&gt;  POI-9&lt;/td&gt;&lt;td&gt;Current passbook of Post Office / Govt. /PSU Bank/private banks&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-10&quot;&gt; &lt;/a&gt;  POI-10&lt;/td&gt;&lt;td&gt;Student ID card of the Govt. recognized educational institutions with photograph on it.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-11&quot;&gt; &lt;/a&gt;  POI-11&lt;/td&gt;&lt;td&gt;Ration Card with photograph &amp;amp; address. (Issued from Maharashtra state not valid )&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-12&quot;&gt; &lt;/a&gt;  POI-12&lt;/td&gt;&lt;td&gt;Smart Card issued by CSD, Defence / Paramilitary Forces&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-13&quot;&gt; &lt;/a&gt;  POI-13&lt;/td&gt;&lt;td&gt;Arms License&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-14&quot;&gt; &lt;/a&gt;  POI-14&lt;/td&gt;&lt;td&gt;Senior Citizen Card having photo issued by the Govt.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-15&quot;&gt; &lt;/a&gt;  POI-15&lt;/td&gt;&lt;td&gt;Pensioners Card having photo issued by the Govt.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-16&quot;&gt; &lt;/a&gt;  POI-16&lt;/td&gt;&lt;td&gt;ID Card issued to Tibetan (Refugees) Citizens by State Govt. / Central Govt. of India having photo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-17&quot;&gt; &lt;/a&gt;  POI-17&lt;/td&gt;&lt;td&gt;Defence Personnel - Armed Forces ;Certificate from Competent Unit Authority&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-18&quot;&gt; &lt;/a&gt;  POI-18&lt;/td&gt;&lt;td&gt;Certificate of Address having Photo, issued by MP/ MLA / Group A Gazetted Officer on letter head with seal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-19&quot;&gt; &lt;/a&gt;  POI-19&lt;/td&gt;&lt;td&gt;Certificate of address with photo from Govt. recognized educational institution (for students only)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-20&quot;&gt; &lt;/a&gt;  POI-20&lt;/td&gt;&lt;td&gt;Certificate of Address having Photo, issued by Head of Village / Gram Panchayat or its equivalent Authority. (for Rural Areas)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-21&quot;&gt; &lt;/a&gt;  POI-21&lt;/td&gt;&lt;td&gt;Address Card with Photo issued by Dept. of Posts&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-23&quot;&gt; &lt;/a&gt;  POI-23&lt;/td&gt;&lt;td&gt;Freedom fighter card with photo&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;a name=&quot;http---hcxprotocol.io-codes-proof-of-identity-codes-POI-24&quot;&gt; &lt;/a&gt;  POI-24&lt;/td&gt;&lt;td&gt;Kissan Passbook with photo&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>
+       <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://ig.hcxprotocol.io/v0.7/ValueSet-proof-of-identity-codes.html&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0.7.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ProofOfIdentityCodes&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2022-06-01&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HCX Open Community&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;HCX Open Community&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;http://hcxprotocol.io/&quot;/&gt;
+    &lt;/telecom&gt;
+  &lt;/contact&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">description</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;This is the value set listing the Proof of Identification codes&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">expansion</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2022-06-01T08:15:30+05:30&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-1&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Aadhar Identity Card&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-2&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Passport&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-3&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Driving License&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-4&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Election Commision's Voter ID card&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-5&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Income Tax PAN Card&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-6&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Photo Credit Card/ Debit card (with Photo)&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-7&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ECHS / CGHS Card having photo&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-8&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Domicile Certificate / Caste Certificate with photograph&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-9&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Current passbook of Post Office / Govt. /PSU Bank/private banks&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-10&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Student ID card of the Govt. recognized educational institutions with photograph on it.&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-11&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ration Card with photograph &amp;amp; address. (Issued from Maharashtra state not valid )&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-12&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Smart Card issued by CSD, Defence / Paramilitary Forces&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-13&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Arms License&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-14&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Senior Citizen Card having photo issued by the Govt.&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-15&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Pensioners Card having photo issued by the Govt.&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-16&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ID Card issued to Tibetan (Refugees) Citizens by State Govt. / Central Govt. of India having photo&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-17&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Defence Personnel - Armed Forces ;Certificate from Competent Unit Authority&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-18&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Certificate of Address having Photo, issued by MP/ MLA / Group A Gazetted Officer on letter head with seal&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-19&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Certificate of address with photo from Govt. recognized educational institution (for students only)&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-20&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Certificate of Address having Photo, issued by Head of Village / Gram Panchayat or its equivalent Authority. (for Rural Areas)&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-21&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Address Card with Photo issued by Dept. of Posts&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-23&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Freedom fighter card with photo&quot;/&gt;
+    &lt;/contains&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hcxprotocol.io/codes/proof-of-identity-codes&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POI-24&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kissan Passbook with photo&quot;/&gt;
+    &lt;/contains&gt;
+  &lt;/expansion&gt;
+&lt;/ValueSet&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hcxprotocol.io/">HCX Open Community</a>.  Package hcxprotocol.io#0.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 20, 2022 15:02+0530">2022-06-20</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

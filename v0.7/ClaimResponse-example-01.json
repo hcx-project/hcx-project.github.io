@@ -1,0 +1,186 @@
+{
+  "resourceType": "ClaimResponse",
+  "id": "example-01",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2020-07-03T22:50:39.698+00:00",
+    "source": "#JrkobxCRdZUI6QNh"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"example-01\" Version \"1\" Updated \"2020-07-03 10:50:39+0000\" </p><p style=\"margin-bottom: 0px\">Information Source: #JrkobxCRdZUI6QNh!</p></div><p><b>identifier</b>: id: dc82673b-8c71-48c2-2k9s-16dcb3b829m2</p><p><b>status</b>: active</p><p><b>type</b>: Institutional <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-claim-type.html\">Claim Type Codes</a>#institutional)</span></p><p><b>use</b>: preauthorization</p><p><b>patient</b>: <span></span></p><p><b>created</b>: 2020-07-03 06:50:39-0400</p><p><b>insurer</b>: <span></span></p><p><b>requestor</b>: <span></span></p><p><b>request</b>: <span></span></p><p><b>outcome</b>: complete</p><blockquote><p><b>item</b></p><p><b>itemSequence</b>: 1</p><blockquote><p><b>adjudication</b></p><p><b>category</b>: Eligible Amount <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-adjudication.html\">Adjudication Value Codes</a>#eligible)</span></p></blockquote><blockquote><p><b>adjudication</b></p><p><b>category</b>: CoPay <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-adjudication.html\">Adjudication Value Codes</a>#copay)</span></p></blockquote><blockquote><p><b>adjudication</b></p><p><b>category</b>: Eligible % <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-adjudication.html\">Adjudication Value Codes</a>#eligpercent)</span></p><p><b>value</b>: 80.00</p></blockquote><blockquote><p><b>adjudication</b></p><p><b>category</b>: Benefit Amount <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-adjudication.html\">Adjudication Value Codes</a>#benefit)</span></p><p><b>reason</b>: Plan Limit Reached <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-adjudication-reason.html\">Adjudication Reason Codes</a>#ar002)</span></p></blockquote></blockquote><blockquote><p><b>total</b></p><p><b>category</b>: Submitted Amount <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-adjudication.html\">Adjudication Value Codes</a>#submitted)</span></p></blockquote><blockquote><p><b>total</b></p><p><b>category</b>: Benefit Amount <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-adjudication.html\">Adjudication Value Codes</a>#benefit)</span></p></blockquote><blockquote><p><b>payment</b></p><p><b>type</b>: Complete <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-ex-paymenttype.html\">Example Payment Type Codes</a>#complete)</span></p><p><b>date</b>: 2014-08-31</p><p><b>identifier</b>: id: 201408-2-1569478</p></blockquote></div>"
+  },
+  "identifier": [
+    {
+      "system": "https://www.tmh.in/claim-response",
+      "value": "dc82673b-8c71-48c2-2k9s-16dcb3b829m2"
+    }
+  ],
+  "status": "active",
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+        "code": "institutional"
+      }
+    ]
+  },
+  "use": "preauthorization",
+  "patient": {
+    "id": "RVH1003",
+    "identifier": {
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "SN",
+            "display": "Subscriber Number"
+          }
+        ]
+      },
+      "system": "http://gicofIndia.com/beneficiaries",
+      "value": "BEN-101"
+    }
+  },
+  "created": "2020-07-03T18:50:39-04:00",
+  "insurer": {
+    "id": "GICOFINDIA",
+    "identifier": {
+      "system": "http://irdai.gov.in/insurers",
+      "value": "112"
+    }
+  },
+  "requestor": {
+    "id": "Tmh01",
+    "identifier": {
+      "system": "http://abdm.gov.in/facilities",
+      "value": "HFR-ID-FOR-TMH"
+    }
+  },
+  "request": {
+    "id": "example-01",
+    "identifier": {
+      "system": "https://www.tmh.in/claim-request",
+      "value": "dc82673b-8c71-29js-8a17-16dj3i20352n"
+    }
+  },
+  "outcome": "complete",
+  "item": [
+    {
+      "itemSequence": 1,
+      "adjudication": [
+        {
+          "category": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                "code": "eligible"
+              }
+            ]
+          },
+          "amount": {
+            "value": 500000,
+            "currency": "INR"
+          }
+        },
+        {
+          "category": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                "code": "copay"
+              }
+            ]
+          },
+          "amount": {
+            "value": 50000,
+            "currency": "INR"
+          }
+        },
+        {
+          "category": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                "code": "eligpercent"
+              }
+            ]
+          },
+          "value": 80.00
+        },
+        {
+          "category": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+                "code": "benefit"
+              }
+            ]
+          },
+          "reason": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/adjudication-reason",
+                "code": "ar002",
+                "display": "Plan Limit Reached"
+              }
+            ]
+          },
+          "amount": {
+            "value": 360000,
+            "currency": "INR"
+          }
+        }
+      ]
+    }
+  ],
+  "total": [
+    {
+      "category": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+            "code": "submitted"
+          }
+        ]
+      },
+      "amount": {
+        "value": 500000,
+        "currency": "INR"
+      }
+    },
+    {
+      "category": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/adjudication",
+            "code": "benefit"
+          }
+        ]
+      },
+      "amount": {
+        "value": 360000,
+        "currency": "INR"
+      }
+    }
+  ],
+  "payment": {
+    "type": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/ex-paymenttype",
+          "code": "complete"
+        }
+      ]
+    },
+    "date": "2014-08-31",
+    "amount": {
+      "value": 410000,
+      "currency": "INR"
+    },
+    "identifier": {
+      "system": "http://www.BenefitsInc.com/fhir/paymentidentifier",
+      "value": "201408-2-1569478"
+    }
+  }
+}

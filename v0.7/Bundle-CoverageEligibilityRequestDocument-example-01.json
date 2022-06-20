@@ -1,0 +1,254 @@
+{
+  "resourceType": "Bundle",
+  "id": "CoverageEligibilityRequestDocument-example-01",
+  "meta": {
+    "lastUpdated": "2022-02-08T21:49:55.458+05:30"
+  },
+  "identifier": {
+    "system": "https://www.tmh.in/bundle",
+    "value": "CoverageEligibilityRequestDocument-example-01"
+  },
+  "type": "document",
+  "timestamp": "2022-02-08T21:49:55.458+05:30",
+  "entry": [
+    {
+      "fullUrl": "Composition/42ff4a07-3e36-402f-a99e-29f16c0c9eee",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "42ff4a07-3e36-402f-a99e-29f16c0c9eee",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"42ff4a07-3e36-402f-a99e-29f16c0c9eee\" </p></div><p><b>identifier</b>: id: 42ff4a07-3e36-402f-a99e-29f16c0c9eee</p><p><b>status</b>: final</p><p><b>type</b>: Coverage Eligibility Request Doc <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (document-type#HcxCoverageEligibilityRequest)</span></p><p><b>date</b>: 2022-02-08 09:49:55+0530</p><p><b>author</b>: <a href=\"#Organization_Tmh01\">See above (Organization/Tmh01)</a></p><p><b>title</b>: Coverage Eligibility Request</p></div>"
+        },
+        "identifier": {
+          "system": "https://www.tmh.in/hcx-documents",
+          "value": "42ff4a07-3e36-402f-a99e-29f16c0c9eee"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "https://www.hcx.org/document-type",
+              "code": "HcxCoverageEligibilityRequest",
+              "display": "Coverage Eligibility Request Doc"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/RVH1003"
+        },
+        "date": "2022-02-08T21:49:55+05:30",
+        "author": [
+          {
+            "reference": "Organization/Tmh01"
+          }
+        ],
+        "title": "Coverage Eligibility Request",
+        "section": [
+          {
+            "title": "# Eligibility Request",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/ValueSet/resource-types",
+                  "code": "CoverageEligibilityRequest",
+                  "display": "Coverage Eligibility Request"
+                }
+              ],
+              "text": "CoverageEligibilityRequest"
+            },
+            "entry": [
+              {
+                "reference": "CoverageEligibilityRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Organization/Tmh01",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "Tmh01",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Tmh01\" </p></div><p><b>identifier</b>: id: HFR-ID-FOR-TMH, id: IRDA-ID-FOR-TMH</p><p><b>name</b>: Tata Memorial Hospital</p><p><b>alias</b>: TMH, TMC</p><p><b>telecom</b>: ph: (+91) 022-2417-7000</p><p><b>address</b>: Dr Ernest Borges Rd, Parel East, Parel, Mumbai, Maharashtra 400012 Mumbai Maharashtra 400012 INDIA </p><p><b>endpoint</b>: <a href=\"https://www.tmc.gov.in/\">https://www.tmc.gov.in/: Website</a></p></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://abdm.gov.in/facilities",
+            "value": "HFR-ID-FOR-TMH"
+          },
+          {
+            "system": "http://irdai.gov.in/facilities",
+            "value": "IRDA-ID-FOR-TMH"
+          }
+        ],
+        "name": "Tata Memorial Hospital",
+        "alias": [
+          "TMH",
+          "TMC"
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(+91) 022-2417-7000"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Dr Ernest Borges Rd, Parel East, Parel, Mumbai, Maharashtra 400012"
+            ],
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "postalCode": "400012",
+            "country": "INDIA"
+          }
+        ],
+        "endpoint": [
+          {
+            "reference": "https://www.tmc.gov.in/",
+            "display": "Website"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Patient/RVH1003",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "RVH1003",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"RVH1003\" </p></div><p><b>identifier</b>: Subscriber Number: BEN-101, id: hinapatel@abdm</p><p><b>name</b>: Hina Patel</p><p><b>gender</b>: female</p></div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "SN",
+                  "display": "Subscriber Number"
+                }
+              ]
+            },
+            "system": "http://gicofIndia.com/beneficiaries",
+            "value": "BEN-101"
+          },
+          {
+            "system": "http://abdm.gov.in/patients",
+            "value": "hinapatel@abdm"
+          }
+        ],
+        "name": [
+          {
+            "text": "Hina Patel"
+          }
+        ],
+        "gender": "female"
+      }
+    },
+    {
+      "fullUrl": "CoverageEligibilityRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6",
+      "resource": {
+        "resourceType": "CoverageEligibilityRequest",
+        "id": "dc82673b-8c71-48c2-8a17-16dcb3b035f6",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"dc82673b-8c71-48c2-8a17-16dcb3b035f6\" </p></div><p><b>identifier</b>: id: dc82673b-8c71-48c2-8a17-16dcb3b035f6</p><p><b>status</b>: active</p><p><b>purpose</b>: discovery</p><p><b>patient</b>: <a href=\"#Patient_RVH1003\">See above (Patient/RVH1003)</a></p><p><b>serviced</b>: 2022-02-07 09:49:56+0530 --&gt; 2022-02-09 09:49:56+0530</p><p><b>created</b>: 2022-02-08 09:49:56+0530</p><p><b>provider</b>: <a href=\"#Organization_Tmh01\">See above (Organization/Tmh01)</a></p><p><b>insurer</b>: <a href=\"#Organization_GICOFINDIA\">See above (Organization/GICOFINDIA)</a></p><h3>Insurances</h3><table class=\"grid\"><tr><td>-</td><td><b>Focal</b></td><td><b>Coverage</b></td></tr><tr><td>*</td><td>true</td><td><a href=\"#Coverage_dadde132-ad64-4d18-8c18-1d52d7e86abc\">See above (Coverage/dadde132-ad64-4d18-8c18-1d52d7e86abc)</a></td></tr></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://www.tmh.in/coverage-eligibility-request",
+            "value": "dc82673b-8c71-48c2-8a17-16dcb3b035f6"
+          }
+        ],
+        "status": "active",
+        "purpose": [
+          "discovery"
+        ],
+        "patient": {
+          "reference": "Patient/RVH1003"
+        },
+        "servicedPeriod": {
+          "start": "2022-02-07T21:49:56+05:30",
+          "end": "2022-02-09T21:49:56+05:30"
+        },
+        "created": "2022-02-08T21:49:56+05:30",
+        "provider": {
+          "reference": "Organization/Tmh01"
+        },
+        "insurer": {
+          "reference": "Organization/GICOFINDIA"
+        },
+        "insurance": [
+          {
+            "focal": true,
+            "coverage": {
+              "reference": "Coverage/dadde132-ad64-4d18-8c18-1d52d7e86abc"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "Organization/GICOFINDIA",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "GICOFINDIA",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"GICOFINDIA\" </p></div><p><b>identifier</b>: id: 112</p><p><b>name</b>: General Insurance Corporation of India</p></div>"
+        },
+        "identifier": [
+          {
+            "system": "http://irdai.gov.in/insurers",
+            "value": "112"
+          }
+        ],
+        "name": "General Insurance Corporation of India"
+      }
+    },
+    {
+      "fullUrl": "Coverage/dadde132-ad64-4d18-8c18-1d52d7e86abc",
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "dadde132-ad64-4d18-8c18-1d52d7e86abc",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"dadde132-ad64-4d18-8c18-1d52d7e86abc\" </p></div><p><b>identifier</b>: id: policy-RVH1003</p><p><b>status</b>: active</p><p><b>subscriber</b>: <a href=\"#Patient_RVH1003\">See above (Patient/RVH1003)</a></p><p><b>subscriberId</b>: SN-RVH1003</p><p><b>beneficiary</b>: <a href=\"#Patient_RVH1003\">See above (Patient/RVH1003)</a></p><p><b>relationship</b>: self <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (subscriber-relationship#self)</span></p><p><b>payor</b>: <a href=\"#Organization_GICOFINDIA\">See above (Organization/GICOFINDIA)</a></p></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://www.gicofIndia.in/policies",
+            "value": "policy-RVH1003"
+          }
+        ],
+        "status": "active",
+        "subscriber": {
+          "reference": "Patient/RVH1003"
+        },
+        "subscriberId": "SN-RVH1003",
+        "beneficiary": {
+          "reference": "Patient/RVH1003"
+        },
+        "relationship": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ValueSet/subscriber-relationship",
+              "code": "self"
+            }
+          ]
+        },
+        "payor": [
+          {
+            "reference": "Organization/GICOFINDIA"
+          }
+        ]
+      }
+    }
+  ]
+}

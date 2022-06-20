@@ -1,0 +1,350 @@
+{
+  "resourceType": "Bundle",
+  "id": "ClaimResponseDocument-example-01",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2021-12-22T15:32:26.605+05:30"
+  },
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:uuiad:9699444a"
+  },
+  "type": "document",
+  "timestamp": "2021-12-22T15:32:26.605+05:30",
+  "entry": [
+    {
+      "fullUrl": "Composition/1",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-12-22T15:32:26.605+05:30"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"1\" Version \"1\" Updated \"2021-12-22 03:32:26+0530\" </p></div><p><b>identifier</b>: id: urn:uuid:28b6b35e</p><p><b>status</b>: final</p><p><b>type</b>: Claim Response <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (document-types#HCXClaimResponse)</span></p><p><b>date</b>: 2021-12-22 03:32:26+0530</p><p><b>author</b>: <a href=\"#Practitioner_1\">See above (Practitioner/1: Dr. Sudhir Naik (PMJAY Gujrat))</a></p><p><b>title</b>: Claim Request</p><h3>Attesters</h3><table class=\"grid\"><tr><td>-</td><td><b>Mode</b></td><td><b>Time</b></td><td><b>Party</b></td></tr><tr><td>*</td><td>official</td><td>2021-12-22 02:10:14+0000</td><td><a href=\"#Organization_2\">See above (Organization/2: PMJAY, MoHFW, Govt Of India)</a></td></tr></table></div>"
+        },
+        "identifier": {
+          "system": "urn:ietf:rfc:3986",
+          "value": "urn:uuid:28b6b35e"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "https://hcx.org/document-types",
+              "code": "HCXClaimResponse",
+              "display": "Claim Response"
+            }
+          ],
+          "text": "Claim Response"
+        },
+        "subject": {
+          "reference": "Patient/1",
+          "display": "Hina Patel"
+        },
+        "date": "2021-12-22T15:32:26.605+05:30",
+        "author": [
+          {
+            "reference": "Practitioner/1",
+            "display": "Dr. Sudhir Naik (PMJAY Gujrat)"
+          }
+        ],
+        "title": "Claim Request",
+        "attester": [
+          {
+            "mode": "official",
+            "time": "2021-12-22T14:10:14Z",
+            "party": {
+              "reference": "Organization/2",
+              "display": "PMJAY, MoHFW, Govt Of India"
+            }
+          }
+        ],
+        "section": [
+          {
+            "title": "Claim Response",
+            "code": {
+              "coding": [
+                {
+                  "system": "https://www.hl7.org/fhir/valueset-resource-types",
+                  "code": "ClaimResponse",
+                  "display": "Claim Response"
+                }
+              ],
+              "text": "ClaimResponse"
+            },
+            "entry": [
+              {
+                "reference": "ClaimResponse/res-id-1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "ClaimResponse/ress-id-1",
+      "resource": {
+        "resourceType": "ClaimResponse",
+        "id": "1355110",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-07-03T22:50:39.698+00:00",
+          "source": "#JrkobxCRdZUI6QNh"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"1355110\" Version \"1\" Updated \"2020-07-03 10:50:39+0000\" </p><p style=\"margin-bottom: 0px\">Information Source: #JrkobxCRdZUI6QNh!</p></div><p><b>status</b>: active</p><p><b>type</b>: institutional <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#institutional)</span></p><p><b>use</b>: preauthorization</p><p><b>patient</b>: <a href=\"Patient/1353519\">Patient/1353519</a></p><p><b>created</b>: 2020-07-03 06:50:39-0400</p><p><b>insurer</b>: <a href=\"Organization/185\">Organization/185</a></p><p><b>request</b>: <a href=\"Claim/1355109\">Claim/1355109</a></p><p><b>outcome</b>: complete</p><blockquote><p><b>item</b></p><p><b>itemSequence</b>: 1</p><blockquote><p><b>adjudication</b></p><p><b>category</b>: eligible <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#eligible)</span></p></blockquote><blockquote><p><b>adjudication</b></p><p><b>category</b>: copay <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#copay)</span></p></blockquote><blockquote><p><b>adjudication</b></p><p><b>category</b>: eligpercent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#eligpercent)</span></p><p><b>value</b>: 80.00</p></blockquote><blockquote><p><b>adjudication</b></p><p><b>category</b>: benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#benefit)</span></p><p><b>reason</b>: Plan Limit Reached <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-adjudication-reason.html\">Adjudication Reason Codes</a>#ar002)</span></p></blockquote></blockquote><blockquote><p><b>total</b></p><p><b>category</b>: submitted <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#submitted)</span></p></blockquote><blockquote><p><b>total</b></p><p><b>category</b>: benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#benefit)</span></p></blockquote><blockquote><p><b>payment</b></p><p><b>type</b>: Complete <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-ex-paymenttype.html\">Example Payment Type Codes</a>#complete)</span></p><p><b>date</b>: 2014-08-31</p><p><b>identifier</b>: id: 201408-2-1569478</p></blockquote></div>"
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "code": "institutional"
+            }
+          ]
+        },
+        "use": "preauthorization",
+        "patient": {
+          "reference": "Patient/1353519",
+          "type": "Patient"
+        },
+        "created": "2020-07-03T18:50:39-04:00",
+        "insurer": {
+          "reference": "Organization/185",
+          "type": "Organization"
+        },
+        "request": {
+          "reference": "Claim/1355109"
+        },
+        "outcome": "complete",
+        "item": [
+          {
+            "itemSequence": 1,
+            "adjudication": [
+              {
+                "category": {
+                  "coding": [
+                    {
+                      "code": "eligible"
+                    }
+                  ]
+                },
+                "amount": {
+                  "value": 500000,
+                  "currency": "INR"
+                }
+              },
+              {
+                "category": {
+                  "coding": [
+                    {
+                      "code": "copay"
+                    }
+                  ]
+                },
+                "amount": {
+                  "value": 50000,
+                  "currency": "INR"
+                }
+              },
+              {
+                "category": {
+                  "coding": [
+                    {
+                      "code": "eligpercent"
+                    }
+                  ]
+                },
+                "value": 80.00
+              },
+              {
+                "category": {
+                  "coding": [
+                    {
+                      "code": "benefit"
+                    }
+                  ]
+                },
+                "reason": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/adjudication-reason",
+                      "code": "ar002",
+                      "display": "Plan Limit Reached"
+                    }
+                  ]
+                },
+                "amount": {
+                  "value": 360000,
+                  "currency": "INR"
+                }
+              }
+            ]
+          }
+        ],
+        "total": [
+          {
+            "category": {
+              "coding": [
+                {
+                  "code": "submitted"
+                }
+              ]
+            },
+            "amount": {
+              "value": 500000,
+              "currency": "INR"
+            }
+          },
+          {
+            "category": {
+              "coding": [
+                {
+                  "code": "benefit"
+                }
+              ]
+            },
+            "amount": {
+              "value": 360000,
+              "currency": "INR"
+            }
+          }
+        ],
+        "payment": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/ex-paymenttype",
+                "code": "complete"
+              }
+            ]
+          },
+          "date": "2014-08-31",
+          "amount": {
+            "value": 410000,
+            "currency": "INR"
+          },
+          "identifier": {
+            "system": "http://www.BenefitsInc.com/fhir/paymentidentifier",
+            "value": "201408-2-1569478"
+          }
+        }
+      }
+    },
+    {
+      "fullUrl": "Patient/1",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "1",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"1\" </p></div><p><b>identifier</b>: PHRADDR: 654321, PMJAYID: QWRT12345</p><p><b>name</b>: Hina Patel (OFFICIAL)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1974-12-25</p></div>"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://ndhm.gov.in/ValueSet/identifier-type",
+                  "code": "PHRADDR"
+                }
+              ]
+            },
+            "system": "http://ndhm.gov.in/healthId",
+            "value": "654321"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://ndhm.gov.in/ValueSet/identifier-type",
+                  "code": "PMJAYID"
+                }
+              ]
+            },
+            "system": "http://ndhm.gov.in/pmjay",
+            "value": "QWRT12345"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Patel",
+            "given": [
+              "Hina"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1974-12-25"
+      }
+    },
+    {
+      "fullUrl": "Organization/MaxSaket01",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "MaxSaket01",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"MaxSaket01\" </p></div><p><b>identifier</b>: id: HFR-10000005</p><p><b>name</b>: Max Super Speciality Hospital, Saket</p></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://ndhm.gov.in/hfr",
+            "value": "HFR-10000005"
+          }
+        ],
+        "name": "Max Super Speciality Hospital, Saket"
+      }
+    },
+    {
+      "fullUrl": "Organization/2",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "2",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"2\" </p></div><p><b>identifier</b>: id: PMJAY</p><p><b>name</b>: PMJAY, MoHFW, Govt Of India</p></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://hcx.org/orgs",
+            "value": "PMJAY"
+          }
+        ],
+        "name": "PMJAY, MoHFW, Govt Of India"
+      }
+    },
+    {
+      "fullUrl": "Practitioner/1",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "1",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"1\" </p></div><p><b>identifier</b>: id: NPR-6897</p><p><b>name</b>: Sudhir Naik (PMJAY Gujrat)</p></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://ndhm.gov.in/npr",
+            "value": "NPR-6897"
+          }
+        ],
+        "name": [
+          {
+            "text": "Sudhir Naik (PMJAY Gujrat)",
+            "prefix": [
+              "Dr"
+            ],
+            "suffix": [
+              "MD"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
