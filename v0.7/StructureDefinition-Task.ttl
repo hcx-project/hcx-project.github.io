@@ -531,7 +531,7 @@
        fhir:ElementDefinition.path [ fhir:value "Task.identifier" ];
        fhir:ElementDefinition.short [ fhir:value "Task Instance Identifier" ];
        fhir:ElementDefinition.definition [ fhir:value "The business identifier for this task." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [
          fhir:ElementDefinition.base.path [ fhir:value "Task.identifier" ];
@@ -1274,9 +1274,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Encounter";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Encounter";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Encounter>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Encounter>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -1470,21 +1470,21 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Device>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Organization";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization";
            fhir:index 1;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Patient";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient";
            fhir:index 2;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Patient>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Practitioner";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner";
            fhir:index 3;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Practitioner>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/PractitionerRole";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole";
            fhir:index 4;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/PractitionerRole>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole>
          ], [
            fhir:value "http://hl7.org/fhir/StructureDefinition/RelatedPerson";
            fhir:index 5;
@@ -1602,17 +1602,17 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Practitioner";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Practitioner>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/PractitionerRole";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole";
            fhir:index 1;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/PractitionerRole>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Organization";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization";
            fhir:index 2;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization>
          ], [
            fhir:value "http://hl7.org/fhir/StructureDefinition/CareTeam";
            fhir:index 3;
@@ -1622,9 +1622,9 @@
            fhir:index 4;
            fhir:link <http://hl7.org/fhir/StructureDefinition/HealthcareService>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Patient";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient";
            fhir:index 5;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Patient>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient>
          ], [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Device";
            fhir:index 6;
@@ -1837,13 +1837,13 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Coverage";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-Coverage.html";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Coverage>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-Coverage.html>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/ClaimResponse";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html";
            fhir:index 1;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/ClaimResponse>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -2240,17 +2240,17 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Patient";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Patient>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Practitioner";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner";
            fhir:index 1;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Practitioner>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/PractitionerRole";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole";
            fhir:index 2;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/PractitionerRole>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole>
          ], [
            fhir:value "http://hl7.org/fhir/StructureDefinition/RelatedPerson";
            fhir:index 3;
@@ -2260,9 +2260,9 @@
            fhir:index 4;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Group>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Organization";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization";
            fhir:index 5;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -3137,35 +3137,14 @@
      fhir:StructureDefinition.differential.element [
        fhir:index 0;
        fhir:Element.id [ fhir:value "Task" ];
-       fhir:ElementDefinition.path [ fhir:value "Task" ];
-       fhir:ElementDefinition.short [ fhir:value "A task to be performed" ];
-       fhir:ElementDefinition.definition [ fhir:value "A task to be performed." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "inv-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Last modified date must be greater than or equal to authored-on date." ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "lastModified.exists().not() or authoredOn.exists().not() or lastModified >= authoredOn" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "not(exists(f:lastModified/@value)) or not(exists(f:authoredOn/@value)) or f:lastModified/@value >= f:authoredOn/@value" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request, Event" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ControlAct[moodCode=INT]" ]
-       ]
+       fhir:ElementDefinition.path [ fhir:value "Task" ]
      ], [
        fhir:index 1;
        fhir:Element.id [ fhir:value "Task.identifier" ];
        fhir:ElementDefinition.path [ fhir:value "Task.identifier" ];
        fhir:ElementDefinition.short [ fhir:value "Task Instance Identifier" ];
        fhir:ElementDefinition.definition [ fhir:value "The business identifier for this task." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.type [
          fhir:index 0;
@@ -3186,441 +3165,6 @@
        ]
      ], [
        fhir:index 2;
-       fhir:Element.id [ fhir:value "Task.instantiatesCanonical" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.instantiatesCanonical" ];
-       fhir:ElementDefinition.short [ fhir:value "Formal definition of task" ];
-       fhir:ElementDefinition.definition [ fhir:value "The URL pointing to a *FHIR*-defined protocol, guideline, orderset or other definition that is adhered to in whole or in part by this Task." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Enables a formal definition of how he task is to be performed, enabling automation." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "canonical" ];
-         fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/ActivityDefinition";
-           fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/ActivityDefinition>
-         ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request.instantiatesCanonical, Event.instantiatesCanonical" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".outboundRelationship[typeCode=DEFN].target" ]
-       ]
-     ], [
-       fhir:index 3;
-       fhir:Element.id [ fhir:value "Task.instantiatesUri" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.instantiatesUri" ];
-       fhir:ElementDefinition.short [ fhir:value "Formal definition of task" ];
-       fhir:ElementDefinition.definition [ fhir:value "The URL pointing to an *externally* maintained  protocol, guideline, orderset or other definition that is adhered to in whole or in part by this Task." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Enables a formal definition of how he task is to be performed (e.g. using BPMN, BPEL, XPDL or other formal notation to be associated with a task), enabling automation." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "uri" ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Event.instantiatesUrl" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".outboundRelationship[typeCode=DEFN].target" ]
-       ]
-     ], [
-       fhir:index 4;
-       fhir:Element.id [ fhir:value "Task.basedOn" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.basedOn" ];
-       fhir:ElementDefinition.short [ fhir:value "Request fulfilled by this task" ];
-       fhir:ElementDefinition.definition [ fhir:value "BasedOn refers to a higher-level authorization that triggered the creation of the task.  It references a \"request\" resource such as a ServiceRequest, MedicationRequest, ServiceRequest, CarePlan, etc. which is distinct from the \"request\" resource the task is seeking to fulfill.  This latter resource is referenced by FocusOn.  For example, based on a ServiceRequest (= BasedOn), a task is created to fulfill a procedureRequest ( = FocusOn ) to collect a specimen from a patient." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
-         fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Resource";
-           fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Resource>
-         ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request.basedOn, Event.basedOn" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".outboundRelationship[typeCode=FLFS].target[moodCode=INT]" ]
-       ]
-     ], [
-       fhir:index 5;
-       fhir:Element.id [ fhir:value "Task.groupIdentifier" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.groupIdentifier" ];
-       fhir:ElementDefinition.short [ fhir:value "Requisition or grouper id" ];
-       fhir:ElementDefinition.definition [ fhir:value "An identifier that links together multiple tasks and other requests that were created in the same context." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Billing and/or reporting can be linked to whether multiple requests were created as a single unit." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Identifier" ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request.groupIdentifier" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".inboundRelationship[typeCode=COMP].source[moodCode=INT].id" ]
-       ]
-     ], [
-       fhir:index 6;
-       fhir:Element.id [ fhir:value "Task.partOf" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.partOf" ];
-       fhir:ElementDefinition.short [ fhir:value "Composite task" ];
-       fhir:ElementDefinition.definition [ fhir:value "Task that this particular task is part of." ];
-       fhir:ElementDefinition.comment [ fhir:value "This should usually be 0..1." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Allows tasks to be broken down into sub-steps (and this division can occur independent of the original task)." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
-         fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Task";
-           fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Task>
-         ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Event.partOf" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".inboundRelationship[typeCode=COMP].source[moodCode=INT]" ]
-       ]
-     ], [
-       fhir:index 7;
-       fhir:Element.id [ fhir:value "Task.status" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.status" ];
-       fhir:ElementDefinition.short [ fhir:value "draft | requested | received | accepted | +" ];
-       fhir:ElementDefinition.definition [ fhir:value "The current status of the task." ];
-       fhir:ElementDefinition.requirements [ fhir:value "These states enable coordination of task status with off-the-shelf workflow solutions that support automation of tasks." ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "code" ]
-       ];
-       fhir:ElementDefinition.isModifier [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.isModifierReason [ fhir:value "This element is labeled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid" ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.binding [
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
-           fhir:Extension.valueString [ fhir:value "TaskStatus" ]
-         ];
-         fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "The current status of the task." ];
-         fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/task-status|4.0.1";
-           fhir:link <http://hl7.org/fhir/ValueSet/task-status|4.0.1>
-         ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request.status, Event.status" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.status" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".statusCode" ]
-       ]
-     ], [
-       fhir:index 8;
-       fhir:Element.id [ fhir:value "Task.statusReason" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.statusReason" ];
-       fhir:ElementDefinition.short [ fhir:value "Reason for current status" ];
-       fhir:ElementDefinition.definition [ fhir:value "An explanation as to why this task is held, failed, was refused, etc." ];
-       fhir:ElementDefinition.comment [ fhir:value "This applies to the current status.  Look at the history of the task to see reasons for past statuses." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.binding [
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
-           fhir:Extension.valueString [ fhir:value "TaskStatusReason" ]
-         ];
-         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "Codes to identify the reason for current status.  These will typically be specific to a particular workflow." ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".inboundRelationship[typeCode=SUBJ].source[classCode=CACT, moodCode=EVN, code=\"status change\"].reasonCode" ]
-       ]
-     ], [
-       fhir:index 9;
-       fhir:Element.id [ fhir:value "Task.businessStatus" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.businessStatus" ];
-       fhir:ElementDefinition.short [ fhir:value "E.g. \"Specimen collected\", \"IV prepped\"" ];
-       fhir:ElementDefinition.definition [ fhir:value "Contains business-specific nuances of the business state." ];
-       fhir:ElementDefinition.requirements [ fhir:value "There's often a need to track substates of a task - this is often variable by specific workflow implementation." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.binding [
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
-           fhir:Extension.valueString [ fhir:value "TaskBusinessStatus" ]
-         ];
-         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "The domain-specific business-contextual sub-state of the task.  For example: \"Blood drawn\", \"IV inserted\", \"Awaiting physician signature\", etc." ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=\"business status\"]" ]
-       ]
-     ], [
-       fhir:index 10;
-       fhir:Element.id [ fhir:value "Task.intent" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.intent" ];
-       fhir:ElementDefinition.short [ fhir:value "unknown | proposal | plan | order | original-order | reflex-order | filler-order | instance-order | option" ];
-       fhir:ElementDefinition.definition [ fhir:value "Indicates the \"level\" of actionability associated with the Task, i.e. i+R[9]Cs this a proposed task, a planned task, an actionable task, etc." ];
-       fhir:ElementDefinition.comment [ fhir:value "This element is immutable.  Proposed tasks, planned tasks, etc. must be distinct instances.\n\nIn most cases, Tasks will have an intent of \"order\"." ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "code" ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.binding [
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
-           fhir:Extension.valueString [ fhir:value "TaskIntent" ]
-         ];
-         fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "Distinguishes whether the task is a proposal, plan or full order." ];
-         fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/task-intent|4.0.1";
-           fhir:link <http://hl7.org/fhir/ValueSet/task-intent|4.0.1>
-         ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request.intent" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.class" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".moodCode" ]
-       ]
-     ], [
-       fhir:index 11;
-       fhir:Element.id [ fhir:value "Task.priority" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.priority" ];
-       fhir:ElementDefinition.short [ fhir:value "routine | urgent | asap | stat" ];
-       fhir:ElementDefinition.definition [ fhir:value "Indicates how quickly the Task should be addressed with respect to other requests." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Used to identify the service level expected while performing a task." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "code" ]
-       ];
-       fhir:ElementDefinition.meaningWhenMissing [ fhir:value "If missing, this task should be performed with normal priority" ];
-       fhir:ElementDefinition.binding [
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
-           fhir:Extension.valueString [ fhir:value "TaskPriority" ]
-         ];
-         fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "The task's priority." ];
-         fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/request-priority|4.0.1";
-           fhir:link <http://hl7.org/fhir/ValueSet/request-priority|4.0.1>
-         ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request.priority" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.grade" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".priorityCode" ]
-       ]
-     ], [
-       fhir:index 12;
-       fhir:Element.id [ fhir:value "Task.code" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.code" ];
-       fhir:ElementDefinition.short [ fhir:value "Task Type" ];
-       fhir:ElementDefinition.definition [ fhir:value "A name or code (or both) briefly describing what the task involves." ];
-       fhir:ElementDefinition.comment [ fhir:value "The title (eg \"My Tasks\", \"Outstanding Tasks for Patient X\") should go into the code." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.binding [
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
-           fhir:Extension.valueString [ fhir:value "TaskCode" ]
-         ];
-         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "Codes to identify what the task involves.  These will typically be specific to a particular workflow." ];
-         fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/task-code";
-           fhir:link <http://hl7.org/fhir/ValueSet/task-code>
-         ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request.code, Event.code" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.what[x]" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".code" ]
-       ]
-     ], [
-       fhir:index 13;
-       fhir:Element.id [ fhir:value "Task.description" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.description" ];
-       fhir:ElementDefinition.short [ fhir:value "Human-readable explanation of task" ];
-       fhir:ElementDefinition.definition [ fhir:value "A free-text description of what is to be performed." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "string" ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".text" ]
-       ]
-     ], [
-       fhir:index 14;
-       fhir:Element.id [ fhir:value "Task.focus" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.focus" ];
-       fhir:ElementDefinition.short [ fhir:value "What task is acting on" ];
-       fhir:ElementDefinition.definition [ fhir:value "The request being actioned or the resource being manipulated by this task." ];
-       fhir:ElementDefinition.comment [ fhir:value "If multiple resources need to be manipulated, use sub-tasks.  (This ensures that status can be tracked independently for each referenced resource.)." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Used to identify the thing to be done." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
-         fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Resource";
-           fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Resource>
-         ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.what[x]" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".outboundRelationship[typeCode=SUBJ].target" ]
-       ]
-     ], [
-       fhir:index 15;
-       fhir:Element.id [ fhir:value "Task.for" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.for" ];
-       fhir:ElementDefinition.short [ fhir:value "Beneficiary of the Task" ];
-       fhir:ElementDefinition.definition [ fhir:value "The entity who benefits from the performance of the service specified in the task (e.g., the patient)." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Used to track tasks outstanding for a beneficiary.  Do not use to track the task owner or creator (see owner and creator respectively).  This can also affect access control." ];
-       fhir:ElementDefinition.alias [
-         fhir:value "Patient";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
-         fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Resource";
-           fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Resource>
-         ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request.subject, Event.subject" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.subject[x]" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".participation[typeCode=RCT].role" ]
-       ], [
-         fhir:index 3;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.subject" ]
-       ]
-     ], [
-       fhir:index 16;
        fhir:Element.id [ fhir:value "Task.encounter" ];
        fhir:ElementDefinition.path [ fhir:value "Task.encounter" ];
        fhir:ElementDefinition.short [ fhir:value "Healthcare event during which this task originated" ];
@@ -3632,9 +3176,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Encounter";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Encounter";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Encounter>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Encounter>
          ]
        ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
@@ -3652,94 +3196,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value ".inboundRelationship[typeCode=COMP].source[classCode=PCPR, moodCode=EVN]" ]
        ]
      ], [
-       fhir:index 17;
-       fhir:Element.id [ fhir:value "Task.executionPeriod" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.executionPeriod" ];
-       fhir:ElementDefinition.short [ fhir:value "Start and end time of execution" ];
-       fhir:ElementDefinition.definition [ fhir:value "Identifies the time action was first taken against the task (start) and/or the time final action was taken against the task prior to marking it as completed (end)." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Period" ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Event.occurrence[x]" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.done[x]" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".effectiveTime" ]
-       ]
-     ], [
-       fhir:index 18;
-       fhir:Element.id [ fhir:value "Task.authoredOn" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.authoredOn" ];
-       fhir:ElementDefinition.short [ fhir:value "Task Creation Date" ];
-       fhir:ElementDefinition.definition [ fhir:value "The date and time this task was created." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Most often used along with lastUpdated to track duration of task to supporting monitoring and management." ];
-       fhir:ElementDefinition.alias [
-         fhir:value "Created Date";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
-       ];
-       fhir:ElementDefinition.condition [
-         fhir:value "inv-1";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request.authoredOn" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.recorded" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".participation[typeCode=AUT].time" ]
-       ]
-     ], [
-       fhir:index 19;
-       fhir:Element.id [ fhir:value "Task.lastModified" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.lastModified" ];
-       fhir:ElementDefinition.short [ fhir:value "Task Last Modified Date" ];
-       fhir:ElementDefinition.definition [ fhir:value "The date and time of last modification to this task." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Used along with history to track task activity and time in a particular task state.  This enables monitoring and management." ];
-       fhir:ElementDefinition.alias [
-         fhir:value "Update Date";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
-       ];
-       fhir:ElementDefinition.condition [
-         fhir:value "inv-1";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".inboundRelationship[typeCode=SUBJ, ].source[classCode=CACT, moodCode=EVN].effectiveTime" ]
-       ]
-     ], [
-       fhir:index 20;
+       fhir:index 3;
        fhir:Element.id [ fhir:value "Task.requester" ];
        fhir:ElementDefinition.path [ fhir:value "Task.requester" ];
        fhir:ElementDefinition.short [ fhir:value "Who is asking for task to be done" ];
@@ -3755,21 +3212,21 @@
            fhir:index 0;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Device>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Organization";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization";
            fhir:index 1;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Patient";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient";
            fhir:index 2;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Patient>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Practitioner";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner";
            fhir:index 3;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Practitioner>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/PractitionerRole";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole";
            fhir:index 4;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/PractitionerRole>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole>
          ], [
            fhir:value "http://hl7.org/fhir/StructureDefinition/RelatedPerson";
            fhir:index 5;
@@ -3791,46 +3248,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value ".participation[typeCode=AUT].role" ]
        ]
      ], [
-       fhir:index 21;
-       fhir:Element.id [ fhir:value "Task.performerType" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.performerType" ];
-       fhir:ElementDefinition.short [ fhir:value "Requested performer" ];
-       fhir:ElementDefinition.definition [ fhir:value "The kind of participant that should perform the task." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Use to distinguish tasks on different activity queues." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ];
-       fhir:ElementDefinition.binding [
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
-           fhir:Extension.valueString [ fhir:value "TaskPerformerType" ]
-         ];
-         fhir:ElementDefinition.binding.strength [ fhir:value "preferred" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "The type(s) of task performers allowed." ];
-         fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/performer-role";
-           fhir:link <http://hl7.org/fhir/ValueSet/performer-role>
-         ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Event.performer.role, Request.performerType" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.actor" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".participation[typeCode=PRF].role.code" ]
-       ]
-     ], [
-       fhir:index 22;
+       fhir:index 4;
        fhir:Element.id [ fhir:value "Task.owner" ];
        fhir:ElementDefinition.path [ fhir:value "Task.owner" ];
        fhir:ElementDefinition.short [ fhir:value "Responsible individual" ];
@@ -3850,17 +3268,17 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Practitioner";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Practitioner>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/PractitionerRole";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole";
            fhir:index 1;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/PractitionerRole>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Organization";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization";
            fhir:index 2;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization>
          ], [
            fhir:value "http://hl7.org/fhir/StructureDefinition/CareTeam";
            fhir:index 3;
@@ -3870,9 +3288,9 @@
            fhir:index 4;
            fhir:link <http://hl7.org/fhir/StructureDefinition/HealthcareService>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Patient";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient";
            fhir:index 5;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Patient>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient>
          ], [
            fhir:value "http://hl7.org/fhir/StructureDefinition/Device";
            fhir:index 6;
@@ -3898,109 +3316,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value ".participation[typeCode=PRF].role" ]
        ]
      ], [
-       fhir:index 23;
-       fhir:Element.id [ fhir:value "Task.location" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.location" ];
-       fhir:ElementDefinition.short [ fhir:value "Where task occurs" ];
-       fhir:ElementDefinition.definition [ fhir:value "Principal physical location where the this task is performed." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Ties the event to where the records are likely kept and provides context around the event occurrence (e.g. if it occurred inside or outside a dedicated healthcare setting)." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
-         fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Location";
-           fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Location>
-         ]
-       ];
-       fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request.reasonCode, Event.reasonCode" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.where[x]" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".participation[typeCode=LOC].role" ]
-       ]
-     ], [
-       fhir:index 24;
-       fhir:Element.id [ fhir:value "Task.reasonCode" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.reasonCode" ];
-       fhir:ElementDefinition.short [ fhir:value "Why task is needed" ];
-       fhir:ElementDefinition.definition [ fhir:value "A description or code indicating why this task needs to be performed." ];
-       fhir:ElementDefinition.comment [ fhir:value "This should only be included if there is no focus or if it differs from the reason indicated on the focus." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ];
-       fhir:ElementDefinition.binding [
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
-           fhir:Extension.valueString [ fhir:value "TaskReason" ]
-         ];
-         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "Indicates why the task is needed.  E.g. Suspended because patient admitted to hospital." ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Event.location" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.why[x]" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "v2" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "EVN.7" ]
-       ], [
-         fhir:index 3;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".reasonCode" ]
-       ]
-     ], [
-       fhir:index 25;
-       fhir:Element.id [ fhir:value "Task.reasonReference" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.reasonReference" ];
-       fhir:ElementDefinition.short [ fhir:value "Why task is needed" ];
-       fhir:ElementDefinition.definition [ fhir:value "A resource reference indicating why this task needs to be performed." ];
-       fhir:ElementDefinition.comment [ fhir:value "Tasks might be justified based on an Observation, a Condition, a past or planned procedure, etc.   This should only be included if there is no focus or if it differs from the reason indicated on the focus.    Use the CodeableConcept text element in `Task.reasonCode` if the data is free (uncoded) text." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
-         fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Resource";
-           fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Resource>
-         ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request.reasonReference, Event.reasonReference" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "w5" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.why[x]" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".outboundRelationship[typeCode=RSON].target" ]
-       ]
-     ], [
-       fhir:index 26;
+       fhir:index 5;
        fhir:Element.id [ fhir:value "Task.insurance" ];
        fhir:ElementDefinition.path [ fhir:value "Task.insurance" ];
        fhir:ElementDefinition.short [ fhir:value "Associated insurance coverage" ];
@@ -4011,13 +3327,13 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Coverage";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-Coverage.html";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Coverage>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-Coverage.html>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/ClaimResponse";
+           fhir:value "https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html";
            fhir:index 1;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/ClaimResponse>
+           fhir:link <https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimResponse.html>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -4034,114 +3350,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value ".outboundRelationship[typeCode=COVBY].target" ]
        ]
      ], [
-       fhir:index 27;
-       fhir:Element.id [ fhir:value "Task.note" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.note" ];
-       fhir:ElementDefinition.short [ fhir:value "Comments made about the task" ];
-       fhir:ElementDefinition.definition [ fhir:value "Free-text information captured about the task as it progresses." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Annotation" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request.note, Event.note" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".inboundRelationship[typeCode=SUBJ, ].source[classCode=OBS, moodCode=EVN, code=\"annotation\"].value(string)" ]
-       ]
-     ], [
-       fhir:index 28;
-       fhir:Element.id [ fhir:value "Task.relevantHistory" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.relevantHistory" ];
-       fhir:ElementDefinition.short [ fhir:value "Key events in history of the Task" ];
-       fhir:ElementDefinition.definition [ fhir:value "Links to Provenance records for past versions of this Task that identify key state transitions or updates that are likely to be relevant to a user looking at the current version of the task." ];
-       fhir:ElementDefinition.comment [ fhir:value "This element does not point to the Provenance associated with the *current* version of the resource - as it would be created after this version existed.  The Provenance for the current version can be retrieved with a _revinclude." ];
-       fhir:ElementDefinition.alias [
-         fhir:value "Status History";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
-         fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Provenance";
-           fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Provenance>
-         ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Request.relevantHistory" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".inboundRelationship(typeCode=SUBJ].source[classCode=CACT, moodCode=EVN]" ]
-       ]
-     ], [
-       fhir:index 29;
-       fhir:Element.id [ fhir:value "Task.restriction" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.restriction" ];
-       fhir:ElementDefinition.short [ fhir:value "Constraints on fulfillment tasks" ];
-       fhir:ElementDefinition.definition [ fhir:value "If the Task.focus is a request resource and the task is seeking fulfillment (i.e. is asking for the request to be actioned), this element identifies any limitations on what parts of the referenced request should be actioned." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Sometimes when fulfillment is sought, you don't want full fulfillment." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "BackboneElement" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "Instead of pointing to request, would point to component of request, having these characteristics" ]
-       ]
-     ], [
-       fhir:index 30;
-       fhir:Element.id [ fhir:value "Task.restriction.repetitions" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.restriction.repetitions" ];
-       fhir:ElementDefinition.short [ fhir:value "How many times to repeat" ];
-       fhir:ElementDefinition.definition [ fhir:value "Indicates the number of times the requested action should occur." ];
-       fhir:ElementDefinition.requirements [ fhir:value "E.g. order that requests monthly lab tests, fulfillment is sought for 1." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "positiveInt" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".repeatNumber" ]
-       ]
-     ], [
-       fhir:index 31;
-       fhir:Element.id [ fhir:value "Task.restriction.period" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.restriction.period" ];
-       fhir:ElementDefinition.short [ fhir:value "When fulfillment sought" ];
-       fhir:ElementDefinition.definition [ fhir:value "Over what time-period is fulfillment sought." ];
-       fhir:ElementDefinition.comment [ fhir:value "Note that period.high is the due date representing the time by which the task should be completed." ];
-       fhir:ElementDefinition.requirements [ fhir:value "E.g. order that authorizes 1 year's services.  Fulfillment is sought for next 3 months." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Period" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value ".effectiveTime(IVL<TS>)" ]
-       ]
-     ], [
-       fhir:index 32;
+       fhir:index 6;
        fhir:Element.id [ fhir:value "Task.restriction.recipient" ];
        fhir:ElementDefinition.path [ fhir:value "Task.restriction.recipient" ];
        fhir:ElementDefinition.short [ fhir:value "For whom is fulfillment sought?" ];
@@ -4152,17 +3361,17 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Patient";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Patient>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Practitioner";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner";
            fhir:index 1;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Practitioner>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/PractitionerRole";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole";
            fhir:index 2;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/PractitionerRole>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole>
          ], [
            fhir:value "http://hl7.org/fhir/StructureDefinition/RelatedPerson";
            fhir:index 3;
@@ -4172,452 +3381,15 @@
            fhir:index 4;
            fhir:link <http://hl7.org/fhir/StructureDefinition/Group>
          ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Organization";
+           fhir:value "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization";
            fhir:index 5;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+           fhir:link <https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization>
          ]
        ];
        fhir:ElementDefinition.mapping [
          fhir:index 0;
          fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
          fhir:ElementDefinition.mapping.map [ fhir:value ".participation[typeCode=SBJ].role" ]
-       ]
-     ], [
-       fhir:index 33;
-       fhir:Element.id [ fhir:value "Task.input" ];
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name" ];
-         fhir:Extension.valueString [ fhir:value "Parameter" ]
-       ];
-       fhir:ElementDefinition.path [ fhir:value "Task.input" ];
-       fhir:ElementDefinition.short [ fhir:value "Information used to perform task" ];
-       fhir:ElementDefinition.definition [ fhir:value "Additional information that may be needed in the execution of the task." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Resources and data used to perform the task.  This data is used in the business logic of task execution, and is stored separately because it varies between workflows." ];
-       fhir:ElementDefinition.alias [
-         fhir:value "Supporting Information";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "BackboneElement" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "???" ]
-       ]
-     ], [
-       fhir:index 34;
-       fhir:Element.id [ fhir:value "Task.input.type" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.input.type" ];
-       fhir:ElementDefinition.short [ fhir:value "Label for the input" ];
-       fhir:ElementDefinition.definition [ fhir:value "A code or description indicating how the input is intended to be used as part of the task execution." ];
-       fhir:ElementDefinition.comment [ fhir:value "If referencing a BPMN workflow or Protocol, the \"system\" is the URL for the workflow definition and the code is the \"name\" of the required input." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Inputs are named to enable task automation to bind data and pass it from one task to the next." ];
-       fhir:ElementDefinition.alias [
-         fhir:value "Name";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ];
-       fhir:ElementDefinition.binding [
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
-           fhir:Extension.valueString [ fhir:value "TaskInputParameterType" ]
-         ];
-         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "Codes to identify types of input parameters.  These will typically be specific to a particular workflow.  E.g. \"Comparison source\", \"Applicable consent\", \"Concomitent Medications\", etc." ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "???" ]
-       ]
-     ], [
-       fhir:index 35;
-       fhir:Element.id [ fhir:value "Task.input.value[x]" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.input.value[x]" ];
-       fhir:ElementDefinition.short [ fhir:value "Content to use in performing the task" ];
-       fhir:ElementDefinition.definition [ fhir:value "The value of the input parameter as a basic type." ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "base64Binary" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.type.code [ fhir:value "boolean" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.type.code [ fhir:value "canonical" ]
-       ], [
-         fhir:index 3;
-         fhir:ElementDefinition.type.code [ fhir:value "code" ]
-       ], [
-         fhir:index 4;
-         fhir:ElementDefinition.type.code [ fhir:value "date" ]
-       ], [
-         fhir:index 5;
-         fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
-       ], [
-         fhir:index 6;
-         fhir:ElementDefinition.type.code [ fhir:value "decimal" ]
-       ], [
-         fhir:index 7;
-         fhir:ElementDefinition.type.code [ fhir:value "id" ]
-       ], [
-         fhir:index 8;
-         fhir:ElementDefinition.type.code [ fhir:value "instant" ]
-       ], [
-         fhir:index 9;
-         fhir:ElementDefinition.type.code [ fhir:value "integer" ]
-       ], [
-         fhir:index 10;
-         fhir:ElementDefinition.type.code [ fhir:value "markdown" ]
-       ], [
-         fhir:index 11;
-         fhir:ElementDefinition.type.code [ fhir:value "oid" ]
-       ], [
-         fhir:index 12;
-         fhir:ElementDefinition.type.code [ fhir:value "positiveInt" ]
-       ], [
-         fhir:index 13;
-         fhir:ElementDefinition.type.code [ fhir:value "string" ]
-       ], [
-         fhir:index 14;
-         fhir:ElementDefinition.type.code [ fhir:value "time" ]
-       ], [
-         fhir:index 15;
-         fhir:ElementDefinition.type.code [ fhir:value "unsignedInt" ]
-       ], [
-         fhir:index 16;
-         fhir:ElementDefinition.type.code [ fhir:value "uri" ]
-       ], [
-         fhir:index 17;
-         fhir:ElementDefinition.type.code [ fhir:value "url" ]
-       ], [
-         fhir:index 18;
-         fhir:ElementDefinition.type.code [ fhir:value "uuid" ]
-       ], [
-         fhir:index 19;
-         fhir:ElementDefinition.type.code [ fhir:value "Address" ]
-       ], [
-         fhir:index 20;
-         fhir:ElementDefinition.type.code [ fhir:value "Age" ]
-       ], [
-         fhir:index 21;
-         fhir:ElementDefinition.type.code [ fhir:value "Annotation" ]
-       ], [
-         fhir:index 22;
-         fhir:ElementDefinition.type.code [ fhir:value "Attachment" ]
-       ], [
-         fhir:index 23;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ], [
-         fhir:index 24;
-         fhir:ElementDefinition.type.code [ fhir:value "Coding" ]
-       ], [
-         fhir:index 25;
-         fhir:ElementDefinition.type.code [ fhir:value "ContactPoint" ]
-       ], [
-         fhir:index 26;
-         fhir:ElementDefinition.type.code [ fhir:value "Count" ]
-       ], [
-         fhir:index 27;
-         fhir:ElementDefinition.type.code [ fhir:value "Distance" ]
-       ], [
-         fhir:index 28;
-         fhir:ElementDefinition.type.code [ fhir:value "Duration" ]
-       ], [
-         fhir:index 29;
-         fhir:ElementDefinition.type.code [ fhir:value "HumanName" ]
-       ], [
-         fhir:index 30;
-         fhir:ElementDefinition.type.code [ fhir:value "Identifier" ]
-       ], [
-         fhir:index 31;
-         fhir:ElementDefinition.type.code [ fhir:value "Money" ]
-       ], [
-         fhir:index 32;
-         fhir:ElementDefinition.type.code [ fhir:value "Period" ]
-       ], [
-         fhir:index 33;
-         fhir:ElementDefinition.type.code [ fhir:value "Quantity" ]
-       ], [
-         fhir:index 34;
-         fhir:ElementDefinition.type.code [ fhir:value "Range" ]
-       ], [
-         fhir:index 35;
-         fhir:ElementDefinition.type.code [ fhir:value "Ratio" ]
-       ], [
-         fhir:index 36;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
-       ], [
-         fhir:index 37;
-         fhir:ElementDefinition.type.code [ fhir:value "SampledData" ]
-       ], [
-         fhir:index 38;
-         fhir:ElementDefinition.type.code [ fhir:value "Signature" ]
-       ], [
-         fhir:index 39;
-         fhir:ElementDefinition.type.code [ fhir:value "Timing" ]
-       ], [
-         fhir:index 40;
-         fhir:ElementDefinition.type.code [ fhir:value "ContactDetail" ]
-       ], [
-         fhir:index 41;
-         fhir:ElementDefinition.type.code [ fhir:value "Contributor" ]
-       ], [
-         fhir:index 42;
-         fhir:ElementDefinition.type.code [ fhir:value "DataRequirement" ]
-       ], [
-         fhir:index 43;
-         fhir:ElementDefinition.type.code [ fhir:value "Expression" ]
-       ], [
-         fhir:index 44;
-         fhir:ElementDefinition.type.code [ fhir:value "ParameterDefinition" ]
-       ], [
-         fhir:index 45;
-         fhir:ElementDefinition.type.code [ fhir:value "RelatedArtifact" ]
-       ], [
-         fhir:index 46;
-         fhir:ElementDefinition.type.code [ fhir:value "TriggerDefinition" ]
-       ], [
-         fhir:index 47;
-         fhir:ElementDefinition.type.code [ fhir:value "UsageContext" ]
-       ], [
-         fhir:index 48;
-         fhir:ElementDefinition.type.code [ fhir:value "Dosage" ]
-       ], [
-         fhir:index 49;
-         fhir:ElementDefinition.type.code [ fhir:value "Meta" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "???" ]
-       ]
-     ], [
-       fhir:index 36;
-       fhir:Element.id [ fhir:value "Task.output" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.output" ];
-       fhir:ElementDefinition.short [ fhir:value "Information produced as part of task" ];
-       fhir:ElementDefinition.definition [ fhir:value "Outputs produced by the Task." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Resources and data produced during the execution the task.  This data is generated by the business logic of task execution, and is stored separately because it varies between workflows." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "BackboneElement" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "???" ]
-       ]
-     ], [
-       fhir:index 37;
-       fhir:Element.id [ fhir:value "Task.output.type" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.output.type" ];
-       fhir:ElementDefinition.short [ fhir:value "Label for output" ];
-       fhir:ElementDefinition.definition [ fhir:value "The name of the Output parameter." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Outputs are named to enable task automation to bind data and pass it from one task to the next." ];
-       fhir:ElementDefinition.alias [
-         fhir:value "Name";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ];
-       fhir:ElementDefinition.binding [
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
-           fhir:Extension.valueString [ fhir:value "TaskOutputParameterType" ]
-         ];
-         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "Codes to identify types of input parameters.  These will typically be specific to a particular workflow.  E.g. \"Identified issues\", \"Preliminary results\", \"Filler order\", \"Final results\", etc." ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "???" ]
-       ]
-     ], [
-       fhir:index 38;
-       fhir:Element.id [ fhir:value "Task.output.value[x]" ];
-       fhir:ElementDefinition.path [ fhir:value "Task.output.value[x]" ];
-       fhir:ElementDefinition.short [ fhir:value "Result of output" ];
-       fhir:ElementDefinition.definition [ fhir:value "The value of the Output parameter as a basic type." ];
-       fhir:ElementDefinition.requirements [ fhir:value "Task outputs can take any form." ];
-       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "base64Binary" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.type.code [ fhir:value "boolean" ]
-       ], [
-         fhir:index 2;
-         fhir:ElementDefinition.type.code [ fhir:value "canonical" ]
-       ], [
-         fhir:index 3;
-         fhir:ElementDefinition.type.code [ fhir:value "code" ]
-       ], [
-         fhir:index 4;
-         fhir:ElementDefinition.type.code [ fhir:value "date" ]
-       ], [
-         fhir:index 5;
-         fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
-       ], [
-         fhir:index 6;
-         fhir:ElementDefinition.type.code [ fhir:value "decimal" ]
-       ], [
-         fhir:index 7;
-         fhir:ElementDefinition.type.code [ fhir:value "id" ]
-       ], [
-         fhir:index 8;
-         fhir:ElementDefinition.type.code [ fhir:value "instant" ]
-       ], [
-         fhir:index 9;
-         fhir:ElementDefinition.type.code [ fhir:value "integer" ]
-       ], [
-         fhir:index 10;
-         fhir:ElementDefinition.type.code [ fhir:value "markdown" ]
-       ], [
-         fhir:index 11;
-         fhir:ElementDefinition.type.code [ fhir:value "oid" ]
-       ], [
-         fhir:index 12;
-         fhir:ElementDefinition.type.code [ fhir:value "positiveInt" ]
-       ], [
-         fhir:index 13;
-         fhir:ElementDefinition.type.code [ fhir:value "string" ]
-       ], [
-         fhir:index 14;
-         fhir:ElementDefinition.type.code [ fhir:value "time" ]
-       ], [
-         fhir:index 15;
-         fhir:ElementDefinition.type.code [ fhir:value "unsignedInt" ]
-       ], [
-         fhir:index 16;
-         fhir:ElementDefinition.type.code [ fhir:value "uri" ]
-       ], [
-         fhir:index 17;
-         fhir:ElementDefinition.type.code [ fhir:value "url" ]
-       ], [
-         fhir:index 18;
-         fhir:ElementDefinition.type.code [ fhir:value "uuid" ]
-       ], [
-         fhir:index 19;
-         fhir:ElementDefinition.type.code [ fhir:value "Address" ]
-       ], [
-         fhir:index 20;
-         fhir:ElementDefinition.type.code [ fhir:value "Age" ]
-       ], [
-         fhir:index 21;
-         fhir:ElementDefinition.type.code [ fhir:value "Annotation" ]
-       ], [
-         fhir:index 22;
-         fhir:ElementDefinition.type.code [ fhir:value "Attachment" ]
-       ], [
-         fhir:index 23;
-         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ], [
-         fhir:index 24;
-         fhir:ElementDefinition.type.code [ fhir:value "Coding" ]
-       ], [
-         fhir:index 25;
-         fhir:ElementDefinition.type.code [ fhir:value "ContactPoint" ]
-       ], [
-         fhir:index 26;
-         fhir:ElementDefinition.type.code [ fhir:value "Count" ]
-       ], [
-         fhir:index 27;
-         fhir:ElementDefinition.type.code [ fhir:value "Distance" ]
-       ], [
-         fhir:index 28;
-         fhir:ElementDefinition.type.code [ fhir:value "Duration" ]
-       ], [
-         fhir:index 29;
-         fhir:ElementDefinition.type.code [ fhir:value "HumanName" ]
-       ], [
-         fhir:index 30;
-         fhir:ElementDefinition.type.code [ fhir:value "Identifier" ]
-       ], [
-         fhir:index 31;
-         fhir:ElementDefinition.type.code [ fhir:value "Money" ]
-       ], [
-         fhir:index 32;
-         fhir:ElementDefinition.type.code [ fhir:value "Period" ]
-       ], [
-         fhir:index 33;
-         fhir:ElementDefinition.type.code [ fhir:value "Quantity" ]
-       ], [
-         fhir:index 34;
-         fhir:ElementDefinition.type.code [ fhir:value "Range" ]
-       ], [
-         fhir:index 35;
-         fhir:ElementDefinition.type.code [ fhir:value "Ratio" ]
-       ], [
-         fhir:index 36;
-         fhir:ElementDefinition.type.code [ fhir:value "Reference" ]
-       ], [
-         fhir:index 37;
-         fhir:ElementDefinition.type.code [ fhir:value "SampledData" ]
-       ], [
-         fhir:index 38;
-         fhir:ElementDefinition.type.code [ fhir:value "Signature" ]
-       ], [
-         fhir:index 39;
-         fhir:ElementDefinition.type.code [ fhir:value "Timing" ]
-       ], [
-         fhir:index 40;
-         fhir:ElementDefinition.type.code [ fhir:value "ContactDetail" ]
-       ], [
-         fhir:index 41;
-         fhir:ElementDefinition.type.code [ fhir:value "Contributor" ]
-       ], [
-         fhir:index 42;
-         fhir:ElementDefinition.type.code [ fhir:value "DataRequirement" ]
-       ], [
-         fhir:index 43;
-         fhir:ElementDefinition.type.code [ fhir:value "Expression" ]
-       ], [
-         fhir:index 44;
-         fhir:ElementDefinition.type.code [ fhir:value "ParameterDefinition" ]
-       ], [
-         fhir:index 45;
-         fhir:ElementDefinition.type.code [ fhir:value "RelatedArtifact" ]
-       ], [
-         fhir:index 46;
-         fhir:ElementDefinition.type.code [ fhir:value "TriggerDefinition" ]
-       ], [
-         fhir:index 47;
-         fhir:ElementDefinition.type.code [ fhir:value "UsageContext" ]
-       ], [
-         fhir:index 48;
-         fhir:ElementDefinition.type.code [ fhir:value "Dosage" ]
-       ], [
-         fhir:index 49;
-         fhir:ElementDefinition.type.code [ fhir:value "Meta" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "???" ]
        ]
      ]
   ] .

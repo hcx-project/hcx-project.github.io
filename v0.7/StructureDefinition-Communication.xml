@@ -414,7 +414,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <definition value="Business identifiers assigned to this communication by the performer or other systems which remain constant as the resource is updated and propagates from server to server."/>
       <comment value="This is a business identifier, not a resource identifier (see [discussion](resource.html#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.  For example, multiple Patient and a Person resource instance might share the same social insurance number."/>
       <requirements value="Allows identification of the communication as it is known by various participating systems and in a way that remains consistent across servers."/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="*"/>
       <base>
         <path value="Communication.identifier"/>
@@ -591,7 +591,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Communication"/>
+        <targetProfile value="https://ig.hcxprotocol.io/v0.7/StructureDefinition-Communication.html"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -811,7 +811,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"/>
       </type>
       <constraint>
@@ -920,7 +920,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Encounter"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Encounter"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1021,10 +1021,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam"/>
@@ -1063,10 +1063,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/HealthcareService"/>
       </type>
@@ -1148,10 +1148,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Condition"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/DiagnosticReport"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentReference"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1374,14 +1374,6 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   <differential>
     <element id="Communication">
       <path value="Communication"/>
-      <short value="A record of information transmitted from a sender to a receiver"/>
-      <definition value="An occurrence of information being transmitted; e.g. an alert that was sent to a responsible provider, a public health agency that was notified about a reportable condition."/>
-      <min value="0"/>
-      <max value="*"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Event"/>
-      </mapping>
     </element>
     <element id="Communication.identifier">
       <path value="Communication.identifier"/>
@@ -1389,7 +1381,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <definition value="Business identifiers assigned to this communication by the performer or other systems which remain constant as the resource is updated and propagates from server to server."/>
       <comment value="This is a business identifier, not a resource identifier (see [discussion](resource.html#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.  For example, multiple Patient and a Person resource instance might share the same social insurance number."/>
       <requirements value="Allows identification of the communication as it is known by various participating systems and in a way that remains consistent across servers."/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="*"/>
       <type>
         <code value="Identifier"/>
@@ -1404,85 +1396,6 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         <map value="FiveWs.identifier"/>
       </mapping>
     </element>
-    <element id="Communication.instantiatesCanonical">
-      <path value="Communication.instantiatesCanonical"/>
-      <short value="Instantiates FHIR protocol or definition"/>
-      <definition value="The URL pointing to a FHIR-defined protocol, guideline, orderset or other definition that is adhered to in whole or in part by this Communication."/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="canonical"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PlanDefinition"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ActivityDefinition"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Measure"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/OperationDefinition"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Questionnaire"/>
-      </type>
-      <isSummary value="true"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Event.instantiatesCanonical"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode=DEFN].target"/>
-      </mapping>
-    </element>
-    <element id="Communication.instantiatesUri">
-      <path value="Communication.instantiatesUri"/>
-      <short value="Instantiates external protocol or definition"/>
-      <definition value="The URL pointing to an externally maintained protocol, guideline, orderset or other definition that is adhered to in whole or in part by this Communication."/>
-      <comment value="This might be an HTML page, PDF, etc. or could just be a non-resolvable URI identifier."/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="uri"/>
-      </type>
-      <isSummary value="true"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Event.instantiatesUri"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode=DEFN].target"/>
-      </mapping>
-    </element>
-    <element id="Communication.basedOn">
-      <path value="Communication.basedOn"/>
-      <short value="Request fulfilled by this communication"/>
-      <definition value="An order, proposal or plan fulfilled in whole or in part by this Communication."/>
-      <comment value="This must point to some sort of a 'Request' resource, such as CarePlan, CommunicationRequest, ServiceRequest, MedicationRequest, etc."/>
-      <alias value="fulfills"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Resource"/>
-      </type>
-      <isSummary value="true"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Event.basedOn"/>
-      </mapping>
-    </element>
-    <element id="Communication.partOf">
-      <path value="Communication.partOf"/>
-      <short value="Part of this action"/>
-      <definition value="Part of this action."/>
-      <alias value="container"/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Resource"/>
-      </type>
-      <isSummary value="true"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Event.partOf"/>
-      </mapping>
-    </element>
     <element id="Communication.inResponseTo">
       <path value="Communication.inResponseTo"/>
       <short value="Reply to"/>
@@ -1491,130 +1404,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <max value="*"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Communication"/>
+        <targetProfile value="https://ig.hcxprotocol.io/v0.7/StructureDefinition-Communication.html"/>
       </type>
-    </element>
-    <element id="Communication.status">
-      <path value="Communication.status"/>
-      <short value="preparation | in-progress | not-done | on-hold | stopped | completed | entered-in-error | unknown"/>
-      <definition value="The status of the transmission."/>
-      <comment value="This element is labeled as a modifier because the status contains the codes aborted and entered-in-error that mark the communication as not currently valid."/>
-      <min value="1"/>
-      <max value="1"/>
-      <type>
-        <code value="code"/>
-      </type>
-      <isModifier value="true"/>
-      <isModifierReason value="This element is labelled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid"/>
-      <isSummary value="true"/>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CommunicationStatus"/>
-        </extension>
-        <strength value="required"/>
-        <description value="The status of the communication."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/event-status|4.0.1"/>
-      </binding>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Event.status"/>
-      </mapping>
-      <mapping>
-        <identity value="w5"/>
-        <map value="FiveWs.status"/>
-      </mapping>
-    </element>
-    <element id="Communication.statusReason">
-      <path value="Communication.statusReason"/>
-      <short value="Reason for current status"/>
-      <definition value="Captures the reason for the current state of the Communication."/>
-      <comment value="This is generally only used for &quot;exception&quot; statuses such as &quot;not-done&quot;, &quot;suspended&quot; or &quot;aborted&quot;. The reason for performing the event at all is captured in reasonCode, not here."/>
-      <alias value="Suspended Reason"/>
-      <alias value="Cancelled Reason"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="CodeableConcept"/>
-      </type>
-      <isSummary value="true"/>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CommunicationNotDoneReason"/>
-        </extension>
-        <strength value="example"/>
-        <description value="Codes for the reason why a communication did not happen."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/communication-not-done-reason"/>
-      </binding>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Event.statusReason"/>
-      </mapping>
-    </element>
-    <element id="Communication.category">
-      <path value="Communication.category"/>
-      <short value="Message category"/>
-      <definition value="The type of message conveyed such as alert, notification, reminder, instruction, etc."/>
-      <comment value="There may be multiple axes of categorization and one communication may serve multiple purposes."/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="CodeableConcept"/>
-      </type>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CommunicationCategory"/>
-        </extension>
-        <strength value="example"/>
-        <description value="Codes for general categories of communications such as alerts, instructions, etc."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/communication-category"/>
-      </binding>
-      <mapping>
-        <identity value="w5"/>
-        <map value="FiveWs.class"/>
-      </mapping>
-    </element>
-    <element id="Communication.priority">
-      <path value="Communication.priority"/>
-      <short value="routine | urgent | asap | stat"/>
-      <definition value="Characterizes how quickly the planned or in progress communication must be addressed. Includes concepts such as stat, urgent, routine."/>
-      <comment value="Used to prioritize workflow (such as which communication to read first) when the communication is planned or in progress."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="code"/>
-      </type>
-      <meaningWhenMissing value="If missing, this communication should be treated with normal priority"/>
-      <isSummary value="true"/>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CommunicationPriority"/>
-        </extension>
-        <strength value="required"/>
-        <description value="Codes indicating the relative importance of a communication."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/request-priority|4.0.1"/>
-      </binding>
-      <mapping>
-        <identity value="w5"/>
-        <map value="FiveWs.grade"/>
-      </mapping>
-    </element>
-    <element id="Communication.medium">
-      <path value="Communication.medium"/>
-      <short value="A channel of communication"/>
-      <definition value="A channel that was used for this communication (e.g. email, fax)."/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="CodeableConcept"/>
-      </type>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CommunicationMedium"/>
-        </extension>
-        <strength value="example"/>
-        <description value="Codes for communication mediums such as phone, fax, email, in person, etc."/>
-        <valueSet value="http://terminology.hl7.org/ValueSet/v3-ParticipationMode"/>
-      </binding>
     </element>
     <element id="Communication.subject">
       <path value="Communication.subject"/>
@@ -1625,7 +1416,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <max value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"/>
       </type>
       <isSummary value="true"/>
@@ -1642,45 +1433,6 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         <map value="FiveWs.subject"/>
       </mapping>
     </element>
-    <element id="Communication.topic">
-      <path value="Communication.topic"/>
-      <short value="Description of the purpose/content"/>
-      <definition value="Description of the purpose/content, similar to a subject line in an email."/>
-      <comment value="Communication.topic.text can be used without any codings."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="CodeableConcept"/>
-      </type>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CommunicationTopic"/>
-        </extension>
-        <strength value="example"/>
-        <description value="Codes describing the purpose or content of the communication."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/communication-topic"/>
-      </binding>
-      <mapping>
-        <identity value="w5"/>
-        <map value="FiveWs.context"/>
-      </mapping>
-    </element>
-    <element id="Communication.about">
-      <path value="Communication.about"/>
-      <short value="Resources that pertain to this communication"/>
-      <definition value="Other resources that pertain to this communication and to which this communication should be associated."/>
-      <comment value="Don't use Communication.about element when a more specific element exists, such as basedOn or reasonReference."/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Resource"/>
-      </type>
-      <mapping>
-        <identity value="w5"/>
-        <map value="FiveWs.context"/>
-      </mapping>
-    </element>
     <element id="Communication.encounter">
       <path value="Communication.encounter"/>
       <short value="Encounter created as part of"/>
@@ -1690,7 +1442,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <max value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Encounter"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Encounter"/>
       </type>
       <isSummary value="true"/>
       <mapping>
@@ -1702,42 +1454,6 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         <map value="FiveWs.context"/>
       </mapping>
     </element>
-    <element id="Communication.sent">
-      <path value="Communication.sent"/>
-      <short value="When sent"/>
-      <definition value="The time when this communication was sent."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="dateTime"/>
-      </type>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Event.occurrence[x] {Invariant: maps to period.start}"/>
-      </mapping>
-      <mapping>
-        <identity value="w5"/>
-        <map value="FiveWs.done[x]"/>
-      </mapping>
-    </element>
-    <element id="Communication.received">
-      <path value="Communication.received"/>
-      <short value="When received"/>
-      <definition value="The time when this communication arrived at the destination."/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="dateTime"/>
-      </type>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Event.occurrence[x] {Invariant: maps to period.end}"/>
-      </mapping>
-      <mapping>
-        <identity value="w5"/>
-        <map value="FiveWs.done[x]"/>
-      </mapping>
-    </element>
     <element id="Communication.recipient">
       <path value="Communication.recipient"/>
       <short value="Message recipient"/>
@@ -1747,10 +1463,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Group"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam"/>
@@ -1774,10 +1490,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Patient"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Practitioner"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/PractitionerRole"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/HealthcareService"/>
       </type>
@@ -1790,38 +1506,6 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         <map value="FiveWs.actor"/>
       </mapping>
     </element>
-    <element id="Communication.reasonCode">
-      <path value="Communication.reasonCode"/>
-      <short value="Indication for message"/>
-      <definition value="The reason or justification for the communication."/>
-      <comment value="Textual reasons can be captured using reasonCode.text."/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="CodeableConcept"/>
-      </type>
-      <isSummary value="true"/>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CommunicationReason"/>
-        </extension>
-        <strength value="example"/>
-        <description value="Codes for describing reasons for the occurrence of a communication."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/clinical-findings"/>
-      </binding>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Event.reasonCode"/>
-      </mapping>
-      <mapping>
-        <identity value="w5"/>
-        <map value="FiveWs.why[x]"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".reasonCode"/>
-      </mapping>
-    </element>
     <element id="Communication.reasonReference">
       <path value="Communication.reasonReference"/>
       <short value="Why was communication done?"/>
@@ -1830,10 +1514,10 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <max value="*"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Condition"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/Observation"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/DiagnosticReport"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+        <targetProfile value="https://nrces.in/ndhm/fhir/r4/StructureDefinition/DocumentReference"/>
       </type>
       <isSummary value="true"/>
       <mapping>
@@ -1847,47 +1531,6 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <mapping>
         <identity value="rim"/>
         <map value=".outboundRelationship[typeCode=RSON].target"/>
-      </mapping>
-    </element>
-    <element id="Communication.payload">
-      <path value="Communication.payload"/>
-      <short value="Message payload"/>
-      <definition value="Text, attachment(s), or resource(s) that was communicated to the recipient."/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="BackboneElement"/>
-      </type>
-    </element>
-    <element id="Communication.payload.content[x]">
-      <path value="Communication.payload.content[x]"/>
-      <short value="Message part content"/>
-      <definition value="A communicated content (or for multi-part communications, one portion of the communication)."/>
-      <min value="1"/>
-      <max value="1"/>
-      <type>
-        <code value="string"/>
-      </type>
-      <type>
-        <code value="Attachment"/>
-      </type>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Resource"/>
-      </type>
-    </element>
-    <element id="Communication.note">
-      <path value="Communication.note"/>
-      <short value="Comments made about the communication"/>
-      <definition value="Additional notes or commentary about the communication by the sender, receiver or other interested parties."/>
-      <min value="0"/>
-      <max value="*"/>
-      <type>
-        <code value="Annotation"/>
-      </type>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Event.note"/>
       </mapping>
     </element>
   </differential>

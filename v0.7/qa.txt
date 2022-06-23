@@ -3,7 +3,7 @@
 
 err = 26, warn = 14, info = 10
 IG Publisher Version: 1.1.121
-Generated Mon Jun 20 15:03:34 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.7.0 (canonical = https://hcxprotocol.io/fhir/r4)
+Generated Thu Jun 23 11:06:54 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.7.0 (canonical = https://hcxprotocol.io/fhir/r4)
  Build Errors : 1 / 0 / 0
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-ClaimRequestDocument-example-01 : 7 / 0 / 4
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-ClaimResponseDocument-example-01 : 5 / 0 / 2
