@@ -636,8 +636,8 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "description": "Type of a composition. TODO - Value set of all HCX objects.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/doc-typecodes"
+          "description": "Type of a composition",
+          "valueSet": "https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html"
         },
         "mapping": [
           {
@@ -2308,9 +2308,6 @@
             "code": "CodeableConcept"
           }
         ],
-        "fixedCodeableConcept": {
-          "text": "ClaimResponse"
-        },
         "constraint": [
           {
             "key": "ele-1",
@@ -2324,8 +2321,14 @@
         "isModifier": false,
         "isSummary": false,
         "binding": {
-          "strength": "required",
-          "description": "TODO - value set listing all HCX eObjects including ClaimResponse for this one.",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "CompositionSectionType"
+            }
+          ],
+          "strength": "example",
+          "description": "Classification of a section of a composition/document.",
           "valueSet": "http://hl7.org/fhir/ValueSet/doc-section-codes"
         },
         "mapping": [
@@ -2742,8 +2745,8 @@
         "path": "Composition.type",
         "binding": {
           "strength": "required",
-          "description": "Type of a composition. TODO - Value set of all HCX objects.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/doc-typecodes"
+          "description": "Type of a composition",
+          "valueSet": "https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html"
         }
       },
       {
@@ -2751,18 +2754,6 @@
         "path": "Composition.section",
         "min": 1,
         "max": "1"
-      },
-      {
-        "id": "Composition.section.code",
-        "path": "Composition.section.code",
-        "fixedCodeableConcept": {
-          "text": "ClaimResponse"
-        },
-        "binding": {
-          "strength": "required",
-          "description": "TODO - value set listing all HCX eObjects including ClaimResponse for this one.",
-          "valueSet": "http://hl7.org/fhir/ValueSet/doc-section-codes"
-        }
       },
       {
         "id": "Composition.section.entry",

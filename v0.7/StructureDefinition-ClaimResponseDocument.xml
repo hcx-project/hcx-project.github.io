@@ -570,8 +570,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <description value="Type of a composition. TODO - Value set of all HCX objects."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/doc-typecodes"/>
+        <description value="Type of a composition"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -1944,9 +1944,6 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <fixedCodeableConcept>
-        <text value="ClaimResponse"/>
-      </fixedCodeableConcept>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
@@ -1958,8 +1955,11 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
-        <strength value="required"/>
-        <description value="TODO - value set listing all HCX eObjects including ClaimResponse for this one."/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="CompositionSectionType"/>
+        </extension>
+        <strength value="example"/>
+        <description value="Classification of a section of a composition/document."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/doc-section-codes"/>
       </binding>
       <mapping>
@@ -2293,25 +2293,14 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <path value="Composition.type"/>
       <binding>
         <strength value="required"/>
-        <description value="Type of a composition. TODO - Value set of all HCX objects."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/doc-typecodes"/>
+        <description value="Type of a composition"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html"/>
       </binding>
     </element>
     <element id="Composition.section">
       <path value="Composition.section"/>
       <min value="1"/>
       <max value="1"/>
-    </element>
-    <element id="Composition.section.code">
-      <path value="Composition.section.code"/>
-      <fixedCodeableConcept>
-        <text value="ClaimResponse"/>
-      </fixedCodeableConcept>
-      <binding>
-        <strength value="required"/>
-        <description value="TODO - value set listing all HCX eObjects including ClaimResponse for this one."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/doc-section-codes"/>
-      </binding>
     </element>
     <element id="Composition.section.entry">
       <path value="Composition.section.entry"/>

@@ -189,6 +189,13 @@
     "name": "ClinicalDiagnosticsDocumentCodes"
   },
   {
+    "id": "hcx-document-type-codes",
+    "type": "ValueSet",
+    "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html",
+    "version": "0.7.0",
+    "name": "HCXDocumentTypeCodes"
+  },
+  {
     "id": "health-service-provider-role",
     "type": "ValueSet",
     "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html",

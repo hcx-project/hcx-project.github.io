@@ -754,6 +754,20 @@ These requirements were originally developed, balloted, and published in FHIR DS
       <description value="**Search by subject - a patient**  &#xA;**NOTE**: This US Core SearchParameter definition extends the usage context of the&#xA;[Conformance expectation extension](http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html)&#xA; - multipleAnd&#xA; - multipleOr&#xA; - comparator&#xA; - modifier&#xA; - chain"/>
       <exampleBoolean value="false"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/ValueSet/hcx-document-type-codes">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/hcx-document-type-codes"/>
+      </reference>
+      <name value="HCX document-type-codes"/>
+      <description value="**Search by subject - a patient**  &#xA;**NOTE**: This US Core SearchParameter definition extends the usage context of the&#xA;[Conformance expectation extension](http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html)&#xA; - multipleAnd&#xA; - multipleOr&#xA; - comparator&#xA; - modifier&#xA; - chain"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <page>
       <nameUrl value="index.html"/>
       <title value="HCX FHIR Implementation Guide"/>
@@ -935,6 +949,11 @@ These requirements were originally developed, balloted, and published in FHIR DS
         <page>
           <nameUrl value="ValueSet-proof-of-presence-codes.html"/>
           <title value="HCX Proof of Presence Codes"/>
+          <generation value="generated"/>
+        </page>
+        <page>
+          <nameUrl value="ValueSet-hcx-document-type-codes.html"/>
+          <title value="HCX Document Type Codes"/>
           <generation value="generated"/>
         </page>
       </page>

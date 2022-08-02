@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hcx-document-type-codes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p>All codes in this table are from the system <code>http://hcxprotocol.io/codes/hcx-document-type-codes</code></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-hcx-document-type-codes-hcx-coverage-eligibility-request\"> </a>  hcx-coverage-eligibility-request</td><td>HCX Coverage Eligibility Request</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-hcx-document-type-codes-hcx-coverage-eligibility-response\"> </a>  hcx-coverage-eligibility-response</td><td>HCX Coverage Eligibility Response</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-hcx-document-type-codes-hcx-claim\"> </a>  hcx-claim</td><td>HCX Claim</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-hcx-document-type-codes-hcx-claim-response\"> </a>  hcx-claim-response</td><td>HCX Claim Response</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-hcx-document-type-codes-hcx-communication\"> </a>  hcx-communication</td><td>HCX Communication</td></tr></table></div>"
+  },
+  "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html",
+  "version": "0.7.0",
+  "name": "HCXDocumentTypeCodes",
+  "status": "active",
+  "date": "2022-06-01",
+  "publisher": "HCX Open Community",
+  "contact": [
+    {
+      "name": "HCX Open Community",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hcxprotocol.io/"
+        }
+      ]
+    }
+  ],
+  "description": "This is the value set listing the HCX Document type codes",
+  "expansion": {
+    "timestamp": "2022-06-01T08:15:30+05:30",
+    "contains": [
+      {
+        "system": "http://hcxprotocol.io/codes/hcx-document-type-codes",
+        "code": "hcx-coverage-eligibility-request",
+        "display": "HCX Coverage Eligibility Request"
+      },
+      {
+        "system": "http://hcxprotocol.io/codes/hcx-document-type-codes",
+        "code": "hcx-coverage-eligibility-response",
+        "display": "HCX Coverage Eligibility Response"
+      },
+      {
+        "system": "http://hcxprotocol.io/codes/hcx-document-type-codes",
+        "code": "hcx-claim",
+        "display": "HCX Claim"
+      },
+      {
+        "system": "http://hcxprotocol.io/codes/hcx-document-type-codes",
+        "code": "hcx-claim-response",
+        "display": "HCX Claim Response"
+      },
+      {
+        "system": "http://hcxprotocol.io/codes/hcx-document-type-codes",
+        "code": "hcx-communication",
+        "display": "HCX Communication"
+      }
+    ]
+  }
+}

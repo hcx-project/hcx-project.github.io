@@ -1,14 +1,14 @@
 ﻿HCXFHIRImplementationGuide : Validation Results
 =========================================
 
-err = 26, warn = 14, info = 10
-IG Publisher Version: 1.1.121
-Generated Thu Jun 23 11:06:54 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.7.0 (canonical = https://hcxprotocol.io/fhir/r4)
+err = 17, warn = 14, info = 10
+IG Publisher Version: 1.1.121 Out of date - current version is 1.1.127
+Generated Tue Aug 02 17:24:34 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.7.0 (canonical = https://hcxprotocol.io/fhir/r4)
  Build Errors : 1 / 0 / 0
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-ClaimRequestDocument-example-01 : 7 / 0 / 4
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-ClaimResponseDocument-example-01 : 5 / 0 / 2
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-CoverageEligibilityRequestDocument-example-01 : 6 / 0 / 4
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-CoverageEligibilityResponseDocument-example-01 : 7 / 0 / 3
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-ClaimRequestDocument-example-01 : 4 / 0 / 4
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-ClaimResponseDocument-example-01 : 3 / 0 / 2
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-CoverageEligibilityRequestDocument-example-01 : 4 / 0 / 4
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-CoverageEligibilityResponseDocument-example-01 : 5 / 0 / 3
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/claim-example-01 : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/claimresponse-example-01 : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/coverageeligibilityrequest-example-01 : 0 / 0 / 1
@@ -39,6 +39,7 @@ Generated Thu Jun 23 11:06:54 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-claim-service-categories : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-claim-service-codes : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-clinical-diagnostics-document-codes : 0 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-hcx-document-type-codes : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-health-service-provider-role : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-informational-messages-codes : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-insurance-company-owners : 0 / 0 / 1
@@ -51,40 +52,31 @@ Generated Thu Jun 23 11:06:54 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[25].value: Supressed messages file not found
 == input/examples/Bundle-ClaimRequestDocument-example-01.json ==
-ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes), and a coding from this value set is required) (codes = https://www.hcx.org/document-type#HcxClaimRequest)
+ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.type: None of the codings provided are in the value set 'HCXDocumentTypeCodes' (https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html), and a coding from this value set is required) (codes = https://www.hcx.org/document-type#HcxClaimRequest)
 INFORMATION: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.type.coding[0]: Code System URI 'https://www.hcx.org/document-type' is unknown so the code cannot be validated
 INFORMATION: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.author[0]: Details for Organization/Tmh01 matching against Profile http://hl7.org/fhir/StructureDefinition/Organization
-ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].code.text: Value is 'ClaimRequest' but must be 'Claim'
-ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].code: Expected 0 but found 1 coding elements
-ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].code: None of the codings provided are in the value set 'Document Section Codes' (http://hl7.org/fhir/ValueSet/doc-section-codes), and a coding from this value set is required) (codes = http://hl7.org/fhir/ValueSet/resource-types#ClaimRequest)
 ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].code.coding[0]: The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/resource-types')
 ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].code.coding[0]: Unknown Code System 'http://hl7.org/fhir/ValueSet/resource-types'
 ERROR: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Unable to find a match for profile ClaimRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6 among choices: https://ig.hcxprotocol.io/v0.7/StructureDefinition-Claim.html
 INFORMATION: Bundle/ClaimRequestDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Details for ClaimRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6 matching against Profile https://ig.hcxprotocol.io/v0.7/StructureDefinition-Claim.html
 == input/examples/Bundle-ClaimResponseDocument-example-01.json ==
-ERROR: Bundle/ClaimResponseDocument-example-01: Bundle.entry[0].resource.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes), and a coding from this value set is required) (codes = https://hcx.org/document-types#HCXClaimResponse)
+ERROR: Bundle/ClaimResponseDocument-example-01: Bundle.entry[0].resource.type: None of the codings provided are in the value set 'HCXDocumentTypeCodes' (https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html), and a coding from this value set is required) (codes = https://hcx.org/document-types#HCXClaimResponse)
 INFORMATION: Bundle/ClaimResponseDocument-example-01: Bundle.entry[0].resource.type.coding[0]: Code System URI 'https://hcx.org/document-types' is unknown so the code cannot be validated
-ERROR: Bundle/ClaimResponseDocument-example-01: Bundle.entry[0].resource.section[0].code: Expected 0 but found 1 coding elements
-ERROR: Bundle/ClaimResponseDocument-example-01: Bundle.entry[0].resource.section[0].code: None of the codings provided are in the value set 'Document Section Codes' (http://hl7.org/fhir/ValueSet/doc-section-codes), and a coding from this value set is required) (codes = https://www.hl7.org/fhir/valueset-resource-types#ClaimResponse)
 ERROR: Bundle/ClaimResponseDocument-example-01: Bundle.entry[0].resource.section[0].code.coding[0]: Unknown Code System 'https://www.hl7.org/fhir/valueset-resource-types'
 ERROR: Bundle/ClaimResponseDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Unable to resolve resource with reference 'ClaimResponse/res-id-1'
 == input/examples/Bundle-CoverageEligibilityRequestDocument-example-01.json ==
-ERROR: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes), and a coding from this value set is required) (codes = https://www.hcx.org/document-type#HcxCoverageEligibilityRequest)
+ERROR: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.type: None of the codings provided are in the value set 'HCXDocumentTypeCodes' (https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html), and a coding from this value set is required) (codes = https://www.hcx.org/document-type#HcxCoverageEligibilityRequest)
 INFORMATION: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.type.coding[0]: Code System URI 'https://www.hcx.org/document-type' is unknown so the code cannot be validated
 INFORMATION: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.author[0]: Details for Organization/Tmh01 matching against Profile http://hl7.org/fhir/StructureDefinition/Organization
-ERROR: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.section[0].code: Expected 0 but found 1 coding elements
-ERROR: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.section[0].code: None of the codings provided are in the value set 'Document Section Codes' (http://hl7.org/fhir/ValueSet/doc-section-codes), and a coding from this value set is required) (codes = http://hl7.org/fhir/ValueSet/resource-types#CoverageEligibilityRequest)
 ERROR: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.section[0].code.coding[0]: The Coding references a value set, not a code system ('http://hl7.org/fhir/ValueSet/resource-types')
 ERROR: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.section[0].code.coding[0]: Unknown Code System 'http://hl7.org/fhir/ValueSet/resource-types'
 ERROR: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Unable to find a match for profile CoverageEligibilityRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6 among choices: https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequest.html
 INFORMATION: Bundle/CoverageEligibilityRequestDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Details for CoverageEligibilityRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6 matching against Profile https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityRequest.html
 == input/examples/Bundle-CoverageEligibilityResponseDocument-example-01.json ==
 ERROR: Bundle: Unrecognised property '@text'
-ERROR: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes), and a coding from this value set is required) (codes = https://hcx.org/document-types#HCXCoverageElibilityResponse)
+ERROR: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.type: None of the codings provided are in the value set 'HCXDocumentTypeCodes' (https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html), and a coding from this value set is required) (codes = https://hcx.org/document-types#HCXCoverageElibilityResponse)
 INFORMATION: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.type.coding[0]: Code System URI 'https://hcx.org/document-types' is unknown so the code cannot be validated
 ERROR: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.subject: Unable to resolve resource with reference 'Patient/RVH1003'
-ERROR: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.section[0].code: Expected 0 but found 1 coding elements
-ERROR: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.section[0].code: None of the codings provided are in the value set 'Document Section Codes' (http://hl7.org/fhir/ValueSet/doc-section-codes), and a coding from this value set is required) (codes = https://www.hl7.org/fhir/valueset-resource-types#CoverageEligibilityResponse)
 ERROR: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.section[0].code.coding[0]: Unknown Code System 'https://www.hl7.org/fhir/valueset-resource-types'
 ERROR: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Unable to find a match for profile CoverageEligibilityResponse/res-id-1 among choices: https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityResponse.html
 INFORMATION: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry[0].resource.section[0].entry[0]: Details for CoverageEligibilityResponse/res-id-1 matching against Profile https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityResponse.html
@@ -133,6 +125,7 @@ WARNING: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/Structu
 == input/hcx-definitions/ValueSet-claim-service-categories.json ==
 == input/hcx-definitions/ValueSet-claim-service-codes.json ==
 == input/hcx-definitions/ValueSet-clinical-diagnostics-document-codes.json ==
+== input/hcx-definitions/ValueSet-hcx-document-type-codes.json ==
 == input/hcx-definitions/ValueSet-health-service-provider-role.json ==
 == input/hcx-definitions/ValueSet-informational-messages-codes.json ==
 == input/hcx-definitions/ValueSet-insurance-company-owners.json ==

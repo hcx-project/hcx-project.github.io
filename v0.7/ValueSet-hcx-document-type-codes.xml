@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="hcx-document-type-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 5 concepts</p><p>All codes in this table are from the system <code>http://hcxprotocol.io/codes/hcx-document-type-codes</code></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-hcx-document-type-codes-hcx-coverage-eligibility-request"> </a>  hcx-coverage-eligibility-request</td><td>HCX Coverage Eligibility Request</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-hcx-document-type-codes-hcx-coverage-eligibility-response"> </a>  hcx-coverage-eligibility-response</td><td>HCX Coverage Eligibility Response</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-hcx-document-type-codes-hcx-claim"> </a>  hcx-claim</td><td>HCX Claim</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-hcx-document-type-codes-hcx-claim-response"> </a>  hcx-claim-response</td><td>HCX Claim Response</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-hcx-document-type-codes-hcx-communication"> </a>  hcx-communication</td><td>HCX Communication</td></tr></table></div>
+  </text>
+  <url value="https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html"/>
+  <version value="0.7.0"/>
+  <name value="HCXDocumentTypeCodes"/>
+  <status value="active"/>
+  <date value="2022-06-01"/>
+  <publisher value="HCX Open Community"/>
+  <contact>
+    <name value="HCX Open Community"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hcxprotocol.io/"/>
+    </telecom>
+  </contact>
+  <description value="This is the value set listing the HCX Document type codes"/>
+  <expansion>
+    <timestamp value="2022-06-01T08:15:30+05:30"/>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/hcx-document-type-codes"/>
+      <code value="hcx-coverage-eligibility-request"/>
+      <display value="HCX Coverage Eligibility Request"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/hcx-document-type-codes"/>
+      <code value="hcx-coverage-eligibility-response"/>
+      <display value="HCX Coverage Eligibility Response"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/hcx-document-type-codes"/>
+      <code value="hcx-claim"/>
+      <display value="HCX Claim"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/hcx-document-type-codes"/>
+      <code value="hcx-claim-response"/>
+      <display value="HCX Claim Response"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/hcx-document-type-codes"/>
+      <code value="hcx-communication"/>
+      <display value="HCX Communication"/>
+    </contains>
+  </expansion>
+</ValueSet>

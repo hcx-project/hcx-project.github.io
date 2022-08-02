@@ -513,6 +513,9 @@
     "http://hl7.org/fhir/tools/ValueSet/clinical-diagnostics-document-codes": [
       "ImplementationGuide.definition.resource"
     ],
+    "http://hl7.org/fhir/tools/ValueSet/hcx-document-type-codes": [
+      "ImplementationGuide.definition.resource"
+    ],
     "http://hl7.org/fhir/tools/ValueSet/health-service-provider-role": [
       "ImplementationGuide.definition.resource"
     ],
