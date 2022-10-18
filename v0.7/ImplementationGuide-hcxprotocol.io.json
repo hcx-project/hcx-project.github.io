@@ -34,7 +34,7 @@
       "id": "hl7tx",
       "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId": "hl7.terminology.r4",
-      "version": "3.1.0"
+      "version": "4.0.0"
     },
     {
       "uri": "https://nrces.in/ndhm/fhir/r4/ImplementationGuide/ndhm.in",
@@ -1045,126 +1045,276 @@
       }
     ],
     "page": {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl": "index.html"
+        }
+      ],
       "nameUrl": "index.html",
       "title": "HCX FHIR Implementation Guide",
       "generation": "html",
       "page": [
         {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "profiles.html"
+            }
+          ],
           "nameUrl": "profiles.html",
           "title": "Profiles",
           "generation": "html",
           "page": [
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-Claim.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-Claim.html",
               "title": "HCX Claim",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-ClaimResponse.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-ClaimResponse.html",
               "title": "HCX Claim Response",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-HCXDiagnosticDocumentsExtension.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-HCXDiagnosticDocumentsExtension.html",
               "title": "HCX Diagnostic Documents Extension",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-HCXInsurancePlan.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-HCXInsurancePlan.html",
               "title": "HCX InsurancePlan",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-HCXInformationalMessagesExtension.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-HCXInformationalMessagesExtension.html",
               "title": "HCX Informational Messages Extension",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-HCXProofOfIdentificationExtension.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-HCXProofOfIdentificationExtension.html",
               "title": "HCX Proof Of Identification Extension",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-HCXProofOfPresenceExtension.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-HCXProofOfPresenceExtension.html",
               "title": "HCX Proof Of Presence Extension",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-HCXQuestionnairesExtension.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-HCXQuestionnairesExtension.html",
               "title": "HCX Proof Of Presence Extension",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-CoverageEligibilityRequest.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-CoverageEligibilityRequest.html",
               "title": "HCX Coverage Eligibility Request",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-Communication.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-Communication.html",
               "title": "HCX Communication",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-CommunicationRequest.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-CommunicationRequest.html",
               "title": "HCX Communication Request",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-HCXSignatureExtension.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-HCXSignatureExtension.html",
               "title": "HCX Signature Extension",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-CoverageEligibilityRequestDocument.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-CoverageEligibilityRequestDocument.html",
               "title": "HCX Coverage Eligibility Request Document",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-CoverageEligibilityResponseDocument.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-CoverageEligibilityResponseDocument.html",
               "title": "HCX Coverage Eligibility Response Document",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-ClaimResponseDocument.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-ClaimResponseDocument.html",
               "title": "HCX Claim Response Document",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-ClaimRequestDocument.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-ClaimRequestDocument.html",
               "title": "HCX Claim Request Document",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-Coverage.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-Coverage.html",
               "title": "HCX Coverage",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-CoverageEligibilityRequest.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-CoverageEligibilityRequest.html",
               "title": "HCX Coverage Eligibility Request",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-CoverageEligibilityResponse.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-CoverageEligibilityResponse.html",
               "title": "HCX Coverage Eligibility Response",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-PaymentNotice.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-PaymentNotice.html",
               "title": "HCX Payment Notice",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-PaymentReconciliation.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-PaymentReconciliation.html",
               "title": "HCX Payment Reconciliation",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-CommunicationDocument.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-CommunicationDocument.html",
               "title": "HCX Communication Document",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "StructureDefinition-Task.html"
+                }
+              ],
               "nameUrl": "StructureDefinition-Task.html",
               "title": "HCX Task",
               "generation": "generated"
@@ -1172,66 +1322,144 @@
           ]
         },
         {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "valuesets.html"
+            }
+          ],
           "nameUrl": "valuesets.html",
           "title": "ValueSets",
           "generation": "html",
           "page": [
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "ValueSet-claim-denial-codes.html"
+                }
+              ],
               "nameUrl": "ValueSet-claim-denial-codes.html",
               "title": "HCX Claim Denial Codes",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "ValueSet-claim-service-categories.html"
+                }
+              ],
               "nameUrl": "ValueSet-claim-service-categories.html",
               "title": "HCX Claim Service Categories",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "ValueSet-claim-service-codes.html"
+                }
+              ],
               "nameUrl": "ValueSet-claim-service-codes.html",
               "title": "HCX Claim Service Codes",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "ValueSet-medical-speciality-type-provider.html"
+                }
+              ],
               "nameUrl": "ValueSet-medical-speciality-type-provider.html",
               "title": "HCX Medical Speciality Provider",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "ValueSet-procedure-type-description.html"
+                }
+              ],
               "nameUrl": "ValueSet-procedure-type-description.html",
               "title": "HCX Procedure Type Description",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "ValueSet-health-service-provider-role.html"
+                }
+              ],
               "nameUrl": "ValueSet-health-service-provider-role.html",
               "title": "HCX health service provider role",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "ValueSet-insurance-company-owners.html"
+                }
+              ],
               "nameUrl": "ValueSet-insurance-company-owners.html",
               "title": "HCX insurance company owners",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "ValueSet-clinical-diagnostics-document-codes.html"
+                }
+              ],
               "nameUrl": "ValueSet-clinical-diagnostics-document-codes.html",
               "title": "HCX Clinical Diagnostics Document Codes",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "ValueSet-informational-messages-codes.html"
+                }
+              ],
               "nameUrl": "ValueSet-informational-messages-codes.html",
               "title": "HCX Informational Messages Codes",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "ValueSet-proof-of-identity-codes.html"
+                }
+              ],
               "nameUrl": "ValueSet-proof-of-identity-codes.html",
               "title": "HCX Proof of Identity Codes",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "ValueSet-proof-of-presence-codes.html"
+                }
+              ],
               "nameUrl": "ValueSet-proof-of-presence-codes.html",
               "title": "HCX Proof of Presence Codes",
               "generation": "generated"
             },
             {
+              "extension": [
+                {
+                  "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl": "ValueSet-hcx-document-type-codes.html"
+                }
+              ],
               "nameUrl": "ValueSet-hcx-document-type-codes.html",
               "title": "HCX Document Type Codes",
               "generation": "generated"
@@ -1239,6 +1467,12 @@
           ]
         },
         {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "downloads.html"
+            }
+          ],
           "nameUrl": "downloads.html",
           "title": "Downloads",
           "generation": "html"

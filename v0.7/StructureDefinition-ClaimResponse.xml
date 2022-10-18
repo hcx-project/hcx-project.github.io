@@ -160,7 +160,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   <abstract value="false"/>
   <type value="ClaimResponse"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/ClaimResponse"/>
-  <derivation value="specialization"/>
+  <derivation value="constraint"/>
   <snapshot>
     <element id="ClaimResponse">
       <path value="ClaimResponse"/>
@@ -245,7 +245,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
-          <valueUrl value="string"/>
+          <valueUrl value="id"/>
         </extension>
         <code value="http://hl7.org/fhirpath/System.String"/>
       </type>

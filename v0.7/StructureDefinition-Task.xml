@@ -100,7 +100,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   <abstract value="false"/>
   <type value="Task"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Task"/>
-  <derivation value="specialization"/>
+  <derivation value="constraint"/>
   <snapshot>
     <element id="Task">
       <path value="Task"/>
@@ -196,7 +196,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
-          <valueUrl value="string"/>
+          <valueUrl value="id"/>
         </extension>
         <code value="http://hl7.org/fhirpath/System.String"/>
       </type>

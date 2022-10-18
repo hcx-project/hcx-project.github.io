@@ -28,7 +28,7 @@ These requirements were originally developed, balloted, and published in FHIR DS
   <dependsOn id="hl7tx">
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="3.1.0"/>
+    <version value="4.0.0"/>
   </dependsOn>
   <dependsOn>
     <uri value="https://nrces.in/ndhm/fhir/r4/ImplementationGuide/ndhm.in"/>
@@ -769,195 +769,312 @@ These requirements were originally developed, balloted, and published in FHIR DS
       <exampleBoolean value="false"/>
     </resource>
     <page>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+        <valueUrl value="index.html"/>
+      </extension>
       <nameUrl value="index.html"/>
       <title value="HCX FHIR Implementation Guide"/>
       <generation value="html"/>
       <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="profiles.html"/>
+        </extension>
         <nameUrl value="profiles.html"/>
         <title value="Profiles"/>
         <generation value="html"/>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-Claim.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-Claim.html"/>
           <title value="HCX Claim"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-ClaimResponse.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-ClaimResponse.html"/>
           <title value="HCX Claim Response"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-HCXDiagnosticDocumentsExtension.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-HCXDiagnosticDocumentsExtension.html"/>
           <title value="HCX Diagnostic Documents Extension"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-HCXInsurancePlan.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-HCXInsurancePlan.html"/>
           <title value="HCX InsurancePlan"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-HCXInformationalMessagesExtension.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-HCXInformationalMessagesExtension.html"/>
           <title value="HCX Informational Messages Extension"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-HCXProofOfIdentificationExtension.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-HCXProofOfIdentificationExtension.html"/>
           <title value="HCX Proof Of Identification Extension"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-HCXProofOfPresenceExtension.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-HCXProofOfPresenceExtension.html"/>
           <title value="HCX Proof Of Presence Extension"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-HCXQuestionnairesExtension.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-HCXQuestionnairesExtension.html"/>
           <title value="HCX Proof Of Presence Extension"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-CoverageEligibilityRequest.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-CoverageEligibilityRequest.html"/>
           <title value="HCX Coverage Eligibility Request"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-Communication.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-Communication.html"/>
           <title value="HCX Communication"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-CommunicationRequest.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-CommunicationRequest.html"/>
           <title value="HCX Communication Request"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-HCXSignatureExtension.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-HCXSignatureExtension.html"/>
           <title value="HCX Signature Extension"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-CoverageEligibilityRequestDocument.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-CoverageEligibilityRequestDocument.html"/>
           <title value="HCX Coverage Eligibility Request Document"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-CoverageEligibilityResponseDocument.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-CoverageEligibilityResponseDocument.html"/>
           <title value="HCX Coverage Eligibility Response Document"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-ClaimResponseDocument.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-ClaimResponseDocument.html"/>
           <title value="HCX Claim Response Document"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-ClaimRequestDocument.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-ClaimRequestDocument.html"/>
           <title value="HCX Claim Request Document"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-Coverage.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-Coverage.html"/>
           <title value="HCX Coverage"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-CoverageEligibilityRequest.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-CoverageEligibilityRequest.html"/>
           <title value="HCX Coverage Eligibility Request"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-CoverageEligibilityResponse.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-CoverageEligibilityResponse.html"/>
           <title value="HCX Coverage Eligibility Response"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-PaymentNotice.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-PaymentNotice.html"/>
           <title value="HCX Payment Notice"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-PaymentReconciliation.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-PaymentReconciliation.html"/>
           <title value="HCX Payment Reconciliation"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-CommunicationDocument.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-CommunicationDocument.html"/>
           <title value="HCX Communication Document"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="StructureDefinition-Task.html"/>
+          </extension>
           <nameUrl value="StructureDefinition-Task.html"/>
           <title value="HCX Task"/>
           <generation value="generated"/>
         </page>
       </page>
       <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="valuesets.html"/>
+        </extension>
         <nameUrl value="valuesets.html"/>
         <title value="ValueSets"/>
         <generation value="html"/>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="ValueSet-claim-denial-codes.html"/>
+          </extension>
           <nameUrl value="ValueSet-claim-denial-codes.html"/>
           <title value="HCX Claim Denial Codes"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="ValueSet-claim-service-categories.html"/>
+          </extension>
           <nameUrl value="ValueSet-claim-service-categories.html"/>
           <title value="HCX Claim Service Categories"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="ValueSet-claim-service-codes.html"/>
+          </extension>
           <nameUrl value="ValueSet-claim-service-codes.html"/>
           <title value="HCX Claim Service Codes"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="ValueSet-medical-speciality-type-provider.html"/>
+          </extension>
           <nameUrl value="ValueSet-medical-speciality-type-provider.html"/>
           <title value="HCX Medical Speciality Provider"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="ValueSet-procedure-type-description.html"/>
+          </extension>
           <nameUrl value="ValueSet-procedure-type-description.html"/>
           <title value="HCX Procedure Type Description"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="ValueSet-health-service-provider-role.html"/>
+          </extension>
           <nameUrl value="ValueSet-health-service-provider-role.html"/>
           <title value="HCX health service provider role"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="ValueSet-insurance-company-owners.html"/>
+          </extension>
           <nameUrl value="ValueSet-insurance-company-owners.html"/>
           <title value="HCX insurance company owners"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="ValueSet-clinical-diagnostics-document-codes.html"/>
+          </extension>
           <nameUrl value="ValueSet-clinical-diagnostics-document-codes.html"/>
           <title value="HCX Clinical Diagnostics Document Codes"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="ValueSet-informational-messages-codes.html"/>
+          </extension>
           <nameUrl value="ValueSet-informational-messages-codes.html"/>
           <title value="HCX Informational Messages Codes"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="ValueSet-proof-of-identity-codes.html"/>
+          </extension>
           <nameUrl value="ValueSet-proof-of-identity-codes.html"/>
           <title value="HCX Proof of Identity Codes"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="ValueSet-proof-of-presence-codes.html"/>
+          </extension>
           <nameUrl value="ValueSet-proof-of-presence-codes.html"/>
           <title value="HCX Proof of Presence Codes"/>
           <generation value="generated"/>
         </page>
         <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="ValueSet-hcx-document-type-codes.html"/>
+          </extension>
           <nameUrl value="ValueSet-hcx-document-type-codes.html"/>
           <title value="HCX Document Type Codes"/>
           <generation value="generated"/>
         </page>
       </page>
       <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="downloads.html"/>
+        </extension>
         <nameUrl value="downloads.html"/>
         <title value="Downloads"/>
         <generation value="html"/>

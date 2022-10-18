@@ -89,7 +89,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
   <abstract value="false"/>
   <type value="PaymentReconciliation"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/PaymentReconciliation"/>
-  <derivation value="specialization"/>
+  <derivation value="constraint"/>
   <snapshot>
     <element id="PaymentReconciliation">
       <path value="PaymentReconciliation"/>
@@ -173,7 +173,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </base>
       <type>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
-          <valueUrl value="string"/>
+          <valueUrl value="id"/>
         </extension>
         <code value="http://hl7.org/fhirpath/System.String"/>
       </type>

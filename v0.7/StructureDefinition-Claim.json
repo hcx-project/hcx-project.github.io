@@ -67,7 +67,7 @@
   "abstract": false,
   "type": "Claim",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Claim",
-  "derivation": "specialization",
+  "derivation": "constraint",
   "snapshot": {
     "element": [
       {
@@ -171,7 +171,7 @@
             "extension": [
               {
                 "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-                "valueUrl": "string"
+                "valueUrl": "id"
               }
             ],
             "code": "http://hl7.org/fhirpath/System.String"

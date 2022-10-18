@@ -17,7 +17,7 @@
       <Composition>
         <id value="42ff4a07-3e36-402f-a99e-29f16c0c9eee"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "42ff4a07-3e36-402f-a99e-29f16c0c9eee" </p></div><p><b>identifier</b>: id: 42ff4a07-3e36-402f-a99e-29f16c0c9eee</p><p><b>status</b>: final</p><p><b>type</b>: Coverage Eligibility Request Doc <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (document-type#HcxCoverageEligibilityRequest)</span></p><p><b>date</b>: 2022-02-08 09:49:55+0530</p><p><b>author</b>: <a href="#Organization_Tmh01">See above (Organization/Tmh01)</a></p><p><b>title</b>: Coverage Eligibility Request</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Composition</b><a name="42ff4a07-3e36-402f-a99e-29f16c0c9eee"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition "42ff4a07-3e36-402f-a99e-29f16c0c9eee" </p></div><p><b>identifier</b>: id: 42ff4a07-3e36-402f-a99e-29f16c0c9eee</p><p><b>status</b>: final</p><p><b>type</b>: Coverage Eligibility Request Doc <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (document-type#HcxCoverageEligibilityRequest)</span></p><p><b>date</b>: 2022-02-08 09:49:55+0530</p><p><b>author</b>: <a href="#Organization_Tmh01">See above (Organization/Tmh01)</a></p><p><b>title</b>: Coverage Eligibility Request</p></div>
         </text>
         <identifier>
           <system value="https://www.tmh.in/hcx-documents"/>
@@ -62,7 +62,7 @@
       <Organization>
         <id value="Tmh01"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Tmh01" </p></div><p><b>identifier</b>: id: HFR-ID-FOR-TMH, id: IRDA-ID-FOR-TMH</p><p><b>name</b>: Tata Memorial Hospital</p><p><b>alias</b>: TMH, TMC</p><p><b>telecom</b>: ph: (+91) 022-2417-7000</p><p><b>address</b>: Dr Ernest Borges Rd, Parel East, Parel, Mumbai, Maharashtra 400012 Mumbai Maharashtra 400012 INDIA </p><p><b>endpoint</b>: <a href="https://www.tmc.gov.in/">https://www.tmc.gov.in/: Website</a></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Organization</b><a name="Tmh01"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Organization "Tmh01" </p></div><p><b>identifier</b>: id: HFR-ID-FOR-TMH, id: IRDA-ID-FOR-TMH</p><p><b>name</b>: Tata Memorial Hospital</p><p><b>alias</b>: TMH, TMC</p><p><b>telecom</b>: ph: (+91) 022-2417-7000</p><p><b>address</b>: Dr Ernest Borges Rd, Parel East, Parel, Mumbai, Maharashtra 400012 Mumbai Maharashtra 400012 INDIA </p><p><b>endpoint</b>: <a href="https://www.tmc.gov.in/">https://www.tmc.gov.in/: Website</a></p></div>
         </text>
         <identifier>
           <system value="http://abdm.gov.in/facilities"/>
@@ -99,7 +99,7 @@
       <Patient>
         <id value="RVH1003"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "RVH1003" </p></div><p><b>identifier</b>: Subscriber Number: BEN-101, id: hinapatel@abdm</p><p><b>name</b>: Hina Patel</p><p><b>gender</b>: female</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Patient</b><a name="RVH1003"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Patient "RVH1003" </p></div><p><b>identifier</b>: Subscriber Number: BEN-101, id: hinapatel@abdm</p><p><b>name</b>: Hina Patel</p><p><b>gender</b>: female</p></div>
         </text>
         <identifier>
           <type>
@@ -129,7 +129,7 @@
       <CoverageEligibilityRequest>
         <id value="dc82673b-8c71-48c2-8a17-16dcb3b035f6"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "dc82673b-8c71-48c2-8a17-16dcb3b035f6" </p></div><p><b>identifier</b>: id: dc82673b-8c71-48c2-8a17-16dcb3b035f6</p><p><b>status</b>: active</p><p><b>purpose</b>: discovery</p><p><b>patient</b>: <a href="#Patient_RVH1003">See above (Patient/RVH1003)</a></p><p><b>serviced</b>: 2022-02-07 09:49:56+0530 --&gt; 2022-02-09 09:49:56+0530</p><p><b>created</b>: 2022-02-08 09:49:56+0530</p><p><b>provider</b>: <a href="#Organization_Tmh01">See above (Organization/Tmh01)</a></p><p><b>insurer</b>: <a href="#Organization_GICOFINDIA">See above (Organization/GICOFINDIA)</a></p><h3>Insurances</h3><table class="grid"><tr><td>-</td><td><b>Focal</b></td><td><b>Coverage</b></td></tr><tr><td>*</td><td>true</td><td><a href="#Coverage_dadde132-ad64-4d18-8c18-1d52d7e86abc">See above (Coverage/dadde132-ad64-4d18-8c18-1d52d7e86abc)</a></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: CoverageEligibilityRequest</b><a name="dc82673b-8c71-48c2-8a17-16dcb3b035f6"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource CoverageEligibilityRequest "dc82673b-8c71-48c2-8a17-16dcb3b035f6" </p></div><p><b>identifier</b>: id: dc82673b-8c71-48c2-8a17-16dcb3b035f6</p><p><b>status</b>: active</p><p><b>purpose</b>: discovery</p><p><b>patient</b>: <a href="#Patient_RVH1003">See above (Patient/RVH1003)</a></p><p><b>serviced</b>: 2022-02-07 09:49:56+0530 --&gt; 2022-02-09 09:49:56+0530</p><p><b>created</b>: 2022-02-08 09:49:56+0530</p><p><b>provider</b>: <a href="#Organization_Tmh01">See above (Organization/Tmh01)</a></p><p><b>insurer</b>: <a href="#Organization_GICOFINDIA">See above (Organization/GICOFINDIA)</a></p><h3>Insurances</h3><table class="grid"><tr><td>-</td><td><b>Focal</b></td><td><b>Coverage</b></td></tr><tr><td>*</td><td>true</td><td><a href="#Coverage_dadde132-ad64-4d18-8c18-1d52d7e86abc">See above (Coverage/dadde132-ad64-4d18-8c18-1d52d7e86abc)</a></td></tr></table></div>
         </text>
         <identifier>
           <system value="https://www.tmh.in/coverage-eligibility-request"/>
@@ -166,7 +166,7 @@
       <Organization>
         <id value="GICOFINDIA"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "GICOFINDIA" </p></div><p><b>identifier</b>: id: 112</p><p><b>name</b>: General Insurance Corporation of India</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Organization</b><a name="GICOFINDIA"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Organization "GICOFINDIA" </p></div><p><b>identifier</b>: id: 112</p><p><b>name</b>: General Insurance Corporation of India</p></div>
         </text>
         <identifier>
           <system value="http://irdai.gov.in/insurers"/>
@@ -182,7 +182,7 @@
       <Coverage>
         <id value="dadde132-ad64-4d18-8c18-1d52d7e86abc"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "dadde132-ad64-4d18-8c18-1d52d7e86abc" </p></div><p><b>identifier</b>: id: policy-RVH1003</p><p><b>status</b>: active</p><p><b>subscriber</b>: <a href="#Patient_RVH1003">See above (Patient/RVH1003)</a></p><p><b>subscriberId</b>: SN-RVH1003</p><p><b>beneficiary</b>: <a href="#Patient_RVH1003">See above (Patient/RVH1003)</a></p><p><b>relationship</b>: self <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (subscriber-relationship#self)</span></p><p><b>payor</b>: <a href="#Organization_GICOFINDIA">See above (Organization/GICOFINDIA)</a></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Coverage</b><a name="dadde132-ad64-4d18-8c18-1d52d7e86abc"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Coverage "dadde132-ad64-4d18-8c18-1d52d7e86abc" </p></div><p><b>identifier</b>: id: policy-RVH1003</p><p><b>status</b>: active</p><p><b>subscriber</b>: <a href="#Patient_RVH1003">See above (Patient/RVH1003)</a></p><p><b>subscriberId</b>: SN-RVH1003</p><p><b>beneficiary</b>: <a href="#Patient_RVH1003">See above (Patient/RVH1003)</a></p><p><b>relationship</b>: self <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (subscriber-relationship#self)</span></p><p><b>payor</b>: <a href="#Organization_GICOFINDIA">See above (Organization/GICOFINDIA)</a></p></div>
         </text>
         <identifier>
           <system value="https://www.gicofIndia.in/policies"/>

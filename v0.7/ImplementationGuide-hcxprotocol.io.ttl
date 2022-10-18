@@ -43,7 +43,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ];
      fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.terminology.r4" ];
-     fhir:ImplementationGuide.dependsOn.version [ fhir:value "3.1.0" ]
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "4.0.0" ]
   ], [
      fhir:index 1;
      fhir:ImplementationGuide.dependsOn.uri [
@@ -1057,198 +1057,393 @@
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+         fhir:Extension.valueUrl [ fhir:value "index.html" ]
+       ];
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
        fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX FHIR Implementation Guide" ];
        fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
        fhir:ImplementationGuide.definition.page.page [
          fhir:index 0;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "profiles.html" ]
+         ];
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "profiles.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Profiles" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
          fhir:ImplementationGuide.definition.page.page [
            fhir:index 0;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-Claim.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-Claim.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Claim" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 1;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-ClaimResponse.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-ClaimResponse.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Claim Response" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 2;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-HCXDiagnosticDocumentsExtension.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-HCXDiagnosticDocumentsExtension.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Diagnostic Documents Extension" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 3;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-HCXInsurancePlan.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-HCXInsurancePlan.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX InsurancePlan" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 4;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-HCXInformationalMessagesExtension.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-HCXInformationalMessagesExtension.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Informational Messages Extension" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 5;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-HCXProofOfIdentificationExtension.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-HCXProofOfIdentificationExtension.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Proof Of Identification Extension" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 6;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-HCXProofOfPresenceExtension.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-HCXProofOfPresenceExtension.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Proof Of Presence Extension" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 7;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-HCXQuestionnairesExtension.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-HCXQuestionnairesExtension.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Proof Of Presence Extension" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 8;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-CoverageEligibilityRequest.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-CoverageEligibilityRequest.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Coverage Eligibility Request" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 9;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-Communication.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-Communication.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Communication" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 10;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-CommunicationRequest.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-CommunicationRequest.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Communication Request" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 11;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-HCXSignatureExtension.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-HCXSignatureExtension.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Signature Extension" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 12;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-CoverageEligibilityRequestDocument.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-CoverageEligibilityRequestDocument.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Coverage Eligibility Request Document" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 13;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-CoverageEligibilityResponseDocument.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-CoverageEligibilityResponseDocument.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Coverage Eligibility Response Document" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 14;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-ClaimResponseDocument.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-ClaimResponseDocument.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Claim Response Document" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 15;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-ClaimRequestDocument.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-ClaimRequestDocument.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Claim Request Document" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 16;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-Coverage.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-Coverage.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Coverage" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 17;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-CoverageEligibilityRequest.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-CoverageEligibilityRequest.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Coverage Eligibility Request" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 18;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-CoverageEligibilityResponse.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-CoverageEligibilityResponse.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Coverage Eligibility Response" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 19;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-PaymentNotice.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-PaymentNotice.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Payment Notice" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 20;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-PaymentReconciliation.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-PaymentReconciliation.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Payment Reconciliation" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 21;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-CommunicationDocument.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-CommunicationDocument.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Communication Document" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 22;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "StructureDefinition-Task.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "StructureDefinition-Task.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Task" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ]
        ], [
          fhir:index 1;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "valuesets.html" ]
+         ];
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "valuesets.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "ValueSets" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
          fhir:ImplementationGuide.definition.page.page [
            fhir:index 0;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "ValueSet-claim-denial-codes.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ValueSet-claim-denial-codes.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Claim Denial Codes" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 1;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "ValueSet-claim-service-categories.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ValueSet-claim-service-categories.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Claim Service Categories" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 2;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "ValueSet-claim-service-codes.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ValueSet-claim-service-codes.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Claim Service Codes" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 3;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "ValueSet-medical-speciality-type-provider.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ValueSet-medical-speciality-type-provider.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Medical Speciality Provider" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 4;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "ValueSet-procedure-type-description.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ValueSet-procedure-type-description.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Procedure Type Description" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 5;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "ValueSet-health-service-provider-role.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ValueSet-health-service-provider-role.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX health service provider role" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 6;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "ValueSet-insurance-company-owners.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ValueSet-insurance-company-owners.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX insurance company owners" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 7;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "ValueSet-clinical-diagnostics-document-codes.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ValueSet-clinical-diagnostics-document-codes.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Clinical Diagnostics Document Codes" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 8;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "ValueSet-informational-messages-codes.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ValueSet-informational-messages-codes.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Informational Messages Codes" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 9;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "ValueSet-proof-of-identity-codes.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ValueSet-proof-of-identity-codes.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Proof of Identity Codes" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 10;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "ValueSet-proof-of-presence-codes.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ValueSet-proof-of-presence-codes.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Proof of Presence Codes" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ], [
            fhir:index 11;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+             fhir:Extension.valueUrl [ fhir:value "ValueSet-hcx-document-type-codes.html" ]
+           ];
            fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "ValueSet-hcx-document-type-codes.html" ];
            fhir:ImplementationGuide.definition.page.title [ fhir:value "HCX Document Type Codes" ];
            fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ]
          ]
        ], [
          fhir:index 2;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name" ];
+           fhir:Extension.valueUrl [ fhir:value "downloads.html" ]
+         ];
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "downloads.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Downloads" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
