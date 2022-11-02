@@ -506,7 +506,13 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
+    "http://hl7.org/fhir/tools/ValueSet/billing-subgroup-categories": [
+      "ImplementationGuide.definition.resource"
+    ],
     "http://hl7.org/fhir/tools/ValueSet/claim-denial-codes": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/claim-error-codes": [
       "ImplementationGuide.definition.resource"
     ],
     "http://hl7.org/fhir/tools/ValueSet/claim-service-categories": [
@@ -515,19 +521,19 @@
     "http://hl7.org/fhir/tools/ValueSet/claim-service-codes": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://hl7.org/fhir/tools/ValueSet/clinical-diagnostics-document-codes": [
+    "http://hl7.org/fhir/tools/ValueSet/claim-supporting-info-categories": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://hl7.org/fhir/tools/ValueSet/hcx-document-type-codes": [
+    "http://hl7.org/fhir/tools/ValueSet/claim-supporting-info-codes": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/clinical-diagnostics-document-codes": [
       "ImplementationGuide.definition.resource"
     ],
     "http://hl7.org/fhir/tools/ValueSet/health-service-provider-role": [
       "ImplementationGuide.definition.resource"
     ],
     "http://hl7.org/fhir/tools/ValueSet/informational-messages-codes": [
-      "ImplementationGuide.definition.resource"
-    ],
-    "http://hl7.org/fhir/tools/ValueSet/insurance-company-owners": [
       "ImplementationGuide.definition.resource"
     ],
     "http://hl7.org/fhir/tools/ValueSet/medical-speciality-type-provider": [

@@ -1863,8 +1863,8 @@
          fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
          fhir:ElementDefinition.binding.description [ fhir:value "Benefit categories such as: oral, medical, vision etc." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/ex-benefitcategory";
-           fhir:link <http://hl7.org/fhir/ValueSet/ex-benefitcategory>
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html>
          ]
        ]
      ], [
@@ -2622,6 +2622,52 @@
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 8;
+       fhir:Element.id [ fhir:value "CoverageEligibilityRequest.item.category" ];
+       fhir:ElementDefinition.path [ fhir:value "CoverageEligibilityRequest.item.category" ];
+       fhir:ElementDefinition.short [ fhir:value "Benefit classification" ];
+       fhir:ElementDefinition.definition [ fhir:value "Code to identify the general type of benefits under which products and services are provided." ];
+       fhir:ElementDefinition.comment [ fhir:value "Examples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage." ];
+       fhir:ElementDefinition.requirements [ fhir:value "Needed to convey the category of service or product for which eligibility is sought." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "CoverageEligibilityRequest.item.category" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.binding [
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
+           fhir:Extension.valueString [ fhir:value "BenefitCategory" ]
+         ];
+         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
+         fhir:ElementDefinition.binding.description [ fhir:value "Benefit categories such as: oral, medical, vision etc." ];
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html>
+         ]
+       ]
+     ], [
+       fhir:index 9;
        fhir:Element.id [ fhir:value "CoverageEligibilityRequest.item.provider" ];
        fhir:ElementDefinition.path [ fhir:value "CoverageEligibilityRequest.item.provider" ];
        fhir:ElementDefinition.short [ fhir:value "Perfoming practitioner" ];
@@ -2659,7 +2705,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "FiveWs.source" ]
        ]
      ], [
-       fhir:index 9;
+       fhir:index 10;
        fhir:Element.id [ fhir:value "CoverageEligibilityRequest.item.facility" ];
        fhir:ElementDefinition.path [ fhir:value "CoverageEligibilityRequest.item.facility" ];
        fhir:ElementDefinition.short [ fhir:value "Servicing facility" ];
@@ -2688,7 +2734,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 11;
        fhir:Element.id [ fhir:value "CoverageEligibilityRequest.item.diagnosis.diagnosis[x]" ];
        fhir:ElementDefinition.path [ fhir:value "CoverageEligibilityRequest.item.diagnosis.diagnosis[x]" ];
        fhir:ElementDefinition.short [ fhir:value "Nature of illness or problem" ];

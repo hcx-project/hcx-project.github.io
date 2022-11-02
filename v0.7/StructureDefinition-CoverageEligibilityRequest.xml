@@ -1452,7 +1452,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="Benefit categories such as: oral, medical, vision etc."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/ex-benefitcategory"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html"/>
       </binding>
     </element>
     <element id="CoverageEligibilityRequest.item.productOrService">
@@ -2015,6 +2015,41 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       </type>
       <isModifier value="false"/>
       <isSummary value="false"/>
+    </element>
+    <element id="CoverageEligibilityRequest.item.category">
+      <path value="CoverageEligibilityRequest.item.category"/>
+      <short value="Benefit classification"/>
+      <definition value="Code to identify the general type of benefits under which products and services are provided."/>
+      <comment value="Examples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage."/>
+      <requirements value="Needed to convey the category of service or product for which eligibility is sought."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="CoverageEligibilityRequest.item.category"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="BenefitCategory"/>
+        </extension>
+        <strength value="example"/>
+        <description value="Benefit categories such as: oral, medical, vision etc."/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html"/>
+      </binding>
     </element>
     <element id="CoverageEligibilityRequest.item.provider">
       <path value="CoverageEligibilityRequest.item.provider"/>

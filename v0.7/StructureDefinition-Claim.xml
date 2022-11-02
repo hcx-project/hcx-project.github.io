@@ -1801,7 +1801,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="The role codes for the care team members."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/claim-careteamrole"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html"/>
       </binding>
     </element>
     <element id="Claim.careTeam.qualification">
@@ -1835,7 +1835,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="Provider professional qualifications."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/provider-qualification"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html"/>
       </binding>
     </element>
     <element id="Claim.supportingInfo">
@@ -2039,7 +2039,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="The valuset used for additional information category codes."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/claim-informationcategory"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-categories.html"/>
       </binding>
     </element>
     <element id="Claim.supportingInfo.code">
@@ -2073,7 +2073,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="The valuset used for additional information codes."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/claim-exception"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-codes.html"/>
       </binding>
     </element>
     <element id="Claim.supportingInfo.timing[x]">
@@ -3677,7 +3677,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="Benefit categories such as: oral-basic, major, glasses."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/ex-benefitcategory"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html"/>
       </binding>
     </element>
     <element id="Claim.item.productOrService">
@@ -4330,7 +4330,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="Benefit categories such as: oral-basic, major, glasses."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/ex-benefitcategory"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-billing-subgroup-categories.html"/>
       </binding>
     </element>
     <element id="Claim.item.detail.productOrService">
@@ -5403,6 +5403,144 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         <map value="FiveWs.actor"/>
       </mapping>
     </element>
+    <element id="Claim.careTeam.role">
+      <path value="Claim.careTeam.role"/>
+      <short value="Function within the team"/>
+      <definition value="The lead, assisting or supervising practitioner and their discipline if a multidisciplinary team."/>
+      <comment value="Role might not be required when there is only a single provider listed."/>
+      <requirements value="When multiple parties are present it is required to distinguish the roles performed by each member."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Claim.careTeam.role"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="CareTeamRole"/>
+        </extension>
+        <strength value="example"/>
+        <description value="The role codes for the care team members."/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html"/>
+      </binding>
+    </element>
+    <element id="Claim.careTeam.qualification">
+      <path value="Claim.careTeam.qualification"/>
+      <short value="Practitioner credential or specialization"/>
+      <definition value="The qualification of the practitioner which is applicable for this service."/>
+      <requirements value="Need to specify which qualification a provider is delivering the product or service under."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Claim.careTeam.qualification"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="ProviderQualification"/>
+        </extension>
+        <strength value="example"/>
+        <description value="Provider professional qualifications."/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html"/>
+      </binding>
+    </element>
+    <element id="Claim.supportingInfo.category">
+      <path value="Claim.supportingInfo.category"/>
+      <short value="Classification of the supplied information"/>
+      <definition value="The general class of the information supplied: information; exception; accident, employment; onset, etc."/>
+      <comment value="This may contain a category for the local bill type codes."/>
+      <requirements value="Required to group or associate information items with common characteristics. For example: admission information or prior treatments."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="Claim.supportingInfo.category"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="InformationCategory"/>
+        </extension>
+        <strength value="example"/>
+        <description value="The valuset used for additional information category codes."/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-categories.html"/>
+      </binding>
+    </element>
+    <element id="Claim.supportingInfo.code">
+      <path value="Claim.supportingInfo.code"/>
+      <short value="Type of information"/>
+      <definition value="System and code pertaining to the specific information regarding special conditions relating to the setting, treatment or patient  for which care is sought."/>
+      <requirements value="Required to identify the kind of additional information."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Claim.supportingInfo.code"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="InformationCode"/>
+        </extension>
+        <strength value="example"/>
+        <description value="The valuset used for additional information codes."/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-codes.html"/>
+      </binding>
+    </element>
     <element id="Claim.diagnosis.diagnosis[x]">
       <path value="Claim.diagnosis.diagnosis[x]"/>
       <short value="Nature of illness or problem"/>
@@ -5531,6 +5669,41 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <isModifier value="false"/>
       <isSummary value="false"/>
     </element>
+    <element id="Claim.item.category">
+      <path value="Claim.item.category"/>
+      <short value="Benefit classification"/>
+      <definition value="Code to identify the general type of benefits under which products and services are provided."/>
+      <comment value="Examples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage."/>
+      <requirements value="Needed in the processing of institutional claims as this allows the insurer to determine whether a facial X-Ray is for dental, orthopedic, or facial surgery purposes."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Claim.item.category"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="BenefitCategory"/>
+        </extension>
+        <strength value="example"/>
+        <description value="Benefit categories such as: oral-basic, major, glasses."/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html"/>
+      </binding>
+    </element>
     <element id="Claim.item.encounter">
       <path value="Claim.item.encounter"/>
       <short value="Encounters related to this billed item"/>
@@ -5562,6 +5735,41 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         <identity value="workflow"/>
         <map value="Request.context"/>
       </mapping>
+    </element>
+    <element id="Claim.item.detail.category">
+      <path value="Claim.item.detail.category"/>
+      <short value="Benefit classification"/>
+      <definition value="Code to identify the general type of benefits under which products and services are provided."/>
+      <comment value="Examples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage."/>
+      <requirements value="Needed in the processing of institutional claims as this allows the insurer to determine whether a facial X-Ray is for dental, orthopedic, or facial surgery purposes."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Claim.item.detail.category"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="BenefitCategory"/>
+        </extension>
+        <strength value="example"/>
+        <description value="Benefit categories such as: oral-basic, major, glasses."/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-billing-subgroup-categories.html"/>
+      </binding>
     </element>
   </differential>
 </StructureDefinition>

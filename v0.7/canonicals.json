@@ -161,11 +161,25 @@
     "name": "Task"
   },
   {
+    "id": "billing-subgroup-categories",
+    "type": "ValueSet",
+    "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-billing-subgroup-categories.html",
+    "version": "0.7.0",
+    "name": "BillingSubgroupCategories"
+  },
+  {
     "id": "claim-denial-codes",
     "type": "ValueSet",
     "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-denial-codes.html",
     "version": "0.7.0",
     "name": "ClaimDenialCodes"
+  },
+  {
+    "id": "claim-error-codes",
+    "type": "ValueSet",
+    "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-error-codes.html",
+    "version": "0.7.0",
+    "name": "ClaimErrorCodes"
   },
   {
     "id": "claim-service-categories",
@@ -182,18 +196,25 @@
     "name": "ClaimServiceCodes"
   },
   {
+    "id": "claim-supporting-info-categories",
+    "type": "ValueSet",
+    "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-categories.html",
+    "version": "0.7.0",
+    "name": "ClaimSupportingInfoCategories"
+  },
+  {
+    "id": "claim-supporting-info-codes",
+    "type": "ValueSet",
+    "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-codes.html",
+    "version": "0.7.0",
+    "name": "ClaimSupportingInfoCodes"
+  },
+  {
     "id": "clinical-diagnostics-document-codes",
     "type": "ValueSet",
     "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-clinical-diagnostics-document-codes.html",
     "version": "0.7.0",
     "name": "ClinicalDiagnosticsDocumentCodes"
-  },
-  {
-    "id": "hcx-document-type-codes",
-    "type": "ValueSet",
-    "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html",
-    "version": "0.7.0",
-    "name": "HCXDocumentTypeCodes"
   },
   {
     "id": "health-service-provider-role",
@@ -208,13 +229,6 @@
     "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-informational-messages-codes.html",
     "version": "0.7.0",
     "name": "InformationalMessagesCodes"
-  },
-  {
-    "id": "insurance-company-owners",
-    "type": "ValueSet",
-    "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-insurance-company-owners.html",
-    "version": "0.7.0",
-    "name": "InsuranceCompanyOwners"
   },
   {
     "id": "medical-speciality-type-provider",

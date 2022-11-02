@@ -1,0 +1,749 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HCXPROTOCOL.IO\HCX Billing Subgroup Categories - TTL Representation - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"5.27"}
+    h3,h4,h5,h6{--heading-prefix:"5.27"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+  <a id="family-logo" no-external="true"><img height="50" alt="HCX Protocol"
+      src="assets/images/HCX_logo-final-2.png" />
+  </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:25pt;font-weight:bold">FHIR Implementation Guide for HCX</span><br/>0.7.0 - CI Build</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+<a href="index.html">Home</a>
+</li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artifacts<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="profiles.html">Profiles</a>
+      </li>
+      <li>
+        <a href="valuesets.html">Value Sets</a>
+      </li>
+    </ul>
+  </li>
+<li>
+  <a href="downloads.html">Downloads</a>
+</li>
+</ul>      
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>HCX Billing Subgroup Categories</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 9" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">FHIR Implementation Guide for HCX - Local Development build (v0.7.0). See the <a href="https://hcxprotocol.io/fhir/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ValueSet-billing-subgroup-categories.html">Narrative Content</a>
+  </li>
+
+
+  
+    <li>
+      <a href="ValueSet-billing-subgroup-categories.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-billing-subgroup-categories.json.html">JSON</a>
+    </li>
+  
+
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: HCX Billing Subgroup Categories - TTL Representation</h2>
+
+<p><a href="ValueSet-billing-subgroup-categories.ttl" no-download="true">Raw ttl</a> | <a href="ValueSet-billing-subgroup-categories.ttl" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:ValueSet;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;billing-subgroup-categories&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
+     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This value set contains 118 concepts&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;System&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-101000\&quot;&gt; &lt;/a&gt;  101000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Room Charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-102000\&quot;&gt; &lt;/a&gt;  102000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Nursing charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-103000\&quot;&gt; &lt;/a&gt;  103000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Duty Doctor fee&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-104000\&quot;&gt; &lt;/a&gt;  104000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Monitor charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-201000\&quot;&gt; &lt;/a&gt;  201000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;ICU Charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-202000\&quot;&gt; &lt;/a&gt;  202000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;ICU Nursing charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-203000\&quot;&gt; &lt;/a&gt;  203000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Monitor charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-204000\&quot;&gt; &lt;/a&gt;  204000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;ICU Supplies &amp;amp; equipment&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-301000\&quot;&gt; &lt;/a&gt;  301000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;OT rent&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-302000\&quot;&gt; &lt;/a&gt;  302000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;OT Equipment charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-303000\&quot;&gt; &lt;/a&gt;  303000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;OT Drugs &amp;amp; Consumables&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-304000\&quot;&gt; &lt;/a&gt;  304000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;OT Sterilization&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-401000\&quot;&gt; &lt;/a&gt;  401000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Medicine &amp;amp;\nConsumables charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-501000\&quot;&gt; &lt;/a&gt;  501000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Visit charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-502000\&quot;&gt; &lt;/a&gt;  502000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Surgery Charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-503000\&quot;&gt; &lt;/a&gt;  503000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Anaesthetists fee&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-504000\&quot;&gt; &lt;/a&gt;  504000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Intensivist Charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-505000\&quot;&gt; &lt;/a&gt;  505000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Technician Charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-506000\&quot;&gt; &lt;/a&gt;  506000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Physiotherapy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-507000\&quot;&gt; &lt;/a&gt;  507000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Procedure charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-601000\&quot;&gt; &lt;/a&gt;  601000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Bio Chemistry&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-602000\&quot;&gt; &lt;/a&gt;  602000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Cardiology charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-603000\&quot;&gt; &lt;/a&gt;  603000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Haemotology charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-604000\&quot;&gt; &lt;/a&gt;  604000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Microbiology charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-605000\&quot;&gt; &lt;/a&gt;  605000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Neurology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-606000\&quot;&gt; &lt;/a&gt;  606000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Nuclear medicine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-607000\&quot;&gt; &lt;/a&gt;  607000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Pathology charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-608000\&quot;&gt; &lt;/a&gt;  608000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Radiology services&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-609000\&quot;&gt; &lt;/a&gt;  609000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Serology charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-610000\&quot;&gt; &lt;/a&gt;  610000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Medical Genetics&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-611000\&quot;&gt; &lt;/a&gt;  611000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Profiles&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-701000\&quot;&gt; &lt;/a&gt;  701000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Ambulance Charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-801000\&quot;&gt; &lt;/a&gt;  801000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Admission charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-802000\&quot;&gt; &lt;/a&gt;  802000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Attendant food charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-803000\&quot;&gt; &lt;/a&gt;  803000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Patient food charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-804000\&quot;&gt; &lt;/a&gt;  804000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Registration charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-805000\&quot;&gt; &lt;/a&gt;  805000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;MRD Charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-806000\&quot;&gt; &lt;/a&gt;  806000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Documentation charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-807000\&quot;&gt; &lt;/a&gt;  807000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Telephone charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-808000\&quot;&gt; &lt;/a&gt;  808000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Bio Medical Waste Charges&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-809000\&quot;&gt; &lt;/a&gt;  809000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Taxes&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-901000\&quot;&gt; &lt;/a&gt;  901000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Cardiac Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-902000\&quot;&gt; &lt;/a&gt;  902000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;CardiologyPackage s&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-903000\&quot;&gt; &lt;/a&gt;  903000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Cath Lab&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-904000\&quot;&gt; &lt;/a&gt;  904000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Dental Procedures&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-905000\&quot;&gt; &lt;/a&gt;  905000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;ENT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-906000\&quot;&gt; &lt;/a&gt;  906000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Gastroenterology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-907000\&quot;&gt; &lt;/a&gt;  907000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;General Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-908000\&quot;&gt; &lt;/a&gt;  908000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Gynaecology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-909000\&quot;&gt; &lt;/a&gt;  909000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Nephrology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-910000\&quot;&gt; &lt;/a&gt;  910000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Neuro Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-911000\&quot;&gt; &lt;/a&gt;  911000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Oncology Procedures&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-912000\&quot;&gt; &lt;/a&gt;  912000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Opthalmology\nprocedures&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-913000\&quot;&gt; &lt;/a&gt;  913000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Orthopaedic Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-914000\&quot;&gt; &lt;/a&gt;  914000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Plastic Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-915000\&quot;&gt; &lt;/a&gt;  915000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Pulmonology Packages&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-916000\&quot;&gt; &lt;/a&gt;  916000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Urology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-917000\&quot;&gt; &lt;/a&gt;  917000&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Vascular Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-BM\&quot;&gt; &lt;/a&gt;  BM&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Burns Management&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-ER\&quot;&gt; &lt;/a&gt;  ER&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Emergency&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-ID\&quot;&gt; &lt;/a&gt;  ID&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Infectious Diseases&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-IN\&quot;&gt; &lt;/a&gt;  IN&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Interventional Neuroradiology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-MC\&quot;&gt; &lt;/a&gt;  MC&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Cardiology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-MG\&quot;&gt; &lt;/a&gt;  MG&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;General Medicine&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-MM\&quot;&gt; &lt;/a&gt;  MM&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Mental Disorders&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-MN\&quot;&gt; &lt;/a&gt;  MN&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Neo - natal Care&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-MO\&quot;&gt; &lt;/a&gt;  MO&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Medical Oncology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-MP\&quot;&gt; &lt;/a&gt;  MP&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Pediatric Medical Management&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-MR\&quot;&gt; &lt;/a&gt;  MR&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Radiation Oncology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-OT\&quot;&gt; &lt;/a&gt;  OT&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Organ and Tissue Transplant&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-SB\&quot;&gt; &lt;/a&gt;  SB&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Orthopedics&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-SC\&quot;&gt; &lt;/a&gt;  SC&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Surgical Oncology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-SE\&quot;&gt; &lt;/a&gt;  SE&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Ophthalmology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-SG\&quot;&gt; &lt;/a&gt;  SG&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;General Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-SL\&quot;&gt; &lt;/a&gt;  SL&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;ENT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-SM\&quot;&gt; &lt;/a&gt;  SM&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Oral &amp;amp; Maxillofacial Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-SN\&quot;&gt; &lt;/a&gt;  SN&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Neurosurgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-SO\&quot;&gt; &lt;/a&gt;  SO&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Obstetrics &amp;amp; Gynecology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-SP\&quot;&gt; &lt;/a&gt;  SP&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Plastic &amp;amp; Reconstructive Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-SS\&quot;&gt; &lt;/a&gt;  SS&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Pediatric Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-ST\&quot;&gt; &lt;/a&gt;  ST&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Polytrauma, Orthopedics, Neurosurgery, General Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-SU\&quot;&gt; &lt;/a&gt;  SU&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Urology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-SV\&quot;&gt; &lt;/a&gt;  SV&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;CTVS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-US\&quot;&gt; &lt;/a&gt;  US&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Unspecified Surgical Package&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M1\&quot;&gt; &lt;/a&gt;  M1&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Medical Oncology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M10\&quot;&gt; &lt;/a&gt;  M10&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Pulmonology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M11\&quot;&gt; &lt;/a&gt;  M11&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Dermatology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M12\&quot;&gt; &lt;/a&gt;  M12&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Rheumatology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M13\&quot;&gt; &lt;/a&gt;  M13&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Endocrinology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M14\&quot;&gt; &lt;/a&gt;  M14&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Gastroenterology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M15\&quot;&gt; &lt;/a&gt;  M15&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Interventional Radiology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M16\&quot;&gt; &lt;/a&gt;  M16&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;GENERAL MEDICINE&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M17\&quot;&gt; &lt;/a&gt;  M17&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Mental Disorders Packages&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M18\&quot;&gt; &lt;/a&gt;  M18&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Hematology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M2\&quot;&gt; &lt;/a&gt;  M2&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Radiation Oncology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M3\&quot;&gt; &lt;/a&gt;  M3&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Critical Care&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M5\&quot;&gt; &lt;/a&gt;  M5&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Infectious Diseases&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M6\&quot;&gt; &lt;/a&gt;  M6&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Pediatrics Medical Management&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M7\&quot;&gt; &lt;/a&gt;  M7&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Cardiology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M8\&quot;&gt; &lt;/a&gt;  M8&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Nephrology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-M9\&quot;&gt; &lt;/a&gt;  M9&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Neurology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S10\&quot;&gt; &lt;/a&gt;  S10&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Neurosurgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S11\&quot;&gt; &lt;/a&gt;  S11&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Surgical Oncology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S1\&quot;&gt; &lt;/a&gt;  S1&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;General Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S12\&quot;&gt; &lt;/a&gt;  S12&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Plastic Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S13\&quot;&gt; &lt;/a&gt;  S13&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Burns&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S14\&quot;&gt; &lt;/a&gt;  S14&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Poly Trauma&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S15\&quot;&gt; &lt;/a&gt;  S15&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Prostheses&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S20\&quot;&gt; &lt;/a&gt;  S20&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Oral &amp;amp; Maxillofacial Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S21\&quot;&gt; &lt;/a&gt;  S21&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Pediatric Cancer&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S2\&quot;&gt; &lt;/a&gt;  S2&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;ENT Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S3\&quot;&gt; &lt;/a&gt;  S3&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Ophthalmology Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S4\&quot;&gt; &lt;/a&gt;  S4&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Gynaecology And Obstetrics Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S5\&quot;&gt; &lt;/a&gt;  S5&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Orthopedic Surgery And Procedures&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S6\&quot;&gt; &lt;/a&gt;  S6&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Surgical Gastro Enterology&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S7\&quot;&gt; &lt;/a&gt;  S7&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Cardiac And Cardiothoracic Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S8\&quot;&gt; &lt;/a&gt;  S8&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Pediatric Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;a name=\&quot;http---hcxprotocol.io-codes-billing-subgroup-category-S9\&quot;&gt; &lt;/a&gt;  S9&lt;/td&gt;&lt;td&gt;http://hcxprotocol.io/codes/billing-subgroup-category&lt;/td&gt;&lt;td&gt;Genitourinary System&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:ValueSet.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://ig.hcxprotocol.io/v0.7/ValueSet-billing-subgroup-categories.html&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:ValueSet.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;0.7.0&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:ValueSet.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;BillingSubgroupCategories&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:ValueSet.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:ValueSet.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2022-08-01&quot;^^xsd:date];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:ValueSet.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;HCX Open Community&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:ValueSet.contact</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:ContactDetail.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;HCX Open Community&quot; ];
+     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;url&quot; ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;http://hcxprotocol.io/&quot; ]     ]
+  ];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:ValueSet.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;This is the value set for the the billing subcategory codes which is the second level of nesting the billing items under the billing groups.&quot;];
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">fhir:ValueSet.expansion</a> [
+     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">fhir:ValueSet.expansion.timestamp</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2022-08-01T08:15:30+05:30&quot;^^xsd:dateTime ];
+     <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">fhir:ValueSet.expansion.contains</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;101000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Room Charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;102000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Nursing charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;103000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Duty Doctor fee&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;104000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Monitor charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;201000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ICU Charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;202000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ICU Nursing charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;203000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Monitor charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;204000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ICU Supplies &amp; equipment&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 8;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;301000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;OT rent&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 9;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;302000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;OT Equipment charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 10;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;303000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;OT Drugs &amp; Consumables&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 11;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;304000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;OT Sterilization&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 12;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;401000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Medicine &amp;\nConsumables charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 13;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;501000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Visit charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 14;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;502000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Surgery Charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 15;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;503000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Anaesthetists fee&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 16;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;504000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Intensivist Charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 17;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;505000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Technician Charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 18;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;506000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Physiotherapy&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 19;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;507000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Procedure charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 20;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;601000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Bio Chemistry&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 21;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;602000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Cardiology charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 22;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;603000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Haemotology charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 23;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;604000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Microbiology charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 24;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;605000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Neurology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 25;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;606000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Nuclear medicine&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 26;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;607000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pathology charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 27;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;608000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Radiology services&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 28;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;609000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Serology charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 29;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;610000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Medical Genetics&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 30;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;611000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Profiles&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 31;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;701000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ambulance Charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 32;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;801000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Admission charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 33;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;802000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Attendant food charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 34;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;803000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Patient food charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 35;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;804000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Registration charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 36;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;805000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;MRD Charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 37;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;806000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Documentation charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 38;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;807000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Telephone charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 39;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;808000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Bio Medical Waste Charges&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 40;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;809000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Taxes&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 41;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;901000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Cardiac Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 42;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;902000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CardiologyPackage s&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 43;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;903000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Cath Lab&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 44;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;904000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Dental Procedures&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 45;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;905000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ENT&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 46;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;906000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Gastroenterology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 47;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;907000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;General Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 48;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;908000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Gynaecology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 49;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;909000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Nephrology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 50;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;910000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Neuro Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 51;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;911000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Oncology Procedures&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 52;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;912000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Opthalmology\nprocedures&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 53;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;913000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Orthopaedic Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 54;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;914000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plastic Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 55;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;915000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pulmonology Packages&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 56;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;916000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Urology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 57;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;917000&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Vascular Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 58;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;BM&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Burns Management&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 59;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;ER&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Emergency&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 60;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;ID&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Infectious Diseases&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 61;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;IN&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Interventional Neuroradiology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 62;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MC&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Cardiology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 63;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MG&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;General Medicine&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 64;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MM&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Mental Disorders&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 65;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MN&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Neo - natal Care&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 66;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MO&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Medical Oncology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 67;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MP&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pediatric Medical Management&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 68;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MR&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Radiation Oncology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 69;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;OT&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Organ and Tissue Transplant&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 70;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SB&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Orthopedics&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 71;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SC&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Surgical Oncology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 72;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SE&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ophthalmology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 73;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SG&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;General Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 74;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SL&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ENT&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 75;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SM&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Oral &amp; Maxillofacial Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 76;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SN&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Neurosurgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 77;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SO&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Obstetrics &amp; Gynecology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 78;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SP&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plastic &amp; Reconstructive Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 79;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SS&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pediatric Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 80;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;ST&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Polytrauma, Orthopedics, Neurosurgery, General Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 81;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SU&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Urology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 82;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SV&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CTVS&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 83;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;US&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Unspecified Surgical Package&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 84;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M1&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Medical Oncology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 85;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M10&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pulmonology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 86;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M11&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Dermatology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 87;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M12&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Rheumatology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 88;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M13&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Endocrinology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 89;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M14&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Gastroenterology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 90;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M15&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Interventional Radiology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 91;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M16&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;GENERAL MEDICINE&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 92;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M17&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Mental Disorders Packages&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 93;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M18&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Hematology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 94;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M2&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Radiation Oncology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 95;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M3&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Critical Care&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 96;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M5&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Infectious Diseases&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 97;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M6&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pediatrics Medical Management&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 98;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M7&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Cardiology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 99;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M8&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Nephrology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 100;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;M9&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Neurology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 101;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S10&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Neurosurgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 102;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S11&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Surgical Oncology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 103;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S1&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;General Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 104;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S12&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plastic Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 105;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S13&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Burns&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 106;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S14&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Poly Trauma&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 107;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S15&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Prostheses&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 108;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S20&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Oral &amp; Maxillofacial Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 109;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S21&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pediatric Cancer&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 110;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S2&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;ENT Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 111;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S3&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ophthalmology Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 112;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S4&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Gynaecology And Obstetrics Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 113;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S5&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Orthopedic Surgery And Procedures&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 114;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S6&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Surgical Gastro Enterology&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 115;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S7&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Cardiac And Cardiothoracic Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 116;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S8&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pediatric Surgery&quot; ]     ], [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 117;
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">fhir:ValueSet.expansion.contains.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hcxprotocol.io/codes/billing-subgroup-category&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">fhir:ValueSet.expansion.contains.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;S9&quot; ];
+       <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">fhir:ValueSet.expansion.contains.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Genitourinary System&quot; ]     ]
+  ].
+
+# - ontology header ------------------------------------------------------------
+
+ a owl:Ontology;
+  owl:imports fhir:fhir.ttl.
+
+</code></pre>
+
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hcxprotocol.io/">HCX Open Community</a>.  Package hcxprotocol.io#0.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 2, 2022 20:33+0530">2022-11-02</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

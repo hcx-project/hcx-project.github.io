@@ -2252,8 +2252,8 @@
          fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
          fhir:ElementDefinition.binding.description [ fhir:value "The role codes for the care team members." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/claim-careteamrole";
-           fhir:link <http://hl7.org/fhir/ValueSet/claim-careteamrole>
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html>
          ]
        ]
      ], [
@@ -2297,8 +2297,8 @@
          fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
          fhir:ElementDefinition.binding.description [ fhir:value "Provider professional qualifications." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/provider-qualification";
-           fhir:link <http://hl7.org/fhir/ValueSet/provider-qualification>
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html>
          ]
        ]
      ], [
@@ -2570,8 +2570,8 @@
          fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
          fhir:ElementDefinition.binding.description [ fhir:value "The valuset used for additional information category codes." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/claim-informationcategory";
-           fhir:link <http://hl7.org/fhir/ValueSet/claim-informationcategory>
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-categories.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-categories.html>
          ]
        ]
      ], [
@@ -2615,8 +2615,8 @@
          fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
          fhir:ElementDefinition.binding.description [ fhir:value "The valuset used for additional information codes." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/claim-exception";
-           fhir:link <http://hl7.org/fhir/ValueSet/claim-exception>
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-codes.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-codes.html>
          ]
        ]
      ], [
@@ -4720,8 +4720,8 @@
          fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
          fhir:ElementDefinition.binding.description [ fhir:value "Benefit categories such as: oral-basic, major, glasses." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/ex-benefitcategory";
-           fhir:link <http://hl7.org/fhir/ValueSet/ex-benefitcategory>
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html>
          ]
        ]
      ], [
@@ -5583,8 +5583,8 @@
          fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
          fhir:ElementDefinition.binding.description [ fhir:value "Benefit categories such as: oral-basic, major, glasses." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/ex-benefitcategory";
-           fhir:link <http://hl7.org/fhir/ValueSet/ex-benefitcategory>
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-billing-subgroup-categories.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-billing-subgroup-categories.html>
          ]
        ]
      ], [
@@ -7015,6 +7015,188 @@
        ]
      ], [
        fhir:index 11;
+       fhir:Element.id [ fhir:value "Claim.careTeam.role" ];
+       fhir:ElementDefinition.path [ fhir:value "Claim.careTeam.role" ];
+       fhir:ElementDefinition.short [ fhir:value "Function within the team" ];
+       fhir:ElementDefinition.definition [ fhir:value "The lead, assisting or supervising practitioner and their discipline if a multidisciplinary team." ];
+       fhir:ElementDefinition.comment [ fhir:value "Role might not be required when there is only a single provider listed." ];
+       fhir:ElementDefinition.requirements [ fhir:value "When multiple parties are present it is required to distinguish the roles performed by each member." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Claim.careTeam.role" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.binding [
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
+           fhir:Extension.valueString [ fhir:value "CareTeamRole" ]
+         ];
+         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
+         fhir:ElementDefinition.binding.description [ fhir:value "The role codes for the care team members." ];
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html>
+         ]
+       ]
+     ], [
+       fhir:index 12;
+       fhir:Element.id [ fhir:value "Claim.careTeam.qualification" ];
+       fhir:ElementDefinition.path [ fhir:value "Claim.careTeam.qualification" ];
+       fhir:ElementDefinition.short [ fhir:value "Practitioner credential or specialization" ];
+       fhir:ElementDefinition.definition [ fhir:value "The qualification of the practitioner which is applicable for this service." ];
+       fhir:ElementDefinition.requirements [ fhir:value "Need to specify which qualification a provider is delivering the product or service under." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Claim.careTeam.qualification" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.binding [
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
+           fhir:Extension.valueString [ fhir:value "ProviderQualification" ]
+         ];
+         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
+         fhir:ElementDefinition.binding.description [ fhir:value "Provider professional qualifications." ];
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html>
+         ]
+       ]
+     ], [
+       fhir:index 13;
+       fhir:Element.id [ fhir:value "Claim.supportingInfo.category" ];
+       fhir:ElementDefinition.path [ fhir:value "Claim.supportingInfo.category" ];
+       fhir:ElementDefinition.short [ fhir:value "Classification of the supplied information" ];
+       fhir:ElementDefinition.definition [ fhir:value "The general class of the information supplied: information; exception; accident, employment; onset, etc." ];
+       fhir:ElementDefinition.comment [ fhir:value "This may contain a category for the local bill type codes." ];
+       fhir:ElementDefinition.requirements [ fhir:value "Required to group or associate information items with common characteristics. For example: admission information or prior treatments." ];
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Claim.supportingInfo.category" ];
+         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.binding [
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
+           fhir:Extension.valueString [ fhir:value "InformationCategory" ]
+         ];
+         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
+         fhir:ElementDefinition.binding.description [ fhir:value "The valuset used for additional information category codes." ];
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-categories.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-categories.html>
+         ]
+       ]
+     ], [
+       fhir:index 14;
+       fhir:Element.id [ fhir:value "Claim.supportingInfo.code" ];
+       fhir:ElementDefinition.path [ fhir:value "Claim.supportingInfo.code" ];
+       fhir:ElementDefinition.short [ fhir:value "Type of information" ];
+       fhir:ElementDefinition.definition [ fhir:value "System and code pertaining to the specific information regarding special conditions relating to the setting, treatment or patient  for which care is sought." ];
+       fhir:ElementDefinition.requirements [ fhir:value "Required to identify the kind of additional information." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Claim.supportingInfo.code" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.binding [
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
+           fhir:Extension.valueString [ fhir:value "InformationCode" ]
+         ];
+         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
+         fhir:ElementDefinition.binding.description [ fhir:value "The valuset used for additional information codes." ];
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-codes.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-claim-supporting-info-codes.html>
+         ]
+       ]
+     ], [
+       fhir:index 15;
        fhir:Element.id [ fhir:value "Claim.diagnosis.diagnosis[x]" ];
        fhir:ElementDefinition.path [ fhir:value "Claim.diagnosis.diagnosis[x]" ];
        fhir:ElementDefinition.short [ fhir:value "Nature of illness or problem" ];
@@ -7067,7 +7249,7 @@
          ]
        ]
      ], [
-       fhir:index 12;
+       fhir:index 16;
        fhir:Element.id [ fhir:value "Claim.diagnosis.type" ];
        fhir:ElementDefinition.path [ fhir:value "Claim.diagnosis.type" ];
        fhir:ElementDefinition.short [ fhir:value "Timing or nature of the diagnosis" ];
@@ -7113,7 +7295,7 @@
          ]
        ]
      ], [
-       fhir:index 13;
+       fhir:index 17;
        fhir:Element.id [ fhir:value "Claim.insurance.coverage" ];
        fhir:ElementDefinition.path [ fhir:value "Claim.insurance.coverage" ];
        fhir:ElementDefinition.short [ fhir:value "Insurance information" ];
@@ -7150,7 +7332,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 14;
+       fhir:index 18;
        fhir:Element.id [ fhir:value "Claim.insurance.claimResponse" ];
        fhir:ElementDefinition.path [ fhir:value "Claim.insurance.claimResponse" ];
        fhir:ElementDefinition.short [ fhir:value "Adjudication results" ];
@@ -7188,7 +7370,53 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 15;
+       fhir:index 19;
+       fhir:Element.id [ fhir:value "Claim.item.category" ];
+       fhir:ElementDefinition.path [ fhir:value "Claim.item.category" ];
+       fhir:ElementDefinition.short [ fhir:value "Benefit classification" ];
+       fhir:ElementDefinition.definition [ fhir:value "Code to identify the general type of benefits under which products and services are provided." ];
+       fhir:ElementDefinition.comment [ fhir:value "Examples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage." ];
+       fhir:ElementDefinition.requirements [ fhir:value "Needed in the processing of institutional claims as this allows the insurer to determine whether a facial X-Ray is for dental, orthopedic, or facial surgery purposes." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Claim.item.category" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.binding [
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
+           fhir:Extension.valueString [ fhir:value "BenefitCategory" ]
+         ];
+         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
+         fhir:ElementDefinition.binding.description [ fhir:value "Benefit categories such as: oral-basic, major, glasses." ];
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html>
+         ]
+       ]
+     ], [
+       fhir:index 20;
        fhir:Element.id [ fhir:value "Claim.item.encounter" ];
        fhir:ElementDefinition.path [ fhir:value "Claim.item.encounter" ];
        fhir:ElementDefinition.short [ fhir:value "Encounters related to this billed item" ];
@@ -7229,6 +7457,52 @@
          fhir:index 0;
          fhir:ElementDefinition.mapping.identity [ fhir:value "workflow" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "Request.context" ]
+       ]
+     ], [
+       fhir:index 21;
+       fhir:Element.id [ fhir:value "Claim.item.detail.category" ];
+       fhir:ElementDefinition.path [ fhir:value "Claim.item.detail.category" ];
+       fhir:ElementDefinition.short [ fhir:value "Benefit classification" ];
+       fhir:ElementDefinition.definition [ fhir:value "Code to identify the general type of benefits under which products and services are provided." ];
+       fhir:ElementDefinition.comment [ fhir:value "Examples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage." ];
+       fhir:ElementDefinition.requirements [ fhir:value "Needed in the processing of institutional claims as this allows the insurer to determine whether a facial X-Ray is for dental, orthopedic, or facial surgery purposes." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Claim.item.detail.category" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.binding [
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
+           fhir:Extension.valueString [ fhir:value "BenefitCategory" ]
+         ];
+         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
+         fhir:ElementDefinition.binding.description [ fhir:value "Benefit categories such as: oral-basic, major, glasses." ];
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-billing-subgroup-categories.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-billing-subgroup-categories.html>
+         ]
        ]
      ]
   ] .

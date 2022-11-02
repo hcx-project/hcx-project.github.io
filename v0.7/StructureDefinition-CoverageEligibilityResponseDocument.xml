@@ -570,8 +570,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <description value="Type of a composition"/>
-        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html"/>
+        <description value="Type of a composition. TODO - Value set of all HCX objects."/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/doc-typecodes"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -1944,6 +1944,9 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <type>
         <code value="CodeableConcept"/>
       </type>
+      <fixedCodeableConcept>
+        <text value="CoverageEligibilityResponse"/>
+      </fixedCodeableConcept>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
@@ -1955,11 +1958,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <isModifier value="false"/>
       <isSummary value="false"/>
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CompositionSectionType"/>
-        </extension>
-        <strength value="example"/>
-        <description value="Classification of a section of a composition/document."/>
+        <strength value="required"/>
+        <description value="TODO - value set listing all HCX eObjects including CoverageEligibilityResponse for this one."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/doc-section-codes"/>
       </binding>
       <mapping>
@@ -2176,8 +2176,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <short value="A reference to data that supports this section"/>
       <definition value="A reference to the actual resource from which the narrative in the section is derived."/>
       <comment value="If there are no entries in the list, an emptyReason SHOULD be provided."/>
-      <min value="1"/>
-      <max value="1"/>
+      <min value="0"/>
+      <max value="*"/>
       <base>
         <path value="Composition.section.entry"/>
         <min value="0"/>
@@ -2293,8 +2293,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <path value="Composition.type"/>
       <binding>
         <strength value="required"/>
-        <description value="Type of a composition"/>
-        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-hcx-document-type-codes.html"/>
+        <description value="Type of a composition. TODO - Value set of all HCX objects."/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/doc-typecodes"/>
       </binding>
     </element>
     <element id="Composition.section">
@@ -2302,10 +2302,19 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <min value="1"/>
       <max value="1"/>
     </element>
+    <element id="Composition.section.code">
+      <path value="Composition.section.code"/>
+      <fixedCodeableConcept>
+        <text value="CoverageEligibilityResponse"/>
+      </fixedCodeableConcept>
+      <binding>
+        <strength value="required"/>
+        <description value="TODO - value set listing all HCX eObjects including CoverageEligibilityResponse for this one."/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/doc-section-codes"/>
+      </binding>
+    </element>
     <element id="Composition.section.entry">
       <path value="Composition.section.entry"/>
-      <min value="1"/>
-      <max value="1"/>
       <type>
         <code value="Reference"/>
         <targetProfile value="https://ig.hcxprotocol.io/v0.7/StructureDefinition-CoverageEligibilityResponse.html"/>
