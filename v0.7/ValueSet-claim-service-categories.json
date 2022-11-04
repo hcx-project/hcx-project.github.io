@@ -3,7 +3,7 @@
   "id": "claim-service-categories",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-service-category-100000\"> </a>  100000</td><td>http://hcxprotocol.io/codes/service-category</td><td>Room &amp; Nursing Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-service-category-200000\"> </a>  200000</td><td>http://hcxprotocol.io/codes/service-category</td><td>ICU Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-service-category-300000\"> </a>  300000</td><td>http://hcxprotocol.io/codes/service-category</td><td>OT Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-service-category-400000\"> </a>  400000</td><td>http://hcxprotocol.io/codes/service-category</td><td>Medicine &amp; Consumables Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-service-category-500000\"> </a>  500000</td><td>http://hcxprotocol.io/codes/service-category</td><td>Professional Fees Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-service-category-600000\"> </a>  600000</td><td>http://hcxprotocol.io/codes/service-category</td><td>Investigation Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-service-category-700000\"> </a>  700000</td><td>http://hcxprotocol.io/codes/service-category</td><td>Ambulance Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-service-category-800000\"> </a>  800000</td><td>http://hcxprotocol.io/codes/service-category</td><td>Miscellaneous Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-service-category-900000\"> </a>  900000</td><td>http://hcxprotocol.io/codes/service-category</td><td>Provider Package Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-service-category-HBP\"> </a>  HBP</td><td>http://hcxprotocol.io/codes/service-category</td><td>NHA Package Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-service-category-MJPJAY\"> </a>  MJPJAY</td><td>http://hcxprotocol.io/codes/service-category</td><td>Mahatma Jyotibha Phule PMJAY Package Charges</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-100000\"> </a>  100000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Room &amp; Nursing Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-200000\"> </a>  200000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>ICU Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-300000\"> </a>  300000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>OT Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-400000\"> </a>  400000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Medicine &amp; Consumables Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-500000\"> </a>  500000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Professional Fees Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-600000\"> </a>  600000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Investigation Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-700000\"> </a>  700000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Ambulance Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-800000\"> </a>  800000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Miscellaneous Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-900000\"> </a>  900000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Provider Package Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-group-code-HBP\"> </a>  HBP</td><td>https://pmjay.gov.in/benefit-billing-group-code</td><td>NHA Package Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-group-code-MJPJAY\"> </a>  MJPJAY</td><td>https://mjpjay.gov.in/benefit-billing-group-code</td><td>Mahatma Jyotibha Phule PMJAY Package Charges</td></tr></table></div>"
   },
   "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html",
   "version": "0.7.0",
@@ -27,57 +27,57 @@
     "timestamp": "2021-08-15T08:15:30+05:30",
     "contains": [
       {
-        "system": "http://hcxprotocol.io/codes/service-category",
+        "system": "https://irdai.gov.in/benefit-billing-group-code",
         "code": "100000",
         "display": "Room & Nursing Charges"
       },
       {
-        "system": "http://hcxprotocol.io/codes/service-category",
+        "system": "https://irdai.gov.in/benefit-billing-group-code",
         "code": "200000",
         "display": "ICU Charges"
       },
       {
-        "system": "http://hcxprotocol.io/codes/service-category",
+        "system": "https://irdai.gov.in/benefit-billing-group-code",
         "code": "300000",
         "display": "OT Charges"
       },
       {
-        "system": "http://hcxprotocol.io/codes/service-category",
+        "system": "https://irdai.gov.in/benefit-billing-group-code",
         "code": "400000",
         "display": "Medicine & Consumables Charges"
       },
       {
-        "system": "http://hcxprotocol.io/codes/service-category",
+        "system": "https://irdai.gov.in/benefit-billing-group-code",
         "code": "500000",
         "display": "Professional Fees Charges"
       },
       {
-        "system": "http://hcxprotocol.io/codes/service-category",
+        "system": "https://irdai.gov.in/benefit-billing-group-code",
         "code": "600000",
         "display": "Investigation Charges"
       },
       {
-        "system": "http://hcxprotocol.io/codes/service-category",
+        "system": "https://irdai.gov.in/benefit-billing-group-code",
         "code": "700000",
         "display": "Ambulance Charges"
       },
       {
-        "system": "http://hcxprotocol.io/codes/service-category",
+        "system": "https://irdai.gov.in/benefit-billing-group-code",
         "code": "800000",
         "display": "Miscellaneous Charges"
       },
       {
-        "system": "http://hcxprotocol.io/codes/service-category",
+        "system": "https://irdai.gov.in/benefit-billing-group-code",
         "code": "900000",
         "display": "Provider Package Charges"
       },
       {
-        "system": "http://hcxprotocol.io/codes/service-category",
+        "system": "https://pmjay.gov.in/benefit-billing-group-code",
         "code": "HBP",
         "display": "NHA Package Charges"
       },
       {
-        "system": "http://hcxprotocol.io/codes/service-category",
+        "system": "https://mjpjay.gov.in/benefit-billing-group-code",
         "code": "MJPJAY",
         "display": "Mahatma Jyotibha Phule PMJAY Package Charges"
       }

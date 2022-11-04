@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="9a4c038a-79b7-40af-9805-99487c2c622d"/>
+  <id value="9377ac55-fd47-4535-a078-c6d6d9e3a2db"/>
   <meta>
-    <lastUpdated value="2022-11-04T10:03:26.453+05:30"/>
+    <lastUpdated value="2022-11-04T21:33:08.233+05:30"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -267,7 +267,7 @@
             <value value="http://hcxprotocol.io/"/>
           </telecom>
         </contact>
-        <description value="This is the value set that includes the codes to identify the procedure type description and services are provided"/>
+        <description value="This value set includes sample procedure codes. Depending on the context, other codes like ICD-10 procedure codes or HBP procedure codes (NHA) may need to be used."/>
         <expansion>
           <timestamp value="2021-09-07T08:15:30+05:30"/>
           <contains>
@@ -2357,79 +2357,79 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-service-category-100000"> </a>  100000
+                  <a name="https---irdai.gov.in-benefit-billing-group-code-100000"> </a>  100000
                 </td>
-                <td>http://hcxprotocol.io/codes/service-category</td>
+                <td>https://irdai.gov.in/benefit-billing-group-code</td>
                 <td>Room &amp; Nursing Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-service-category-200000"> </a>  200000
+                  <a name="https---irdai.gov.in-benefit-billing-group-code-200000"> </a>  200000
                 </td>
-                <td>http://hcxprotocol.io/codes/service-category</td>
+                <td>https://irdai.gov.in/benefit-billing-group-code</td>
                 <td>ICU Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-service-category-300000"> </a>  300000
+                  <a name="https---irdai.gov.in-benefit-billing-group-code-300000"> </a>  300000
                 </td>
-                <td>http://hcxprotocol.io/codes/service-category</td>
+                <td>https://irdai.gov.in/benefit-billing-group-code</td>
                 <td>OT Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-service-category-400000"> </a>  400000
+                  <a name="https---irdai.gov.in-benefit-billing-group-code-400000"> </a>  400000
                 </td>
-                <td>http://hcxprotocol.io/codes/service-category</td>
+                <td>https://irdai.gov.in/benefit-billing-group-code</td>
                 <td>Medicine &amp; Consumables Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-service-category-500000"> </a>  500000
+                  <a name="https---irdai.gov.in-benefit-billing-group-code-500000"> </a>  500000
                 </td>
-                <td>http://hcxprotocol.io/codes/service-category</td>
+                <td>https://irdai.gov.in/benefit-billing-group-code</td>
                 <td>Professional Fees Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-service-category-600000"> </a>  600000
+                  <a name="https---irdai.gov.in-benefit-billing-group-code-600000"> </a>  600000
                 </td>
-                <td>http://hcxprotocol.io/codes/service-category</td>
+                <td>https://irdai.gov.in/benefit-billing-group-code</td>
                 <td>Investigation Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-service-category-700000"> </a>  700000
+                  <a name="https---irdai.gov.in-benefit-billing-group-code-700000"> </a>  700000
                 </td>
-                <td>http://hcxprotocol.io/codes/service-category</td>
+                <td>https://irdai.gov.in/benefit-billing-group-code</td>
                 <td>Ambulance Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-service-category-800000"> </a>  800000
+                  <a name="https---irdai.gov.in-benefit-billing-group-code-800000"> </a>  800000
                 </td>
-                <td>http://hcxprotocol.io/codes/service-category</td>
+                <td>https://irdai.gov.in/benefit-billing-group-code</td>
                 <td>Miscellaneous Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-service-category-900000"> </a>  900000
+                  <a name="https---irdai.gov.in-benefit-billing-group-code-900000"> </a>  900000
                 </td>
-                <td>http://hcxprotocol.io/codes/service-category</td>
+                <td>https://irdai.gov.in/benefit-billing-group-code</td>
                 <td>Provider Package Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-service-category-HBP"> </a>  HBP
+                  <a name="https---pmjay.gov.in-benefit-billing-group-code-HBP"> </a>  HBP
                 </td>
-                <td>http://hcxprotocol.io/codes/service-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-group-code</td>
                 <td>NHA Package Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-service-category-MJPJAY"> </a>  MJPJAY
+                  <a name="https---mjpjay.gov.in-benefit-billing-group-code-MJPJAY"> </a>  MJPJAY
                 </td>
-                <td>http://hcxprotocol.io/codes/service-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-group-code</td>
                 <td>Mahatma Jyotibha Phule PMJAY Package Charges</td>
               </tr>
             </table>
@@ -2452,57 +2452,57 @@
         <expansion>
           <timestamp value="2021-08-15T08:15:30+05:30"/>
           <contains>
-            <system value="http://hcxprotocol.io/codes/service-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-group-code"/>
             <code value="100000"/>
             <display value="Room &amp; Nursing Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/service-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-group-code"/>
             <code value="200000"/>
             <display value="ICU Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/service-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-group-code"/>
             <code value="300000"/>
             <display value="OT Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/service-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-group-code"/>
             <code value="400000"/>
             <display value="Medicine &amp; Consumables Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/service-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-group-code"/>
             <code value="500000"/>
             <display value="Professional Fees Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/service-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-group-code"/>
             <code value="600000"/>
             <display value="Investigation Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/service-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-group-code"/>
             <code value="700000"/>
             <display value="Ambulance Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/service-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-group-code"/>
             <code value="800000"/>
             <display value="Miscellaneous Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/service-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-group-code"/>
             <code value="900000"/>
             <display value="Provider Package Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/service-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-group-code"/>
             <code value="HBP"/>
             <display value="NHA Package Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/service-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-group-code"/>
             <code value="MJPJAY"/>
             <display value="Mahatma Jyotibha Phule PMJAY Package Charges"/>
           </contains>
@@ -2533,830 +2533,830 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-101000"> </a>  101000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-101000"> </a>  101000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Room Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-102000"> </a>  102000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-102000"> </a>  102000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Nursing charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-103000"> </a>  103000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-103000"> </a>  103000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Duty Doctor fee</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-104000"> </a>  104000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-104000"> </a>  104000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Monitor charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-201000"> </a>  201000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-201000"> </a>  201000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>ICU Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-202000"> </a>  202000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-202000"> </a>  202000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>ICU Nursing charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-203000"> </a>  203000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-203000"> </a>  203000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Monitor charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-204000"> </a>  204000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-204000"> </a>  204000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>ICU Supplies &amp; equipment</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-301000"> </a>  301000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-301000"> </a>  301000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>OT rent</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-302000"> </a>  302000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-302000"> </a>  302000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>OT Equipment charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-303000"> </a>  303000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-303000"> </a>  303000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>OT Drugs &amp; Consumables</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-304000"> </a>  304000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-304000"> </a>  304000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>OT Sterilization</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-401000"> </a>  401000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-401000"> </a>  401000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Medicine &amp;
 Consumables charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-501000"> </a>  501000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-501000"> </a>  501000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Visit charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-502000"> </a>  502000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-502000"> </a>  502000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Surgery Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-503000"> </a>  503000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-503000"> </a>  503000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Anaesthetists fee</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-504000"> </a>  504000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-504000"> </a>  504000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Intensivist Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-505000"> </a>  505000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-505000"> </a>  505000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Technician Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-506000"> </a>  506000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-506000"> </a>  506000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Physiotherapy</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-507000"> </a>  507000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-507000"> </a>  507000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Procedure charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-601000"> </a>  601000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-601000"> </a>  601000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Bio Chemistry</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-602000"> </a>  602000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-602000"> </a>  602000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Cardiology charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-603000"> </a>  603000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-603000"> </a>  603000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Haemotology charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-604000"> </a>  604000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-604000"> </a>  604000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Microbiology charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-605000"> </a>  605000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-605000"> </a>  605000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Neurology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-606000"> </a>  606000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-606000"> </a>  606000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Nuclear medicine</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-607000"> </a>  607000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-607000"> </a>  607000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Pathology charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-608000"> </a>  608000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-608000"> </a>  608000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Radiology services</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-609000"> </a>  609000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-609000"> </a>  609000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Serology charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-610000"> </a>  610000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-610000"> </a>  610000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Medical Genetics</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-611000"> </a>  611000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-611000"> </a>  611000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Profiles</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-701000"> </a>  701000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-701000"> </a>  701000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Ambulance Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-801000"> </a>  801000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-801000"> </a>  801000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Admission charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-802000"> </a>  802000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-802000"> </a>  802000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Attendant food charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-803000"> </a>  803000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-803000"> </a>  803000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Patient food charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-804000"> </a>  804000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-804000"> </a>  804000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Registration charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-805000"> </a>  805000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-805000"> </a>  805000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>MRD Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-806000"> </a>  806000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-806000"> </a>  806000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Documentation charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-807000"> </a>  807000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-807000"> </a>  807000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Telephone charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-808000"> </a>  808000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-808000"> </a>  808000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Bio Medical Waste Charges</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-809000"> </a>  809000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-code-809000"> </a>  809000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-code</td>
                 <td>Taxes</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-901000"> </a>  901000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-901000"> </a>  901000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Cardiac Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-902000"> </a>  902000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-902000"> </a>  902000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>CardiologyPackage s</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-903000"> </a>  903000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-903000"> </a>  903000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Cath Lab</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-904000"> </a>  904000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-904000"> </a>  904000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Dental Procedures</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-905000"> </a>  905000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-905000"> </a>  905000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>ENT</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-906000"> </a>  906000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-906000"> </a>  906000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Gastroenterology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-907000"> </a>  907000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-907000"> </a>  907000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>General Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-908000"> </a>  908000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-908000"> </a>  908000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Gynaecology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-909000"> </a>  909000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-909000"> </a>  909000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Nephrology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-910000"> </a>  910000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-910000"> </a>  910000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Neuro Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-911000"> </a>  911000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-911000"> </a>  911000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Oncology Procedures</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-912000"> </a>  912000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-912000"> </a>  912000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Opthalmology
 procedures</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-913000"> </a>  913000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-913000"> </a>  913000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Orthopaedic Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-914000"> </a>  914000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-914000"> </a>  914000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Plastic Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-915000"> </a>  915000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-915000"> </a>  915000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Pulmonology Packages</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-916000"> </a>  916000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-916000"> </a>  916000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Urology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-917000"> </a>  917000
+                  <a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-917000"> </a>  917000
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Vascular Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-BM"> </a>  BM
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-BM"> </a>  BM
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Burns Management</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-ER"> </a>  ER
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-ER"> </a>  ER
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Emergency</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-ID"> </a>  ID
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-ID"> </a>  ID
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Infectious Diseases</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-IN"> </a>  IN
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-IN"> </a>  IN
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Interventional Neuroradiology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-MC"> </a>  MC
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MC"> </a>  MC
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Cardiology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-MG"> </a>  MG
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MG"> </a>  MG
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>General Medicine</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-MM"> </a>  MM
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MM"> </a>  MM
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Mental Disorders</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-MN"> </a>  MN
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MN"> </a>  MN
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Neo - natal Care</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-MO"> </a>  MO
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MO"> </a>  MO
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Medical Oncology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-MP"> </a>  MP
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MP"> </a>  MP
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Pediatric Medical Management</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-MR"> </a>  MR
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MR"> </a>  MR
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Radiation Oncology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-OT"> </a>  OT
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-OT"> </a>  OT
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Organ and Tissue Transplant</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-SB"> </a>  SB
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SB"> </a>  SB
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Orthopedics</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-SC"> </a>  SC
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SC"> </a>  SC
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Surgical Oncology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-SE"> </a>  SE
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SE"> </a>  SE
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Ophthalmology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-SG"> </a>  SG
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SG"> </a>  SG
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>General Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-SL"> </a>  SL
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SL"> </a>  SL
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>ENT</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-SM"> </a>  SM
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SM"> </a>  SM
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Oral &amp; Maxillofacial Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-SN"> </a>  SN
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SN"> </a>  SN
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Neurosurgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-SO"> </a>  SO
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SO"> </a>  SO
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Obstetrics &amp; Gynecology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-SP"> </a>  SP
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SP"> </a>  SP
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Plastic &amp; Reconstructive Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-SS"> </a>  SS
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SS"> </a>  SS
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Pediatric Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-ST"> </a>  ST
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-ST"> </a>  ST
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Polytrauma, Orthopedics, Neurosurgery, General Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-SU"> </a>  SU
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SU"> </a>  SU
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Urology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-SV"> </a>  SV
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SV"> </a>  SV
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>CTVS</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-US"> </a>  US
+                  <a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-US"> </a>  US
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Unspecified Surgical Package</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M1"> </a>  M1
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M1"> </a>  M1
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Medical Oncology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M10"> </a>  M10
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M10"> </a>  M10
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Pulmonology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M11"> </a>  M11
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M11"> </a>  M11
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Dermatology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M12"> </a>  M12
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M12"> </a>  M12
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Rheumatology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M13"> </a>  M13
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M13"> </a>  M13
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Endocrinology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M14"> </a>  M14
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M14"> </a>  M14
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Gastroenterology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M15"> </a>  M15
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M15"> </a>  M15
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Interventional Radiology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M16"> </a>  M16
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M16"> </a>  M16
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>GENERAL MEDICINE</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M17"> </a>  M17
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M17"> </a>  M17
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Mental Disorders Packages</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M18"> </a>  M18
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M18"> </a>  M18
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Hematology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M2"> </a>  M2
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M2"> </a>  M2
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Radiation Oncology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M3"> </a>  M3
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M3"> </a>  M3
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Critical Care</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M5"> </a>  M5
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M5"> </a>  M5
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Infectious Diseases</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M6"> </a>  M6
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M6"> </a>  M6
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Pediatrics Medical Management</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M7"> </a>  M7
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M7"> </a>  M7
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Cardiology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M8"> </a>  M8
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M8"> </a>  M8
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Nephrology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-M9"> </a>  M9
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M9"> </a>  M9
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Neurology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S10"> </a>  S10
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S10"> </a>  S10
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Neurosurgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S11"> </a>  S11
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S11"> </a>  S11
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Surgical Oncology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S1"> </a>  S1
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S1"> </a>  S1
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>General Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S12"> </a>  S12
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S12"> </a>  S12
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Plastic Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S13"> </a>  S13
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S13"> </a>  S13
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Burns</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S14"> </a>  S14
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S14"> </a>  S14
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Poly Trauma</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S15"> </a>  S15
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S15"> </a>  S15
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Prostheses</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S20"> </a>  S20
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S20"> </a>  S20
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Oral &amp; Maxillofacial Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S21"> </a>  S21
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S21"> </a>  S21
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Pediatric Cancer</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S2"> </a>  S2
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S2"> </a>  S2
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>ENT Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S3"> </a>  S3
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S3"> </a>  S3
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Ophthalmology Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S4"> </a>  S4
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S4"> </a>  S4
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Gynaecology And Obstetrics Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S5"> </a>  S5
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S5"> </a>  S5
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Orthopedic Surgery And Procedures</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S6"> </a>  S6
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S6"> </a>  S6
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Surgical Gastro Enterology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S7"> </a>  S7
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S7"> </a>  S7
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Cardiac And Cardiothoracic Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S8"> </a>  S8
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S8"> </a>  S8
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Pediatric Surgery</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---hcxprotocol.io-codes-billing-subgroup-category-S9"> </a>  S9
+                  <a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S9"> </a>  S9
                 </td>
-                <td>http://hcxprotocol.io/codes/billing-subgroup-category</td>
+                <td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td>
                 <td>Genitourinary System</td>
               </tr>
             </table>
@@ -3379,592 +3379,592 @@ procedures</td>
         <expansion>
           <timestamp value="2022-08-01T08:15:30+05:30"/>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="101000"/>
             <display value="Room Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="102000"/>
             <display value="Nursing charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="103000"/>
             <display value="Duty Doctor fee"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="104000"/>
             <display value="Monitor charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="201000"/>
             <display value="ICU Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="202000"/>
             <display value="ICU Nursing charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="203000"/>
             <display value="Monitor charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="204000"/>
             <display value="ICU Supplies &amp; equipment"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="301000"/>
             <display value="OT rent"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="302000"/>
             <display value="OT Equipment charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="303000"/>
             <display value="OT Drugs &amp; Consumables"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="304000"/>
             <display value="OT Sterilization"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="401000"/>
             <display value="Medicine &amp;&#xA;Consumables charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="501000"/>
             <display value="Visit charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="502000"/>
             <display value="Surgery Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="503000"/>
             <display value="Anaesthetists fee"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="504000"/>
             <display value="Intensivist Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="505000"/>
             <display value="Technician Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="506000"/>
             <display value="Physiotherapy"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="507000"/>
             <display value="Procedure charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="601000"/>
             <display value="Bio Chemistry"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="602000"/>
             <display value="Cardiology charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="603000"/>
             <display value="Haemotology charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="604000"/>
             <display value="Microbiology charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="605000"/>
             <display value="Neurology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="606000"/>
             <display value="Nuclear medicine"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="607000"/>
             <display value="Pathology charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="608000"/>
             <display value="Radiology services"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="609000"/>
             <display value="Serology charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="610000"/>
             <display value="Medical Genetics"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="611000"/>
             <display value="Profiles"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="701000"/>
             <display value="Ambulance Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="801000"/>
             <display value="Admission charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="802000"/>
             <display value="Attendant food charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="803000"/>
             <display value="Patient food charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="804000"/>
             <display value="Registration charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="805000"/>
             <display value="MRD Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="806000"/>
             <display value="Documentation charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="807000"/>
             <display value="Telephone charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="808000"/>
             <display value="Bio Medical Waste Charges"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
             <code value="809000"/>
             <display value="Taxes"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="901000"/>
             <display value="Cardiac Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="902000"/>
             <display value="CardiologyPackage s"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="903000"/>
             <display value="Cath Lab"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="904000"/>
             <display value="Dental Procedures"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="905000"/>
             <display value="ENT"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="906000"/>
             <display value="Gastroenterology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="907000"/>
             <display value="General Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="908000"/>
             <display value="Gynaecology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="909000"/>
             <display value="Nephrology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="910000"/>
             <display value="Neuro Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="911000"/>
             <display value="Oncology Procedures"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="912000"/>
             <display value="Opthalmology&#xA;procedures"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="913000"/>
             <display value="Orthopaedic Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="914000"/>
             <display value="Plastic Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="915000"/>
             <display value="Pulmonology Packages"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="916000"/>
             <display value="Urology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="917000"/>
             <display value="Vascular Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="BM"/>
             <display value="Burns Management"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="ER"/>
             <display value="Emergency"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="ID"/>
             <display value="Infectious Diseases"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="IN"/>
             <display value="Interventional Neuroradiology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="MC"/>
             <display value="Cardiology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="MG"/>
             <display value="General Medicine"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="MM"/>
             <display value="Mental Disorders"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="MN"/>
             <display value="Neo - natal Care"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="MO"/>
             <display value="Medical Oncology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="MP"/>
             <display value="Pediatric Medical Management"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="MR"/>
             <display value="Radiation Oncology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="OT"/>
             <display value="Organ and Tissue Transplant"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="SB"/>
             <display value="Orthopedics"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="SC"/>
             <display value="Surgical Oncology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="SE"/>
             <display value="Ophthalmology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="SG"/>
             <display value="General Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="SL"/>
             <display value="ENT"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="SM"/>
             <display value="Oral &amp; Maxillofacial Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="SN"/>
             <display value="Neurosurgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="SO"/>
             <display value="Obstetrics &amp; Gynecology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="SP"/>
             <display value="Plastic &amp; Reconstructive Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="SS"/>
             <display value="Pediatric Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="ST"/>
             <display value="Polytrauma, Orthopedics, Neurosurgery, General Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="SU"/>
             <display value="Urology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="SV"/>
             <display value="CTVS"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="US"/>
             <display value="Unspecified Surgical Package"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M1"/>
             <display value="Medical Oncology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M10"/>
             <display value="Pulmonology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M11"/>
             <display value="Dermatology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M12"/>
             <display value="Rheumatology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M13"/>
             <display value="Endocrinology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M14"/>
             <display value="Gastroenterology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M15"/>
             <display value="Interventional Radiology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M16"/>
             <display value="GENERAL MEDICINE"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M17"/>
             <display value="Mental Disorders Packages"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M18"/>
             <display value="Hematology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M2"/>
             <display value="Radiation Oncology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M3"/>
             <display value="Critical Care"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M5"/>
             <display value="Infectious Diseases"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M6"/>
             <display value="Pediatrics Medical Management"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M7"/>
             <display value="Cardiology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M8"/>
             <display value="Nephrology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="M9"/>
             <display value="Neurology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S10"/>
             <display value="Neurosurgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S11"/>
             <display value="Surgical Oncology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S1"/>
             <display value="General Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S12"/>
             <display value="Plastic Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S13"/>
             <display value="Burns"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S14"/>
             <display value="Poly Trauma"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S15"/>
             <display value="Prostheses"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S20"/>
             <display value="Oral &amp; Maxillofacial Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S21"/>
             <display value="Pediatric Cancer"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S2"/>
             <display value="ENT Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S3"/>
             <display value="Ophthalmology Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S4"/>
             <display value="Gynaecology And Obstetrics Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S5"/>
             <display value="Orthopedic Surgery And Procedures"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S6"/>
             <display value="Surgical Gastro Enterology"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S7"/>
             <display value="Cardiac And Cardiothoracic Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S8"/>
             <display value="Pediatric Surgery"/>
           </contains>
           <contains>
-            <system value="http://hcxprotocol.io/codes/billing-subgroup-category"/>
+            <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
             <code value="S9"/>
             <display value="Genitourinary System"/>
           </contains>
@@ -8048,7 +8048,7 @@ procedures</td>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 16 concepts</p>
+            <p>This value set contains 51 concepts</p>
             <table class="codes">
               <tr>
                 <td>
@@ -8066,131 +8066,411 @@ procedures</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-500000"> </a>1
+                  <a name="https---pmjay.gov.in-hbp-package-code-BM001"> </a>1
                 </td>
-                <td style="white-space:nowrap">  500000</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Professional fees charges</td>
+                <td style="white-space:nowrap">  BM001</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Thermal burns</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-501000"> </a>2
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-BM001A"> </a>2
                 </td>
-                <td style="white-space:nowrap">    501000</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Visit charges</td>
+                <td style="white-space:nowrap">    BM001A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>% Total Body Surface Area Burns (TBSA) - any %(not requiring admission). Needs at least 5-6 dressing</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-501001"> </a>3
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-BM001B"> </a>2
                 </td>
-                <td style="white-space:nowrap">      501001</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Consultation charges</td>
+                <td style="white-space:nowrap">    BM001B</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>% Total Body Surface Area Burns (TBSA): Upto 40 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-501002"> </a>3
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-BM001C"> </a>2
                 </td>
-                <td style="white-space:nowrap">      501002</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Medical Supervision Charges</td>
+                <td style="white-space:nowrap">    BM001C</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>% Total Body Surface Area Burns (TBSA): 40% - 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-501003"> </a>3
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-BM001D"> </a>2
                 </td>
-                <td style="white-space:nowrap">      501003</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Professional fees</td>
+                <td style="white-space:nowrap">    BM001D</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>% Total Body Surface Area Burns (TBSA): &gt; 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-502000"> </a>2
+                  <a name="https---pmjay.gov.in-hbp-package-code-BM002"> </a>1
                 </td>
-                <td style="white-space:nowrap">    502000</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Surgery charges</td>
+                <td style="white-space:nowrap">  BM002</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Scald burns</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-502001"> </a>3
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-BM002A"> </a>2
                 </td>
-                <td style="white-space:nowrap">      502001</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Surgeons Charges</td>
+                <td style="white-space:nowrap">    BM002A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>% Total Body Surface Area Burns (TBSA) - any %(not requiring admission). Needs at least 5-6 dressing</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-502002"> </a>3
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-BM002B"> </a>2
                 </td>
-                <td style="white-space:nowrap">      502002</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Assistant Surgeons Fee</td>
+                <td style="white-space:nowrap">    BM002B</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>% Total Body Surface Area Burns (TBSA): Upto 40 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-503000"> </a>2
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-BM002C"> </a>2
                 </td>
-                <td style="white-space:nowrap">    503000</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Anaesthetists Fee</td>
+                <td style="white-space:nowrap">    BM002C</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>% Total Body Surface Area Burns (TBSA): 40% - 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-503001"> </a>3
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-BM002D"> </a>2
                 </td>
-                <td style="white-space:nowrap">      503001</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Anaesthetists fee</td>
+                <td style="white-space:nowrap">    BM002D</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>% Total Body Surface Area Burns (TBSA): &gt; 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-503002"> </a>3
+                  <a name="https---pmjay.gov.in-hbp-package-code-BM003"> </a>1
                 </td>
-                <td style="white-space:nowrap">      503002</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>OT standby charges</td>
+                <td style="white-space:nowrap">  BM003</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Flame burns</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-504000"> </a>2
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-BM003A"> </a>2
                 </td>
-                <td style="white-space:nowrap">    504000</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Intensivist charges</td>
+                <td style="white-space:nowrap">    BM003A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>% Total Body Surface Area Burns (TBSA) - any %(not requiring admission). Needs at least 5-6 dressing</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-504001"> </a>3
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-BM003B"> </a>2
                 </td>
-                <td style="white-space:nowrap">      504001</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Beside procedures</td>
+                <td style="white-space:nowrap">    BM003B</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>% Total Body Surface Area Burns (TBSA): Upto 40 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-504002"> </a>3
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-BM003C"> </a>2
                 </td>
-                <td style="white-space:nowrap">      504002</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Suture charges</td>
+                <td style="white-space:nowrap">    BM003C</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>% Total Body Surface Area Burns (TBSA): 40% - 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-505000"> </a>2
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-BM003D"> </a>2
                 </td>
-                <td style="white-space:nowrap">    505000</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>Technician charges</td>
+                <td style="white-space:nowrap">    BM003D</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>% Total Body Surface Area Burns (TBSA): &gt; 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.</td>
               </tr>
               <tr>
                 <td>
-                  <a name="http---hcxprotocol.io-codes-service-codes-505001"> </a>3
+                  <a name="https---pmjay.gov.in-hbp-package-code-ER001"> </a>1
                 </td>
-                <td style="white-space:nowrap">      505001</td>
-                <td>http://hcxprotocol.io/codes/service-codes</td>
-                <td>OT/Cath Lab Technician</td>
+                <td style="white-space:nowrap">  ER001</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Laceration - Suturing / Dressing</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-ER001A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    ER001A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Laceration - Suturing / Dressing</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-ER002"> </a>1
+                </td>
+                <td style="white-space:nowrap">  ER002</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Cardiopulmonary emergency</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-ER002A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    ER002A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Emergency with stable cardiopulmonary status</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-ER002B"> </a>2
+                </td>
+                <td style="white-space:nowrap">    ER002B</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Emergency with unstable cardiopulmonary status with resuccitation</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-ER003"> </a>1
+                </td>
+                <td style="white-space:nowrap">  ER003</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Animal bites (Excluding Snake Bite)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-ER003A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    ER003A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Animal bites (Excluding Snake Bite)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-ID001"> </a>1
+                </td>
+                <td style="white-space:nowrap">  ID001</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Laboratory Tests for COVID- 19 Infection (PCR) (Reimbursement level for this package will be as per the ICMR guidelines, issued from time to time)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-ID001A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    ID001A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Laboratory Tests for COVID- 19 Infection (PCR) (Reimbursement level for this package will be as per the ICMR guidelines, issued from time to time)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-ID003"> </a>1
+                </td>
+                <td style="white-space:nowrap">  ID003</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Treatment of COVID-19 Infection</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-ID003A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    ID003A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Treatment of COVID-19 Infection</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-IN001"> </a>1
+                </td>
+                <td style="white-space:nowrap">  IN001</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Dural AVMs / AVFs</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN001A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN001A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Dural AVMs (per sitting) with glue</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN001B"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN001B</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Dural AVFs (per sitting) with glue</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN001C"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN001C</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Dural AVMs (per sitting) with onyx</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN001D"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN001D</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Dural AVFs (per sitting) with onyx</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-IN002"> </a>1
+                </td>
+                <td style="white-space:nowrap">  IN002</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Cerebral &amp; Spinal AVM embolization - Using Histoacryl (per sitting)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN002A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN002A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Cerebral AVM embolization - Using Histoacryl (per sitting)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN002B"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN002B</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Spinal AVM embolization - Using Histoacryl (per sitting)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-IN003"> </a>1
+                </td>
+                <td style="white-space:nowrap">  IN003</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Coil embolization for aneurysms (includes cost of first 3 coils + balloon and / or stent if used)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN003A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN003A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Coil embolization for aneurysms (includes cost of first 3 coils + balloon and / or stent if used)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-IN004"> </a>1
+                </td>
+                <td style="white-space:nowrap">  IN004</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Carotico-cavernous Fistula (CCF) embolization</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN004A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN004A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Carotico-cavernous Fistula (CCF) embolization with coils. [includes 5 coils, guide catheter, micro-catheter, micro- guidewire, general items]</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN004B"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN004B</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Carotid-cavernous Fistula (CCF) embolization with balloon (includes one balloon, guide catheter, micro-catheter, micro- guidewire, general items)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-IN005"> </a>1
+                </td>
+                <td style="white-space:nowrap">  IN005</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Pre-operative tumour embolization (per session)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN005A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN005A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Pre-operative tumour embolization (per session)</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-IN006"> </a>1
+                </td>
+                <td style="white-space:nowrap">  IN006</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Intracranial balloon angioplasty with stenting</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN006A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN006A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Intracranial balloon angioplasty with stenting</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-IN007"> </a>1
+                </td>
+                <td style="white-space:nowrap">  IN007</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Intracranial thrombolysis / clot retrieval</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN007A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN007A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Intracranial thrombolysis / clot retrieval</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-IN008"> </a>1
+                </td>
+                <td style="white-space:nowrap">  IN008</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Balloon test occlusion</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN008A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN008A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Balloon test occlusion</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-IN009"> </a>1
+                </td>
+                <td style="white-space:nowrap">  IN009</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Parent vessel occlusion - Basic</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN009A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN009A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Parent vessel occlusion - Basic</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-package-code-IN010"> </a>1
+                </td>
+                <td style="white-space:nowrap">  IN010</td>
+                <td>https://pmjay.gov.in/hbp-package-code</td>
+                <td>Vertebroplasty</td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="https---pmjay.gov.in-hbp-procedure-code-IN010A"> </a>2
+                </td>
+                <td style="white-space:nowrap">    IN010A</td>
+                <td>https://pmjay.gov.in/hbp-procedure-code</td>
+                <td>Vertebroplasty</td>
               </tr>
             </table>
           </div>
@@ -8208,87 +8488,262 @@ procedures</td>
             <value value="http://hcxprotocol.io/"/>
           </telecom>
         </contact>
-        <description value="This is the value set that includes the codes to identify the general type of benefits under which products and services are provided"/>
+        <description value="This value set includes sample codes for products and services provided by PMJAY"/>
         <expansion>
           <timestamp value="2021-08-15T08:15:30+05:30"/>
           <contains>
-            <system value="http://hcxprotocol.io/codes/service-codes"/>
-            <code value="500000"/>
-            <display value="Professional fees charges"/>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="BM001"/>
+            <display value="Thermal burns"/>
             <contains>
-              <system value="http://hcxprotocol.io/codes/service-codes"/>
-              <code value="501000"/>
-              <display value="Visit charges"/>
-              <contains>
-                <system value="http://hcxprotocol.io/codes/service-codes"/>
-                <code value="501001"/>
-                <display value="Consultation charges"/>
-              </contains>
-              <contains>
-                <system value="http://hcxprotocol.io/codes/service-codes"/>
-                <code value="501002"/>
-                <display value="Medical Supervision Charges"/>
-              </contains>
-              <contains>
-                <system value="http://hcxprotocol.io/codes/service-codes"/>
-                <code value="501003"/>
-                <display value="Professional fees"/>
-              </contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="BM001A"/>
+              <display value="% Total Body Surface Area Burns (TBSA) - any %(not requiring admission). Needs at least 5-6 dressing"/>
             </contains>
             <contains>
-              <system value="http://hcxprotocol.io/codes/service-codes"/>
-              <code value="502000"/>
-              <display value="Surgery charges"/>
-              <contains>
-                <system value="http://hcxprotocol.io/codes/service-codes"/>
-                <code value="502001"/>
-                <display value="Surgeons Charges"/>
-              </contains>
-              <contains>
-                <system value="http://hcxprotocol.io/codes/service-codes"/>
-                <code value="502002"/>
-                <display value="Assistant Surgeons Fee"/>
-              </contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="BM001B"/>
+              <display value="% Total Body Surface Area Burns (TBSA): Upto 40 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."/>
             </contains>
             <contains>
-              <system value="http://hcxprotocol.io/codes/service-codes"/>
-              <code value="503000"/>
-              <display value="Anaesthetists Fee"/>
-              <contains>
-                <system value="http://hcxprotocol.io/codes/service-codes"/>
-                <code value="503001"/>
-                <display value="Anaesthetists fee"/>
-              </contains>
-              <contains>
-                <system value="http://hcxprotocol.io/codes/service-codes"/>
-                <code value="503002"/>
-                <display value="OT standby charges"/>
-              </contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="BM001C"/>
+              <display value="% Total Body Surface Area Burns (TBSA): 40% - 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."/>
             </contains>
             <contains>
-              <system value="http://hcxprotocol.io/codes/service-codes"/>
-              <code value="504000"/>
-              <display value="Intensivist charges"/>
-              <contains>
-                <system value="http://hcxprotocol.io/codes/service-codes"/>
-                <code value="504001"/>
-                <display value="Beside procedures"/>
-              </contains>
-              <contains>
-                <system value="http://hcxprotocol.io/codes/service-codes"/>
-                <code value="504002"/>
-                <display value="Suture charges"/>
-              </contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="BM001D"/>
+              <display value="% Total Body Surface Area Burns (TBSA): &gt; 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="BM002"/>
+            <display value="Scald burns"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="BM002A"/>
+              <display value="% Total Body Surface Area Burns (TBSA) - any %(not requiring admission). Needs at least 5-6 dressing"/>
             </contains>
             <contains>
-              <system value="http://hcxprotocol.io/codes/service-codes"/>
-              <code value="505000"/>
-              <display value="Technician charges"/>
-              <contains>
-                <system value="http://hcxprotocol.io/codes/service-codes"/>
-                <code value="505001"/>
-                <display value="OT/Cath Lab Technician"/>
-              </contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="BM002B"/>
+              <display value="% Total Body Surface Area Burns (TBSA): Upto 40 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."/>
+            </contains>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="BM002C"/>
+              <display value="% Total Body Surface Area Burns (TBSA): 40% - 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."/>
+            </contains>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="BM002D"/>
+              <display value="% Total Body Surface Area Burns (TBSA): &gt; 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="BM003"/>
+            <display value="Flame burns"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="BM003A"/>
+              <display value="% Total Body Surface Area Burns (TBSA) - any %(not requiring admission). Needs at least 5-6 dressing"/>
+            </contains>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="BM003B"/>
+              <display value="% Total Body Surface Area Burns (TBSA): Upto 40 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."/>
+            </contains>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="BM003C"/>
+              <display value="% Total Body Surface Area Burns (TBSA): 40% - 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."/>
+            </contains>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="BM003D"/>
+              <display value="% Total Body Surface Area Burns (TBSA): &gt; 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="ER001"/>
+            <display value="Laceration - Suturing / Dressing"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="ER001A"/>
+              <display value="Laceration - Suturing / Dressing"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="ER002"/>
+            <display value="Cardiopulmonary emergency"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="ER002A"/>
+              <display value="Emergency with stable cardiopulmonary status"/>
+            </contains>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="ER002B"/>
+              <display value="Emergency with unstable cardiopulmonary status with resuccitation"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="ER003"/>
+            <display value="Animal bites (Excluding Snake Bite)"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="ER003A"/>
+              <display value="Animal bites (Excluding Snake Bite)"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="ID001"/>
+            <display value="Laboratory Tests for COVID- 19 Infection (PCR) (Reimbursement level for this package will be as per the ICMR guidelines, issued from time to time)"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="ID001A"/>
+              <display value="Laboratory Tests for COVID- 19 Infection (PCR) (Reimbursement level for this package will be as per the ICMR guidelines, issued from time to time)"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="ID003"/>
+            <display value="Treatment of COVID-19 Infection"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="ID003A"/>
+              <display value="Treatment of COVID-19 Infection"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="IN001"/>
+            <display value="Dural AVMs / AVFs"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN001A"/>
+              <display value="Dural AVMs (per sitting) with glue"/>
+            </contains>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN001B"/>
+              <display value="Dural AVFs (per sitting) with glue"/>
+            </contains>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN001C"/>
+              <display value="Dural AVMs (per sitting) with onyx"/>
+            </contains>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN001D"/>
+              <display value="Dural AVFs (per sitting) with onyx"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="IN002"/>
+            <display value="Cerebral &amp; Spinal AVM embolization - Using Histoacryl (per sitting)"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN002A"/>
+              <display value="Cerebral AVM embolization - Using Histoacryl (per sitting)"/>
+            </contains>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN002B"/>
+              <display value="Spinal AVM embolization - Using Histoacryl (per sitting)"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="IN003"/>
+            <display value="Coil embolization for aneurysms (includes cost of first 3 coils + balloon and / or stent if used)"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN003A"/>
+              <display value="Coil embolization for aneurysms (includes cost of first 3 coils + balloon and / or stent if used)"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="IN004"/>
+            <display value="Carotico-cavernous Fistula (CCF) embolization"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN004A"/>
+              <display value="Carotico-cavernous Fistula (CCF) embolization with coils. [includes 5 coils, guide catheter, micro-catheter, micro- guidewire, general items]"/>
+            </contains>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN004B"/>
+              <display value="Carotid-cavernous Fistula (CCF) embolization with balloon (includes one balloon, guide catheter, micro-catheter, micro- guidewire, general items)"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="IN005"/>
+            <display value="Pre-operative tumour embolization (per session)"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN005A"/>
+              <display value="Pre-operative tumour embolization (per session)"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="IN006"/>
+            <display value="Intracranial balloon angioplasty with stenting"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN006A"/>
+              <display value="Intracranial balloon angioplasty with stenting"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="IN007"/>
+            <display value="Intracranial thrombolysis / clot retrieval"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN007A"/>
+              <display value="Intracranial thrombolysis / clot retrieval"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="IN008"/>
+            <display value="Balloon test occlusion"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN008A"/>
+              <display value="Balloon test occlusion"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="IN009"/>
+            <display value="Parent vessel occlusion - Basic"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN009A"/>
+              <display value="Parent vessel occlusion - Basic"/>
+            </contains>
+          </contains>
+          <contains>
+            <system value="https://pmjay.gov.in/hbp-package-code"/>
+            <code value="IN010"/>
+            <display value="Vertebroplasty"/>
+            <contains>
+              <system value="https://pmjay.gov.in/hbp-procedure-code"/>
+              <code value="IN010A"/>
+              <display value="Vertebroplasty"/>
             </contains>
           </contains>
         </expansion>

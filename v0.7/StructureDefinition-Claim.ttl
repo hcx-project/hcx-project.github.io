@@ -2295,7 +2295,7 @@
            fhir:Extension.valueString [ fhir:value "ProviderQualification" ]
          ];
          fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "Provider professional qualifications." ];
+         fhir:ElementDefinition.binding.description [ fhir:value "Provider specialization." ];
          fhir:ElementDefinition.binding.valueSet [
            fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html";
            fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html>
@@ -3504,10 +3504,10 @@
            fhir:Extension.valueString [ fhir:value "ICD10_Procedures" ]
          ];
          fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "Example ICD10 Procedure codes." ];
+         fhir:ElementDefinition.binding.description [ fhir:value "Sample Procedure codes." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/icd-10-procedures";
-           fhir:link <http://hl7.org/fhir/ValueSet/icd-10-procedures>
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-procedure-type-description.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-procedure-type-description.html>
          ]
        ]
      ], [
@@ -4776,8 +4776,8 @@
          fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
          fhir:ElementDefinition.binding.description [ fhir:value "Allowable service and product codes." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/ValueSet/service-uscls";
-           fhir:link <http://hl7.org/fhir/ValueSet/service-uscls>
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-codes.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-codes.html>
          ]
        ]
      ], [
@@ -7098,7 +7098,7 @@
            fhir:Extension.valueString [ fhir:value "ProviderQualification" ]
          ];
          fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
-         fhir:ElementDefinition.binding.description [ fhir:value "Provider professional qualifications." ];
+         fhir:ElementDefinition.binding.description [ fhir:value "Provider specialization." ];
          fhir:ElementDefinition.binding.valueSet [
            fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html";
            fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html>
@@ -7296,6 +7296,59 @@
        ]
      ], [
        fhir:index 17;
+       fhir:Element.id [ fhir:value "Claim.procedure.procedure[x]" ];
+       fhir:ElementDefinition.path [ fhir:value "Claim.procedure.procedure[x]" ];
+       fhir:ElementDefinition.short [ fhir:value "Specific clinical procedure" ];
+       fhir:ElementDefinition.definition [ fhir:value "The code or reference to a Procedure resource which identifies the clinical intervention performed." ];
+       fhir:ElementDefinition.requirements [ fhir:value "This identifies the actual clinical procedure." ];
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Claim.procedure.procedure[x]" ];
+         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
+         fhir:ElementDefinition.type.targetProfile [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Procedure";
+           fhir:index 0;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Procedure>
+         ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.binding [
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
+           fhir:Extension.valueString [ fhir:value "ICD10_Procedures" ]
+         ];
+         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
+         fhir:ElementDefinition.binding.description [ fhir:value "Sample Procedure codes." ];
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-procedure-type-description.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-procedure-type-description.html>
+         ]
+       ]
+     ], [
+       fhir:index 18;
        fhir:Element.id [ fhir:value "Claim.insurance.coverage" ];
        fhir:ElementDefinition.path [ fhir:value "Claim.insurance.coverage" ];
        fhir:ElementDefinition.short [ fhir:value "Insurance information" ];
@@ -7332,7 +7385,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 18;
+       fhir:index 19;
        fhir:Element.id [ fhir:value "Claim.insurance.claimResponse" ];
        fhir:ElementDefinition.path [ fhir:value "Claim.insurance.claimResponse" ];
        fhir:ElementDefinition.short [ fhir:value "Adjudication results" ];
@@ -7370,7 +7423,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 19;
+       fhir:index 20;
        fhir:Element.id [ fhir:value "Claim.item.category" ];
        fhir:ElementDefinition.path [ fhir:value "Claim.item.category" ];
        fhir:ElementDefinition.short [ fhir:value "Benefit classification" ];
@@ -7416,7 +7469,63 @@
          ]
        ]
      ], [
-       fhir:index 20;
+       fhir:index 21;
+       fhir:Element.id [ fhir:value "Claim.item.productOrService" ];
+       fhir:ElementDefinition.path [ fhir:value "Claim.item.productOrService" ];
+       fhir:ElementDefinition.short [ fhir:value "Billing, service, product, or drug code" ];
+       fhir:ElementDefinition.definition [ fhir:value "When the value is a group code then this item collects a set of related claim details, otherwise this contains the product, service, drug or other billing code for the item." ];
+       fhir:ElementDefinition.comment [ fhir:value "If this is an actual service or product line, i.e. not a Group, then use code to indicate the Professional Service or Product supplied (e.g. CTP, HCPCS, USCLS, ICD10, NCPDP, DIN, RxNorm, ACHI, CCI). If a grouping item then use a group code to indicate the type of thing being grouped e.g. 'glasses' or 'compound'." ];
+       fhir:ElementDefinition.requirements [ fhir:value "Necessary to state what was provided or done." ];
+       fhir:ElementDefinition.alias [
+         fhir:value "Drug Code";
+         fhir:index 0
+       ], [
+         fhir:value "Bill Code";
+         fhir:index 1
+       ], [
+         fhir:value "Service Code";
+         fhir:index 2
+       ];
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "Claim.item.productOrService" ];
+         fhir:ElementDefinition.base.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "1" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
+       fhir:ElementDefinition.binding [
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
+           fhir:Extension.valueString [ fhir:value "ServiceProduct" ]
+         ];
+         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
+         fhir:ElementDefinition.binding.description [ fhir:value "Allowable service and product codes." ];
+         fhir:ElementDefinition.binding.valueSet [
+           fhir:value "https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-codes.html";
+           fhir:link <https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-codes.html>
+         ]
+       ]
+     ], [
+       fhir:index 22;
        fhir:Element.id [ fhir:value "Claim.item.encounter" ];
        fhir:ElementDefinition.path [ fhir:value "Claim.item.encounter" ];
        fhir:ElementDefinition.short [ fhir:value "Encounters related to this billed item" ];
@@ -7459,7 +7568,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Request.context" ]
        ]
      ], [
-       fhir:index 21;
+       fhir:index 23;
        fhir:Element.id [ fhir:value "Claim.item.detail.category" ];
        fhir:ElementDefinition.path [ fhir:value "Claim.item.detail.category" ];
        fhir:ElementDefinition.short [ fhir:value "Benefit classification" ];

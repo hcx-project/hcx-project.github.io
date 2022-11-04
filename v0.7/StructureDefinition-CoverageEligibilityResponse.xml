@@ -1264,7 +1264,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="Allowable service and product codes."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/service-uscls"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-codes.html"/>
       </binding>
     </element>
     <element id="CoverageEligibilityResponse.insurance.item.modifier">
@@ -2252,6 +2252,44 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         <strength value="example"/>
         <description value="Benefit categories such as: oral, medical, vision etc."/>
         <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html"/>
+      </binding>
+    </element>
+    <element id="CoverageEligibilityResponse.insurance.item.productOrService">
+      <path value="CoverageEligibilityResponse.insurance.item.productOrService"/>
+      <short value="Billing, service, product, or drug code"/>
+      <definition value="This contains the product, service, drug or other billing code for the item."/>
+      <comment value="Code to indicate the Professional Service or Product supplied (e.g. CTP, HCPCS, USCLS, ICD10, NCPDP, DIN, RxNorm, ACHI, CCI)."/>
+      <requirements value="Needed to convey the actual service or product for which eligibility is sought."/>
+      <alias value="Drug Code"/>
+      <alias value="Bill Code"/>
+      <alias value="Service Code"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="CoverageEligibilityResponse.insurance.item.productOrService"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="ServiceProduct"/>
+        </extension>
+        <strength value="example"/>
+        <description value="Allowable service and product codes."/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-codes.html"/>
       </binding>
     </element>
     <element id="CoverageEligibilityResponse.insurance.item.provider">

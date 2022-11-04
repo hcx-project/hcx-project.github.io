@@ -18,7 +18,7 @@
       <value value="http://hcxprotocol.io/"/>
     </telecom>
   </contact>
-  <description value="This is the value set that includes the codes to identify the procedure type description and services are provided"/>
+  <description value="This value set includes sample procedure codes. Depending on the context, other codes like ICD-10 procedure codes or HBP procedure codes (NHA) may need to be used."/>
   <expansion>
     <timestamp value="2021-09-07T08:15:30+05:30"/>
     <contains>

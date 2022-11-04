@@ -27,7 +27,7 @@
        fhir:ContactPoint.value [ fhir:value "http://hcxprotocol.io/" ]
      ]
   ];
-  fhir:ValueSet.description [ fhir:value "This is the value set that includes the codes to identify the procedure type description and services are provided"];
+  fhir:ValueSet.description [ fhir:value "This value set includes sample procedure codes. Depending on the context, other codes like ICD-10 procedure codes or HBP procedure codes (NHA) may need to be used."];
   fhir:ValueSet.expansion [
      fhir:ValueSet.expansion.timestamp [ fhir:value "2021-09-07T08:15:30+05:30"^^xsd:dateTime ];
      fhir:ValueSet.expansion.contains [

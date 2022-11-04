@@ -1834,7 +1834,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
           <valueString value="ProviderQualification"/>
         </extension>
         <strength value="example"/>
-        <description value="Provider professional qualifications."/>
+        <description value="Provider specialization."/>
         <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html"/>
       </binding>
     </element>
@@ -2747,8 +2747,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
           <valueString value="ICD10_Procedures"/>
         </extension>
         <strength value="example"/>
-        <description value="Example ICD10 Procedure codes."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/icd-10-procedures"/>
+        <description value="Sample Procedure codes."/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-procedure-type-description.html"/>
       </binding>
     </element>
     <element id="Claim.procedure.udi">
@@ -3715,7 +3715,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="Allowable service and product codes."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/service-uscls"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-codes.html"/>
       </binding>
     </element>
     <element id="Claim.item.modifier">
@@ -5468,7 +5468,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
           <valueString value="ProviderQualification"/>
         </extension>
         <strength value="example"/>
-        <description value="Provider professional qualifications."/>
+        <description value="Provider specialization."/>
         <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-medical-speciality-type-provider.html"/>
       </binding>
     </element>
@@ -5614,6 +5614,44 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         <valueSet value="http://hl7.org/fhir/ValueSet/ex-diagnosistype"/>
       </binding>
     </element>
+    <element id="Claim.procedure.procedure[x]">
+      <path value="Claim.procedure.procedure[x]"/>
+      <short value="Specific clinical procedure"/>
+      <definition value="The code or reference to a Procedure resource which identifies the clinical intervention performed."/>
+      <requirements value="This identifies the actual clinical procedure."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="Claim.procedure.procedure[x]"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Procedure"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="ICD10_Procedures"/>
+        </extension>
+        <strength value="example"/>
+        <description value="Sample Procedure codes."/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-procedure-type-description.html"/>
+      </binding>
+    </element>
     <element id="Claim.insurance.coverage">
       <path value="Claim.insurance.coverage"/>
       <short value="Insurance information"/>
@@ -5702,6 +5740,44 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         <strength value="example"/>
         <description value="Benefit categories such as: oral-basic, major, glasses."/>
         <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-categories.html"/>
+      </binding>
+    </element>
+    <element id="Claim.item.productOrService">
+      <path value="Claim.item.productOrService"/>
+      <short value="Billing, service, product, or drug code"/>
+      <definition value="When the value is a group code then this item collects a set of related claim details, otherwise this contains the product, service, drug or other billing code for the item."/>
+      <comment value="If this is an actual service or product line, i.e. not a Group, then use code to indicate the Professional Service or Product supplied (e.g. CTP, HCPCS, USCLS, ICD10, NCPDP, DIN, RxNorm, ACHI, CCI). If a grouping item then use a group code to indicate the type of thing being grouped e.g. 'glasses' or 'compound'."/>
+      <requirements value="Necessary to state what was provided or done."/>
+      <alias value="Drug Code"/>
+      <alias value="Bill Code"/>
+      <alias value="Service Code"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="Claim.item.productOrService"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="ServiceProduct"/>
+        </extension>
+        <strength value="example"/>
+        <description value="Allowable service and product codes."/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-claim-service-codes.html"/>
       </binding>
     </element>
     <element id="Claim.item.encounter">
