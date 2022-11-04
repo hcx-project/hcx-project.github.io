@@ -1801,14 +1801,14 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="The role codes for the care team members."/>
-        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html"/>
+        <valueSet value="https://nrces.in/ndhm/fhir/r4/ValueSet-ndhm-practitioner-role.html"/>
       </binding>
     </element>
     <element id="Claim.careTeam.qualification">
       <path value="Claim.careTeam.qualification"/>
       <short value="Practitioner credential or specialization"/>
-      <definition value="The qualification of the practitioner which is applicable for this service."/>
-      <requirements value="Need to specify which qualification a provider is delivering the product or service under."/>
+      <definition value="The specialization of the practitioner or provider which is applicable for this service. The use case for the speciality here is to validate the diagnosis and procedure and check its relevance."/>
+      <requirements value="Need to specify which specialization a practitioner or provider acting under when delivering the product or service."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -5435,14 +5435,14 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="The role codes for the care team members."/>
-        <valueSet value="https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html"/>
+        <valueSet value="https://nrces.in/ndhm/fhir/r4/ValueSet-ndhm-practitioner-role.html"/>
       </binding>
     </element>
     <element id="Claim.careTeam.qualification">
       <path value="Claim.careTeam.qualification"/>
       <short value="Practitioner credential or specialization"/>
-      <definition value="The qualification of the practitioner which is applicable for this service."/>
-      <requirements value="Need to specify which qualification a provider is delivering the product or service under."/>
+      <definition value="The specialization of the practitioner or provider which is applicable for this service. The use case for the speciality here is to validate the diagnosis and procedure and check its relevance."/>
+      <requirements value="Need to specify which specialization a practitioner or provider acting under when delivering the product or service."/>
       <min value="0"/>
       <max value="1"/>
       <base>

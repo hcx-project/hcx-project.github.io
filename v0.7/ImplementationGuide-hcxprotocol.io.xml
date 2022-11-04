@@ -601,20 +601,6 @@ These requirements were originally developed, balloted, and published in FHIR DS
       <exampleBoolean value="false"/>
     </resource>
     <resource>
-      <extension url="http://hl7.org/fhir/tools/ValueSet/medical-speciality-type-provider">
-        <valueString value="SearchParameter"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/medical-speciality-type-provider"/>
-      </reference>
-      <name value="HCX Medical Speciality Provider"/>
-      <description value="**Search by subject - a patient**  &#xA;**NOTE**: This US Core SearchParameter definition extends the usage context of the&#xA;[Conformance expectation extension](http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html)&#xA; - multipleAnd&#xA; - multipleOr&#xA; - comparator&#xA; - modifier&#xA; - chain"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
       <extension url="http://hl7.org/fhir/tools/ValueSet/procedure-type-description">
         <valueString value="SearchParameter"/>
       </extension>
@@ -625,6 +611,20 @@ These requirements were originally developed, balloted, and published in FHIR DS
         <reference value="ValueSet/procedure-type-description"/>
       </reference>
       <name value="HCX Procedure Type Description"/>
+      <description value="**Search by subject - a patient**  &#xA;**NOTE**: This US Core SearchParameter definition extends the usage context of the&#xA;[Conformance expectation extension](http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html)&#xA; - multipleAnd&#xA; - multipleOr&#xA; - comparator&#xA; - modifier&#xA; - chain"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/ValueSet/medical-speciality-type-provider">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/medical-speciality-type-provider"/>
+      </reference>
+      <name value="HCX Medical Speciality Provider"/>
       <description value="**Search by subject - a patient**  &#xA;**NOTE**: This US Core SearchParameter definition extends the usage context of the&#xA;[Conformance expectation extension](http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html)&#xA; - multipleAnd&#xA; - multipleOr&#xA; - comparator&#xA; - modifier&#xA; - chain"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -723,20 +723,6 @@ These requirements were originally developed, balloted, and published in FHIR DS
         <reference value="ValueSet/claim-service-codes"/>
       </reference>
       <name value="HCX Claim Service Codes"/>
-      <description value="**Search by subject - a patient**  &#xA;**NOTE**: This US Core SearchParameter definition extends the usage context of the&#xA;[Conformance expectation extension](http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html)&#xA; - multipleAnd&#xA; - multipleOr&#xA; - comparator&#xA; - modifier&#xA; - chain"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/ValueSet/health-service-provider-role">
-        <valueString value="SearchParameter"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/health-service-provider-role"/>
-      </reference>
-      <name value="HCX valueset health service provider role"/>
       <description value="**Search by subject - a patient**  &#xA;**NOTE**: This US Core SearchParameter definition extends the usage context of the&#xA;[Conformance expectation extension](http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html)&#xA; - multipleAnd&#xA; - multipleOr&#xA; - comparator&#xA; - modifier&#xA; - chain"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1072,14 +1058,6 @@ These requirements were originally developed, balloted, and published in FHIR DS
           </extension>
           <nameUrl value="ValueSet-procedure-type-description.html"/>
           <title value="HCX Procedure Type Description"/>
-          <generation value="generated"/>
-        </page>
-        <page>
-          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-            <valueUrl value="ValueSet-health-service-provider-role.html"/>
-          </extension>
-          <nameUrl value="ValueSet-health-service-provider-role.html"/>
-          <title value="HCX health service provider role"/>
           <generation value="generated"/>
         </page>
         <page>

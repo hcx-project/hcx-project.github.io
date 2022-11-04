@@ -217,13 +217,6 @@
     "name": "ClinicalDiagnosticsDocumentCodes"
   },
   {
-    "id": "health-service-provider-role",
-    "type": "ValueSet",
-    "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html",
-    "version": "0.7.0",
-    "name": "HealthServiceProviderRoles"
-  },
-  {
     "id": "informational-messages-codes",
     "type": "ValueSet",
     "url": "https://ig.hcxprotocol.io/v0.7/ValueSet-informational-messages-codes.html",

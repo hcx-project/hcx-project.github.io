@@ -1,9 +1,9 @@
 ﻿HCXFHIRImplementationGuide : Validation Results
 =========================================
 
-err = 159, warn = 51, info = 10
+err = 157, warn = 51, info = 10
 IG Publisher Version: 1.2.7 Out of date - current version is 1.2.12
-Generated Wed Nov 02 20:34:58 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.7.0 (canonical = https://hcxprotocol.io/fhir/r4)
+Generated Fri Nov 04 10:04:48 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.7.0 (canonical = https://hcxprotocol.io/fhir/r4)
  Build Errors : 11 / 4 / 0
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-ClaimRequestDocument-example-01 : 7 / 0 / 4
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/bundle-ClaimResponseDocument-example-01 : 5 / 0 / 2
@@ -13,7 +13,7 @@ Generated Wed Nov 02 20:34:58 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/claimresponse-example-01 : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/coverageeligibilityrequest-example-01 : 0 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/examples/coverageeligibilityresponse-example-01 : 0 / 0 / 1
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-Claim : 3 / 0 / 1
+ /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-Claim : 3 / 2 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-ClaimRequestDocument : 2 / 1 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-ClaimResponse : 2 / 0 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-ClaimResponseDocument : 2 / 1 / 1
@@ -43,7 +43,6 @@ Generated Wed Nov 02 20:34:58 IST 2022. FHIR version 4.0.1 for hcxprotocol.io#0.
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-claim-supporting-info-categories : 2 / 2 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-claim-supporting-info-codes : 2 / 2 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-clinical-diagnostics-document-codes : 2 / 2 / 1
- /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-health-service-provider-role : 2 / 2 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-informational-messages-codes : 2 / 2 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-medical-speciality-type-provider : 2 / 2 / 1
  /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-procedure-type-description : 2 / 2 / 1
@@ -112,6 +111,8 @@ INFORMATION: Bundle/CoverageEligibilityResponseDocument-example-01: Bundle.entry
 == input/hcx-definitions/StructureDefinition-Claim.json ==
 ERROR: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-Claim.html'): Conformance resource /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/StructureDefinition-Claim.json - the canonical URL (https://hcxprotocol.io/fhir/r4/StructureDefinition/Claim) does not match the URL (https://ig.hcxprotocol.io/v0.7/StructureDefinition-Claim.html)
 ERROR: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-Claim.html'): The element Claim.diagnosis.diagnosis[x] is out of order (and maybe others after it)
+WARNING: StructureDefinition/Claim: StructureDefinition.differential.element[11].binding: The valueSet reference https://nrces.in/ndhm/fhir/r4/ValueSet-ndhm-practitioner-role.html on element Claim.careTeam.role could not be resolved
+WARNING: StructureDefinition/Claim: StructureDefinition.snapshot.element[46].binding: The valueSet reference https://nrces.in/ndhm/fhir/r4/ValueSet-ndhm-practitioner-role.html on element Claim.careTeam.role could not be resolved
 ERROR: /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/structuredefinition-Claim: URL Mismatch https://hcxprotocol.io/fhir/r4/StructureDefinition/Claim vs https://ig.hcxprotocol.io/v0.7/StructureDefinition-Claim.html
 == input/hcx-definitions/StructureDefinition-ClaimRequestDocument.json ==
 ERROR: StructureDefinition.where(url = 'https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimRequestDocument.html'): Conformance resource /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/StructureDefinition-ClaimRequestDocument.json - the canonical URL (https://hcxprotocol.io/fhir/r4/StructureDefinition/ClaimRequestDocument) does not match the URL (https://ig.hcxprotocol.io/v0.7/StructureDefinition-ClaimRequestDocument.html)
@@ -296,11 +297,6 @@ ERROR: ValueSet.where(url = 'https://ig.hcxprotocol.io/v0.7/ValueSet-clinical-di
 WARNING: ValueSet/clinical-diagnostics-document-codes: ValueSet: The ShareableValueSet profile says that the title element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 WARNING: ValueSet/clinical-diagnostics-document-codes: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 ERROR: /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-clinical-diagnostics-document-codes: URL Mismatch https://hcxprotocol.io/fhir/r4/ValueSet/clinical-diagnostics-document-codes vs https://ig.hcxprotocol.io/v0.7/ValueSet-clinical-diagnostics-document-codes.html
-== input/hcx-definitions/ValueSet-health-service-provider-role.json ==
-ERROR: ValueSet.where(url = 'https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html'): Conformance resource /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/ValueSet-health-service-provider-role.json - the canonical URL (https://hcxprotocol.io/fhir/r4/ValueSet/health-service-provider-role) does not match the URL (https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html)
-WARNING: ValueSet/health-service-provider-role: ValueSet: The ShareableValueSet profile says that the title element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: ValueSet/health-service-provider-role: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-ERROR: /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/valueset-health-service-provider-role: URL Mismatch https://hcxprotocol.io/fhir/r4/ValueSet/health-service-provider-role vs https://ig.hcxprotocol.io/v0.7/ValueSet-health-service-provider-role.html
 == input/hcx-definitions/ValueSet-informational-messages-codes.json ==
 ERROR: ValueSet.where(url = 'https://ig.hcxprotocol.io/v0.7/ValueSet-informational-messages-codes.html'): Conformance resource /Users/rayulu/work/Sanketika/Swasth/repository/IG-Publisher/input/hcx-definitions/ValueSet-informational-messages-codes.json - the canonical URL (https://hcxprotocol.io/fhir/r4/ValueSet/informational-messages-codes) does not match the URL (https://ig.hcxprotocol.io/v0.7/ValueSet-informational-messages-codes.html)
 WARNING: ValueSet/informational-messages-codes: ValueSet: The ShareableValueSet profile says that the title element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
