@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="claim-supporting-info-categories"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 34 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-POI"> </a>  POI</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>proof of identity</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-POA"> </a>  POA</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>proof of address</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-DOB"> </a>  DOB</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>proof of Date of Birth</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-POR"> </a>  POR</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>proof of relation</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-PHT"> </a>  PHT</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Photograph</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-BVC"> </a>  BVC</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>benefiaciary verification card</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-DEF"> </a>  DEF</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>declaration form</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-SIG"> </a>  SIG</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>signature</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-FCF"> </a>  FCF</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>filled claim form</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-CER"> </a>  CER</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Medical Certficate</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-MB"> </a>  MB</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>medical bill</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-DIA"> </a>  DIA</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>diagnostic reports</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-HDS"> </a>  HDS</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>hospital discharge summary</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-REF"> </a>  REF</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>referal latter</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-DEL"> </a>  DEL</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>doctor signed extention letter</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-CD"> </a>  CD</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>clinical documents</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-EID"> </a>  EID</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>employee id card</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-FIR"> </a>  FIR</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>FIR copy</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-CIL"> </a>  CIL</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>claim status intimation letter</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-INF"> </a>  INF</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>additional info related to claim ( conveying additional situation and condition information.)</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-DIS"> </a>  DIS</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>discharge status and discharge to location details</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-ONS"> </a>  ONS</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Period, start or end dates of aspects of the Condition. (e.g. admission, discharge etc)</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-REL"> </a>  REL</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Related services</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-EXC"> </a>  EXC</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Exception</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-MAT"> </a>  MAT</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Materials Forwarded</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-ATT"> </a>  ATT</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Attachment</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-OTH"> </a>  OTH</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Other</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-COI"> </a>  COI</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Injury or accident detail</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-VRE"> </a>  VRE</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Patient Reason for Visit</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-CRD"> </a>  CRD</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Claim received</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-NMI"> </a>  NMI</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Claim query detail</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-TRD"> </a>  TRD</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Treatment detail</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-IND"> </a>  IND</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Indicator flag</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-claim-supporting-info-categories-PoPr"> </a>  PoPr</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Proof of Presence</td></tr></table></div>
+  </text>
+  <url value="https://ig.hcxprotocol.io/v0.7.1/ValueSet-claim-supporting-info-categories.html"/>
+  <version value="0.7.1"/>
+  <name value="ClaimSupportingInfoCategories"/>
+  <status value="active"/>
+  <date value="2022-08-01"/>
+  <publisher value="HCX Open Community"/>
+  <contact>
+    <name value="HCX Open Community"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hcxprotocol.io/"/>
+    </telecom>
+  </contact>
+  <description value="This is the value set for the different categories of supporting information that can be shared along with the submission of a claim"/>
+  <expansion>
+    <timestamp value="2022-08-01T08:15:30+05:30"/>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="POI"/>
+      <display value="proof of identity"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="POA"/>
+      <display value="proof of address"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="DOB"/>
+      <display value="proof of Date of Birth"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="POR"/>
+      <display value="proof of relation"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="PHT"/>
+      <display value="Photograph"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="BVC"/>
+      <display value="benefiaciary verification card"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="DEF"/>
+      <display value="declaration form"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="SIG"/>
+      <display value="signature"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="FCF"/>
+      <display value="filled claim form"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="CER"/>
+      <display value="Medical Certficate"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="MB"/>
+      <display value="medical bill"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="DIA"/>
+      <display value="diagnostic reports"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="HDS"/>
+      <display value="hospital discharge summary"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="REF"/>
+      <display value="referal latter"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="DEL"/>
+      <display value="doctor signed extention letter"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="CD"/>
+      <display value="clinical documents"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="EID"/>
+      <display value="employee id card"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="FIR"/>
+      <display value="FIR copy"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="CIL"/>
+      <display value="claim status intimation letter"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="INF"/>
+      <display value="additional info related to claim ( conveying additional situation and condition information.)"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="DIS"/>
+      <display value="discharge status and discharge to location details"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="ONS"/>
+      <display value="Period, start or end dates of aspects of the Condition. (e.g. admission, discharge etc)"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="REL"/>
+      <display value="Related services"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="EXC"/>
+      <display value="Exception"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="MAT"/>
+      <display value="Materials Forwarded"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="ATT"/>
+      <display value="Attachment"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="OTH"/>
+      <display value="Other"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="COI"/>
+      <display value="Injury or accident detail"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="VRE"/>
+      <display value="Patient Reason for Visit"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="CRD"/>
+      <display value="Claim received"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="NMI"/>
+      <display value="Claim query detail"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="TRD"/>
+      <display value="Treatment detail"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="IND"/>
+      <display value="Indicator flag"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
+      <code value="PoPr"/>
+      <display value="Proof of Presence"/>
+    </contains>
+  </expansion>
+</ValueSet>

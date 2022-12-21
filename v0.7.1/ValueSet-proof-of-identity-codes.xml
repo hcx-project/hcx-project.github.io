@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="proof-of-identity-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 23 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-1"> </a>  POI-1</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Aadhar Identity Card</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-2"> </a>  POI-2</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Passport</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-3"> </a>  POI-3</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Driving License</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-4"> </a>  POI-4</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Election Commision's Voter ID card</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-5"> </a>  POI-5</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Income Tax PAN Card</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-6"> </a>  POI-6</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Photo Credit Card/ Debit card (with Photo)</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-7"> </a>  POI-7</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>ECHS / CGHS Card having photo</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-8"> </a>  POI-8</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Domicile Certificate / Caste Certificate with photograph</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-9"> </a>  POI-9</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Current passbook of Post Office / Govt. /PSU Bank/private banks</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-10"> </a>  POI-10</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Student ID card of the Govt. recognized educational institutions with photograph on it.</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-11"> </a>  POI-11</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Ration Card with photograph &amp; address. (Issued from Maharashtra state not valid )</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-12"> </a>  POI-12</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Smart Card issued by CSD, Defence / Paramilitary Forces</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-13"> </a>  POI-13</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Arms License</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-14"> </a>  POI-14</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Senior Citizen Card having photo issued by the Govt.</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-15"> </a>  POI-15</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Pensioners Card having photo issued by the Govt.</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-16"> </a>  POI-16</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>ID Card issued to Tibetan (Refugees) Citizens by State Govt. / Central Govt. of India having photo</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-17"> </a>  POI-17</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Defence Personnel - Armed Forces ;Certificate from Competent Unit Authority</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-18"> </a>  POI-18</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Certificate of Address having Photo, issued by MP/ MLA / Group A Gazetted Officer on letter head with seal</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-19"> </a>  POI-19</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Certificate of address with photo from Govt. recognized educational institution (for students only)</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-20"> </a>  POI-20</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Certificate of Address having Photo, issued by Head of Village / Gram Panchayat or its equivalent Authority. (for Rural Areas)</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-21"> </a>  POI-21</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Address Card with Photo issued by Dept. of Posts</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-23"> </a>  POI-23</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Freedom fighter card with photo</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-proof-of-identity-codes-POI-24"> </a>  POI-24</td><td>http://hcxprotocol.io/codes/proof-of-identity-codes</td><td>Kissan Passbook with photo</td></tr></table></div>
+  </text>
+  <url value="https://ig.hcxprotocol.io/v0.7.1/ValueSet-proof-of-identity-codes.html"/>
+  <version value="0.7.1"/>
+  <name value="ProofOfIdentityCodes"/>
+  <status value="active"/>
+  <date value="2022-06-01"/>
+  <publisher value="HCX Open Community"/>
+  <contact>
+    <name value="HCX Open Community"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hcxprotocol.io/"/>
+    </telecom>
+  </contact>
+  <description value="This is the value set listing the Proof of Identification codes"/>
+  <expansion>
+    <timestamp value="2022-06-01T08:15:30+05:30"/>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-1"/>
+      <display value="Aadhar Identity Card"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-2"/>
+      <display value="Passport"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-3"/>
+      <display value="Driving License"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-4"/>
+      <display value="Election Commision's Voter ID card"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-5"/>
+      <display value="Income Tax PAN Card"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-6"/>
+      <display value="Photo Credit Card/ Debit card (with Photo)"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-7"/>
+      <display value="ECHS / CGHS Card having photo"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-8"/>
+      <display value="Domicile Certificate / Caste Certificate with photograph"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-9"/>
+      <display value="Current passbook of Post Office / Govt. /PSU Bank/private banks"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-10"/>
+      <display value="Student ID card of the Govt. recognized educational institutions with photograph on it."/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-11"/>
+      <display value="Ration Card with photograph &amp; address. (Issued from Maharashtra state not valid )"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-12"/>
+      <display value="Smart Card issued by CSD, Defence / Paramilitary Forces"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-13"/>
+      <display value="Arms License"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-14"/>
+      <display value="Senior Citizen Card having photo issued by the Govt."/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-15"/>
+      <display value="Pensioners Card having photo issued by the Govt."/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-16"/>
+      <display value="ID Card issued to Tibetan (Refugees) Citizens by State Govt. / Central Govt. of India having photo"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-17"/>
+      <display value="Defence Personnel - Armed Forces ;Certificate from Competent Unit Authority"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-18"/>
+      <display value="Certificate of Address having Photo, issued by MP/ MLA / Group A Gazetted Officer on letter head with seal"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-19"/>
+      <display value="Certificate of address with photo from Govt. recognized educational institution (for students only)"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-20"/>
+      <display value="Certificate of Address having Photo, issued by Head of Village / Gram Panchayat or its equivalent Authority. (for Rural Areas)"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-21"/>
+      <display value="Address Card with Photo issued by Dept. of Posts"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-23"/>
+      <display value="Freedom fighter card with photo"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/proof-of-identity-codes"/>
+      <code value="POI-24"/>
+      <display value="Kissan Passbook with photo"/>
+    </contains>
+  </expansion>
+</ValueSet>

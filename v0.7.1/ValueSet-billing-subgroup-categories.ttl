@@ -1,0 +1,632 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/ValueSet/billing-subgroup-categories> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "billing-subgroup-categories"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 118 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-101000\"> </a>  101000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Room Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-102000\"> </a>  102000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Nursing charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-103000\"> </a>  103000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Duty Doctor fee</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-104000\"> </a>  104000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Monitor charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-201000\"> </a>  201000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>ICU Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-202000\"> </a>  202000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>ICU Nursing charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-203000\"> </a>  203000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Monitor charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-204000\"> </a>  204000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>ICU Supplies &amp; equipment</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-301000\"> </a>  301000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>OT rent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-302000\"> </a>  302000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>OT Equipment charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-303000\"> </a>  303000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>OT Drugs &amp; Consumables</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-304000\"> </a>  304000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>OT Sterilization</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-401000\"> </a>  401000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Medicine &amp;\nConsumables charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-501000\"> </a>  501000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Visit charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-502000\"> </a>  502000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Surgery Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-503000\"> </a>  503000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Anaesthetists fee</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-504000\"> </a>  504000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Intensivist Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-505000\"> </a>  505000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Technician Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-506000\"> </a>  506000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Physiotherapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-507000\"> </a>  507000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Procedure charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-601000\"> </a>  601000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Bio Chemistry</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-602000\"> </a>  602000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Cardiology charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-603000\"> </a>  603000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Haemotology charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-604000\"> </a>  604000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Microbiology charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-605000\"> </a>  605000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Neurology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-606000\"> </a>  606000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Nuclear medicine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-607000\"> </a>  607000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Pathology charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-608000\"> </a>  608000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Radiology services</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-609000\"> </a>  609000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Serology charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-610000\"> </a>  610000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Medical Genetics</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-611000\"> </a>  611000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Profiles</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-701000\"> </a>  701000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Ambulance Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-801000\"> </a>  801000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Admission charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-802000\"> </a>  802000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Attendant food charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-803000\"> </a>  803000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Patient food charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-804000\"> </a>  804000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Registration charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-805000\"> </a>  805000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>MRD Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-806000\"> </a>  806000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Documentation charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-807000\"> </a>  807000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Telephone charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-808000\"> </a>  808000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Bio Medical Waste Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-code-809000\"> </a>  809000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Taxes</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-901000\"> </a>  901000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Cardiac Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-902000\"> </a>  902000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>CardiologyPackage s</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-903000\"> </a>  903000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Cath Lab</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-904000\"> </a>  904000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Dental Procedures</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-905000\"> </a>  905000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>ENT</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-906000\"> </a>  906000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Gastroenterology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-907000\"> </a>  907000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>General Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-908000\"> </a>  908000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Gynaecology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-909000\"> </a>  909000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Nephrology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-910000\"> </a>  910000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Neuro Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-911000\"> </a>  911000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Oncology Procedures</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-912000\"> </a>  912000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Opthalmology\nprocedures</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-913000\"> </a>  913000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Orthopaedic Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-914000\"> </a>  914000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Plastic Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-915000\"> </a>  915000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Pulmonology Packages</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-916000\"> </a>  916000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Urology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-subgroup-packagecode-917000\"> </a>  917000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Vascular Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-BM\"> </a>  BM</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Burns Management</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-ER\"> </a>  ER</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Emergency</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-ID\"> </a>  ID</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Infectious Diseases</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-IN\"> </a>  IN</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Interventional Neuroradiology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MC\"> </a>  MC</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Cardiology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MG\"> </a>  MG</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>General Medicine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MM\"> </a>  MM</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Mental Disorders</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MN\"> </a>  MN</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Neo - natal Care</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MO\"> </a>  MO</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Medical Oncology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MP\"> </a>  MP</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Pediatric Medical Management</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MR\"> </a>  MR</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Radiation Oncology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-OT\"> </a>  OT</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Organ and Tissue Transplant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SB\"> </a>  SB</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Orthopedics</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SC\"> </a>  SC</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Surgical Oncology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SE\"> </a>  SE</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Ophthalmology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SG\"> </a>  SG</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>General Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SL\"> </a>  SL</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>ENT</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SM\"> </a>  SM</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Oral &amp; Maxillofacial Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SN\"> </a>  SN</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Neurosurgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SO\"> </a>  SO</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Obstetrics &amp; Gynecology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SP\"> </a>  SP</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Plastic &amp; Reconstructive Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SS\"> </a>  SS</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Pediatric Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-ST\"> </a>  ST</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Polytrauma, Orthopedics, Neurosurgery, General Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SU\"> </a>  SU</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Urology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SV\"> </a>  SV</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>CTVS</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-subgroup-packagecode-US\"> </a>  US</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Unspecified Surgical Package</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M1\"> </a>  M1</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Medical Oncology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M10\"> </a>  M10</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Pulmonology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M11\"> </a>  M11</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Dermatology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M12\"> </a>  M12</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Rheumatology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M13\"> </a>  M13</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Endocrinology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M14\"> </a>  M14</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Gastroenterology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M15\"> </a>  M15</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Interventional Radiology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M16\"> </a>  M16</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>GENERAL MEDICINE</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M17\"> </a>  M17</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Mental Disorders Packages</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M18\"> </a>  M18</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Hematology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M2\"> </a>  M2</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Radiation Oncology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M3\"> </a>  M3</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Critical Care</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M5\"> </a>  M5</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Infectious Diseases</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M6\"> </a>  M6</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Pediatrics Medical Management</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M7\"> </a>  M7</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Cardiology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M8\"> </a>  M8</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Nephrology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M9\"> </a>  M9</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Neurology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S10\"> </a>  S10</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Neurosurgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S11\"> </a>  S11</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Surgical Oncology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S1\"> </a>  S1</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>General Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S12\"> </a>  S12</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Plastic Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S13\"> </a>  S13</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Burns</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S14\"> </a>  S14</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Poly Trauma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S15\"> </a>  S15</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Prostheses</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S20\"> </a>  S20</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Oral &amp; Maxillofacial Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S21\"> </a>  S21</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Pediatric Cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S2\"> </a>  S2</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>ENT Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S3\"> </a>  S3</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Ophthalmology Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S4\"> </a>  S4</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Gynaecology And Obstetrics Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S5\"> </a>  S5</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Orthopedic Surgery And Procedures</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S6\"> </a>  S6</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Surgical Gastro Enterology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S7\"> </a>  S7</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Cardiac And Cardiothoracic Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S8\"> </a>  S8</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Pediatric Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S9\"> </a>  S9</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Genitourinary System</td></tr></table></div>"
+  ]; # 
+  fhir:ValueSet.url [ fhir:value "https://ig.hcxprotocol.io/v0.7.1/ValueSet-billing-subgroup-categories.html"]; # 
+  fhir:ValueSet.version [ fhir:value "0.7.1"]; # 
+  fhir:ValueSet.name [ fhir:value "BillingSubgroupCategories"]; # 
+  fhir:ValueSet.status [ fhir:value "active"]; # 
+  fhir:ValueSet.date [ fhir:value "2022-08-01"^^xsd:date]; # 
+  fhir:ValueSet.publisher [ fhir:value "HCX Open Community"]; # 
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HCX Open Community" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://hcxprotocol.io/" ]
+     ]
+  ]; # 
+  fhir:ValueSet.description [ fhir:value "This is the value set for the the billing subcategory codes which is the second level of nesting the billing items under the billing groups."]; # 
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2022-08-01T08:15:30+05:30"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.contains [
+       fhir:index 0;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "101000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Room Charges" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "102000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Nursing charges" ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "103000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Duty Doctor fee" ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "104000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Monitor charges" ]
+     ], [
+       fhir:index 4;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "201000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "ICU Charges" ]
+     ], [
+       fhir:index 5;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "202000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "ICU Nursing charges" ]
+     ], [
+       fhir:index 6;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "203000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Monitor charges" ]
+     ], [
+       fhir:index 7;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "204000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "ICU Supplies & equipment" ]
+     ], [
+       fhir:index 8;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "301000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "OT rent" ]
+     ], [
+       fhir:index 9;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "302000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "OT Equipment charges" ]
+     ], [
+       fhir:index 10;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "303000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "OT Drugs & Consumables" ]
+     ], [
+       fhir:index 11;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "304000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "OT Sterilization" ]
+     ], [
+       fhir:index 12;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "401000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Medicine &\nConsumables charges" ]
+     ], [
+       fhir:index 13;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "501000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Visit charges" ]
+     ], [
+       fhir:index 14;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "502000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Surgery Charges" ]
+     ], [
+       fhir:index 15;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "503000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Anaesthetists fee" ]
+     ], [
+       fhir:index 16;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "504000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Intensivist Charges" ]
+     ], [
+       fhir:index 17;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "505000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Technician Charges" ]
+     ], [
+       fhir:index 18;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "506000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Physiotherapy" ]
+     ], [
+       fhir:index 19;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "507000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Procedure charges" ]
+     ], [
+       fhir:index 20;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "601000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Bio Chemistry" ]
+     ], [
+       fhir:index 21;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "602000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cardiology charges" ]
+     ], [
+       fhir:index 22;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "603000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Haemotology charges" ]
+     ], [
+       fhir:index 23;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "604000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Microbiology charges" ]
+     ], [
+       fhir:index 24;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "605000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Neurology" ]
+     ], [
+       fhir:index 25;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "606000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Nuclear medicine" ]
+     ], [
+       fhir:index 26;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "607000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pathology charges" ]
+     ], [
+       fhir:index 27;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "608000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Radiology services" ]
+     ], [
+       fhir:index 28;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "609000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Serology charges" ]
+     ], [
+       fhir:index 29;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "610000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Medical Genetics" ]
+     ], [
+       fhir:index 30;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "611000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Profiles" ]
+     ], [
+       fhir:index 31;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "701000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Ambulance Charges" ]
+     ], [
+       fhir:index 32;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "801000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Admission charges" ]
+     ], [
+       fhir:index 33;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "802000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Attendant food charges" ]
+     ], [
+       fhir:index 34;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "803000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Patient food charges" ]
+     ], [
+       fhir:index 35;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "804000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Registration charges" ]
+     ], [
+       fhir:index 36;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "805000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "MRD Charges" ]
+     ], [
+       fhir:index 37;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "806000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Documentation charges" ]
+     ], [
+       fhir:index 38;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "807000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Telephone charges" ]
+     ], [
+       fhir:index 39;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "808000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Bio Medical Waste Charges" ]
+     ], [
+       fhir:index 40;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-code" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "809000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Taxes" ]
+     ], [
+       fhir:index 41;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "901000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cardiac Surgery" ]
+     ], [
+       fhir:index 42;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "902000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "CardiologyPackage s" ]
+     ], [
+       fhir:index 43;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "903000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cath Lab" ]
+     ], [
+       fhir:index 44;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "904000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Dental Procedures" ]
+     ], [
+       fhir:index 45;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "905000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "ENT" ]
+     ], [
+       fhir:index 46;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "906000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Gastroenterology" ]
+     ], [
+       fhir:index 47;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "907000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "General Surgery" ]
+     ], [
+       fhir:index 48;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "908000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Gynaecology" ]
+     ], [
+       fhir:index 49;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "909000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Nephrology" ]
+     ], [
+       fhir:index 50;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "910000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Neuro Surgery" ]
+     ], [
+       fhir:index 51;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "911000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Oncology Procedures" ]
+     ], [
+       fhir:index 52;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "912000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Opthalmology\nprocedures" ]
+     ], [
+       fhir:index 53;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "913000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Orthopaedic Surgery" ]
+     ], [
+       fhir:index 54;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "914000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Plastic Surgery" ]
+     ], [
+       fhir:index 55;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "915000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pulmonology Packages" ]
+     ], [
+       fhir:index 56;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "916000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Urology" ]
+     ], [
+       fhir:index 57;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "917000" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Vascular Surgery" ]
+     ], [
+       fhir:index 58;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "BM" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Burns Management" ]
+     ], [
+       fhir:index 59;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "ER" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Emergency" ]
+     ], [
+       fhir:index 60;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "ID" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Infectious Diseases" ]
+     ], [
+       fhir:index 61;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "IN" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Interventional Neuroradiology" ]
+     ], [
+       fhir:index 62;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "MC" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cardiology" ]
+     ], [
+       fhir:index 63;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "MG" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "General Medicine" ]
+     ], [
+       fhir:index 64;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "MM" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Mental Disorders" ]
+     ], [
+       fhir:index 65;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "MN" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Neo - natal Care" ]
+     ], [
+       fhir:index 66;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "MO" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Medical Oncology" ]
+     ], [
+       fhir:index 67;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "MP" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pediatric Medical Management" ]
+     ], [
+       fhir:index 68;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "MR" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Radiation Oncology" ]
+     ], [
+       fhir:index 69;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "OT" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Organ and Tissue Transplant" ]
+     ], [
+       fhir:index 70;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "SB" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Orthopedics" ]
+     ], [
+       fhir:index 71;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "SC" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Surgical Oncology" ]
+     ], [
+       fhir:index 72;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "SE" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Ophthalmology" ]
+     ], [
+       fhir:index 73;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "SG" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "General Surgery" ]
+     ], [
+       fhir:index 74;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "SL" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "ENT" ]
+     ], [
+       fhir:index 75;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "SM" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Oral & Maxillofacial Surgery" ]
+     ], [
+       fhir:index 76;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "SN" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Neurosurgery" ]
+     ], [
+       fhir:index 77;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "SO" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Obstetrics & Gynecology" ]
+     ], [
+       fhir:index 78;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "SP" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Plastic & Reconstructive Surgery" ]
+     ], [
+       fhir:index 79;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "SS" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pediatric Surgery" ]
+     ], [
+       fhir:index 80;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "ST" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Polytrauma, Orthopedics, Neurosurgery, General Surgery" ]
+     ], [
+       fhir:index 81;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "SU" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Urology" ]
+     ], [
+       fhir:index 82;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "SV" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "CTVS" ]
+     ], [
+       fhir:index 83;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "US" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Unspecified Surgical Package" ]
+     ], [
+       fhir:index 84;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M1" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Medical Oncology" ]
+     ], [
+       fhir:index 85;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M10" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pulmonology" ]
+     ], [
+       fhir:index 86;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M11" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Dermatology" ]
+     ], [
+       fhir:index 87;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M12" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Rheumatology" ]
+     ], [
+       fhir:index 88;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M13" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Endocrinology" ]
+     ], [
+       fhir:index 89;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M14" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Gastroenterology" ]
+     ], [
+       fhir:index 90;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M15" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Interventional Radiology" ]
+     ], [
+       fhir:index 91;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M16" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "GENERAL MEDICINE" ]
+     ], [
+       fhir:index 92;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M17" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Mental Disorders Packages" ]
+     ], [
+       fhir:index 93;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M18" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Hematology" ]
+     ], [
+       fhir:index 94;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M2" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Radiation Oncology" ]
+     ], [
+       fhir:index 95;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M3" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Critical Care" ]
+     ], [
+       fhir:index 96;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M5" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Infectious Diseases" ]
+     ], [
+       fhir:index 97;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M6" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pediatrics Medical Management" ]
+     ], [
+       fhir:index 98;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M7" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cardiology" ]
+     ], [
+       fhir:index 99;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M8" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Nephrology" ]
+     ], [
+       fhir:index 100;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "M9" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Neurology" ]
+     ], [
+       fhir:index 101;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S10" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Neurosurgery" ]
+     ], [
+       fhir:index 102;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S11" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Surgical Oncology" ]
+     ], [
+       fhir:index 103;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S1" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "General Surgery" ]
+     ], [
+       fhir:index 104;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S12" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Plastic Surgery" ]
+     ], [
+       fhir:index 105;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S13" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Burns" ]
+     ], [
+       fhir:index 106;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S14" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Poly Trauma" ]
+     ], [
+       fhir:index 107;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S15" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Prostheses" ]
+     ], [
+       fhir:index 108;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S20" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Oral & Maxillofacial Surgery" ]
+     ], [
+       fhir:index 109;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S21" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pediatric Cancer" ]
+     ], [
+       fhir:index 110;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S2" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "ENT Surgery" ]
+     ], [
+       fhir:index 111;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S3" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Ophthalmology Surgery" ]
+     ], [
+       fhir:index 112;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S4" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Gynaecology And Obstetrics Surgery" ]
+     ], [
+       fhir:index 113;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S5" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Orthopedic Surgery And Procedures" ]
+     ], [
+       fhir:index 114;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S6" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Surgical Gastro Enterology" ]
+     ], [
+       fhir:index 115;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S7" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Cardiac And Cardiothoracic Surgery" ]
+     ], [
+       fhir:index 116;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S8" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Pediatric Surgery" ]
+     ], [
+       fhir:index 117;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-subgroup-packagecode" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "S9" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Genitourinary System" ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/ValueSet/billing-subgroup-categories.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,12 @@
+{
+  "url" : "https://hcxprotocol.io/fhir/r4/ImplementationGuide/hcxprotocol.io",
+  "name" : "HCXFHIRImplementationGuide",
+  "package-id" : "hcxprotocol.io",
+  "ig-ver" : "0.7.1",
+  "date" : "Wed, 21 Dec, 2022 23:10:45 +0530",
+  "errs" : 447,
+  "warnings" : 73,
+  "hints" : 41,
+  "version" : "4.0.1",
+  "tool" : "5.0.0-snapshot2 (3)"
+}

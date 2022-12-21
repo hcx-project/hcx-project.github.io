@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="ClaimRequestDocument-example-01"/>
+  <meta>
+    <lastUpdated value="2022-02-08T21:49:55.458+05:30"/>
+  </meta>
+  <identifier>
+    <system value="https://www.tmh.in/bundle"/>
+    <value value="ClaimRequestDocument-example-01"/>
+  </identifier>
+  <type value="document"/>
+  <timestamp value="2022-02-08T21:49:55.458+05:30"/>
+  <entry>
+    <fullUrl value="Composition/42ff4a07-3e36-402f-a99e-29f16c0c9eee"/>
+    <resource>
+      <Composition>
+        <id value="42ff4a07-3e36-402f-a99e-29f16c0c9eee"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Composition</b><a name="42ff4a07-3e36-402f-a99e-29f16c0c9eee"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition &quot;42ff4a07-3e36-402f-a99e-29f16c0c9eee&quot; </p></div><p><b>identifier</b>: id: 42ff4a07-3e36-402f-a99e-29f16c0c9eee</p><p><b>status</b>: final</p><p><b>type</b>: Claim Request Doc <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (document-type#HcxClaimRequest)</span></p><p><b>date</b>: 2022-02-08 21:49:55+0530</p><p><b>author</b>: <a href="#Organization_Tmh01">See above (Organization/Tmh01)</a></p><p><b>title</b>: Claim Request</p></div>
+        </text>
+        <identifier>
+          <system value="https://www.tmh.in/hcx-documents"/>
+          <value value="42ff4a07-3e36-402f-a99e-29f16c0c9eee"/>
+        </identifier>
+        <status value="final"/>
+        <type>
+          <coding>
+            <system value="https://www.hcx.org/document-type"/>
+            <code value="HcxClaimRequest"/>
+            <display value="Claim Request Doc"/>
+          </coding>
+        </type>
+        <subject>
+          <reference value="Patient/RVH1003"/>
+        </subject>
+        <date value="2022-02-08T21:49:55+05:30"/>
+        <author>
+          <reference value="Organization/Tmh01"/>
+        </author>
+        <title value="Claim Request"/>
+        <section>
+          <title value="# Claim Request"/>
+          <code>
+            <coding>
+              <system value="http://hl7.org/fhir/ValueSet/resource-types"/>
+              <code value="ClaimRequest"/>
+              <display value="Claim Request"/>
+            </coding>
+            <text value="ClaimRequest"/>
+          </code>
+          <entry>
+            <reference value="ClaimRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6"/>
+          </entry>
+        </section>
+      </Composition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="Organization/Tmh01"/>
+    <resource>
+      <Organization>
+        <id value="Tmh01"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Organization</b><a name="Tmh01"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Organization &quot;Tmh01&quot; </p></div><p><b>identifier</b>: id: HFR-ID-FOR-TMH, id: IRDA-ID-FOR-TMH</p><p><b>name</b>: Tata Memorial Hospital</p><p><b>alias</b>: TMH, TMC</p><p><b>telecom</b>: ph: (+91) 022-2417-7000</p><p><b>address</b>: Dr Ernest Borges Rd, Parel East, Parel, Mumbai, Maharashtra 400012 Mumbai Maharashtra 400012 INDIA </p><p><b>endpoint</b>: <a href="https://www.tmc.gov.in/">https://www.tmc.gov.in/: Website</a></p></div>
+        </text>
+        <identifier>
+          <system value="http://abdm.gov.in/facilities"/>
+          <value value="HFR-ID-FOR-TMH"/>
+        </identifier>
+        <identifier>
+          <system value="http://irdai.gov.in/facilities"/>
+          <value value="IRDA-ID-FOR-TMH"/>
+        </identifier>
+        <name value="Tata Memorial Hospital"/>
+        <alias value="TMH"/>
+        <alias value="TMC"/>
+        <telecom>
+          <system value="phone"/>
+          <value value="(+91) 022-2417-7000"/>
+        </telecom>
+        <address>
+          <line value="Dr Ernest Borges Rd, Parel East, Parel, Mumbai, Maharashtra 400012"/>
+          <city value="Mumbai"/>
+          <state value="Maharashtra"/>
+          <postalCode value="400012"/>
+          <country value="INDIA"/>
+        </address>
+        <endpoint>
+          <reference value="https://www.tmc.gov.in/"/>
+          <display value="Website"/>
+        </endpoint>
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="Patient/RVH1003"/>
+    <resource>
+      <Patient>
+        <id value="RVH1003"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Patient</b><a name="RVH1003"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Patient &quot;RVH1003&quot; </p></div><p><b>identifier</b>: Subscriber Number: BEN-101, id: hinapatel@abdm</p><p><b>name</b>: Hina Patel</p><p><b>gender</b>: female</p></div>
+        </text>
+        <identifier>
+          <type>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+              <code value="SN"/>
+              <display value="Subscriber Number"/>
+            </coding>
+          </type>
+          <system value="http://gicofIndia.com/beneficiaries"/>
+          <value value="BEN-101"/>
+        </identifier>
+        <identifier>
+          <system value="http://abdm.gov.in/patients"/>
+          <value value="hinapatel@abdm"/>
+        </identifier>
+        <name>
+          <text value="Hina Patel"/>
+        </name>
+        <gender value="female"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="ClaimRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6"/>
+    <resource>
+      <Claim>
+        <id value="1532676"/>
+        <meta>
+          <versionId value="1"/>
+          <lastUpdated value="2020-10-07T03:26:09.060+00:00"/>
+          <source value="#BHZcRrcF4oS0JQ42"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Claim</b><a name="1532676"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Claim &quot;1532676&quot; Version &quot;1&quot; Updated &quot;2020-10-07 03:26:09+0000&quot; </p><p style="margin-bottom: 0px">Information Source: #BHZcRrcF4oS0JQ42!</p></div><p><b>status</b>: active</p><p><b>type</b>: Institutional <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-claim-type.html">Claim Type Codes</a>#institutional)</span></p><p><b>use</b>: claim</p><p><b>patient</b>: <a href="Patient/1531634">Patient/1531634: Hina Patel</a></p><p><b>billablePeriod</b>: 1979-02-27 16:01:08-0500 --&gt; 1979-02-28 16:01:08-0500</p><p><b>created</b>: 1979-02-28 16:01:08-0500</p><p><b>provider</b>: <a href="Bundle-CoverageEligibilityResponseDocument-example-01.html#Organization_2">Organization/2: PMJAY, MoHFW, Govt Of India</a></p><p><b>priority</b>: Normal <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-processpriority.html">Process Priority Codes</a>#normal)</span></p><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 1</p><p><b>procedure</b>: <a href="Procedure/1532663">Procedure/1532663</a></p></blockquote><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 2</p><p><b>procedure</b>: <a href="Procedure/1532664">Procedure/1532664</a></p></blockquote><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 3</p><p><b>procedure</b>: <a href="Procedure/1532665">Procedure/1532665</a></p></blockquote><h3>Insurances</h3><table class="grid"><tr><td>-</td><td><b>Sequence</b></td><td><b>Focal</b></td><td><b>Coverage</b></td></tr><tr><td>*</td><td>1</td><td>true</td><td><span>: Cigna Health</span></td></tr></table><blockquote><p><b>item</b></p><p><b>sequence</b>: 1</p><p><b>productOrService</b>: Encounter for problem <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#185347001)</span></p><p><b>encounter</b>: <a href="Encounter/1532617">Encounter/1532617</a></p></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 2</p><p><b>procedureSequence</b>: 1</p><p><b>productOrService</b>: Hearing examination (procedure) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#398171003)</span></p><h3>Nets</h3><table class="grid"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>516.65</td><td>USD</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 3</p><p><b>procedureSequence</b>: 2</p><p><b>productOrService</b>: Combined chemotherapy and radiation therapy (procedure) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#703423002)</span></p><h3>Nets</h3><table class="grid"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>16924.49</td><td>USD</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 4</p><p><b>procedureSequence</b>: 3</p><p><b>productOrService</b>: High resolution computed tomography of chest without contrast (procedure) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#16335031000119103)</span></p><h3>Nets</h3><table class="grid"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>516.65</td><td>USD</td></tr></table></blockquote><h3>Totals</h3><table class="grid"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>129.16</td><td>USD</td></tr></table></div>
+        </text>
+        <status value="active"/>
+        <type>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/claim-type"/>
+            <code value="institutional"/>
+          </coding>
+        </type>
+        <use value="claim"/>
+        <patient>
+          <reference value="Patient/1531634"/>
+          <display value="Hina Patel"/>
+        </patient>
+        <billablePeriod>
+          <start value="1979-02-27T16:01:08-05:00"/>
+          <end value="1979-02-28T16:01:08-05:00"/>
+        </billablePeriod>
+        <created value="1979-02-28T16:01:08-05:00"/>
+        <provider>
+          <reference value="Organization/2"/>
+          <display value="PMJAY, MoHFW, Govt Of India"/>
+        </provider>
+        <priority>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/processpriority"/>
+            <code value="normal"/>
+          </coding>
+        </priority>
+        <procedure>
+          <sequence value="1"/>
+          <procedureReference>
+            <reference value="Procedure/1532663"/>
+          </procedureReference>
+        </procedure>
+        <procedure>
+          <sequence value="2"/>
+          <procedureReference>
+            <reference value="Procedure/1532664"/>
+          </procedureReference>
+        </procedure>
+        <procedure>
+          <sequence value="3"/>
+          <procedureReference>
+            <reference value="Procedure/1532665"/>
+          </procedureReference>
+        </procedure>
+        <insurance>
+          <sequence value="1"/>
+          <focal value="true"/>
+          <coverage>
+            <display value="Cigna Health"/>
+          </coverage>
+        </insurance>
+        <item>
+          <sequence value="1"/>
+          <productOrService>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="185347001"/>
+              <display value="Encounter for problem"/>
+            </coding>
+            <text value="Encounter for problem"/>
+          </productOrService>
+          <encounter>
+            <reference value="Encounter/1532617"/>
+          </encounter>
+        </item>
+        <item>
+          <sequence value="2"/>
+          <procedureSequence value="1"/>
+          <productOrService>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="398171003"/>
+              <display value="Hearing examination (procedure)"/>
+            </coding>
+            <text value="Hearing examination (procedure)"/>
+          </productOrService>
+          <net>
+            <value value="516.65"/>
+            <currency value="USD"/>
+          </net>
+        </item>
+        <item>
+          <sequence value="3"/>
+          <procedureSequence value="2"/>
+          <productOrService>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="703423002"/>
+              <display value="Combined chemotherapy and radiation therapy (procedure)"/>
+            </coding>
+            <text value="Combined chemotherapy and radiation therapy (procedure)"/>
+          </productOrService>
+          <net>
+            <value value="16924.49"/>
+            <currency value="USD"/>
+          </net>
+        </item>
+        <item>
+          <sequence value="4"/>
+          <procedureSequence value="3"/>
+          <productOrService>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="16335031000119103"/>
+              <display value="High resolution computed tomography of chest without contrast (procedure)"/>
+            </coding>
+            <text value="High resolution computed tomography of chest without contrast (procedure)"/>
+          </productOrService>
+          <net>
+            <value value="516.65"/>
+            <currency value="USD"/>
+          </net>
+        </item>
+        <total>
+          <value value="129.16"/>
+          <currency value="USD"/>
+        </total>
+      </Claim>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="Organization/GICOFINDIA"/>
+    <resource>
+      <Organization>
+        <id value="GICOFINDIA"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Organization</b><a name="GICOFINDIA"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Organization &quot;GICOFINDIA&quot; </p></div><p><b>identifier</b>: id: 112</p><p><b>name</b>: General Insurance Corporation of India</p></div>
+        </text>
+        <identifier>
+          <system value="http://irdai.gov.in/insurers"/>
+          <value value="112"/>
+        </identifier>
+        <name value="General Insurance Corporation of India"/>
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="Coverage/dadde132-ad64-4d18-8c18-1d52d7e86abc"/>
+    <resource>
+      <Coverage>
+        <id value="dadde132-ad64-4d18-8c18-1d52d7e86abc"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Coverage</b><a name="dadde132-ad64-4d18-8c18-1d52d7e86abc"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Coverage &quot;dadde132-ad64-4d18-8c18-1d52d7e86abc&quot; </p></div><p><b>identifier</b>: id: policy-RVH1003</p><p><b>status</b>: active</p><p><b>subscriber</b>: <a href="#Patient_RVH1003">See above (Patient/RVH1003)</a></p><p><b>subscriberId</b>: SN-RVH1003</p><p><b>beneficiary</b>: <a href="#Patient_RVH1003">See above (Patient/RVH1003)</a></p><p><b>relationship</b>: self <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (subscriber-relationship#self)</span></p><p><b>payor</b>: <a href="#Organization_GICOFINDIA">See above (Organization/GICOFINDIA)</a></p></div>
+        </text>
+        <identifier>
+          <system value="https://www.gicofIndia.in/policies"/>
+          <value value="policy-RVH1003"/>
+        </identifier>
+        <status value="active"/>
+        <subscriber>
+          <reference value="Patient/RVH1003"/>
+        </subscriber>
+        <subscriberId value="SN-RVH1003"/>
+        <beneficiary>
+          <reference value="Patient/RVH1003"/>
+        </beneficiary>
+        <relationship>
+          <coding>
+            <system value="http://hl7.org/fhir/ValueSet/subscriber-relationship"/>
+            <code value="self"/>
+          </coding>
+        </relationship>
+        <payor>
+          <reference value="Organization/GICOFINDIA"/>
+        </payor>
+      </Coverage>
+    </resource>
+  </entry>
+</Bundle>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="claim-service-categories"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 11 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-group-code-100000"> </a>  100000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Room &amp; Nursing Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-group-code-200000"> </a>  200000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>ICU Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-group-code-300000"> </a>  300000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>OT Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-group-code-400000"> </a>  400000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Medicine &amp; Consumables Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-group-code-500000"> </a>  500000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Professional Fees Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-group-code-600000"> </a>  600000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Investigation Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-group-code-700000"> </a>  700000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Ambulance Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-group-code-800000"> </a>  800000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Miscellaneous Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-group-code-900000"> </a>  900000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Provider Package Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-group-code-HBP"> </a>  HBP</td><td>https://pmjay.gov.in/benefit-billing-group-code</td><td>NHA Package Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-group-code-MJPJAY"> </a>  MJPJAY</td><td>https://mjpjay.gov.in/benefit-billing-group-code</td><td>Mahatma Jyotibha Phule PMJAY Package Charges</td></tr></table></div>
+  </text>
+  <url value="https://ig.hcxprotocol.io/v0.7.1/ValueSet-claim-service-categories.html"/>
+  <version value="0.7.1"/>
+  <name value="ClaimServiceCategories"/>
+  <status value="active"/>
+  <date value="2021-08-15"/>
+  <publisher value="HCX Open Community"/>
+  <contact>
+    <name value="HCX Open Community"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hcxprotocol.io/"/>
+    </telecom>
+  </contact>
+  <description value="This is the value set that includes the codes to identify the general type of benefits under which products and services are provided"/>
+  <expansion>
+    <timestamp value="2021-08-15T08:15:30+05:30"/>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-group-code"/>
+      <code value="100000"/>
+      <display value="Room &amp; Nursing Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-group-code"/>
+      <code value="200000"/>
+      <display value="ICU Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-group-code"/>
+      <code value="300000"/>
+      <display value="OT Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-group-code"/>
+      <code value="400000"/>
+      <display value="Medicine &amp; Consumables Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-group-code"/>
+      <code value="500000"/>
+      <display value="Professional Fees Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-group-code"/>
+      <code value="600000"/>
+      <display value="Investigation Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-group-code"/>
+      <code value="700000"/>
+      <display value="Ambulance Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-group-code"/>
+      <code value="800000"/>
+      <display value="Miscellaneous Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-group-code"/>
+      <code value="900000"/>
+      <display value="Provider Package Charges"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-group-code"/>
+      <code value="HBP"/>
+      <display value="NHA Package Charges"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-group-code"/>
+      <code value="MJPJAY"/>
+      <display value="Mahatma Jyotibha Phule PMJAY Package Charges"/>
+    </contains>
+  </expansion>
+</ValueSet>

@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="billing-subgroup-categories"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 118 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-101000"> </a>  101000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Room Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-102000"> </a>  102000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Nursing charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-103000"> </a>  103000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Duty Doctor fee</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-104000"> </a>  104000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Monitor charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-201000"> </a>  201000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>ICU Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-202000"> </a>  202000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>ICU Nursing charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-203000"> </a>  203000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Monitor charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-204000"> </a>  204000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>ICU Supplies &amp; equipment</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-301000"> </a>  301000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>OT rent</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-302000"> </a>  302000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>OT Equipment charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-303000"> </a>  303000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>OT Drugs &amp; Consumables</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-304000"> </a>  304000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>OT Sterilization</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-401000"> </a>  401000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Medicine &amp;
+Consumables charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-501000"> </a>  501000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Visit charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-502000"> </a>  502000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Surgery Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-503000"> </a>  503000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Anaesthetists fee</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-504000"> </a>  504000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Intensivist Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-505000"> </a>  505000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Technician Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-506000"> </a>  506000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Physiotherapy</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-507000"> </a>  507000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Procedure charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-601000"> </a>  601000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Bio Chemistry</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-602000"> </a>  602000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Cardiology charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-603000"> </a>  603000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Haemotology charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-604000"> </a>  604000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Microbiology charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-605000"> </a>  605000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Neurology</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-606000"> </a>  606000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Nuclear medicine</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-607000"> </a>  607000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Pathology charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-608000"> </a>  608000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Radiology services</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-609000"> </a>  609000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Serology charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-610000"> </a>  610000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Medical Genetics</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-611000"> </a>  611000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Profiles</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-701000"> </a>  701000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Ambulance Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-801000"> </a>  801000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Admission charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-802000"> </a>  802000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Attendant food charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-803000"> </a>  803000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Patient food charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-804000"> </a>  804000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Registration charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-805000"> </a>  805000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>MRD Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-806000"> </a>  806000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Documentation charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-807000"> </a>  807000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Telephone charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-808000"> </a>  808000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Bio Medical Waste Charges</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-code-809000"> </a>  809000</td><td>https://irdai.gov.in/benefit-billing-subgroup-code</td><td>Taxes</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-901000"> </a>  901000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Cardiac Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-902000"> </a>  902000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>CardiologyPackage s</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-903000"> </a>  903000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Cath Lab</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-904000"> </a>  904000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Dental Procedures</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-905000"> </a>  905000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>ENT</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-906000"> </a>  906000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Gastroenterology</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-907000"> </a>  907000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>General Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-908000"> </a>  908000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Gynaecology</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-909000"> </a>  909000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Nephrology</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-910000"> </a>  910000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Neuro Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-911000"> </a>  911000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Oncology Procedures</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-912000"> </a>  912000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Opthalmology
+procedures</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-913000"> </a>  913000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Orthopaedic Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-914000"> </a>  914000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Plastic Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-915000"> </a>  915000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Pulmonology Packages</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-916000"> </a>  916000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Urology</td></tr><tr><td style="white-space:nowrap"><a name="https---irdai.gov.in-benefit-billing-subgroup-packagecode-917000"> </a>  917000</td><td>https://irdai.gov.in/benefit-billing-subgroup-packagecode</td><td>Vascular Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-BM"> </a>  BM</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Burns Management</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-ER"> </a>  ER</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Emergency</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-ID"> </a>  ID</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Infectious Diseases</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-IN"> </a>  IN</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Interventional Neuroradiology</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MC"> </a>  MC</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Cardiology</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MG"> </a>  MG</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>General Medicine</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MM"> </a>  MM</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Mental Disorders</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MN"> </a>  MN</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Neo - natal Care</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MO"> </a>  MO</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Medical Oncology</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MP"> </a>  MP</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Pediatric Medical Management</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-MR"> </a>  MR</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Radiation Oncology</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-OT"> </a>  OT</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Organ and Tissue Transplant</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SB"> </a>  SB</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Orthopedics</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SC"> </a>  SC</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Surgical Oncology</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SE"> </a>  SE</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Ophthalmology</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SG"> </a>  SG</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>General Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SL"> </a>  SL</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>ENT</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SM"> </a>  SM</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Oral &amp; Maxillofacial Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SN"> </a>  SN</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Neurosurgery</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SO"> </a>  SO</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Obstetrics &amp; Gynecology</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SP"> </a>  SP</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Plastic &amp; Reconstructive Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SS"> </a>  SS</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Pediatric Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-ST"> </a>  ST</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Polytrauma, Orthopedics, Neurosurgery, General Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SU"> </a>  SU</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Urology</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-SV"> </a>  SV</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>CTVS</td></tr><tr><td style="white-space:nowrap"><a name="https---pmjay.gov.in-benefit-billing-subgroup-packagecode-US"> </a>  US</td><td>https://pmjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Unspecified Surgical Package</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M1"> </a>  M1</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Medical Oncology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M10"> </a>  M10</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Pulmonology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M11"> </a>  M11</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Dermatology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M12"> </a>  M12</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Rheumatology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M13"> </a>  M13</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Endocrinology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M14"> </a>  M14</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Gastroenterology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M15"> </a>  M15</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Interventional Radiology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M16"> </a>  M16</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>GENERAL MEDICINE</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M17"> </a>  M17</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Mental Disorders Packages</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M18"> </a>  M18</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Hematology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M2"> </a>  M2</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Radiation Oncology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M3"> </a>  M3</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Critical Care</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M5"> </a>  M5</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Infectious Diseases</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M6"> </a>  M6</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Pediatrics Medical Management</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M7"> </a>  M7</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Cardiology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M8"> </a>  M8</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Nephrology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-M9"> </a>  M9</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Neurology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S10"> </a>  S10</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Neurosurgery</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S11"> </a>  S11</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Surgical Oncology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S1"> </a>  S1</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>General Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S12"> </a>  S12</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Plastic Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S13"> </a>  S13</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Burns</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S14"> </a>  S14</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Poly Trauma</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S15"> </a>  S15</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Prostheses</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S20"> </a>  S20</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Oral &amp; Maxillofacial Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S21"> </a>  S21</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Pediatric Cancer</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S2"> </a>  S2</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>ENT Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S3"> </a>  S3</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Ophthalmology Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S4"> </a>  S4</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Gynaecology And Obstetrics Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S5"> </a>  S5</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Orthopedic Surgery And Procedures</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S6"> </a>  S6</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Surgical Gastro Enterology</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S7"> </a>  S7</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Cardiac And Cardiothoracic Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S8"> </a>  S8</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Pediatric Surgery</td></tr><tr><td style="white-space:nowrap"><a name="https---mjpjay.gov.in-benefit-billing-subgroup-packagecode-S9"> </a>  S9</td><td>https://mjpjay.gov.in/benefit-billing-subgroup-packagecode</td><td>Genitourinary System</td></tr></table></div>
+  </text>
+  <url value="https://ig.hcxprotocol.io/v0.7.1/ValueSet-billing-subgroup-categories.html"/>
+  <version value="0.7.1"/>
+  <name value="BillingSubgroupCategories"/>
+  <status value="active"/>
+  <date value="2022-08-01"/>
+  <publisher value="HCX Open Community"/>
+  <contact>
+    <name value="HCX Open Community"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hcxprotocol.io/"/>
+    </telecom>
+  </contact>
+  <description value="This is the value set for the the billing subcategory codes which is the second level of nesting the billing items under the billing groups."/>
+  <expansion>
+    <timestamp value="2022-08-01T08:15:30+05:30"/>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="101000"/>
+      <display value="Room Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="102000"/>
+      <display value="Nursing charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="103000"/>
+      <display value="Duty Doctor fee"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="104000"/>
+      <display value="Monitor charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="201000"/>
+      <display value="ICU Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="202000"/>
+      <display value="ICU Nursing charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="203000"/>
+      <display value="Monitor charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="204000"/>
+      <display value="ICU Supplies &amp; equipment"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="301000"/>
+      <display value="OT rent"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="302000"/>
+      <display value="OT Equipment charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="303000"/>
+      <display value="OT Drugs &amp; Consumables"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="304000"/>
+      <display value="OT Sterilization"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="401000"/>
+      <display value="Medicine &amp;&#xA;Consumables charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="501000"/>
+      <display value="Visit charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="502000"/>
+      <display value="Surgery Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="503000"/>
+      <display value="Anaesthetists fee"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="504000"/>
+      <display value="Intensivist Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="505000"/>
+      <display value="Technician Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="506000"/>
+      <display value="Physiotherapy"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="507000"/>
+      <display value="Procedure charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="601000"/>
+      <display value="Bio Chemistry"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="602000"/>
+      <display value="Cardiology charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="603000"/>
+      <display value="Haemotology charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="604000"/>
+      <display value="Microbiology charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="605000"/>
+      <display value="Neurology"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="606000"/>
+      <display value="Nuclear medicine"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="607000"/>
+      <display value="Pathology charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="608000"/>
+      <display value="Radiology services"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="609000"/>
+      <display value="Serology charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="610000"/>
+      <display value="Medical Genetics"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="611000"/>
+      <display value="Profiles"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="701000"/>
+      <display value="Ambulance Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="801000"/>
+      <display value="Admission charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="802000"/>
+      <display value="Attendant food charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="803000"/>
+      <display value="Patient food charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="804000"/>
+      <display value="Registration charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="805000"/>
+      <display value="MRD Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="806000"/>
+      <display value="Documentation charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="807000"/>
+      <display value="Telephone charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="808000"/>
+      <display value="Bio Medical Waste Charges"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-code"/>
+      <code value="809000"/>
+      <display value="Taxes"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="901000"/>
+      <display value="Cardiac Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="902000"/>
+      <display value="CardiologyPackage s"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="903000"/>
+      <display value="Cath Lab"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="904000"/>
+      <display value="Dental Procedures"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="905000"/>
+      <display value="ENT"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="906000"/>
+      <display value="Gastroenterology"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="907000"/>
+      <display value="General Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="908000"/>
+      <display value="Gynaecology"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="909000"/>
+      <display value="Nephrology"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="910000"/>
+      <display value="Neuro Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="911000"/>
+      <display value="Oncology Procedures"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="912000"/>
+      <display value="Opthalmology&#xA;procedures"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="913000"/>
+      <display value="Orthopaedic Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="914000"/>
+      <display value="Plastic Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="915000"/>
+      <display value="Pulmonology Packages"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="916000"/>
+      <display value="Urology"/>
+    </contains>
+    <contains>
+      <system value="https://irdai.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="917000"/>
+      <display value="Vascular Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="BM"/>
+      <display value="Burns Management"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="ER"/>
+      <display value="Emergency"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="ID"/>
+      <display value="Infectious Diseases"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="IN"/>
+      <display value="Interventional Neuroradiology"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="MC"/>
+      <display value="Cardiology"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="MG"/>
+      <display value="General Medicine"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="MM"/>
+      <display value="Mental Disorders"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="MN"/>
+      <display value="Neo - natal Care"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="MO"/>
+      <display value="Medical Oncology"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="MP"/>
+      <display value="Pediatric Medical Management"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="MR"/>
+      <display value="Radiation Oncology"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="OT"/>
+      <display value="Organ and Tissue Transplant"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="SB"/>
+      <display value="Orthopedics"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="SC"/>
+      <display value="Surgical Oncology"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="SE"/>
+      <display value="Ophthalmology"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="SG"/>
+      <display value="General Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="SL"/>
+      <display value="ENT"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="SM"/>
+      <display value="Oral &amp; Maxillofacial Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="SN"/>
+      <display value="Neurosurgery"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="SO"/>
+      <display value="Obstetrics &amp; Gynecology"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="SP"/>
+      <display value="Plastic &amp; Reconstructive Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="SS"/>
+      <display value="Pediatric Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="ST"/>
+      <display value="Polytrauma, Orthopedics, Neurosurgery, General Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="SU"/>
+      <display value="Urology"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="SV"/>
+      <display value="CTVS"/>
+    </contains>
+    <contains>
+      <system value="https://pmjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="US"/>
+      <display value="Unspecified Surgical Package"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M1"/>
+      <display value="Medical Oncology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M10"/>
+      <display value="Pulmonology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M11"/>
+      <display value="Dermatology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M12"/>
+      <display value="Rheumatology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M13"/>
+      <display value="Endocrinology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M14"/>
+      <display value="Gastroenterology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M15"/>
+      <display value="Interventional Radiology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M16"/>
+      <display value="GENERAL MEDICINE"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M17"/>
+      <display value="Mental Disorders Packages"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M18"/>
+      <display value="Hematology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M2"/>
+      <display value="Radiation Oncology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M3"/>
+      <display value="Critical Care"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M5"/>
+      <display value="Infectious Diseases"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M6"/>
+      <display value="Pediatrics Medical Management"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M7"/>
+      <display value="Cardiology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M8"/>
+      <display value="Nephrology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="M9"/>
+      <display value="Neurology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S10"/>
+      <display value="Neurosurgery"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S11"/>
+      <display value="Surgical Oncology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S1"/>
+      <display value="General Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S12"/>
+      <display value="Plastic Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S13"/>
+      <display value="Burns"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S14"/>
+      <display value="Poly Trauma"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S15"/>
+      <display value="Prostheses"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S20"/>
+      <display value="Oral &amp; Maxillofacial Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S21"/>
+      <display value="Pediatric Cancer"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S2"/>
+      <display value="ENT Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S3"/>
+      <display value="Ophthalmology Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S4"/>
+      <display value="Gynaecology And Obstetrics Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S5"/>
+      <display value="Orthopedic Surgery And Procedures"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S6"/>
+      <display value="Surgical Gastro Enterology"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S7"/>
+      <display value="Cardiac And Cardiothoracic Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S8"/>
+      <display value="Pediatric Surgery"/>
+    </contains>
+    <contains>
+      <system value="https://mjpjay.gov.in/benefit-billing-subgroup-packagecode"/>
+      <code value="S9"/>
+      <display value="Genitourinary System"/>
+    </contains>
+  </expansion>
+</ValueSet>

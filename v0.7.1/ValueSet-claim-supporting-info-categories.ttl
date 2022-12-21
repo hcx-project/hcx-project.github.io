@@ -1,0 +1,212 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/ValueSet/claim-supporting-info-categories> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "claim-supporting-info-categories"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 34 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-POI\"> </a>  POI</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>proof of identity</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-POA\"> </a>  POA</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>proof of address</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-DOB\"> </a>  DOB</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>proof of Date of Birth</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-POR\"> </a>  POR</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>proof of relation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-PHT\"> </a>  PHT</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Photograph</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-BVC\"> </a>  BVC</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>benefiaciary verification card</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-DEF\"> </a>  DEF</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>declaration form</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-SIG\"> </a>  SIG</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>signature</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-FCF\"> </a>  FCF</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>filled claim form</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-CER\"> </a>  CER</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Medical Certficate</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-MB\"> </a>  MB</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>medical bill</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-DIA\"> </a>  DIA</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>diagnostic reports</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-HDS\"> </a>  HDS</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>hospital discharge summary</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-REF\"> </a>  REF</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>referal latter</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-DEL\"> </a>  DEL</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>doctor signed extention letter</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-CD\"> </a>  CD</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>clinical documents</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-EID\"> </a>  EID</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>employee id card</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-FIR\"> </a>  FIR</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>FIR copy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-CIL\"> </a>  CIL</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>claim status intimation letter</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-INF\"> </a>  INF</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>additional info related to claim ( conveying additional situation and condition information.)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-DIS\"> </a>  DIS</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>discharge status and discharge to location details</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-ONS\"> </a>  ONS</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Period, start or end dates of aspects of the Condition. (e.g. admission, discharge etc)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-REL\"> </a>  REL</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Related services</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-EXC\"> </a>  EXC</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Exception</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-MAT\"> </a>  MAT</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Materials Forwarded</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-ATT\"> </a>  ATT</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Attachment</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-OTH\"> </a>  OTH</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Other</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-COI\"> </a>  COI</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Injury or accident detail</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-VRE\"> </a>  VRE</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Patient Reason for Visit</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-CRD\"> </a>  CRD</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Claim received</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-NMI\"> </a>  NMI</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Claim query detail</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-TRD\"> </a>  TRD</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Treatment detail</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-IND\"> </a>  IND</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Indicator flag</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-claim-supporting-info-categories-PoPr\"> </a>  PoPr</td><td>http://hcxprotocol.io/codes/claim-supporting-info-categories</td><td>Proof of Presence</td></tr></table></div>"
+  ]; # 
+  fhir:ValueSet.url [ fhir:value "https://ig.hcxprotocol.io/v0.7.1/ValueSet-claim-supporting-info-categories.html"]; # 
+  fhir:ValueSet.version [ fhir:value "0.7.1"]; # 
+  fhir:ValueSet.name [ fhir:value "ClaimSupportingInfoCategories"]; # 
+  fhir:ValueSet.status [ fhir:value "active"]; # 
+  fhir:ValueSet.date [ fhir:value "2022-08-01"^^xsd:date]; # 
+  fhir:ValueSet.publisher [ fhir:value "HCX Open Community"]; # 
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HCX Open Community" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://hcxprotocol.io/" ]
+     ]
+  ]; # 
+  fhir:ValueSet.description [ fhir:value "This is the value set for the different categories of supporting information that can be shared along with the submission of a claim"]; # 
+  fhir:ValueSet.expansion [
+     fhir:ValueSet.expansion.timestamp [ fhir:value "2022-08-01T08:15:30+05:30"^^xsd:dateTime ];
+     fhir:ValueSet.expansion.contains [
+       fhir:index 0;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POI" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "proof of identity" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POA" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "proof of address" ]
+     ], [
+       fhir:index 2;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DOB" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "proof of Date of Birth" ]
+     ], [
+       fhir:index 3;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "POR" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "proof of relation" ]
+     ], [
+       fhir:index 4;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "PHT" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Photograph" ]
+     ], [
+       fhir:index 5;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "BVC" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "benefiaciary verification card" ]
+     ], [
+       fhir:index 6;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DEF" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "declaration form" ]
+     ], [
+       fhir:index 7;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "SIG" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "signature" ]
+     ], [
+       fhir:index 8;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "FCF" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "filled claim form" ]
+     ], [
+       fhir:index 9;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "CER" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Medical Certficate" ]
+     ], [
+       fhir:index 10;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "MB" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "medical bill" ]
+     ], [
+       fhir:index 11;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DIA" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "diagnostic reports" ]
+     ], [
+       fhir:index 12;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "HDS" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "hospital discharge summary" ]
+     ], [
+       fhir:index 13;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "REF" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "referal latter" ]
+     ], [
+       fhir:index 14;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DEL" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "doctor signed extention letter" ]
+     ], [
+       fhir:index 15;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "CD" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "clinical documents" ]
+     ], [
+       fhir:index 16;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "EID" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "employee id card" ]
+     ], [
+       fhir:index 17;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "FIR" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "FIR copy" ]
+     ], [
+       fhir:index 18;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "CIL" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "claim status intimation letter" ]
+     ], [
+       fhir:index 19;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "INF" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "additional info related to claim ( conveying additional situation and condition information.)" ]
+     ], [
+       fhir:index 20;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "DIS" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "discharge status and discharge to location details" ]
+     ], [
+       fhir:index 21;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "ONS" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Period, start or end dates of aspects of the Condition. (e.g. admission, discharge etc)" ]
+     ], [
+       fhir:index 22;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "REL" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Related services" ]
+     ], [
+       fhir:index 23;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "EXC" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Exception" ]
+     ], [
+       fhir:index 24;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "MAT" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Materials Forwarded" ]
+     ], [
+       fhir:index 25;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "ATT" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Attachment" ]
+     ], [
+       fhir:index 26;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "OTH" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Other" ]
+     ], [
+       fhir:index 27;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "COI" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Injury or accident detail" ]
+     ], [
+       fhir:index 28;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "VRE" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Patient Reason for Visit" ]
+     ], [
+       fhir:index 29;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "CRD" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Claim received" ]
+     ], [
+       fhir:index 30;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "NMI" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Claim query detail" ]
+     ], [
+       fhir:index 31;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "TRD" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Treatment detail" ]
+     ], [
+       fhir:index 32;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "IND" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Indicator flag" ]
+     ], [
+       fhir:index 33;
+       fhir:ValueSet.expansion.contains.system [ fhir:value "http://hcxprotocol.io/codes/claim-supporting-info-categories" ];
+       fhir:ValueSet.expansion.contains.code [ fhir:value "PoPr" ];
+       fhir:ValueSet.expansion.contains.display [ fhir:value "Proof of Presence" ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/ValueSet/claim-supporting-info-categories.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

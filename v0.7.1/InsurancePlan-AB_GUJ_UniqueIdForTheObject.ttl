@@ -1,0 +1,407 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/InsurancePlan/AB_GUJ_UniqueIdForTheObject> a fhir:InsurancePlan;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "AB_GUJ_UniqueIdForTheObject"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: InsurancePlan</b><a name=\"AB_GUJ_UniqueIdForTheObject\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource InsurancePlan &quot;AB_GUJ_UniqueIdForTheObject&quot; </p></div><p><b>identifier</b>: id: AB_GUJ_Plan1 (use: USUAL, period: 2001-05-06 --&gt; (ongoing))</p><p><b>status</b>: active</p><p><b>type</b>: Medical <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-insurance-plan-type.html\">Insurance plan type</a>#medical)</span></p><p><b>name</b>: PMJAY-Mukhyamantri Amrutam &amp; Mukhyamantri Vatsalya</p><p><b>period</b>: 2020-09-23 --&gt; (ongoing)</p><p><b>ownedBy</b>: <a href=\"Organization/AB_GUJ_SHA\">Organization/AB_GUJ_SHA: Gujarat State Health Protection Society</a></p><p><b>administeredBy</b>: <a href=\"Organization/AB_GUJ_TPA_1\">Organization/AB_GUJ_TPA_1: MD India Healthcare Service (TPA) Pvt. Ltd.</a></p><p><b>coverageArea</b>: <a href=\"Location/GUJARAT\">Location/GUJARAT: Gujarat</a></p><blockquote><p><b>coverage</b></p><p><b>type</b>: Medical <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (coverage-type#Medical)</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: Inpatient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (benefit-type#Inpatient)</span></p><h3>Limits</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td></tr><tr><td>*</td><td>500000 INR</td></tr></table></blockquote></blockquote><blockquote><p><b>plan</b></p><p><b>type</b>: PMJAY_GUJ_GOLD_CARD <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (plan-type#PMJAY_GUJ_GOLD_CARD)</span></p><blockquote><p><b>specificCost</b></p><p><b>category</b>: Inpatient-packages <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (cost-category#Inpatient-packages)</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: Vertebroplasty <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (packages#IN010)</span></p><h3>Costs</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Applicability</b></td><td><b>Value</b></td></tr><tr><td>*</td><td>hospitalization <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (pacakgeCostTypes#hospitalization)</span></td><td>Gujarat SHA empaneled hospitals <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (applicabilityCodes#in-network)</span></td><td>22800 INR</td></tr></table></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: ABC Surgery <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (procedures#MC999A; unknown#ICD_PCS_001)</span></p><blockquote><p><b>cost</b></p><p><b>type</b>: hospitalization <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (pacakgeCostTypes#hospitalization)</span></p><p><b>applicability</b>: Gujarat SHA empaneled hospitals <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (applicabilityCodes#in-network)</span></p><p><b>value</b>: 11000 INR</p></blockquote><blockquote><p><b>cost</b></p><p><b>type</b>: hospitalization <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (pacakgeCostTypes#hospitalization)</span></p><p><b>applicability</b>: Gujarat SHA empaneled hospitals <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (applicabilityCodes#in-network)</span></p><p><b>qualifiers</b>: STRAT002 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (stratificationTypes#STRAT002)</span>, IMP0005 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (implantCodes#IMP0005)</span></p><p><b>value</b>: 12000 INR</p></blockquote></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: Microlaryngoscopic Surgery <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (packages#HBP_PACKAGE_00003)</span></p><h3>Costs</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Applicability</b></td><td><b>Qualifiers</b></td><td><b>Value</b></td></tr><tr><td>*</td><td>hospitalization <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (pacakgeCostTypes#hospitalization)</span></td><td>Gujarat SHA empaneled hospitals <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (applicabilityCodes#in-network)</span></td><td>STRAT002 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (stratificationTypes#STRAT002)</span>, IMP0005 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (implantCodes#IMP0005)</span></td><td>18500 INR</td></tr></table></blockquote></blockquote></blockquote></div>"
+  ]; # 
+  fhir:InsurancePlan.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "usual" ];
+     fhir:Identifier.value [ fhir:value "AB_GUJ_Plan1" ];
+     fhir:Identifier.period [
+       fhir:Period.start [ fhir:value "2001-05-06"^^xsd:date ]
+     ]
+  ]; # 
+  fhir:InsurancePlan.status [ fhir:value "active"]; # 
+  fhir:InsurancePlan.type [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/insurance-plan-type" ];
+       fhir:Coding.code [ fhir:value "medical" ]
+     ]
+  ]; # 
+  fhir:InsurancePlan.name [ fhir:value "PMJAY-Mukhyamantri Amrutam & Mukhyamantri Vatsalya"]; # 
+  fhir:InsurancePlan.period [
+     fhir:Period.start [ fhir:value "2020-09-23"^^xsd:date ]
+  ]; # 
+  fhir:InsurancePlan.ownedBy [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Organization/AB_GUJ_SHA>;
+     fhir:Reference.reference [ fhir:value "Organization/AB_GUJ_SHA" ];
+     fhir:Reference.display [ fhir:value "Gujarat State Health Protection Society" ]
+  ]; # 
+  fhir:InsurancePlan.administeredBy [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Organization/AB_GUJ_TPA_1>;
+     fhir:Reference.reference [ fhir:value "Organization/AB_GUJ_TPA_1" ];
+     fhir:Reference.display [ fhir:value "MD India Healthcare Service (TPA) Pvt. Ltd." ]
+  ]; # 
+  fhir:InsurancePlan.coverageArea [
+     fhir:index 0;
+     fhir:link <https://hcxprotocol.io/fhir/r4/Location/GUJARAT>;
+     fhir:Reference.reference [ fhir:value "Location/GUJARAT" ];
+     fhir:Reference.display [ fhir:value "Gujarat" ]
+  ]; # 
+  fhir:InsurancePlan.coverage [
+     fhir:index 0;
+     fhir:InsurancePlan.coverage.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/coverage-type" ];
+         fhir:Coding.code [ fhir:value "Medical" ]
+       ]
+     ];
+     fhir:InsurancePlan.coverage.benefit [
+       fhir:index 0;
+       fhir:InsurancePlan.coverage.benefit.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/benefit-type" ];
+           fhir:Coding.code [ fhir:value "Inpatient" ]
+         ]
+       ];
+       fhir:InsurancePlan.coverage.benefit.limit [
+         fhir:index 0;
+         fhir:InsurancePlan.coverage.benefit.limit.value [
+           fhir:Quantity.value [ fhir:value "500000"^^xsd:decimal ];
+           fhir:Quantity.unit [ fhir:value "INR" ]
+         ]
+       ]
+     ]
+  ]; # 
+  fhir:InsurancePlan.plan [
+     fhir:index 0;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "ProofOfIdentificationDocumentCode" ];
+         fhir:Extension.valueCodeableConcept [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://hcx-valuesets/proofOfIdentificationDocumentCodes" ];
+             fhir:Coding.version [ fhir:value "1.0.0" ];
+             fhir:Coding.code [ fhir:value "12345" ];
+             fhir:Coding.display [ fhir:value "Aadhar Card" ]
+           ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "ProofOfIdentificationDocumentRequiredFlag" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "ProofOfIdentificationDocumentMimeType" ];
+         fhir:Extension.valueCode [ fhir:value "application/pdf" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "ClinicalDiagnosticDocumentClaimUse" ];
+         fhir:Extension.valueCode [ fhir:value "preauthorization" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "DocumentationUrl" ];
+         fhir:Extension.valueUrl [ fhir:value "http://documentation-url" ]
+       ];
+       fhir:Extension.url [ fhir:value "https://hcx-base-url/StructureDefinition/HCXProofOfIdentificationExtension" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "ProofOfPresenceDocumentCode" ];
+         fhir:Extension.valueCodeableConcept [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://hcx-valuesets/proofOfPresenceDocumentCodes" ];
+             fhir:Coding.version [ fhir:value "1.0.0" ];
+             fhir:Coding.code [ fhir:value "45678" ];
+             fhir:Coding.display [ fhir:value "Aadhar Verification XML" ]
+           ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "ProofOfPresenceDocumentRequiredFlag" ];
+         fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "ProofOfPresenceDocumentMimeType" ];
+         fhir:Extension.valueCode [ fhir:value "application/xml" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "ClinicalDiagnosticDocumentClaimUse" ];
+         fhir:Extension.valueCode [ fhir:value "preauthorization" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "DocumentationUrl" ];
+         fhir:Extension.valueUrl [ fhir:value "http://documentation-url" ]
+       ];
+       fhir:Extension.url [ fhir:value "https://hcx-base-url/StructureDefinition/HCXProofOfPresenceExtension" ]
+     ];
+     fhir:InsurancePlan.plan.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/plan-type" ];
+         fhir:Coding.code [ fhir:value "PMJAY_GUJ_GOLD_CARD" ]
+       ]
+     ];
+     fhir:InsurancePlan.plan.specificCost [
+       fhir:index 0;
+       fhir:InsurancePlan.plan.specificCost.category [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/cost-category" ];
+           fhir:Coding.code [ fhir:value "Inpatient-packages" ]
+         ]
+       ];
+       fhir:InsurancePlan.plan.specificCost.benefit [
+         fhir:index 0;
+         fhir:InsurancePlan.plan.specificCost.benefit.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/packages" ];
+             fhir:Coding.code [ fhir:value "IN010" ];
+             fhir:Coding.display [ fhir:value "Vertebroplasty" ]
+           ]
+         ];
+         fhir:InsurancePlan.plan.specificCost.benefit.cost [
+           fhir:index 0;
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.type [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/pacakgeCostTypes" ];
+               fhir:Coding.code [ fhir:value "hospitalization" ]
+             ]
+           ];
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.applicability [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/applicabilityCodes" ];
+               fhir:Coding.code [ fhir:value "in-network" ];
+               fhir:Coding.display [ fhir:value "Gujarat SHA empaneled hospitals" ]
+             ]
+           ];
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.value [
+             fhir:Quantity.value [ fhir:value "22800"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "INR" ]
+           ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:InsurancePlan.plan.specificCost.benefit.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/procedures" ];
+             fhir:Coding.code [ fhir:value "MC999A" ];
+             fhir:Coding.display [ fhir:value "ABC Surgery" ]
+           ], [
+             fhir:index 1;
+             fhir:Coding.system [ fhir:value "ICD PCS codes" ];
+             fhir:Coding.code [ fhir:value "ICD_PCS_001" ]
+           ]
+         ];
+         fhir:InsurancePlan.plan.specificCost.benefit.cost [
+           fhir:index 0;
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.type [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/pacakgeCostTypes" ];
+               fhir:Coding.code [ fhir:value "hospitalization" ]
+             ]
+           ];
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.applicability [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/applicabilityCodes" ];
+               fhir:Coding.code [ fhir:value "in-network" ];
+               fhir:Coding.display [ fhir:value "Gujarat SHA empaneled hospitals" ]
+             ]
+           ];
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.value [
+             fhir:Quantity.value [ fhir:value "11000"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "INR" ]
+           ]
+         ], [
+           fhir:index 1;
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.type [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/pacakgeCostTypes" ];
+               fhir:Coding.code [ fhir:value "hospitalization" ]
+             ]
+           ];
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.applicability [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/applicabilityCodes" ];
+               fhir:Coding.code [ fhir:value "in-network" ];
+               fhir:Coding.display [ fhir:value "Gujarat SHA empaneled hospitals" ]
+             ]
+           ];
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.qualifiers [
+             fhir:index 0;
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/stratificationTypes" ];
+               fhir:Coding.code [ fhir:value "STRAT002" ]
+             ]
+           ], [
+             fhir:index 1;
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/implantCodes" ];
+               fhir:Coding.code [ fhir:value "IMP0005" ]
+             ]
+           ];
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.value [
+             fhir:Quantity.value [ fhir:value "12000"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "INR" ]
+           ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "ClinicalDiagnosticDocumentCode" ];
+             fhir:Extension.valueCodeableConcept [
+               fhir:CodeableConcept.coding [
+                 fhir:index 0;
+                 fhir:Coding.system [ fhir:value "https://hcx-valuesets/clinicalDiagnosticsDocumentCodes" ];
+                 fhir:Coding.version [ fhir:value "1.0.0" ];
+                 fhir:Coding.code [ fhir:value "DOC-001" ];
+                 fhir:Coding.display [ fhir:value "Investigation Report 1" ]
+               ]
+             ]
+           ], [
+             fhir:index 1;
+             fhir:Extension.url [ fhir:value "ClinicalDiagnosticDocumentRequiredFlag" ];
+             fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+           ], [
+             fhir:index 2;
+             fhir:Extension.url [ fhir:value "ClinicalDiagnosticDocumentMimeType" ];
+             fhir:Extension.valueCode [ fhir:value "application/pdf" ]
+           ], [
+             fhir:index 3;
+             fhir:Extension.url [ fhir:value "ClinicalDiagnosticDocumentClaimUse" ];
+             fhir:Extension.valueCode [ fhir:value "claim" ]
+           ], [
+             fhir:index 4;
+             fhir:Extension.url [ fhir:value "DocumentationUrl" ];
+             fhir:Extension.valueUrl [ fhir:value "http://documentation-url" ]
+           ];
+           fhir:Extension.url [ fhir:value "https://hcx-base-url/StructureDefinition/HCXDiagnosticDocumentsExtension" ]
+         ], [
+           fhir:index 1;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "InformationalMessagesCode" ];
+             fhir:Extension.valueCodeableConcept [
+               fhir:CodeableConcept.coding [
+                 fhir:index 0;
+                 fhir:Coding.system [ fhir:value "https://hcx-valuesets/InformationalMessagesCodes" ];
+                 fhir:Coding.version [ fhir:value "1.0.0" ];
+                 fhir:Coding.code [ fhir:value "INF-001" ];
+                 fhir:Coding.display [ fhir:value "Information Message 1" ]
+               ]
+             ]
+           ], [
+             fhir:index 1;
+             fhir:Extension.url [ fhir:value "InformationalMessageCode" ];
+             fhir:Extension.valueCode [ fhir:value "information" ]
+           ], [
+             fhir:index 2;
+             fhir:Extension.url [ fhir:value "InformationalMessageClaimUse" ];
+             fhir:Extension.valueCode [ fhir:value "claim" ]
+           ], [
+             fhir:index 3;
+             fhir:Extension.url [ fhir:value "DocumentationUrl" ];
+             fhir:Extension.valueUrl [ fhir:value "http://documentation-url" ]
+           ];
+           fhir:Extension.url [ fhir:value "https://hcx-base-url/StructureDefinition/HCXInformationalMessagesExtension" ]
+         ], [
+           fhir:index 2;
+           fhir:Element.extension [
+             fhir:index 0;
+             fhir:Extension.url [ fhir:value "Questionnaire" ];
+             fhir:Extension.valueReference [
+               fhir:link <https://hcxprotocol.io/fhir/r4/Questionnnaire/1>;
+               fhir:Reference.reference [ fhir:value "Questionnnaire/1" ]
+             ]
+           ], [
+             fhir:index 1;
+             fhir:Extension.url [ fhir:value "QuestionnaireRequiredFlag" ];
+             fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+           ], [
+             fhir:index 2;
+             fhir:Extension.url [ fhir:value "QuestionnaireClaimUse" ];
+             fhir:Extension.valueCode [ fhir:value "claim" ]
+           ], [
+             fhir:index 3;
+             fhir:Extension.url [ fhir:value "DocumentationUrl" ];
+             fhir:Extension.valueUrl [ fhir:value "http://documentation-url" ]
+           ];
+           fhir:Extension.url [ fhir:value "https://hcx-base-url/StructureDefinition/HCXQuestionnairesExtension" ]
+         ];
+         fhir:InsurancePlan.plan.specificCost.benefit.type [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/packages" ];
+             fhir:Coding.code [ fhir:value "HBP_PACKAGE_00003" ];
+             fhir:Coding.display [ fhir:value "Microlaryngoscopic Surgery" ]
+           ]
+         ];
+         fhir:InsurancePlan.plan.specificCost.benefit.cost [
+           fhir:index 0;
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.type [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/pacakgeCostTypes" ];
+               fhir:Coding.code [ fhir:value "hospitalization" ]
+             ]
+           ];
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.applicability [
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/applicabilityCodes" ];
+               fhir:Coding.code [ fhir:value "in-network" ];
+               fhir:Coding.display [ fhir:value "Gujarat SHA empaneled hospitals" ]
+             ]
+           ];
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.qualifiers [
+             fhir:index 0;
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/stratificationTypes" ];
+               fhir:Coding.code [ fhir:value "STRAT002" ]
+             ]
+           ], [
+             fhir:index 1;
+             fhir:CodeableConcept.coding [
+               fhir:index 0;
+               fhir:Coding.system [ fhir:value "http://terminologyServer/ValueSets/implantCodes" ];
+               fhir:Coding.code [ fhir:value "IMP0005" ]
+             ]
+           ];
+           fhir:InsurancePlan.plan.specificCost.benefit.cost.value [
+             fhir:Quantity.value [ fhir:value "18500"^^xsd:decimal ];
+             fhir:Quantity.unit [ fhir:value "INR" ]
+           ]
+         ]
+       ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/InsurancePlan/AB_GUJ_UniqueIdForTheObject.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
