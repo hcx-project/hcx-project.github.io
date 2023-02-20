@@ -1,5 +1,8 @@
-# HCX FHIR Implementation Guide
-This site contains the IG (implementation guide) files for different versions of HCX.
+# HCX FHIR Implementation Guides
 
-- **v0.6** folder contains the IG for the HCX specifications version 0.6 and is hosted at [https://ig.hcxprotocol.io/v0.6/index.html](https://ig.hcxprotocol.io/v0.6/index.html).
-- **v0.7** folder contains the IG for the HCX specifications version 0.7 and is hosted at [https://ig.hcxprotocol.io/v0.7/index.html](https://ig.hcxprotocol.io/v0.7/index.html).
+## Latest Version
+- **v0.7.1** IG for the HCX specifications version 0.7.1: [https://ig.hcxprotocol.io/v0.7.1/index.html](https://ig.hcxprotocol.io/v0.7.1/index.html).
+
+### Previous Versions
+- **v0.7** IG for the HCX specifications version 0.7: [https://ig.hcxprotocol.io/v0.7/index.html](https://ig.hcxprotocol.io/v0.7/index.html).
+- **v0.6** IG for the HCX specifications version 0.6: [https://ig.hcxprotocol.io/v0.6/index.html](https://ig.hcxprotocol.io/v0.6/index.html).
