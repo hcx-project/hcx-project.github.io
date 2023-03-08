@@ -5,343 +5,292 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hcxprotocol.io/fhir/r4/Bundle/ClaimResponseDocument-example-01> a fhir:Bundle;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "ClaimResponseDocument-example-01"]; # 
-  fhir:Resource.meta [
-     fhir:Meta.versionId [ fhir:value "1" ];
-     fhir:Meta.lastUpdated [ fhir:value "2021-12-22T15:32:26.605+05:30"^^xsd:dateTime ]
-  ]; # 
-  fhir:Bundle.identifier [
-     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
-     fhir:Identifier.value [ fhir:value "urn:uuiad:9699444a" ]
-  ]; # 
-  fhir:Bundle.type [ fhir:value "document"]; # 
-  fhir:Bundle.timestamp [ fhir:value "2021-12-22T15:32:26.605+05:30"^^xsd:dateTime]; # 
-  fhir:Bundle.entry [
-     fhir:index 0;
-     fhir:Bundle.entry.fullUrl [ fhir:value "Composition/1" ];
-     fhir:Bundle.entry.resource <Composition/1>
-  ], [
-     fhir:index 1;
-     fhir:Bundle.entry.fullUrl [ fhir:value "ClaimResponse/ress-id-1" ];
-     fhir:Bundle.entry.resource <ClaimResponse/ress-id-1>
-  ], [
-     fhir:index 2;
-     fhir:Bundle.entry.fullUrl [ fhir:value "Patient/1" ];
-     fhir:Bundle.entry.resource <Patient/1>
-  ], [
-     fhir:index 3;
-     fhir:Bundle.entry.fullUrl [ fhir:value "Organization/MaxSaket01" ];
-     fhir:Bundle.entry.resource <Organization/MaxSaket01>
-  ], [
-     fhir:index 4;
-     fhir:Bundle.entry.fullUrl [ fhir:value "Organization/2" ];
-     fhir:Bundle.entry.resource <Organization/2>
-  ], [
-     fhir:index 5;
-     fhir:Bundle.entry.fullUrl [ fhir:value "Practitioner/1" ];
-     fhir:Bundle.entry.resource <Practitioner/1>
-  ] . # 
+<https://hcxprotocol.io/fhir/r4/Bundle/ClaimResponseDocument-example-01> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ClaimResponseDocument-example-01"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2021-12-22T15:32:26.605+05:30"^^xsd:dateTime ]
+  ] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuiad:9699444a" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2021-12-22T15:32:26.605+05:30"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "Composition/1"^^xsd:anyURI ] ;
+     fhir:resource ( <Composition/1> )
+  ] [
+     fhir:fullUrl [ fhir:v "ClaimResponse/ress-id-1"^^xsd:anyURI ] ;
+     fhir:resource ( <ClaimResponse/ress-id-1> )
+  ] [
+     fhir:fullUrl [ fhir:v "Patient/1"^^xsd:anyURI ] ;
+     fhir:resource ( <Patient/1> )
+  ] [
+     fhir:fullUrl [ fhir:v "Organization/MaxSaket01"^^xsd:anyURI ] ;
+     fhir:resource ( <Organization/MaxSaket01> )
+  ] [
+     fhir:fullUrl [ fhir:v "Organization/2"^^xsd:anyURI ] ;
+     fhir:resource ( <Organization/2> )
+  ] [
+     fhir:fullUrl [ fhir:v "Practitioner/1"^^xsd:anyURI ] ;
+     fhir:resource ( <Practitioner/1> )
+  ] ) . # 
 
-<Composition/1> a fhir:Composition;
-  fhir:Resource.id [ fhir:value "1"]; # 
-  fhir:Resource.meta [
-     fhir:Meta.versionId [ fhir:value "1" ];
-     fhir:Meta.lastUpdated [ fhir:value "2021-12-22T15:32:26.605+05:30"^^xsd:dateTime ]
-  ]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;1&quot; Version &quot;1&quot; Updated &quot;2021-12-22 15:32:26+0530&quot; </p></div><p><b>identifier</b>: id: urn:uuid:28b6b35e</p><p><b>status</b>: final</p><p><b>type</b>: Claim Response <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (document-types#HCXClaimResponse)</span></p><p><b>date</b>: 2021-12-22 15:32:26+0530</p><p><b>author</b>: <a href=\"#Practitioner_1\">See above (Practitioner/1: Dr. Sudhir Naik (PMJAY Gujrat))</a></p><p><b>title</b>: Claim Request</p><h3>Attesters</h3><table class=\"grid\"><tr><td>-</td><td><b>Mode</b></td><td><b>Time</b></td><td><b>Party</b></td></tr><tr><td>*</td><td>official</td><td>2021-12-22 14:10:14+0000</td><td><a href=\"#Organization_2\">See above (Organization/2: PMJAY, MoHFW, Govt Of India)</a></td></tr></table></div>"
-  ]; # 
-  fhir:Composition.identifier [
-     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
-     fhir:Identifier.value [ fhir:value "urn:uuid:28b6b35e" ]
-  ]; # 
-  fhir:Composition.status [ fhir:value "final"]; # 
-  fhir:Composition.type [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "https://hcx.org/document-types" ];
-       fhir:Coding.code [ fhir:value "HCXClaimResponse" ];
-       fhir:Coding.display [ fhir:value "Claim Response" ]
-     ];
-     fhir:CodeableConcept.text [ fhir:value "Claim Response" ]
-  ]; # 
-  fhir:Composition.subject [
-     fhir:link <https://hcxprotocol.io/fhir/r4/Patient/1>;
-     fhir:Reference.reference [ fhir:value "Patient/1" ];
-     fhir:Reference.display [ fhir:value "Hina Patel" ]
-  ]; # 
-  fhir:Composition.date [ fhir:value "2021-12-22T15:32:26.605+05:30"^^xsd:dateTime]; # 
-  fhir:Composition.author [
-     fhir:index 0;
-     fhir:link <https://hcxprotocol.io/fhir/r4/Practitioner/1>;
-     fhir:Reference.reference [ fhir:value "Practitioner/1" ];
-     fhir:Reference.display [ fhir:value "Dr. Sudhir Naik (PMJAY Gujrat)" ]
-  ]; # 
-  fhir:Composition.title [ fhir:value "Claim Request"]; # 
-  fhir:Composition.attester [
-     fhir:index 0;
-     fhir:Composition.attester.mode [ fhir:value "official" ];
-     fhir:Composition.attester.time [ fhir:value "2021-12-22T14:10:14Z"^^xsd:dateTime ];
-     fhir:Composition.attester.party [
-       fhir:link <https://hcxprotocol.io/fhir/r4/Organization/2>;
-       fhir:Reference.reference [ fhir:value "Organization/2" ];
-       fhir:Reference.display [ fhir:value "PMJAY, MoHFW, Govt Of India" ]
+<Composition/1> a fhir:Composition ;
+  fhir:id [ fhir:v "1"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2021-12-22T15:32:26.605+05:30"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;1&quot; Version &quot;1&quot; Updated &quot;2021-12-22 15:32:26+0530&quot; </p></div><p><b>identifier</b>: id: urn:uuid:28b6b35e</p><p><b>status</b>: final</p><p><b>type</b>: Claim Response <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (document-types#HCXClaimResponse)</span></p><p><b>date</b>: 2021-12-22 15:32:26+0530</p><p><b>author</b>: <a href=\"#Practitioner_1\">See above (Practitioner/1: Dr. Sudhir Naik (PMJAY Gujrat))</a></p><p><b>title</b>: Claim Request</p><h3>Attesters</h3><table class=\"grid\"><tr><td>-</td><td><b>Mode</b></td><td><b>Time</b></td><td><b>Party</b></td></tr><tr><td>*</td><td>official</td><td>2021-12-22 14:10:14+0000</td><td><a href=\"#Organization_2\">See above (Organization/2: PMJAY, MoHFW, Govt Of India)</a></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuid:28b6b35e" ]
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://hcx.org/document-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "HCXClaimResponse" ] ;
+       fhir:display [ fhir:v "Claim Response" ]
+     ] ) ;
+     fhir:text [ fhir:v "Claim Response" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Patient/1> ;
+     fhir:reference [ fhir:v "Patient/1" ] ;
+     fhir:display [ fhir:v "Hina Patel" ]
+  ] ; # 
+  fhir:date [ fhir:v "2021-12-22T15:32:26.605+05:30"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Practitioner/1> ;
+     fhir:reference [ fhir:v "Practitioner/1" ] ;
+     fhir:display [ fhir:v "Dr. Sudhir Naik (PMJAY Gujrat)" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "Claim Request"] ; # 
+  fhir:attester ( [
+     fhir:mode [ fhir:v "official" ] ;
+     fhir:time [ fhir:v "2021-12-22T14:10:14Z"^^xsd:dateTime ] ;
+     fhir:party [
+       fhir:link <https://hcxprotocol.io/fhir/r4/Organization/2> ;
+       fhir:reference [ fhir:v "Organization/2" ] ;
+       fhir:display [ fhir:v "PMJAY, MoHFW, Govt Of India" ]
      ]
-  ]; # 
-  fhir:Composition.section [
-     fhir:index 0;
-     fhir:Composition.section.title [ fhir:value "Claim Response" ];
-     fhir:Composition.section.code [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         fhir:Coding.system [ fhir:value "https://www.hl7.org/fhir/valueset-resource-types" ];
-         fhir:Coding.code [ fhir:value "ClaimResponse" ];
-         fhir:Coding.display [ fhir:value "Claim Response" ]
-       ];
-       fhir:CodeableConcept.text [ fhir:value "ClaimResponse" ]
-     ];
-     fhir:Composition.section.entry [
-       fhir:index 0;
-       fhir:link <https://hcxprotocol.io/fhir/r4/ClaimResponse/res-id-1>;
-       fhir:Reference.reference [ fhir:value "ClaimResponse/res-id-1" ]
-     ]
-  ] . # 
+  ] ) ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "Claim Response" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://www.hl7.org/fhir/valueset-resource-types"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "ClaimResponse" ] ;
+         fhir:display [ fhir:v "Claim Response" ]
+       ] ) ;
+       fhir:text [ fhir:v "ClaimResponse" ]
+     ] ;
+     fhir:entry ( [
+       fhir:link <https://hcxprotocol.io/fhir/r4/ClaimResponse/res-id-1> ;
+       fhir:reference [ fhir:v "ClaimResponse/res-id-1" ]
+     ] )
+  ] ) . # 
 
-<ClaimResponse/ress-id-1> a fhir:ClaimResponse;
-  fhir:Resource.id [ fhir:value "1355110"]; # 
-  fhir:Resource.meta [
-     fhir:Meta.versionId [ fhir:value "1" ];
-     fhir:Meta.lastUpdated [ fhir:value "2020-07-03T22:50:39.698+00:00"^^xsd:dateTime ];
-     fhir:Meta.source [ fhir:value "#JrkobxCRdZUI6QNh" ]
-  ]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClaimResponse</b><a name=\"1355110\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClaimResponse &quot;1355110&quot; Version &quot;1&quot; Updated &quot;2020-07-03 22:50:39+0000&quot; </p><p style=\"margin-bottom: 0px\">Information Source: #JrkobxCRdZUI6QNh!</p></div><p><b>status</b>: active</p><p><b>type</b>: institutional <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#institutional)</span></p><p><b>use</b>: preauthorization</p><p><b>patient</b>: <a href=\"Patient/1353519\">Patient/1353519</a></p><p><b>created</b>: 2020-07-03 18:50:39-0400</p><p><b>insurer</b>: <a href=\"Organization/185\">Organization/185</a></p><p><b>request</b>: <a href=\"Claim/1355109\">Claim/1355109</a></p><p><b>outcome</b>: complete</p><blockquote><p><b>item</b></p><p><b>itemSequence</b>: 1</p><blockquote><p><b>adjudication</b></p><p><b>category</b>: eligible <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#eligible)</span></p><h3>Amounts</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>500000</td><td>INR</td></tr></table></blockquote><blockquote><p><b>adjudication</b></p><p><b>category</b>: copay <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#copay)</span></p><h3>Amounts</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>50000</td><td>INR</td></tr></table></blockquote><blockquote><p><b>adjudication</b></p><p><b>category</b>: eligpercent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#eligpercent)</span></p><p><b>value</b>: 80.00</p></blockquote><blockquote><p><b>adjudication</b></p><p><b>category</b>: benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#benefit)</span></p><p><b>reason</b>: Plan Limit Reached <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-adjudication-reason.html\">Adjudication Reason Codes</a>#ar002)</span></p><h3>Amounts</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>360000</td><td>INR</td></tr></table></blockquote></blockquote><blockquote><p><b>total</b></p><p><b>category</b>: submitted <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#submitted)</span></p><h3>Amounts</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>500000</td><td>INR</td></tr></table></blockquote><blockquote><p><b>total</b></p><p><b>category</b>: benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#benefit)</span></p><h3>Amounts</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>360000</td><td>INR</td></tr></table></blockquote><blockquote><p><b>payment</b></p><p><b>type</b>: Complete <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ex-paymenttype.html\">Example Payment Type Codes</a>#complete)</span></p><p><b>date</b>: 2014-08-31</p><h3>Amounts</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>410000</td><td>INR</td></tr></table><p><b>identifier</b>: id: 201408-2-1569478</p></blockquote></div>"
-  ]; # 
-  fhir:ClaimResponse.status [ fhir:value "active"]; # 
-  fhir:ClaimResponse.type [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.code [ fhir:value "institutional" ]
+<ClaimResponse/ress-id-1> a fhir:ClaimResponse ;
+  fhir:id [ fhir:v "1355110"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2020-07-03T22:50:39.698+00:00"^^xsd:dateTime ] ;
+     fhir:source [ fhir:v "#JrkobxCRdZUI6QNh"^^xsd:anyURI ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClaimResponse</b><a name=\"1355110\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClaimResponse &quot;1355110&quot; Version &quot;1&quot; Updated &quot;2020-07-03 22:50:39+0000&quot; </p><p style=\"margin-bottom: 0px\">Information Source: #JrkobxCRdZUI6QNh!</p></div><p><b>status</b>: active</p><p><b>type</b>: institutional <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#institutional)</span></p><p><b>use</b>: preauthorization</p><p><b>patient</b>: <a href=\"Patient/1353519\">Patient/1353519</a></p><p><b>created</b>: 2020-07-03 18:50:39-0400</p><p><b>insurer</b>: <a href=\"Organization/185\">Organization/185</a></p><p><b>request</b>: <a href=\"Claim/1355109\">Claim/1355109</a></p><p><b>outcome</b>: complete</p><blockquote><p><b>item</b></p><p><b>itemSequence</b>: 1</p><blockquote><p><b>adjudication</b></p><p><b>category</b>: eligible <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#eligible)</span></p><h3>Amounts</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>500000</td><td>INR</td></tr></table></blockquote><blockquote><p><b>adjudication</b></p><p><b>category</b>: copay <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#copay)</span></p><h3>Amounts</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>50000</td><td>INR</td></tr></table></blockquote><blockquote><p><b>adjudication</b></p><p><b>category</b>: eligpercent <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#eligpercent)</span></p><p><b>value</b>: 80.00</p></blockquote><blockquote><p><b>adjudication</b></p><p><b>category</b>: benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#benefit)</span></p><p><b>reason</b>: Plan Limit Reached <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-adjudication-reason.html\">Adjudication Reason Codes</a>#ar002)</span></p><h3>Amounts</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>360000</td><td>INR</td></tr></table></blockquote></blockquote><blockquote><p><b>total</b></p><p><b>category</b>: submitted <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#submitted)</span></p><h3>Amounts</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>500000</td><td>INR</td></tr></table></blockquote><blockquote><p><b>total</b></p><p><b>category</b>: benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#benefit)</span></p><h3>Amounts</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>360000</td><td>INR</td></tr></table></blockquote><blockquote><p><b>payment</b></p><p><b>type</b>: Complete <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ex-paymenttype.html\">Example Payment Type Codes</a>#complete)</span></p><p><b>date</b>: 2014-08-31</p><h3>Amounts</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>410000</td><td>INR</td></tr></table><p><b>identifier</b>: id: 201408-2-1569478</p></blockquote></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:code [ fhir:v "institutional" ]
+     ] )
+  ] ; # 
+  fhir:use [ fhir:v "preauthorization"] ; # 
+  fhir:patient [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Patient/1353519> ;
+     fhir:reference [ fhir:v "Patient/1353519" ] ;
+     fhir:type [ fhir:v "Patient"^^xsd:anyURI ]
+  ] ; # 
+  fhir:created [ fhir:v "2020-07-03T18:50:39-04:00"^^xsd:dateTime] ; # 
+  fhir:insurer [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Organization/185> ;
+     fhir:reference [ fhir:v "Organization/185" ] ;
+     fhir:type [ fhir:v "Organization"^^xsd:anyURI ]
+  ] ; # 
+  fhir:request [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Claim/1355109> ;
+     fhir:reference [ fhir:v "Claim/1355109" ]
+  ] ; # 
+  fhir:outcome [ fhir:v "complete"] ; # 
+  fhir:item ( [
+     fhir:itemSequence [ fhir:v "1"^^xsd:positiveInteger ] ;
+     fhir:adjudication ( [
+       fhir:category [
+         fhir:coding ( [
+           fhir:code [ fhir:v "eligible" ]
+         ] )
+       ] ;
+       fhir:amount [
+         fhir:value [ fhir:v "500000"^^xsd:decimal ] ;
+         fhir:currency [ fhir:v "INR" ]
+       ]
+     ] [
+       fhir:category [
+         fhir:coding ( [
+           fhir:code [ fhir:v "copay" ]
+         ] )
+       ] ;
+       fhir:amount [
+         fhir:value [ fhir:v "50000"^^xsd:decimal ] ;
+         fhir:currency [ fhir:v "INR" ]
+       ]
+     ] [
+       fhir:category [
+         fhir:coding ( [
+           fhir:code [ fhir:v "eligpercent" ]
+         ] )
+       ] ;
+       fhir:value [ fhir:v "80.00"^^xsd:decimal ]
+     ] [
+       fhir:category [
+         fhir:coding ( [
+           fhir:code [ fhir:v "benefit" ]
+         ] )
+       ] ;
+       fhir:reason [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/adjudication-reason"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ar002" ] ;
+           fhir:display [ fhir:v "Plan Limit Reached" ]
+         ] )
+       ] ;
+       fhir:amount [
+         fhir:value [ fhir:v "360000"^^xsd:decimal ] ;
+         fhir:currency [ fhir:v "INR" ]
+       ]
+     ] )
+  ] ) ; # 
+  fhir:total ( [
+     fhir:category [
+       fhir:coding ( [
+         fhir:code [ fhir:v "submitted" ]
+       ] )
+     ] ;
+     fhir:amount [
+       fhir:value [ fhir:v "500000"^^xsd:decimal ] ;
+       fhir:currency [ fhir:v "INR" ]
      ]
-  ]; # 
-  fhir:ClaimResponse.use [ fhir:value "preauthorization"]; # 
-  fhir:ClaimResponse.patient [
-     fhir:link <https://hcxprotocol.io/fhir/r4/Patient/1353519>;
-     fhir:Reference.reference [ fhir:value "Patient/1353519" ];
-     fhir:Reference.type [ fhir:value "Patient" ]
-  ]; # 
-  fhir:ClaimResponse.created [ fhir:value "2020-07-03T18:50:39-04:00"^^xsd:dateTime]; # 
-  fhir:ClaimResponse.insurer [
-     fhir:link <https://hcxprotocol.io/fhir/r4/Organization/185>;
-     fhir:Reference.reference [ fhir:value "Organization/185" ];
-     fhir:Reference.type [ fhir:value "Organization" ]
-  ]; # 
-  fhir:ClaimResponse.request [
-     fhir:link <https://hcxprotocol.io/fhir/r4/Claim/1355109>;
-     fhir:Reference.reference [ fhir:value "Claim/1355109" ]
-  ]; # 
-  fhir:ClaimResponse.outcome [ fhir:value "complete"]; # 
-  fhir:ClaimResponse.item [
-     fhir:index 0;
-     fhir:ClaimResponse.item.itemSequence [ fhir:value "1"^^xsd:positiveInteger ];
-     fhir:ClaimResponse.item.adjudication [
-       fhir:index 0;
-       fhir:ClaimResponse.item.adjudication.category [
-         fhir:CodeableConcept.coding [
-           fhir:index 0;
-           fhir:Coding.code [ fhir:value "eligible" ]
-         ]
-       ];
-       fhir:ClaimResponse.item.adjudication.amount [
-         fhir:Money.value [ fhir:value "500000"^^xsd:decimal ];
-         fhir:Money.currency [ fhir:value "INR" ]
-       ]
-     ], [
-       fhir:index 1;
-       fhir:ClaimResponse.item.adjudication.category [
-         fhir:CodeableConcept.coding [
-           fhir:index 0;
-           fhir:Coding.code [ fhir:value "copay" ]
-         ]
-       ];
-       fhir:ClaimResponse.item.adjudication.amount [
-         fhir:Money.value [ fhir:value "50000"^^xsd:decimal ];
-         fhir:Money.currency [ fhir:value "INR" ]
-       ]
-     ], [
-       fhir:index 2;
-       fhir:ClaimResponse.item.adjudication.category [
-         fhir:CodeableConcept.coding [
-           fhir:index 0;
-           fhir:Coding.code [ fhir:value "eligpercent" ]
-         ]
-       ];
-       fhir:ClaimResponse.item.adjudication.value [ fhir:value "80.00"^^xsd:decimal ]
-     ], [
-       fhir:index 3;
-       fhir:ClaimResponse.item.adjudication.category [
-         fhir:CodeableConcept.coding [
-           fhir:index 0;
-           fhir:Coding.code [ fhir:value "benefit" ]
-         ]
-       ];
-       fhir:ClaimResponse.item.adjudication.reason [
-         fhir:CodeableConcept.coding [
-           fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/adjudication-reason" ];
-           fhir:Coding.code [ fhir:value "ar002" ];
-           fhir:Coding.display [ fhir:value "Plan Limit Reached" ]
-         ]
-       ];
-       fhir:ClaimResponse.item.adjudication.amount [
-         fhir:Money.value [ fhir:value "360000"^^xsd:decimal ];
-         fhir:Money.currency [ fhir:value "INR" ]
-       ]
+  ] [
+     fhir:category [
+       fhir:coding ( [
+         fhir:code [ fhir:v "benefit" ]
+       ] )
+     ] ;
+     fhir:amount [
+       fhir:value [ fhir:v "360000"^^xsd:decimal ] ;
+       fhir:currency [ fhir:v "INR" ]
      ]
-  ]; # 
-  fhir:ClaimResponse.total [
-     fhir:index 0;
-     fhir:ClaimResponse.total.category [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         fhir:Coding.code [ fhir:value "submitted" ]
-       ]
-     ];
-     fhir:ClaimResponse.total.amount [
-       fhir:Money.value [ fhir:value "500000"^^xsd:decimal ];
-       fhir:Money.currency [ fhir:value "INR" ]
-     ]
-  ], [
-     fhir:index 1;
-     fhir:ClaimResponse.total.category [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         fhir:Coding.code [ fhir:value "benefit" ]
-       ]
-     ];
-     fhir:ClaimResponse.total.amount [
-       fhir:Money.value [ fhir:value "360000"^^xsd:decimal ];
-       fhir:Money.currency [ fhir:value "INR" ]
-     ]
-  ]; # 
-  fhir:ClaimResponse.payment [
-     fhir:ClaimResponse.payment.type [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/ex-paymenttype" ];
-         fhir:Coding.code [ fhir:value "complete" ]
-       ]
-     ];
-     fhir:ClaimResponse.payment.date [ fhir:value "2014-08-31"^^xsd:date ];
-     fhir:ClaimResponse.payment.amount [
-       fhir:Money.value [ fhir:value "410000"^^xsd:decimal ];
-       fhir:Money.currency [ fhir:value "INR" ]
-     ];
-     fhir:ClaimResponse.payment.identifier [
-       fhir:Identifier.system [ fhir:value "http://www.BenefitsInc.com/fhir/paymentidentifier" ];
-       fhir:Identifier.value [ fhir:value "201408-2-1569478" ]
+  ] ) ; # 
+  fhir:payment [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/ex-paymenttype"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "complete" ]
+       ] )
+     ] ;
+     fhir:date [ fhir:v "2014-08-31"^^xsd:date ] ;
+     fhir:amount [
+       fhir:value [ fhir:v "410000"^^xsd:decimal ] ;
+       fhir:currency [ fhir:v "INR" ]
+     ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "http://www.BenefitsInc.com/fhir/paymentidentifier"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "201408-2-1569478" ]
      ]
   ] . # 
 
-<Patient/1> a fhir:Patient;
-  fhir:Resource.id [ fhir:value "1"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;1&quot; </p></div><p><b>identifier</b>: PHRADDR: 654321, PMJAYID: QWRT12345</p><p><b>name</b>: Hina Patel (OFFICIAL)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1974-12-25</p></div>"
-  ]; # 
-  fhir:Patient.identifier [
-     fhir:index 0;
-     fhir:Identifier.type [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://ndhm.gov.in/ValueSet/identifier-type" ];
-         fhir:Coding.code [ fhir:value "PHRADDR" ]
-       ]
-     ];
-     fhir:Identifier.system [ fhir:value "http://ndhm.gov.in/healthId" ];
-     fhir:Identifier.value [ fhir:value "654321" ]
-  ], [
-     fhir:index 1;
-     fhir:Identifier.type [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://ndhm.gov.in/ValueSet/identifier-type" ];
-         fhir:Coding.code [ fhir:value "PMJAYID" ]
-       ]
-     ];
-     fhir:Identifier.system [ fhir:value "http://ndhm.gov.in/pmjay" ];
-     fhir:Identifier.value [ fhir:value "QWRT12345" ]
-  ]; # 
-  fhir:Patient.name [
-     fhir:index 0;
-     fhir:HumanName.use [ fhir:value "official" ];
-     fhir:HumanName.family [ fhir:value "Patel" ];
-     fhir:HumanName.given [
-       fhir:value "Hina";
-       fhir:index 0
-     ]
-  ]; # 
-  fhir:Patient.gender [ fhir:value "female"]; # 
-  fhir:Patient.birthDate [ fhir:value "1974-12-25"^^xsd:date] . # 
+<Patient/1> a fhir:Patient ;
+  fhir:id [ fhir:v "1"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;1&quot; </p></div><p><b>identifier</b>: PHRADDR: 654321, PMJAYID: QWRT12345</p><p><b>name</b>: Hina Patel (OFFICIAL)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1974-12-25</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://ndhm.gov.in/ValueSet/identifier-type"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "PHRADDR" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "http://ndhm.gov.in/healthId"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "654321" ]
+  ] [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://ndhm.gov.in/ValueSet/identifier-type"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "PMJAYID" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "http://ndhm.gov.in/pmjay"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "QWRT12345" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:family [ fhir:v "Patel" ] ;
+     fhir:given ( [ fhir:v "Hina" ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "female"] ; # 
+  fhir:birthDate [ fhir:v "1974-12-25"^^xsd:date] . # 
 
-<Organization/MaxSaket01> a fhir:Organization;
-  fhir:Resource.id [ fhir:value "MaxSaket01"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"MaxSaket01\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;MaxSaket01&quot; </p></div><p><b>identifier</b>: id: HFR-10000005</p><p><b>name</b>: Max Super Speciality Hospital, Saket</p></div>"
-  ]; # 
-  fhir:Organization.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "https://ndhm.gov.in/hfr" ];
-     fhir:Identifier.value [ fhir:value "HFR-10000005" ]
-  ]; # 
-  fhir:Organization.name [ fhir:value "Max Super Speciality Hospital, Saket"] . # 
+<Organization/MaxSaket01> a fhir:Organization ;
+  fhir:id [ fhir:v "MaxSaket01"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"MaxSaket01\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;MaxSaket01&quot; </p></div><p><b>identifier</b>: id: HFR-10000005</p><p><b>name</b>: Max Super Speciality Hospital, Saket</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://ndhm.gov.in/hfr"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "HFR-10000005" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Max Super Speciality Hospital, Saket"] . # 
 
-<Organization/2> a fhir:Organization;
-  fhir:Resource.id [ fhir:value "2"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;2&quot; </p></div><p><b>identifier</b>: id: PMJAY</p><p><b>name</b>: PMJAY, MoHFW, Govt Of India</p></div>"
-  ]; # 
-  fhir:Organization.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "https://hcx.org/orgs" ];
-     fhir:Identifier.value [ fhir:value "PMJAY" ]
-  ]; # 
-  fhir:Organization.name [ fhir:value "PMJAY, MoHFW, Govt Of India"] . # 
+<Organization/2> a fhir:Organization ;
+  fhir:id [ fhir:v "2"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;2&quot; </p></div><p><b>identifier</b>: id: PMJAY</p><p><b>name</b>: PMJAY, MoHFW, Govt Of India</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://hcx.org/orgs"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "PMJAY" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "PMJAY, MoHFW, Govt Of India"] . # 
 
-<Practitioner/1> a fhir:Practitioner;
-  fhir:Resource.id [ fhir:value "1"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;1&quot; </p></div><p><b>identifier</b>: id: NPR-6897</p><p><b>name</b>: Sudhir Naik (PMJAY Gujrat)</p></div>"
-  ]; # 
-  fhir:Practitioner.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "https://ndhm.gov.in/npr" ];
-     fhir:Identifier.value [ fhir:value "NPR-6897" ]
-  ]; # 
-  fhir:Practitioner.name [
-     fhir:index 0;
-     fhir:HumanName.text [ fhir:value "Sudhir Naik (PMJAY Gujrat)" ];
-     fhir:HumanName.prefix [
-       fhir:value "Dr";
-       fhir:index 0
-     ];
-     fhir:HumanName.suffix [
-       fhir:value "MD";
-       fhir:index 0
-     ]
-  ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<https://hcxprotocol.io/fhir/r4/Bundle/ClaimResponseDocument-example-01.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
+<Practitioner/1> a fhir:Practitioner ;
+  fhir:id [ fhir:v "1"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;1&quot; </p></div><p><b>identifier</b>: id: NPR-6897</p><p><b>name</b>: Sudhir Naik (PMJAY Gujrat)</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://ndhm.gov.in/npr"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "NPR-6897" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:text [ fhir:v "Sudhir Naik (PMJAY Gujrat)" ] ;
+     fhir:prefix ( [ fhir:v "Dr" ] ) ;
+     fhir:suffix ( [ fhir:v "MD" ] )
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

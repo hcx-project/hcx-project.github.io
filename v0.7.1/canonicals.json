@@ -257,5 +257,19 @@
     "url" : "https://ig.hcxprotocol.io/v0.7.1/ValueSet-proof-of-presence-codes.html",
     "version" : "0.7.1",
     "name" : "ProofOfPresenceCodes"
+  },
+  {
+    "id" : "hcx-admission-types",
+    "type" : "ValueSet",
+    "url" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types",
+    "version" : "0.7.1",
+    "name" : "HCXAdmissionTypes"
+  },
+  {
+    "id" : "hcx-procedure-categories",
+    "type" : "ValueSet",
+    "url" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-procedure-categories",
+    "version" : "0.7.1",
+    "name" : "HCXProcedureCategories"
   }
 ]

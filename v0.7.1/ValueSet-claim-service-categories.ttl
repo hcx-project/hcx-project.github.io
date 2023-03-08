@@ -5,93 +5,75 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hcxprotocol.io/fhir/r4/ValueSet/claim-service-categories> a fhir:ValueSet;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "claim-service-categories"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-100000\"> </a>  100000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Room &amp; Nursing Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-200000\"> </a>  200000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>ICU Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-300000\"> </a>  300000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>OT Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-400000\"> </a>  400000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Medicine &amp; Consumables Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-500000\"> </a>  500000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Professional Fees Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-600000\"> </a>  600000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Investigation Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-700000\"> </a>  700000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Ambulance Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-800000\"> </a>  800000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Miscellaneous Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-900000\"> </a>  900000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Provider Package Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-group-code-HBP\"> </a>  HBP</td><td>https://pmjay.gov.in/benefit-billing-group-code</td><td>NHA Package Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-group-code-MJPJAY\"> </a>  MJPJAY</td><td>https://mjpjay.gov.in/benefit-billing-group-code</td><td>Mahatma Jyotibha Phule PMJAY Package Charges</td></tr></table></div>"
-  ]; # 
-  fhir:ValueSet.url [ fhir:value "https://ig.hcxprotocol.io/v0.7.1/ValueSet-claim-service-categories.html"]; # 
-  fhir:ValueSet.version [ fhir:value "0.7.1"]; # 
-  fhir:ValueSet.name [ fhir:value "ClaimServiceCategories"]; # 
-  fhir:ValueSet.status [ fhir:value "active"]; # 
-  fhir:ValueSet.date [ fhir:value "2021-08-15"^^xsd:date]; # 
-  fhir:ValueSet.publisher [ fhir:value "HCX Open Community"]; # 
-  fhir:ValueSet.contact [
-     fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "HCX Open Community" ];
-     fhir:ContactDetail.telecom [
-       fhir:index 0;
-       fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://hcxprotocol.io/" ]
-     ]
-  ]; # 
-  fhir:ValueSet.description [ fhir:value "This is the value set that includes the codes to identify the general type of benefits under which products and services are provided"]; # 
-  fhir:ValueSet.expansion [
-     fhir:ValueSet.expansion.timestamp [ fhir:value "2021-08-15T08:15:30+05:30"^^xsd:dateTime ];
-     fhir:ValueSet.expansion.contains [
-       fhir:index 0;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-group-code" ];
-       fhir:ValueSet.expansion.contains.code [ fhir:value "100000" ];
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Room & Nursing Charges" ]
-     ], [
-       fhir:index 1;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-group-code" ];
-       fhir:ValueSet.expansion.contains.code [ fhir:value "200000" ];
-       fhir:ValueSet.expansion.contains.display [ fhir:value "ICU Charges" ]
-     ], [
-       fhir:index 2;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-group-code" ];
-       fhir:ValueSet.expansion.contains.code [ fhir:value "300000" ];
-       fhir:ValueSet.expansion.contains.display [ fhir:value "OT Charges" ]
-     ], [
-       fhir:index 3;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-group-code" ];
-       fhir:ValueSet.expansion.contains.code [ fhir:value "400000" ];
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Medicine & Consumables Charges" ]
-     ], [
-       fhir:index 4;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-group-code" ];
-       fhir:ValueSet.expansion.contains.code [ fhir:value "500000" ];
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Professional Fees Charges" ]
-     ], [
-       fhir:index 5;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-group-code" ];
-       fhir:ValueSet.expansion.contains.code [ fhir:value "600000" ];
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Investigation Charges" ]
-     ], [
-       fhir:index 6;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-group-code" ];
-       fhir:ValueSet.expansion.contains.code [ fhir:value "700000" ];
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Ambulance Charges" ]
-     ], [
-       fhir:index 7;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-group-code" ];
-       fhir:ValueSet.expansion.contains.code [ fhir:value "800000" ];
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Miscellaneous Charges" ]
-     ], [
-       fhir:index 8;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://irdai.gov.in/benefit-billing-group-code" ];
-       fhir:ValueSet.expansion.contains.code [ fhir:value "900000" ];
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Provider Package Charges" ]
-     ], [
-       fhir:index 9;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://pmjay.gov.in/benefit-billing-group-code" ];
-       fhir:ValueSet.expansion.contains.code [ fhir:value "HBP" ];
-       fhir:ValueSet.expansion.contains.display [ fhir:value "NHA Package Charges" ]
-     ], [
-       fhir:index 10;
-       fhir:ValueSet.expansion.contains.system [ fhir:value "https://mjpjay.gov.in/benefit-billing-group-code" ];
-       fhir:ValueSet.expansion.contains.code [ fhir:value "MJPJAY" ];
-       fhir:ValueSet.expansion.contains.display [ fhir:value "Mahatma Jyotibha Phule PMJAY Package Charges" ]
-     ]
+<https://hcxprotocol.io/fhir/r4/ValueSet/claim-service-categories> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "claim-service-categories"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-100000\"> </a>  100000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Room &amp; Nursing Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-200000\"> </a>  200000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>ICU Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-300000\"> </a>  300000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>OT Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-400000\"> </a>  400000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Medicine &amp; Consumables Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-500000\"> </a>  500000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Professional Fees Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-600000\"> </a>  600000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Investigation Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-700000\"> </a>  700000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Ambulance Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-800000\"> </a>  800000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Miscellaneous Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---irdai.gov.in-benefit-billing-group-code-900000\"> </a>  900000</td><td>https://irdai.gov.in/benefit-billing-group-code</td><td>Provider Package Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---pmjay.gov.in-benefit-billing-group-code-HBP\"> </a>  HBP</td><td>https://pmjay.gov.in/benefit-billing-group-code</td><td>NHA Package Charges</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---mjpjay.gov.in-benefit-billing-group-code-MJPJAY\"> </a>  MJPJAY</td><td>https://mjpjay.gov.in/benefit-billing-group-code</td><td>Mahatma Jyotibha Phule PMJAY Package Charges</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://ig.hcxprotocol.io/v0.7.1/ValueSet-claim-service-categories.html"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.7.1"] ; # 
+  fhir:name [ fhir:v "ClaimServiceCategories"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2021-08-15"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HCX Open Community"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HCX Open Community" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hcxprotocol.io/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This is the value set that includes the codes to identify the general type of benefits under which products and services are provided"] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2021-08-15T08:15:30+05:30"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [ fhir:v "https://irdai.gov.in/benefit-billing-group-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000" ] ;
+       fhir:display [ fhir:v "Room & Nursing Charges" ]
+     ] [
+       fhir:system [ fhir:v "https://irdai.gov.in/benefit-billing-group-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000" ] ;
+       fhir:display [ fhir:v "ICU Charges" ]
+     ] [
+       fhir:system [ fhir:v "https://irdai.gov.in/benefit-billing-group-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "300000" ] ;
+       fhir:display [ fhir:v "OT Charges" ]
+     ] [
+       fhir:system [ fhir:v "https://irdai.gov.in/benefit-billing-group-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "400000" ] ;
+       fhir:display [ fhir:v "Medicine & Consumables Charges" ]
+     ] [
+       fhir:system [ fhir:v "https://irdai.gov.in/benefit-billing-group-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "500000" ] ;
+       fhir:display [ fhir:v "Professional Fees Charges" ]
+     ] [
+       fhir:system [ fhir:v "https://irdai.gov.in/benefit-billing-group-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "600000" ] ;
+       fhir:display [ fhir:v "Investigation Charges" ]
+     ] [
+       fhir:system [ fhir:v "https://irdai.gov.in/benefit-billing-group-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "700000" ] ;
+       fhir:display [ fhir:v "Ambulance Charges" ]
+     ] [
+       fhir:system [ fhir:v "https://irdai.gov.in/benefit-billing-group-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "800000" ] ;
+       fhir:display [ fhir:v "Miscellaneous Charges" ]
+     ] [
+       fhir:system [ fhir:v "https://irdai.gov.in/benefit-billing-group-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "900000" ] ;
+       fhir:display [ fhir:v "Provider Package Charges" ]
+     ] [
+       fhir:system [ fhir:v "https://pmjay.gov.in/benefit-billing-group-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "HBP" ] ;
+       fhir:display [ fhir:v "NHA Package Charges" ]
+     ] [
+       fhir:system [ fhir:v "https://mjpjay.gov.in/benefit-billing-group-code"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MJPJAY" ] ;
+       fhir:display [ fhir:v "Mahatma Jyotibha Phule PMJAY Package Charges" ]
+     ] )
   ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<https://hcxprotocol.io/fhir/r4/ValueSet/claim-service-categories.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

@@ -541,6 +541,12 @@
     "http://hl7.org/fhir/tools/ValueSet/clinical-diagnostics-document-codes": [
       "ImplementationGuide.definition.resource"
     ],
+    "http://hl7.org/fhir/tools/ValueSet/hcx-admission-types": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/hcx-procedure-categories": [
+      "ImplementationGuide.definition.resource"
+    ],
     "http://hl7.org/fhir/tools/ValueSet/informational-messages-codes": [
       "ImplementationGuide.definition.resource"
     ],

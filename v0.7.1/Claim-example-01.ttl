@@ -6,225 +6,193 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hcxprotocol.io/fhir/r4/Claim/example-01> a fhir:Claim;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "example-01"]; # 
-  fhir:Resource.meta [
-     fhir:Meta.versionId [ fhir:value "1" ];
-     fhir:Meta.lastUpdated [ fhir:value "2020-10-07T03:26:09.060+00:00"^^xsd:dateTime ];
-     fhir:Meta.source [ fhir:value "#BHZcRrcF4oS0JQ42" ]
-  ]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Claim</b><a name=\"example-01\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Claim &quot;example-01&quot; Version &quot;1&quot; Updated &quot;2020-10-07 03:26:09+0000&quot; </p><p style=\"margin-bottom: 0px\">Information Source: #BHZcRrcF4oS0JQ42!</p></div><p><b>identifier</b>: id: dc82673b-8c71-29js-8a17-16dj3i20352n</p><p><b>status</b>: active</p><p><b>type</b>: Institutional <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-claim-type.html\">Claim Type Codes</a>#institutional)</span></p><p><b>use</b>: claim</p><p><b>patient</b>: <span/></p><p><b>billablePeriod</b>: 1979-02-27 16:01:08-0500 --&gt; 1979-02-28 16:01:08-0500</p><p><b>created</b>: 1979-02-28 16:01:08-0500</p><p><b>insurer</b>: <span/></p><p><b>provider</b>: <span/></p><p><b>priority</b>: Normal <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-processpriority.html\">Process Priority Codes</a>#normal)</span></p><h3>Payees</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Party</b></td></tr><tr><td>*</td><td>Provider <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-payeetype.html\">Claim Payee Type Codes</a>#provider)</span></td><td><span/></td></tr></table><h3>CareTeams</h3><table class=\"grid\"><tr><td>-</td><td><b>Sequence</b></td><td><b>Provider</b></td></tr><tr><td>*</td><td>1</td><td><span/></td></tr></table><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 1</p><p><b>procedure</b>: PROC-1 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R4/codesystem-icd-10-procedures.html\">ICD-10 Procedure Codes</a>#123001)</span></p></blockquote><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 2</p><p><b>procedure</b>: PROC-2 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R4/codesystem-icd-10-procedures.html\">ICD-10 Procedure Codes</a>#123002)</span></p></blockquote><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 3</p><p><b>procedure</b>: PROC-3 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R4/codesystem-icd-10-procedures.html\">ICD-10 Procedure Codes</a>#123003)</span></p></blockquote><h3>Insurances</h3><table class=\"grid\"><tr><td>-</td><td><b>Sequence</b></td><td><b>Focal</b></td><td><b>Coverage</b></td></tr><tr><td>*</td><td>1</td><td>true</td><td><span>: Cigna Health</span></td></tr></table><blockquote><p><b>item</b></p><p><b>sequence</b>: 1</p><p><b>productOrService</b>: Encounter for problem <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#185347001)</span></p></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 2</p><p><b>procedureSequence</b>: 1</p><p><b>productOrService</b>: Hearing examination (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398171003)</span></p><h3>Nets</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>516.65</td><td>USD</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 3</p><p><b>procedureSequence</b>: 2</p><p><b>productOrService</b>: Combined chemotherapy and radiation therapy (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#703423002)</span></p><h3>Nets</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>16924.49</td><td>USD</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 4</p><p><b>procedureSequence</b>: 3</p><p><b>productOrService</b>: High resolution computed tomography of chest without contrast (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#16335031000119103)</span></p><h3>Nets</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>516.65</td><td>USD</td></tr></table></blockquote><h3>Totals</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>129.16</td><td>USD</td></tr></table></div>"
-  ]; # 
-  fhir:Claim.identifier [
-     fhir:index 0;
-     fhir:Identifier.system [ fhir:value "https://www.tmh.in/claim-request" ];
-     fhir:Identifier.value [ fhir:value "dc82673b-8c71-29js-8a17-16dj3i20352n" ]
-  ]; # 
-  fhir:Claim.status [ fhir:value "active"]; # 
-  fhir:Claim.type [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/claim-type" ];
-       fhir:Coding.code [ fhir:value "institutional" ]
+<https://hcxprotocol.io/fhir/r4/Claim/example-01> a fhir:Claim ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-01"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2020-10-07T03:26:09.060+00:00"^^xsd:dateTime ] ;
+     fhir:source [ fhir:v "#BHZcRrcF4oS0JQ42"^^xsd:anyURI ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Claim</b><a name=\"example-01\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Claim &quot;example-01&quot; Version &quot;1&quot; Updated &quot;2020-10-07 03:26:09+0000&quot; </p><p style=\"margin-bottom: 0px\">Information Source: #BHZcRrcF4oS0JQ42!</p></div><p><b>identifier</b>: id: dc82673b-8c71-29js-8a17-16dj3i20352n</p><p><b>status</b>: active</p><p><b>type</b>: Institutional <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-claim-type.html\">Claim Type Codes</a>#institutional)</span></p><p><b>use</b>: claim</p><p><b>patient</b>: <span/></p><p><b>billablePeriod</b>: 1979-02-27 16:01:08-0500 --&gt; 1979-02-28 16:01:08-0500</p><p><b>created</b>: 1979-02-28 16:01:08-0500</p><p><b>insurer</b>: <span/></p><p><b>provider</b>: <span/></p><p><b>priority</b>: Normal <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-processpriority.html\">Process Priority Codes</a>#normal)</span></p><h3>Payees</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Party</b></td></tr><tr><td>*</td><td>Provider <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-payeetype.html\">Claim Payee Type Codes</a>#provider)</span></td><td><span/></td></tr></table><h3>CareTeams</h3><table class=\"grid\"><tr><td>-</td><td><b>Sequence</b></td><td><b>Provider</b></td></tr><tr><td>*</td><td>1</td><td><span/></td></tr></table><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 1</p><p><b>procedure</b>: PROC-1 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R4/codesystem-icd-10-procedures.html\">ICD-10 Procedure Codes</a>#123001)</span></p></blockquote><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 2</p><p><b>procedure</b>: PROC-2 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R4/codesystem-icd-10-procedures.html\">ICD-10 Procedure Codes</a>#123002)</span></p></blockquote><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 3</p><p><b>procedure</b>: PROC-3 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R4/codesystem-icd-10-procedures.html\">ICD-10 Procedure Codes</a>#123003)</span></p></blockquote><h3>Insurances</h3><table class=\"grid\"><tr><td>-</td><td><b>Sequence</b></td><td><b>Focal</b></td><td><b>Coverage</b></td></tr><tr><td>*</td><td>1</td><td>true</td><td><span>: Cigna Health</span></td></tr></table><blockquote><p><b>item</b></p><p><b>sequence</b>: 1</p><p><b>productOrService</b>: Encounter for problem <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#185347001)</span></p></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 2</p><p><b>procedureSequence</b>: 1</p><p><b>productOrService</b>: Hearing examination (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398171003)</span></p><h3>Nets</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>516.65</td><td>USD</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 3</p><p><b>procedureSequence</b>: 2</p><p><b>productOrService</b>: Combined chemotherapy and radiation therapy (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#703423002)</span></p><h3>Nets</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>16924.49</td><td>USD</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 4</p><p><b>procedureSequence</b>: 3</p><p><b>productOrService</b>: High resolution computed tomography of chest without contrast (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#16335031000119103)</span></p><h3>Nets</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>516.65</td><td>USD</td></tr></table></blockquote><h3>Totals</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>129.16</td><td>USD</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://www.tmh.in/claim-request"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "dc82673b-8c71-29js-8a17-16dj3i20352n" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/claim-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "institutional" ]
+     ] )
+  ] ; # 
+  fhir:use [ fhir:v "claim"] ; # 
+  fhir:patient [
+     fhir:id [ fhir:v "RVH1003" ] ;
+     fhir:identifier [
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "SN" ] ;
+           fhir:display [ fhir:v "Subscriber Number" ]
+         ] )
+       ] ;
+       fhir:system [ fhir:v "http://gicofIndia.com/beneficiaries"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "BEN-101" ]
      ]
-  ]; # 
-  fhir:Claim.use [ fhir:value "claim"]; # 
-  fhir:Claim.patient [
-     fhir:Element.id [ fhir:value "RVH1003" ];
-     fhir:Reference.identifier [
-       fhir:Identifier.type [
-         fhir:CodeableConcept.coding [
-           fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ];
-           fhir:Coding.code [ fhir:value "SN" ];
-           fhir:Coding.display [ fhir:value "Subscriber Number" ]
-         ]
-       ];
-       fhir:Identifier.system [ fhir:value "http://gicofIndia.com/beneficiaries" ];
-       fhir:Identifier.value [ fhir:value "BEN-101" ]
+  ] ; # 
+  fhir:billablePeriod [
+     fhir:start [ fhir:v "1979-02-27T16:01:08-05:00"^^xsd:dateTime ] ;
+     fhir:end [ fhir:v "1979-02-28T16:01:08-05:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:created [ fhir:v "1979-02-28T16:01:08-05:00"^^xsd:dateTime] ; # 
+  fhir:insurer [
+     fhir:id [ fhir:v "GICOFINDIA" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "http://irdai.gov.in/insurers"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "112" ]
      ]
-  ]; # 
-  fhir:Claim.billablePeriod [
-     fhir:Period.start [ fhir:value "1979-02-27T16:01:08-05:00"^^xsd:dateTime ];
-     fhir:Period.end [ fhir:value "1979-02-28T16:01:08-05:00"^^xsd:dateTime ]
-  ]; # 
-  fhir:Claim.created [ fhir:value "1979-02-28T16:01:08-05:00"^^xsd:dateTime]; # 
-  fhir:Claim.insurer [
-     fhir:Element.id [ fhir:value "GICOFINDIA" ];
-     fhir:Reference.identifier [
-       fhir:Identifier.system [ fhir:value "http://irdai.gov.in/insurers" ];
-       fhir:Identifier.value [ fhir:value "112" ]
+  ] ; # 
+  fhir:provider [
+     fhir:id [ fhir:v "Tmh01" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "http://abdm.gov.in/facilities"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "HFR-ID-FOR-TMH" ]
      ]
-  ]; # 
-  fhir:Claim.provider [
-     fhir:Element.id [ fhir:value "Tmh01" ];
-     fhir:Reference.identifier [
-       fhir:Identifier.system [ fhir:value "http://abdm.gov.in/facilities" ];
-       fhir:Identifier.value [ fhir:value "HFR-ID-FOR-TMH" ]
-     ]
-  ]; # 
-  fhir:Claim.priority [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/processpriority" ];
-       fhir:Coding.code [ fhir:value "normal" ]
-     ]
-  ]; # 
-  fhir:Claim.payee [
-     fhir:Claim.payee.type [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/payeetype" ];
-         fhir:Coding.code [ fhir:value "provider" ]
-       ]
-     ];
-     fhir:Claim.payee.party [
-       fhir:Element.id [ fhir:value "Tmh02" ];
-       fhir:Reference.identifier [
-         fhir:Identifier.system [ fhir:value "http://abdm.gov.in/facilities" ];
-         fhir:Identifier.value [ fhir:value "HFR-ID-FOR-TMH" ]
+  ] ; # 
+  fhir:priority [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/processpriority"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "normal" ]
+     ] )
+  ] ; # 
+  fhir:payee [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/payeetype"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "provider" ]
+       ] )
+     ] ;
+     fhir:party [
+       fhir:id [ fhir:v "Tmh02" ] ;
+       fhir:identifier [
+         fhir:system [ fhir:v "http://abdm.gov.in/facilities"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "HFR-ID-FOR-TMH" ]
        ]
      ]
-  ]; # 
-  fhir:Claim.careTeam [
-     fhir:index 0;
-     fhir:Claim.careTeam.sequence [ fhir:value "1"^^xsd:positiveInteger ];
-     fhir:Claim.careTeam.provider [
-       fhir:Element.id [ fhir:value "Tmh03" ];
-       fhir:Reference.identifier [
-         fhir:Identifier.system [ fhir:value "http://abdm.gov.in/facilities" ];
-         fhir:Identifier.value [ fhir:value "HFR-ID-FOR-TMH" ]
+  ] ; # 
+  fhir:careTeam ( [
+     fhir:sequence [ fhir:v "1"^^xsd:positiveInteger ] ;
+     fhir:provider [
+       fhir:id [ fhir:v "Tmh03" ] ;
+       fhir:identifier [
+         fhir:system [ fhir:v "http://abdm.gov.in/facilities"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "HFR-ID-FOR-TMH" ]
        ]
      ]
-  ]; # 
-  fhir:Claim.procedure [
-     fhir:index 0;
-     fhir:Claim.procedure.sequence [ fhir:value "1"^^xsd:positiveInteger ];
-     fhir:Claim.procedure.procedureCodeableConcept [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://hl7.org/fhir/sid/ex-icd-10-procedures" ];
-         fhir:Coding.code [ fhir:value "123001" ]
-       ]
+  ] ) ; # 
+  fhir:procedure ( [
+     fhir:sequence [ fhir:v "1"^^xsd:positiveInteger ] ;
+     fhir:procedure [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/sid/ex-icd-10-procedures"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "123001" ]
+       ] )
      ]
-  ], [
-     fhir:index 1;
-     fhir:Claim.procedure.sequence [ fhir:value "2"^^xsd:positiveInteger ];
-     fhir:Claim.procedure.procedureCodeableConcept [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://hl7.org/fhir/sid/ex-icd-10-procedures" ];
-         fhir:Coding.code [ fhir:value "123002" ]
-       ]
+  ] [
+     fhir:sequence [ fhir:v "2"^^xsd:positiveInteger ] ;
+     fhir:procedure [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/sid/ex-icd-10-procedures"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "123002" ]
+       ] )
      ]
-  ], [
-     fhir:index 2;
-     fhir:Claim.procedure.sequence [ fhir:value "3"^^xsd:positiveInteger ];
-     fhir:Claim.procedure.procedureCodeableConcept [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://hl7.org/fhir/sid/ex-icd-10-procedures" ];
-         fhir:Coding.code [ fhir:value "123003" ]
-       ]
+  ] [
+     fhir:sequence [ fhir:v "3"^^xsd:positiveInteger ] ;
+     fhir:procedure [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/sid/ex-icd-10-procedures"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "123003" ]
+       ] )
      ]
-  ]; # 
-  fhir:Claim.insurance [
-     fhir:index 0;
-     fhir:Claim.insurance.sequence [ fhir:value "1"^^xsd:positiveInteger ];
-     fhir:Claim.insurance.focal [ fhir:value "true"^^xsd:boolean ];
-     fhir:Claim.insurance.coverage [
-       fhir:Reference.display [ fhir:value "Cigna Health" ]
+  ] ) ; # 
+  fhir:insurance ( [
+     fhir:sequence [ fhir:v "1"^^xsd:positiveInteger ] ;
+     fhir:focal [ fhir:v "true"^^xsd:boolean ] ;
+     fhir:coverage [
+       fhir:display [ fhir:v "Cigna Health" ]
      ]
-  ]; # 
-  fhir:Claim.item [
-     fhir:index 0;
-     fhir:Claim.item.sequence [ fhir:value "1"^^xsd:positiveInteger ];
-     fhir:Claim.item.productOrService [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a sct:185347001;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "185347001" ];
-         fhir:Coding.display [ fhir:value "Encounter for problem" ]
-       ];
-       fhir:CodeableConcept.text [ fhir:value "Encounter for problem" ]
+  ] ) ; # 
+  fhir:item ( [
+     fhir:sequence [ fhir:v "1"^^xsd:positiveInteger ] ;
+     fhir:productOrService [
+       fhir:coding ( [
+         a sct:185347001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "185347001" ] ;
+         fhir:display [ fhir:v "Encounter for problem" ]
+       ] ) ;
+       fhir:text [ fhir:v "Encounter for problem" ]
      ]
-  ], [
-     fhir:index 1;
-     fhir:Claim.item.sequence [ fhir:value "2"^^xsd:positiveInteger ];
-     fhir:Claim.item.procedureSequence [
-       fhir:value "1"^^xsd:positiveInteger;
-       fhir:index 0
-     ];
-     fhir:Claim.item.productOrService [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a sct:398171003;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "398171003" ];
-         fhir:Coding.display [ fhir:value "Hearing examination (procedure)" ]
-       ];
-       fhir:CodeableConcept.text [ fhir:value "Hearing examination (procedure)" ]
-     ];
-     fhir:Claim.item.net [
-       fhir:Money.value [ fhir:value "516.65"^^xsd:decimal ];
-       fhir:Money.currency [ fhir:value "USD" ]
+  ] [
+     fhir:sequence [ fhir:v "2"^^xsd:positiveInteger ] ;
+     fhir:procedureSequence ( [ fhir:v "1"^^xsd:positiveInteger ] ) ;
+     fhir:productOrService [
+       fhir:coding ( [
+         a sct:398171003 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "398171003" ] ;
+         fhir:display [ fhir:v "Hearing examination (procedure)" ]
+       ] ) ;
+       fhir:text [ fhir:v "Hearing examination (procedure)" ]
+     ] ;
+     fhir:net [
+       fhir:value [ fhir:v "516.65"^^xsd:decimal ] ;
+       fhir:currency [ fhir:v "USD" ]
      ]
-  ], [
-     fhir:index 2;
-     fhir:Claim.item.sequence [ fhir:value "3"^^xsd:positiveInteger ];
-     fhir:Claim.item.procedureSequence [
-       fhir:value "2"^^xsd:positiveInteger;
-       fhir:index 0
-     ];
-     fhir:Claim.item.productOrService [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a sct:703423002;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "703423002" ];
-         fhir:Coding.display [ fhir:value "Combined chemotherapy and radiation therapy (procedure)" ]
-       ];
-       fhir:CodeableConcept.text [ fhir:value "Combined chemotherapy and radiation therapy (procedure)" ]
-     ];
-     fhir:Claim.item.net [
-       fhir:Money.value [ fhir:value "16924.49"^^xsd:decimal ];
-       fhir:Money.currency [ fhir:value "USD" ]
+  ] [
+     fhir:sequence [ fhir:v "3"^^xsd:positiveInteger ] ;
+     fhir:procedureSequence ( [ fhir:v "2"^^xsd:positiveInteger ] ) ;
+     fhir:productOrService [
+       fhir:coding ( [
+         a sct:703423002 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "703423002" ] ;
+         fhir:display [ fhir:v "Combined chemotherapy and radiation therapy (procedure)" ]
+       ] ) ;
+       fhir:text [ fhir:v "Combined chemotherapy and radiation therapy (procedure)" ]
+     ] ;
+     fhir:net [
+       fhir:value [ fhir:v "16924.49"^^xsd:decimal ] ;
+       fhir:currency [ fhir:v "USD" ]
      ]
-  ], [
-     fhir:index 3;
-     fhir:Claim.item.sequence [ fhir:value "4"^^xsd:positiveInteger ];
-     fhir:Claim.item.procedureSequence [
-       fhir:value "3"^^xsd:positiveInteger;
-       fhir:index 0
-     ];
-     fhir:Claim.item.productOrService [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a sct:16335031000119103;
-         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-         fhir:Coding.code [ fhir:value "16335031000119103" ];
-         fhir:Coding.display [ fhir:value "High resolution computed tomography of chest without contrast (procedure)" ]
-       ];
-       fhir:CodeableConcept.text [ fhir:value "High resolution computed tomography of chest without contrast (procedure)" ]
-     ];
-     fhir:Claim.item.net [
-       fhir:Money.value [ fhir:value "516.65"^^xsd:decimal ];
-       fhir:Money.currency [ fhir:value "USD" ]
+  ] [
+     fhir:sequence [ fhir:v "4"^^xsd:positiveInteger ] ;
+     fhir:procedureSequence ( [ fhir:v "3"^^xsd:positiveInteger ] ) ;
+     fhir:productOrService [
+       fhir:coding ( [
+         a sct:16335031000119103 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "16335031000119103" ] ;
+         fhir:display [ fhir:v "High resolution computed tomography of chest without contrast (procedure)" ]
+       ] ) ;
+       fhir:text [ fhir:v "High resolution computed tomography of chest without contrast (procedure)" ]
+     ] ;
+     fhir:net [
+       fhir:value [ fhir:v "516.65"^^xsd:decimal ] ;
+       fhir:currency [ fhir:v "USD" ]
      ]
-  ]; # 
-  fhir:Claim.total [
-     fhir:Money.value [ fhir:value "129.16"^^xsd:decimal ];
-     fhir:Money.currency [ fhir:value "USD" ]
+  ] ) ; # 
+  fhir:total [
+     fhir:value [ fhir:v "129.16"^^xsd:decimal ] ;
+     fhir:currency [ fhir:v "USD" ]
   ] . # 
-
-# - ontology header ------------------------------------------------------------
-
-<https://hcxprotocol.io/fhir/r4/Claim/example-01.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 
