@@ -661,7 +661,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="A more granular claim typecode."/>
-        <valueSet value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types"/>
+        <valueSet value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"/>
       </binding>
       <mapping>
         <identity value="w5"/>
@@ -5144,7 +5144,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="A more granular claim typecode."/>
-        <valueSet value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types"/>
+        <valueSet value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"/>
       </binding>
       <mapping>
         <identity value="w5"/>

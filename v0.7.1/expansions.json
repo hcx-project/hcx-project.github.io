@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "17edb016-0c68-46fc-be34-5e70bc37147e",
+  "id" : "5bbdfd52-3442-4bd8-b15a-481a92dc7628",
   "meta" : {
-    "lastUpdated" : "2023-03-08T13:09:15.011+05:30"
+    "lastUpdated" : "2023-03-10T11:43:21.118+05:30"
   },
   "type" : "collection",
   "entry" : [{
@@ -5588,6 +5588,69 @@
     }
   },
   {
+    "fullUrl" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "hcx-claim-sub-types",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-EM\"> </a>\u00a0\u00a0EM</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Emergency</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-PL\"> </a>\u00a0\u00a0PL</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Planned</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-NC\"> </a>\u00a0\u00a0NC</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Natural Catastrophe</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-MA\"> </a>\u00a0\u00a0MA</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Maternity</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-UR\"> </a>\u00a0\u00a0UR</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Urgent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-EL\"> </a>\u00a0\u00a0EL</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Elective</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-NB\"> </a>\u00a0\u00a0NB</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Newborn</td></tr></table></div>"
+      },
+      "url" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types",
+      "version" : "0.7.1",
+      "name" : "HCXClaimSubTypes",
+      "status" : "draft",
+      "date" : "2023-03-06",
+      "publisher" : "HCX Open Community",
+      "contact" : [{
+        "name" : "HCX Open Community",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://hcxprotocol.io/"
+        }]
+      }],
+      "description" : "This is the value set listing the claim sub type codes, which may also be referred to as admission types in certain terminologies",
+      "expansion" : {
+        "timestamp" : "2023-03-06T08:15:30+05:30",
+        "contains" : [{
+          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types",
+          "code" : "EM",
+          "display" : "Emergency"
+        },
+        {
+          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types",
+          "code" : "PL",
+          "display" : "Planned"
+        },
+        {
+          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types",
+          "code" : "NC",
+          "display" : "Natural Catastrophe"
+        },
+        {
+          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types",
+          "code" : "MA",
+          "display" : "Maternity"
+        },
+        {
+          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types",
+          "code" : "UR",
+          "display" : "Urgent"
+        },
+        {
+          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types",
+          "code" : "EL",
+          "display" : "Elective"
+        },
+        {
+          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types",
+          "code" : "NB",
+          "display" : "Newborn"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "https://ig.hcxprotocol.io/v0.7.1/ValueSet-claim-error-codes.html",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -9092,69 +9155,6 @@
           "system" : "http://hcxprotocol.io/codes/claim-supporting-info-categories",
           "code" : "PoPr",
           "display" : "Proof of Presence"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "hcx-admission-types",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-EM\"> </a>\u00a0\u00a0EM</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td><td>Emergency</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-PL\"> </a>\u00a0\u00a0PL</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td><td>Planned</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-NC\"> </a>\u00a0\u00a0NC</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td><td>Natural Catastrophe</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-MA\"> </a>\u00a0\u00a0MA</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td><td>Maternity</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-UR\"> </a>\u00a0\u00a0UR</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td><td>Urgent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-EL\"> </a>\u00a0\u00a0EL</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td><td>Elective</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-NB\"> </a>\u00a0\u00a0NB</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td><td>Newborn</td></tr></table></div>"
-      },
-      "url" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types",
-      "version" : "0.7.1",
-      "name" : "HCXAdmissionTypes",
-      "status" : "draft",
-      "date" : "2023-03-06",
-      "publisher" : "HCX Open Community",
-      "contact" : [{
-        "name" : "HCX Open Community",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://hcxprotocol.io/"
-        }]
-      }],
-      "description" : "This is the value set listing the Admission type codes",
-      "expansion" : {
-        "timestamp" : "2023-03-06T08:15:30+05:30",
-        "contains" : [{
-          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types",
-          "code" : "EM",
-          "display" : "Emergency"
-        },
-        {
-          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types",
-          "code" : "PL",
-          "display" : "Planned"
-        },
-        {
-          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types",
-          "code" : "NC",
-          "display" : "Natural Catastrophe"
-        },
-        {
-          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types",
-          "code" : "MA",
-          "display" : "Maternity"
-        },
-        {
-          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types",
-          "code" : "UR",
-          "display" : "Urgent"
-        },
-        {
-          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types",
-          "code" : "EL",
-          "display" : "Elective"
-        },
-        {
-          "system" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types",
-          "code" : "NB",
-          "display" : "Newborn"
         }]
       }
     }

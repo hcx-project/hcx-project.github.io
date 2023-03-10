@@ -592,8 +592,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "A more granular claim typecode." ] ;
          fhir:valueSet [
-           fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types"^^xsd:anyURI ;
-           fhir:link <https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types>
+           fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"^^xsd:anyURI ;
+           fhir:link <https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types>
          ]
        ] ;
        fhir:mapping ( [
@@ -5321,8 +5321,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "A more granular claim typecode." ] ;
          fhir:valueSet [
-           fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types"^^xsd:anyURI ;
-           fhir:link <https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types>
+           fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"^^xsd:anyURI ;
+           fhir:link <https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types>
          ]
        ] ;
        fhir:mapping ( [

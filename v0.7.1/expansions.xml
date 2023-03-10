@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="17edb016-0c68-46fc-be34-5e70bc37147e"/>
+  <id value="5bbdfd52-3442-4bd8-b15a-481a92dc7628"/>
   <meta>
-    <lastUpdated value="2023-03-08T13:09:15.011+05:30"/>
+    <lastUpdated value="2023-03-10T11:43:21.118+05:30"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -13314,6 +13314,134 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"/>
+    <resource>
+      <ValueSet>
+        <id value="hcx-claim-sub-types"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-EM"> </a>  EM
+                </td>
+                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td>
+                <td>Emergency</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-PL"> </a>  PL
+                </td>
+                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td>
+                <td>Planned</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-NC"> </a>  NC
+                </td>
+                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td>
+                <td>Natural Catastrophe</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-MA"> </a>  MA
+                </td>
+                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td>
+                <td>Maternity</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-UR"> </a>  UR
+                </td>
+                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td>
+                <td>Urgent</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-EL"> </a>  EL
+                </td>
+                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td>
+                <td>Elective</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-NB"> </a>  NB
+                </td>
+                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td>
+                <td>Newborn</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"/>
+        <version value="0.7.1"/>
+        <name value="HCXClaimSubTypes"/>
+        <status value="draft"/>
+        <date value="2023-03-06"/>
+        <publisher value="HCX Open Community"/>
+        <contact>
+          <name value="HCX Open Community"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hcxprotocol.io/"/>
+          </telecom>
+        </contact>
+        <description value="This is the value set listing the claim sub type codes, which may also be referred to as admission types in certain terminologies"/>
+        <expansion>
+          <timestamp value="2023-03-06T08:15:30+05:30"/>
+          <contains>
+            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+            <code value="EM"/>
+            <display value="Emergency"/>
+          </contains>
+          <contains>
+            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+            <code value="PL"/>
+            <display value="Planned"/>
+          </contains>
+          <contains>
+            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+            <code value="NC"/>
+            <display value="Natural Catastrophe"/>
+          </contains>
+          <contains>
+            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+            <code value="MA"/>
+            <display value="Maternity"/>
+          </contains>
+          <contains>
+            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+            <code value="UR"/>
+            <display value="Urgent"/>
+          </contains>
+          <contains>
+            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+            <code value="EL"/>
+            <display value="Elective"/>
+          </contains>
+          <contains>
+            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+            <code value="NB"/>
+            <display value="Newborn"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="https://ig.hcxprotocol.io/v0.7.1/ValueSet-claim-error-codes.html"/>
     <resource>
       <ValueSet>
@@ -21600,134 +21728,6 @@ procedures</td>
             <system value="http://hcxprotocol.io/codes/claim-supporting-info-categories"/>
             <code value="PoPr"/>
             <display value="Proof of Presence"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types"/>
-    <resource>
-      <ValueSet>
-        <id value="hcx-admission-types"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 7 concepts</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-EM"> </a>  EM
-                </td>
-                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td>
-                <td>Emergency</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-PL"> </a>  PL
-                </td>
-                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td>
-                <td>Planned</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-NC"> </a>  NC
-                </td>
-                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td>
-                <td>Natural Catastrophe</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-MA"> </a>  MA
-                </td>
-                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td>
-                <td>Maternity</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-UR"> </a>  UR
-                </td>
-                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td>
-                <td>Urgent</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-EL"> </a>  EL
-                </td>
-                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td>
-                <td>Elective</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-admission-types-NB"> </a>  NB
-                </td>
-                <td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types</td>
-                <td>Newborn</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types"/>
-        <version value="0.7.1"/>
-        <name value="HCXAdmissionTypes"/>
-        <status value="draft"/>
-        <date value="2023-03-06"/>
-        <publisher value="HCX Open Community"/>
-        <contact>
-          <name value="HCX Open Community"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://hcxprotocol.io/"/>
-          </telecom>
-        </contact>
-        <description value="This is the value set listing the Admission type codes"/>
-        <expansion>
-          <timestamp value="2023-03-06T08:15:30+05:30"/>
-          <contains>
-            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types"/>
-            <code value="EM"/>
-            <display value="Emergency"/>
-          </contains>
-          <contains>
-            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types"/>
-            <code value="PL"/>
-            <display value="Planned"/>
-          </contains>
-          <contains>
-            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types"/>
-            <code value="NC"/>
-            <display value="Natural Catastrophe"/>
-          </contains>
-          <contains>
-            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types"/>
-            <code value="MA"/>
-            <display value="Maternity"/>
-          </contains>
-          <contains>
-            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types"/>
-            <code value="UR"/>
-            <display value="Urgent"/>
-          </contains>
-          <contains>
-            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types"/>
-            <code value="EL"/>
-            <display value="Elective"/>
-          </contains>
-          <contains>
-            <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-admission-types"/>
-            <code value="NB"/>
-            <display value="Newborn"/>
           </contains>
         </expansion>
       </ValueSet>

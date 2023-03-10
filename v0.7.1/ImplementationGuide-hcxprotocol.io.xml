@@ -850,16 +850,16 @@ These requirements were originally developed, balloted, and published in FHIR DS
       <exampleBoolean value="false"/>
     </resource>
     <resource>
-      <extension url="http://hl7.org/fhir/tools/ValueSet/hcx-admission-types">
+      <extension url="http://hl7.org/fhir/tools/ValueSet/hcx-claim-sub-types">
         <valueString value="SearchParameter"/>
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/hcx-admission-types"/>
+        <reference value="ValueSet/hcx-claim-sub-types"/>
       </reference>
-      <name value="HCX Admission Types"/>
+      <name value="HCX Claim Sub Types"/>
       <description value="**Search by subject - a patient**  &#xA;**NOTE**: This US Core SearchParameter definition extends the usage context of the&#xA;[Conformance expectation extension](http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html)&#xA; - multipleAnd&#xA; - multipleOr&#xA; - comparator&#xA; - modifier&#xA; - chain"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1282,9 +1282,9 @@ These requirements were originally developed, balloted, and published in FHIR DS
         </page>
         <page>
           <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-            <valueUrl value="ValueSet-hcx-admission-types.html"/>
+            <valueUrl value="ValueSet-hcx-claim-sub-types.html"/>
           </extension>
-          <nameUrl value="ValueSet-hcx-admission-types.html"/>
+          <nameUrl value="ValueSet-hcx-claim-sub-types.html"/>
           <title value="HCX Admission Types"/>
           <generation value="generated"/>
         </page>

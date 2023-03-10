@@ -259,11 +259,11 @@
     "name" : "ProofOfPresenceCodes"
   },
   {
-    "id" : "hcx-admission-types",
+    "id" : "hcx-claim-sub-types",
     "type" : "ValueSet",
-    "url" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types",
+    "url" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types",
     "version" : "0.7.1",
-    "name" : "HCXAdmissionTypes"
+    "name" : "HCXClaimSubTypes"
   },
   {
     "id" : "hcx-procedure-categories",

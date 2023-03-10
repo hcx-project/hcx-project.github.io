@@ -2,8 +2,8 @@
 =========================================
 
 err = 461, warn = 75, info = 41
-IG Publisher Version: 1.2.40
-Generated Wed Mar 08 13:13:10 IST 2023. FHIR version 4.0.1 for hcxprotocol.io#0.7.1 (canonical = https://hcxprotocol.io/fhir/r4)
+IG Publisher Version: 1.2.40 Out of date - current version is 1.2.41
+Generated Fri Mar 10 11:47:11 IST 2023. FHIR version 4.0.1 for hcxprotocol.io#0.7.1 (canonical = https://hcxprotocol.io/fhir/r4)
  Build Errors : 851 / 9 / 0
  /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/examples/Bundle-ClaimRequestDocument-example-01 : 11 / 1 / 10
  /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/examples/Bundle-ClaimResponseDocument-example-01 : 8 / 7 / 11
@@ -45,7 +45,7 @@ Generated Wed Mar 08 13:13:10 IST 2023. FHIR version 4.0.1 for hcxprotocol.io#0.
  /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-claim-supporting-info-categories : 2 / 2 / 1
  /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-claim-supporting-info-codes : 2 / 2 / 1
  /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-clinical-diagnostics-document-codes : 2 / 2 / 1
- /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-hcx-admission-types : 2 / 2 / 1
+ /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-hcx-claim-sub-types : 2 / 2 / 1
  /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-hcx-procedure-categories : 2 / 2 / 1
  /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-informational-messages-codes : 2 / 2 / 1
  /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-medical-speciality-type-provider : 2 / 2 / 1
@@ -165,9 +165,9 @@ ERROR: ToC: The ToC contains the page StructureDefinition-Task-mappings.html mor
 ERROR: ToC: The ToC contains the page ValueSet-claim-denial-codes.xml.html more than once
 ERROR: ToC: The ToC contains the page ValueSet-claim-denial-codes.json.html more than once
 ERROR: ToC: The ToC contains the page ValueSet-claim-denial-codes.ttl.html more than once
-ERROR: ToC: The ToC contains the page ValueSet-hcx-admission-types.xml.html more than once
-ERROR: ToC: The ToC contains the page ValueSet-hcx-admission-types.json.html more than once
-ERROR: ToC: The ToC contains the page ValueSet-hcx-admission-types.ttl.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-hcx-claim-sub-types.xml.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-hcx-claim-sub-types.json.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-hcx-claim-sub-types.ttl.html more than once
 ERROR: ToC: The ToC contains the page ValueSet-hcx-procedure-categories.xml.html more than once
 ERROR: ToC: The ToC contains the page ValueSet-hcx-procedure-categories.json.html more than once
 ERROR: ToC: The ToC contains the page ValueSet-hcx-procedure-categories.ttl.html more than once
@@ -280,8 +280,8 @@ ERROR: ToC: The ToC contains the page ValueSet-medical-speciality-type-provider.
 ERROR: ToC: The ToC contains the page ValueSet-medical-speciality-type-provider-testing.html more than once
 ERROR: ToC: The ToC contains the page ValueSet-claim-denial-codes.html more than once
 ERROR: ToC: The ToC contains the page ValueSet-claim-denial-codes-testing.html more than once
-ERROR: ToC: The ToC contains the page ValueSet-hcx-admission-types.html more than once
-ERROR: ToC: The ToC contains the page ValueSet-hcx-admission-types-testing.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-hcx-claim-sub-types.html more than once
+ERROR: ToC: The ToC contains the page ValueSet-hcx-claim-sub-types-testing.html more than once
 ERROR: ToC: The ToC contains the page ValueSet-hcx-procedure-categories.html more than once
 ERROR: ToC: The ToC contains the page ValueSet-hcx-procedure-categories-testing.html more than once
 ERROR: ToC: The ToC contains the page ValueSet-claim-service-categories.html more than once
@@ -1224,11 +1224,11 @@ ERROR: ValueSet.where(url = 'https://ig.hcxprotocol.io/v0.7.1/ValueSet-clinical-
 WARNING: ValueSet/clinical-diagnostics-document-codes: ValueSet: The ShareableValueSet profile says that the title element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 WARNING: ValueSet/clinical-diagnostics-document-codes: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
 ERROR: /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-clinical-diagnostics-document-codes: URL Mismatch https://hcxprotocol.io/fhir/r4/ValueSet/clinical-diagnostics-document-codes vs https://ig.hcxprotocol.io/v0.7.1/ValueSet-clinical-diagnostics-document-codes.html
-== input/hcx-definitions/ValueSet-hcx-admission-types.json ==
-ERROR: ValueSet.where(url = 'https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types'): Conformance resource /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-hcx-admission-types.json - the canonical URL (https://hcxprotocol.io/fhir/r4/ValueSet/hcx-admission-types) does not match the URL (https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types)
-WARNING: ValueSet/hcx-admission-types: ValueSet: The ShareableValueSet profile says that the title element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-WARNING: ValueSet/hcx-admission-types: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-ERROR: /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-hcx-admission-types: URL Mismatch https://hcxprotocol.io/fhir/r4/ValueSet/hcx-admission-types vs https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types
+== input/hcx-definitions/ValueSet-hcx-claim-sub-types.json ==
+ERROR: ValueSet.where(url = 'https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types'): Conformance resource /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-hcx-claim-sub-types.json - the canonical URL (https://hcxprotocol.io/fhir/r4/ValueSet/hcx-claim-sub-types) does not match the URL (https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types)
+WARNING: ValueSet/hcx-claim-sub-types: ValueSet: The ShareableValueSet profile says that the title element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+WARNING: ValueSet/hcx-claim-sub-types: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
+ERROR: /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-hcx-claim-sub-types: URL Mismatch https://hcxprotocol.io/fhir/r4/ValueSet/hcx-claim-sub-types vs https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types
 == input/hcx-definitions/ValueSet-hcx-procedure-categories.json ==
 ERROR: ValueSet.where(url = 'https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-procedure-categories'): Conformance resource /Users/rayulu/Work/Swasth/repository/standards/IG-Publisher/input/hcx-definitions/ValueSet-hcx-procedure-categories.json - the canonical URL (https://hcxprotocol.io/fhir/r4/ValueSet/hcx-procedure-categories) does not match the URL (https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-procedure-categories)
 WARNING: ValueSet/hcx-procedure-categories: ValueSet: The ShareableValueSet profile says that the title element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile

@@ -554,7 +554,7 @@
         }],
         "strength" : "example",
         "description" : "A more granular claim typecode.",
-        "valueSet" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types"
+        "valueSet" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -4939,7 +4939,7 @@
         }],
         "strength" : "example",
         "description" : "A more granular claim typecode.",
-        "valueSet" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-admission-types"
+        "valueSet" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"
       },
       "mapping" : [{
         "identity" : "w5",
