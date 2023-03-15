@@ -1,0 +1,275 @@
+[
+  {
+    "id" : "hcxprotocol.io",
+    "type" : "ImplementationGuide",
+    "url" : "https://hcxprotocol.io/fhir/r4/ImplementationGuide/hcxprotocol.io",
+    "version" : "0.8.0",
+    "name" : "HCXFHIRImplementationGuide"
+  },
+  {
+    "id" : "Claim",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-Claim.html",
+    "version" : "0.8.0",
+    "name" : "Claim"
+  },
+  {
+    "id" : "ClaimRequestBundle",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-ClaimRequestBundle.html",
+    "version" : "0.8.0",
+    "name" : "ClaimRequestBundle"
+  },
+  {
+    "id" : "ClaimResponse",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-ClaimResponse.html",
+    "version" : "0.8.0",
+    "name" : "ClaimResponse"
+  },
+  {
+    "id" : "ClaimResponseBundle",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-ClaimResponseBundle.html",
+    "version" : "0.8.0",
+    "name" : "ClaimResponseBundle"
+  },
+  {
+    "id" : "Communication",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-Communication.html",
+    "version" : "0.8.0",
+    "name" : "Communication"
+  },
+  {
+    "id" : "CommunicationBundle",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-CommunicationBundle.html",
+    "version" : "0.8.0",
+    "name" : "CommunicationBundle"
+  },
+  {
+    "id" : "CommunicationRequest",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-CommunicationRequest.html",
+    "version" : "0.8.0",
+    "name" : "CommunicationRequest"
+  },
+  {
+    "id" : "Coverage",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-Coverage.html",
+    "version" : "0.8.0",
+    "name" : "Coverage"
+  },
+  {
+    "id" : "CoverageEligibilityRequest",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-CoverageEligibilityRequest.html",
+    "version" : "0.8.0",
+    "name" : "CoverageEligibilityRequest"
+  },
+  {
+    "id" : "CoverageEligibilityRequestBundle",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-CoverageEligibilityRequestBundle.html",
+    "version" : "0.8.0",
+    "name" : "CovereageEligibilityRequestBundle"
+  },
+  {
+    "id" : "CoverageEligibilityResponse",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-CoverageEligibilityResponse.html",
+    "version" : "0.8.0",
+    "name" : "CoverageEligibilityResponse"
+  },
+  {
+    "id" : "CoverageEligibilityResponseBundle",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-CoverageEligibilityResponseBundle.html",
+    "version" : "0.8.0",
+    "name" : "CoverageEligibilityResponseBundle"
+  },
+  {
+    "id" : "HCXDiagnosticDocumentsExtension",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXDiagnosticDocumentsExtension.html",
+    "version" : "0.8.0",
+    "name" : "HCXDiagnosticDocumentsExtension"
+  },
+  {
+    "id" : "HCXInformationalMessagesExtension",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXInformationalMessagesExtension.html",
+    "version" : "0.8.0",
+    "name" : "HCXInformationalMessagesExtension"
+  },
+  {
+    "id" : "HCXInsurancePlan",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXInsurancePlan.html",
+    "version" : "0.8.0",
+    "name" : "HCXInsurancePlan"
+  },
+  {
+    "id" : "HCXProofOfIdentificationExtension",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXProofOfIdentificationExtension.html",
+    "version" : "0.8.0",
+    "name" : "HCXProofOfIdentificationExtension"
+  },
+  {
+    "id" : "HCXProofOfPresenceExtension",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXProofOfPresenceExtension.html",
+    "version" : "0.8.0",
+    "name" : "HCXProofOfPresenceExtension"
+  },
+  {
+    "id" : "HCXQuestionnairesExtension",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXQuestionnairesExtension.html",
+    "version" : "0.8.0",
+    "name" : "HCXQuestionnairesExtension"
+  },
+  {
+    "id" : "HCXSignatureExtension",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXSignatureExtension.html",
+    "version" : "0.8.0",
+    "name" : "HCXSignatureExtension"
+  },
+  {
+    "id" : "PaymentNotice",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-PaymentNotice.html",
+    "version" : "0.8.0",
+    "name" : "PaymentNotice"
+  },
+  {
+    "id" : "PaymentReconciliation",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-PaymentReconciliation.html",
+    "version" : "0.8.0",
+    "name" : "PaymentReconciliation"
+  },
+  {
+    "id" : "Task",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-Task.html",
+    "version" : "0.8.0",
+    "name" : "Task"
+  },
+  {
+    "id" : "organization-extension",
+    "type" : "StructureDefinition",
+    "url" : "https://ig.hcxprotocol.io/v0.8/StructureDefinition-organization-extension.html",
+    "version" : "0.8.0",
+    "name" : "HCX Organization Extension"
+  },
+  {
+    "id" : "billing-subgroup-categories",
+    "type" : "ValueSet",
+    "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-billing-subgroup-categories.html",
+    "version" : "0.8.0",
+    "name" : "BillingSubgroupCategories"
+  },
+  {
+    "id" : "claim-denial-codes",
+    "type" : "ValueSet",
+    "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-claim-denial-codes.html",
+    "version" : "0.8.0",
+    "name" : "ClaimDenialCodes"
+  },
+  {
+    "id" : "claim-error-codes",
+    "type" : "ValueSet",
+    "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-claim-error-codes.html",
+    "version" : "0.8.0",
+    "name" : "ClaimErrorCodes"
+  },
+  {
+    "id" : "claim-service-categories",
+    "type" : "ValueSet",
+    "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-claim-service-categories.html",
+    "version" : "0.8.0",
+    "name" : "ClaimServiceCategories"
+  },
+  {
+    "id" : "claim-service-codes",
+    "type" : "ValueSet",
+    "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-claim-service-codes.html",
+    "version" : "0.8.0",
+    "name" : "ClaimServiceCodes"
+  },
+  {
+    "id" : "claim-supporting-info-categories",
+    "type" : "ValueSet",
+    "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-claim-supporting-info-categories.html",
+    "version" : "0.8.0",
+    "name" : "ClaimSupportingInfoCategories"
+  },
+  {
+    "id" : "claim-supporting-info-codes",
+    "type" : "ValueSet",
+    "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-claim-supporting-info-codes.html",
+    "version" : "0.8.0",
+    "name" : "ClaimSupportingInfoCodes"
+  },
+  {
+    "id" : "clinical-diagnostics-document-codes",
+    "type" : "ValueSet",
+    "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-clinical-diagnostics-document-codes.html",
+    "version" : "0.8.0",
+    "name" : "ClinicalDiagnosticsDocumentCodes"
+  },
+  {
+    "id" : "informational-messages-codes",
+    "type" : "ValueSet",
+    "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-informational-messages-codes.html",
+    "version" : "0.8.0",
+    "name" : "InformationalMessagesCodes"
+  },
+  {
+    "id" : "medical-speciality-type-provider",
+    "type" : "ValueSet",
+    "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-medical-speciality-type-provider.html",
+    "version" : "0.8.0",
+    "name" : "MedicalSpecialityTypeProvider"
+  },
+  {
+    "id" : "procedure-type-description",
+    "type" : "ValueSet",
+    "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-procedure-type-description.html",
+    "version" : "0.8.0",
+    "name" : "ProcedureTypeDescriptions"
+  },
+  {
+    "id" : "proof-of-identity-codes",
+    "type" : "ValueSet",
+    "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-proof-of-identity-codes.html",
+    "version" : "0.8.0",
+    "name" : "ProofOfIdentityCodes"
+  },
+  {
+    "id" : "proof-of-presence-codes",
+    "type" : "ValueSet",
+    "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-proof-of-presence-codes.html",
+    "version" : "0.8.0",
+    "name" : "ProofOfPresenceCodes"
+  },
+  {
+    "id" : "hcx-claim-sub-types",
+    "type" : "ValueSet",
+    "url" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types",
+    "version" : "0.8.0",
+    "name" : "HCXClaimSubTypes"
+  },
+  {
+    "id" : "hcx-procedure-categories",
+    "type" : "ValueSet",
+    "url" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-procedure-categories",
+    "version" : "0.8.0",
+    "name" : "HCXProcedureCategories"
+  }
+]

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HCXPROTOCOL.IO\HCX Medical Speciality Provider - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"5.25"}
+    h3,h4,h5,h6{--heading-prefix:"5.25"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+  <a id="family-logo" no-external="true"><img height="50" alt="HCX Protocol"
+      src="assets/images/HCX_logo-final-2.png" />
+  </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:25pt;font-weight:bold">FHIR Implementation Guide for HCX</span><br/>0.8.0 - CI Build</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+<a href="index.html">Home</a>
+</li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artifacts<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="profiles.html">Profiles</a>
+      </li>
+      <li>
+        <a href="valuesets.html">Value Sets</a>
+      </li>
+    </ul>
+  </li>
+<li>
+  <a href="downloads.html">Downloads</a>
+</li>
+</ul>      
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>HCX Medical Speciality Provider</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">FHIR Implementation Guide for HCX - Local Development build (v0.8.0). See the <a href="https://hcxprotocol.io/fhir/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+  
+    <li>
+      <a href="ValueSet-medical-speciality-type-provider.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-medical-speciality-type-provider.json.html">JSON</a>
+    </li>
+  
+
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: HCX Medical Speciality Provider</h2>
+  <p>
+    <b>Summary</b>
+  </p>
+  <table class="grid">
+<tbody>
+<tr><td>Defining URL:</td><td>https://ig.hcxprotocol.io/v0.8/ValueSet-medical-speciality-type-provider.html</td></tr>
+ <tr><td>Version:</td><td>0.8.0</td></tr>
+ <tr><td>Name:</td><td>MedicalSpecialityTypeProvider</td></tr>
+ <tr><td>Status:</td><td>Active as of 2021-09-07</td></tr>
+ <tr><td>Definition:</td><td><p>This is the value set that includes the codes to identify the medical specialty provider</p>
+</td></tr>
+ <tr><td>Publisher:</td><td>HCX Open Community</td></tr>
+ <tr><td>Source Resource:</td><td><a href="ValueSet-medical-speciality-type-provider.xml.html">XML</a> / <a href="ValueSet-medical-speciality-type-provider.json.html">JSON</a> / <a href="ValueSet-medical-speciality-type-provider.ttl.html">Turtle</a></td></tr>
+</tbody></table>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<ul>
+ <li><a href="StructureDefinition-Claim.html">Claim</a></li>
+</ul>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<p>No formal definition provided for this ValueSet</p>
+
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 86 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-general-medicine"> </a>  general_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>General Medicine</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-dental-surgery"> </a>  dental_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Dental surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-nursing"> </a>  nursing</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Nursing</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-pharmacy"> </a>  pharmacy</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Pharmacy</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-nursing-midwifery"> </a>  nursing_midwifery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Nursing Midwifery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-military-surgeons"> </a>  military_surgeons</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Military surgeons</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-cardio-thoracic-and-vascular-surgery"> </a>  cardio_thoracic_and_vascular_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Cardio Thoracic and Vascular Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-cardiology"> </a>  cardiology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Cardiology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-allergy"> </a>  allergy</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Allergy</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-chest-medicine"> </a>  chest_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Chest Medicine</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-clinical-psychology"> </a>  clinical_psychology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Clinical Psychology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-cosmetic-dentistry"> </a>  cosmetic_dentistry</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Cosmetic Dentistry</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-cosmetic-surgery"> </a>  cosmetic_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Cosmetic Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-endodontics"> </a>  endodontics</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Endodontics</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-ent"> </a>  ent</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>ENT</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-critical-care"> </a>  critical_care</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Critical Care</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-dental-implants-and-cosmetic-dentistry"> </a>  dental_implants_and_cosmetic_dentistry</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Dental Implants &amp; Cosmetic Dentistry</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-dermatology-venereology-and-leprology"> </a>  dermatology_venereology_and_leprology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Dermatology Venereology and Leprology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-dermatology"> </a>  dermatology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Dermatology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-facial-plastic-surgery"> </a>  facial_plastic_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Facial Plastic Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-diabetology"> </a>  diabetology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Diabetology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-endocrinology"> </a>  endocrinology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Endocrinology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-diet-and-nutrition"> </a>  diet_and_nutrition</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Diet and Nutrition</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-diabetology-and-internal-medicine"> </a>  diabetology_and_internal_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Diabetology &amp; Internal Medicine</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-gastrosurgery"> </a>  gastrosurgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Gastrosurgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-gastroenterology"> </a>  gastroenterology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Gastroenterology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-general-surgery"> </a>  general_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>General Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-general-surgery-and-laparoscopic-surgery"> </a>  general_surgery_and_laparoscopic_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>General Surgery &amp; Laparoscopic Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-gynecology-and-ultrasonology"> </a>  gynecology_and_ultrasonology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Gynecology &amp; Ultrasonology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-head-and-neck-surgery"> </a>  head_and_neck_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Head &amp; Neck Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-head-and-neck-surgical-oncology"> </a>  head_and_neck_surgical_oncology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Head &amp; Neck Surgical Oncology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-hepato-pancreato-biliary-surgery"> </a>  hepato_pancreato_biliary_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Hepato Pancreato Biliary Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-infectious-disease-medicine"> </a>  infectious_disease_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Infectious Disease medicine</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-internal-medicine"> </a>  internal_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Internal Medicine</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-neuro-surgery"> </a>  neuro_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Neuro Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-resident-physicians"> </a>  resident_physicians</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Resident Physicians</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-respiratory-allergy-and-sleep-medicine"> </a>  respiratory_allergy_and_sleep_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Respiratory Allergy And Sleep Medicine</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-rheumatology"> </a>  rheumatology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Rheumatology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-sexual-medicine"> </a>  sexual_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Sexual Medicine</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-spine-surgery"> </a>  spine_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Spine Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-sports-medicine"> </a>  sports_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Sports Medicine</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-surgical-gastroenterology"> </a>  surgical_gastroenterology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Surgical Gastroenterology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-surgical-oncology"> </a>  surgical_oncology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Surgical Oncology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-urology"> </a>  urology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Urology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-physiotherapy"> </a>  physiotherapy</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Physiotherapy</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-physiotherapy-and-rehabilitation"> </a>  physiotherapy_and_rehabilitation</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Physiotherapy &amp; Rehabilitation</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-plastic-and-cosmetic-surgery"> </a>  plastic_and_cosmetic_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Plastic and Cosmetic Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-plastic-surgery"> </a>  plastic_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Plastic Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-podiatry"> </a>  podiatry</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Podiatry</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-prosthodontics-and-implants"> </a>  prosthodontics_and_implants</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Prosthodontics &amp; Implants</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-psychiatry"> </a>  psychiatry</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Psychiatry</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-pulmonology"> </a>  pulmonology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Pulmonology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-radiation-oncology"> </a>  radiation_oncology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Radiation Oncology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-radiology"> </a>  radiology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Radiology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-laparoscopic-and-robotic-surgery"> </a>  laparoscopic_and_robotic_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Laparoscopic and Robotic Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-medical-gastroenterology"> </a>  medical_gastroenterology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Medical Gastroenterology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-medical-oncology"> </a>  medical_oncology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Medical Oncology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-nephrology"> </a>  nephrology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Nephrology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-neurology"> </a>  neurology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Neurology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-neurology-and-neuro-surgery"> </a>  neurology_and_neuro_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Neurology &amp; Neuro Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-neuropsychiatry"> </a>  neuropsychiatry</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Neuropsychiatry</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-obstetrics-and-gynecology"> </a>  obstetrics_and_gynecology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Obstetrics &amp; Gynecology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-oncology"> </a>  oncology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Oncology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-ophthalmology"> </a>  ophthalmology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Ophthalmology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-oral-and-maxillofacial-surgery"> </a>  oral_and_maxillofacial_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Oral &amp; Maxillofacial Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-ortho-dontia"> </a>  ortho_dontia</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Ortho Dontia</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-orthopedic-surgeon"> </a>  orthopedic_surgeon</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Orthopedic Surgeon</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-orthopedics"> </a>  orthopedics</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Orthopedics</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-orthopedics-and-sports-medicine"> </a>  orthopedics_and_sports_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Orthopedics &amp; Sports Medicine</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-orthopedics-and-spine-surgery"> </a>  orthopedics_and_spine_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Orthopedics And Spine Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-orthopedics-and-upper-limb-surgery"> </a>  orthopedics_and_upper_limb_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Orthopedics And Upper Limb Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-pediatric-endocrinology"> </a>  pediatric_endocrinology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Pediatric Endocrinology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-pediatric-ophthalmology-and-squint"> </a>  pediatric_ophthalmology_and_squint</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Pediatric Ophthalmology And Squint</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-paediatrics"> </a>  paediatrics</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Paediatrics</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-paediatrics-and-neonatology"> </a>  paediatrics_and_neonatology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Paediatrics &amp; Neonatology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-paediatrics-nephrology"> </a>  paediatrics_nephrology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Paediatrics - Nephrology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-paediatrics-neurology"> </a>  paediatrics_neurology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Paediatrics - Neurology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-paediatrics-surgery"> </a>  paediatrics_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Paediatrics - Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-pathology"> </a>  pathology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Pathology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-peadodontology-child-dentistry"> </a>  peadodontology_child_dentistry</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Peadodontology (Child Dentistry)</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-pediatric-pulmonology"> </a>  pediatric_pulmonology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Pediatric Pulmonology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-periodontia"> </a>  periodontia</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Periodontia</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-periodontology-and-implantology"> </a>  periodontology_and_implantology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Periodontology and Implantology</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-peripheral-vascular-surgery"> </a>  peripheral_vascular_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Peripheral Vascular Surgery</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-physical-medicine-and-rehabilitation"> </a>  physical_medicine_and_rehabilitation</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Physical Medicine &amp; Rehabilitation</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-medical-specility-type-provider-physician-and-diabetology"> </a>  physician_and_diabetology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Physician &amp; Diabetology</td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>Source</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hcxprotocol.io/">HCX Open Community</a>.  Package hcxprotocol.io#0.8.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Mar 15, 2023 18:48+0530">2023-03-15</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

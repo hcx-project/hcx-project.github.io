@@ -1,0 +1,185 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "procedure-type-description",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 32 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-1\"> </a>\u00a0\u00a01</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Administrative procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-2\"> </a>\u00a0\u00a02</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Blood bank procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-3\"> </a>\u00a0\u00a03</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Community health procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-4\"> </a>\u00a0\u00a04</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Determination of information related to transfusion (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-5\"> </a>\u00a0\u00a05</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Environmental care procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-6\"> </a>\u00a0\u00a06</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>General treatment (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-7\"> </a>\u00a0\u00a07</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Laboratory procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-8\"> </a>\u00a0\u00a08</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Nuclear medicine procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-9\"> </a>\u00a0\u00a09</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Obstetric procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-10\"> </a>\u00a0\u00a010</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Outpatient procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-11\"> </a>\u00a0\u00a011</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Patient encounter procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-12\"> </a>\u00a0\u00a012</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Postoperative procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-13\"> </a>\u00a0\u00a013</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Preoperative procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-14\"> </a>\u00a0\u00a014</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure by intent (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-15\"> </a>\u00a0\u00a015</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure by method (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-16\"> </a>\u00a0\u00a016</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure by priority (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-17\"> </a>\u00a0\u00a017</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure by site (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-18\"> </a>\u00a0\u00a018</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure categorized by device involved (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-19\"> </a>\u00a0\u00a019</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure in coronary care unit (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-20\"> </a>\u00a0\u00a020</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure on ganglion cyst (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-21\"> </a>\u00a0\u00a021</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure on wound (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-22\"> </a>\u00a0\u00a022</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure related to anesthesia and sedation (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-23\"> </a>\u00a0\u00a023</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure related to breastfeeding (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-24\"> </a>\u00a0\u00a024</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure with a clinical finding focus (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-25\"> </a>\u00a0\u00a025</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure with a procedure focus (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-26\"> </a>\u00a0\u00a026</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedures relating to eating and drinking (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-27\"> </a>\u00a0\u00a027</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedures relating to mobility (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-28\"> </a>\u00a0\u00a028</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Promotion (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-29\"> </a>\u00a0\u00a029</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Provider-specific procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-30\"> </a>\u00a0\u00a030</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Regimes and therapies (regime/therapy)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-31\"> </a>\u00a0\u00a031</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Social service procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-32\"> </a>\u00a0\u00a032</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Staff related procedure (procedure)</td></tr></table></div>"
+  },
+  "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-procedure-type-description.html",
+  "version" : "0.8.0",
+  "name" : "ProcedureTypeDescriptions",
+  "status" : "active",
+  "date" : "2021-09-07",
+  "publisher" : "HCX Open Community",
+  "contact" : [{
+    "name" : "HCX Open Community",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hcxprotocol.io/"
+    }]
+  }],
+  "description" : "This value set includes sample procedure codes. Depending on the context, other codes like ICD-10 procedure codes or HBP procedure codes (NHA) may need to be used.",
+  "expansion" : {
+    "timestamp" : "2021-09-07T08:15:30+05:30",
+    "contains" : [{
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "1",
+      "display" : "Administrative procedure (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "2",
+      "display" : "Blood bank procedure (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "3",
+      "display" : "Community health procedure (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "4",
+      "display" : "Determination of information related to transfusion (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "5",
+      "display" : "Environmental care procedure (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "6",
+      "display" : "General treatment (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "7",
+      "display" : "Laboratory procedure (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "8",
+      "display" : "Nuclear medicine procedure (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "9",
+      "display" : "Obstetric procedure (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "10",
+      "display" : "Outpatient procedure (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "11",
+      "display" : "Patient encounter procedure (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "12",
+      "display" : "Postoperative procedure (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "13",
+      "display" : "Preoperative procedure (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "14",
+      "display" : "Procedure by intent (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "15",
+      "display" : "Procedure by method (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "16",
+      "display" : "Procedure by priority (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "17",
+      "display" : "Procedure by site (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "18",
+      "display" : "Procedure categorized by device involved (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "19",
+      "display" : "Procedure in coronary care unit (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "20",
+      "display" : "Procedure on ganglion cyst (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "21",
+      "display" : "Procedure on wound (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "22",
+      "display" : "Procedure related to anesthesia and sedation (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "23",
+      "display" : "Procedure related to breastfeeding (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "24",
+      "display" : "Procedure with a clinical finding focus (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "25",
+      "display" : "Procedure with a procedure focus (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "26",
+      "display" : "Procedures relating to eating and drinking (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "27",
+      "display" : "Procedures relating to mobility (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "28",
+      "display" : "Promotion (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "29",
+      "display" : "Provider-specific procedure (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "30",
+      "display" : "Regimes and therapies (regime/therapy)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "31",
+      "display" : "Social service procedure (procedure)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/procedure-type-description",
+      "code" : "32",
+      "display" : "Staff related procedure (procedure)"
+    }]
+  }
+}

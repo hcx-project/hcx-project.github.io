@@ -1,0 +1,80 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/CoverageEligibilityRequest/example-01> a fhir:CoverageEligibilityRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-01"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"> Admitted to Cardiac Unit,UVW Hospital between June 28 and July 9 2020</div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://www.tmh.in/coverage-eligibility-request"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "dc82673b-8c71-48c2-8a17-16dcb3b035f6" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:priority [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/processpriority"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "normal" ]
+     ] )
+  ] ; # 
+  fhir:purpose ( [ fhir:v "discovery"] ) ; # 
+  fhir:patient [
+     fhir:id [ fhir:v "RVH1003" ] ;
+     fhir:identifier [
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "SN" ] ;
+           fhir:display [ fhir:v "Subscriber Number" ]
+         ] )
+       ] ;
+       fhir:system [ fhir:v "http://gicofIndia.com/beneficiaries"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "BEN-101" ]
+     ]
+  ] ; # 
+  fhir:serviced [
+     a fhir:Period ;
+     fhir:start [ fhir:v "2022-02-07T21:49:56+05:30"^^xsd:dateTime ] ;
+     fhir:end [ fhir:v "2022-02-09T21:49:56+05:30"^^xsd:dateTime ]
+  ] ; # 
+  fhir:created [ fhir:v "2022-02-08T21:49:56+05:30"^^xsd:dateTime] ; # 
+  fhir:enterer [
+     fhir:id [ fhir:v "NPR-6897" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "https://ndhm.gov.in/npr"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "NPR-6897" ]
+     ]
+  ] ; # 
+  fhir:provider [
+     fhir:id [ fhir:v "Tmh01" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "http://abdm.gov.in/facilities"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "HFR-ID-FOR-TMH" ]
+     ]
+  ] ; # 
+  fhir:insurer [
+     fhir:id [ fhir:v "GICOFINDIA" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "http://irdai.gov.in/insurers"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "112" ]
+     ]
+  ] ; # 
+  fhir:insurance ( [
+     fhir:focal [ fhir:v "true"^^xsd:boolean ] ;
+     fhir:coverage [
+       fhir:id [ fhir:v "dadde132-ad64-4d18-8c18-1d52d7e86abc" ] ;
+       fhir:identifier [
+         fhir:system [ fhir:v "https://www.gicofIndia.in/policies"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "policy-RVH1003" ]
+       ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,596 @@
+{
+  "package": "hcxprotocol.io",
+  "version": "0.8.0",
+  "fhirVersion": "4.0.1",
+  "extensions": [
+    {
+      "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXDiagnosticDocumentsExtension.html",
+      "title": "HCX Diagnostic Documents Extension",
+      "types": [
+        "CodeableConcept",
+        "boolean",
+        "code",
+        "code",
+        "url",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXInformationalMessagesExtension.html",
+      "title": "HCX Informational Messages Extension",
+      "types": [
+        "CodeableConcept",
+        "string",
+        "code",
+        "code",
+        "url",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXProofOfIdentificationExtension.html",
+      "title": "HCX Proof Of Identification Extension",
+      "types": [
+        "CodeableConcept",
+        "boolean",
+        "code",
+        "code",
+        "url",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXProofOfPresenceExtension.html",
+      "title": "HCX Proof Of Presence Extension",
+      "types": [
+        "CodeableConcept",
+        "boolean",
+        "code",
+        "code",
+        "url",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXQuestionnairesExtension.html",
+      "title": "HCX Questionnaires Extension",
+      "types": [
+        "Reference",
+        "boolean",
+        "code",
+        "url",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXSignatureExtension.html",
+      "title": "HCXSignatureExtension",
+      "types": [
+        "Signature"
+      ]
+    },
+    {
+      "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-organization-extension.html",
+      "title": "HCX Organization Extension",
+      "types": [
+        "Reference"
+      ]
+    }
+  ],
+  "profiles": {
+    "Claim": [
+      {
+        "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-Claim.html",
+        "title": "Claim"
+      }
+    ],
+    "Bundle": [
+      {
+        "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-CoverageEligibilityResponseBundle.html",
+        "title": "Covereage Eligibility Response Bundle"
+      }
+    ],
+    "ClaimResponse": [
+      {
+        "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-ClaimResponse.html",
+        "title": "ClaimResponse"
+      }
+    ],
+    "Communication": [
+      {
+        "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-Communication.html",
+        "title": "Communication"
+      }
+    ],
+    "CommunicationRequest": [
+      {
+        "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-CommunicationRequest.html",
+        "title": "CommunicationRequest"
+      }
+    ],
+    "Coverage": [
+      {
+        "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-Coverage.html",
+        "title": "Coverage"
+      }
+    ],
+    "CoverageEligibilityRequest": [
+      {
+        "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-CoverageEligibilityRequest.html",
+        "title": "CoverageEligibilityRequest"
+      }
+    ],
+    "CoverageEligibilityResponse": [
+      {
+        "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-CoverageEligibilityResponse.html",
+        "title": "CoverageEligibilityResponse"
+      }
+    ],
+    "InsurancePlan": [
+      {
+        "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXInsurancePlan.html",
+        "title": "HCXInsurancePlan"
+      }
+    ],
+    "PaymentNotice": [
+      {
+        "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-PaymentNotice.html",
+        "title": "PaymentNotice"
+      }
+    ],
+    "PaymentReconciliation": [
+      {
+        "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-PaymentReconciliation.html",
+        "title": "PaymentReconciliation"
+      }
+    ],
+    "Task": [
+      {
+        "url": "https://ig.hcxprotocol.io/v0.8/StructureDefinition-Task.html",
+        "title": "Task"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.differential.element.binding",
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
+      "StructureDefinition.differential.element.binding",
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.differential.element",
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition",
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/Claim": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ClaimRequestBundle": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ClaimResponse": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ClaimResponseBundle": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/Communication": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/CommunicationBundle": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/CommunicationRequest": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/Coverage": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/CoverageEligibilityRequest": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/CoverageEligibilityRequestBundle": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/CoverageEligibilityResponse": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/CoverageEligibilityResponseBundle": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/HCXDiagnosticDocumentsExtension": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/HCXInformationalMessagesExtension": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/HCXInsurancePlan": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/HCXProofOfIdentificationExtension": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/HCXProofOfPresenceExtension": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/HCXQuestionnairesExtension": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/HCXSignatureExtension": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/PaymentNotice": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/PaymentReconciliation": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/Task": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page",
+      "ImplementationGuide.definition.page.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/billing-subgroup-categories": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/claim-denial-codes": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/claim-error-codes": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/claim-service-categories": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/claim-service-codes": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/claim-supporting-info-categories": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/claim-supporting-info-codes": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/clinical-diagnostics-document-codes": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/hcx-claim-sub-types": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/hcx-procedure-categories": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/informational-messages-codes": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/medical-speciality-type-provider": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/procedure-type-description": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/proof-of-identity-codes": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/ValueSet/proof-of-presence-codes": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "https://hcx-base-url/StructureDefinition/HCXDiagnosticDocumentsExtension": [
+      "InsurancePlan.plan.specificCost.benefit"
+    ],
+    "https://hcx-base-url/StructureDefinition/HCXInformationalMessagesExtension": [
+      "InsurancePlan.plan.specificCost.benefit"
+    ],
+    "https://hcx-base-url/StructureDefinition/HCXProofOfIdentificationExtension": [
+      "InsurancePlan.plan"
+    ],
+    "https://hcx-base-url/StructureDefinition/HCXProofOfPresenceExtension": [
+      "InsurancePlan.plan"
+    ],
+    "https://hcx-base-url/StructureDefinition/HCXQuestionnairesExtension": [
+      "InsurancePlan.plan.specificCost.benefit"
+    ],
+    "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXDiagnosticDocumentsExtension.html": [
+      "InsurancePlan.plan.specificCost.benefit"
+    ],
+    "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXInformationalMessagesExtension.html": [
+      "InsurancePlan.plan.specificCost.benefit"
+    ],
+    "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXProofOfIdentificationExtension.html": [
+      "InsurancePlan.plan"
+    ],
+    "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXProofOfPresenceExtension.html": [
+      "InsurancePlan.plan"
+    ],
+    "https://ig.hcxprotocol.io/v0.8/StructureDefinition-HCXQuestionnairesExtension.html": [
+      "InsurancePlan.plan.specificCost.benefit"
+    ]
+  }
+}

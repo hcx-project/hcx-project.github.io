@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="hcx-procedure-categories"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains codes for procedure categories.</p></div>
+  </text>
+  <url value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-procedure-categories"/>
+  <version value="0.8.0"/>
+  <name value="HCXProcedureCategories"/>
+  <status value="draft"/>
+  <date value="2023-03-06"/>
+  <publisher value="HCX Open Community"/>
+  <contact>
+    <name value="HCX Open Community"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hcxprotocol.io/"/>
+    </telecom>
+  </contact>
+  <description value="This is the value set listing the procedure categories"/>
+  <expansion>
+    <timestamp value="2023-03-06T08:15:30+05:30"/>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"/>
+      <code value="MED"/>
+      <display value="Medical Management"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"/>
+      <code value="SUR"/>
+      <display value="Surgical Management"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"/>
+      <code value="ICU"/>
+      <display value="Intensive Care"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"/>
+      <code value="INV"/>
+      <display value="Investigation"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"/>
+      <code value="NAT"/>
+      <display value="Non-allopathic Treatment"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"/>
+      <code value="MOD"/>
+      <display value="Modern Treatment"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"/>
+      <code value="FAD"/>
+      <display value="First Aid"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"/>
+      <code value="RES"/>
+      <display value="Resuscitation"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"/>
+      <code value="OTH"/>
+      <display value="Others"/>
+    </contains>
+  </expansion>
+</ValueSet>

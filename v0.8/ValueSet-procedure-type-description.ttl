@@ -1,0 +1,163 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/ValueSet/procedure-type-description> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "procedure-type-description"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 32 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-1\"> </a>  1</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Administrative procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-2\"> </a>  2</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Blood bank procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-3\"> </a>  3</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Community health procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-4\"> </a>  4</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Determination of information related to transfusion (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-5\"> </a>  5</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Environmental care procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-6\"> </a>  6</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>General treatment (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-7\"> </a>  7</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Laboratory procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-8\"> </a>  8</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Nuclear medicine procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-9\"> </a>  9</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Obstetric procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-10\"> </a>  10</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Outpatient procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-11\"> </a>  11</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Patient encounter procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-12\"> </a>  12</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Postoperative procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-13\"> </a>  13</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Preoperative procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-14\"> </a>  14</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure by intent (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-15\"> </a>  15</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure by method (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-16\"> </a>  16</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure by priority (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-17\"> </a>  17</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure by site (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-18\"> </a>  18</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure categorized by device involved (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-19\"> </a>  19</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure in coronary care unit (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-20\"> </a>  20</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure on ganglion cyst (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-21\"> </a>  21</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure on wound (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-22\"> </a>  22</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure related to anesthesia and sedation (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-23\"> </a>  23</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure related to breastfeeding (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-24\"> </a>  24</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure with a clinical finding focus (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-25\"> </a>  25</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedure with a procedure focus (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-26\"> </a>  26</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedures relating to eating and drinking (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-27\"> </a>  27</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Procedures relating to mobility (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-28\"> </a>  28</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Promotion (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-29\"> </a>  29</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Provider-specific procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-30\"> </a>  30</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Regimes and therapies (regime/therapy)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-31\"> </a>  31</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Social service procedure (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-procedure-type-description-32\"> </a>  32</td><td>http://hcxprotocol.io/codes/procedure-type-description</td><td>Staff related procedure (procedure)</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://ig.hcxprotocol.io/v0.8/ValueSet-procedure-type-description.html"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.8.0"] ; # 
+  fhir:name [ fhir:v "ProcedureTypeDescriptions"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2021-09-07"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HCX Open Community"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HCX Open Community" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hcxprotocol.io/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This value set includes sample procedure codes. Depending on the context, other codes like ICD-10 procedure codes or HBP procedure codes (NHA) may need to be used."] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2021-09-07T08:15:30+05:30"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1" ] ;
+       fhir:display [ fhir:v "Administrative procedure (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "2" ] ;
+       fhir:display [ fhir:v "Blood bank procedure (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "3" ] ;
+       fhir:display [ fhir:v "Community health procedure (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "4" ] ;
+       fhir:display [ fhir:v "Determination of information related to transfusion (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "5" ] ;
+       fhir:display [ fhir:v "Environmental care procedure (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "6" ] ;
+       fhir:display [ fhir:v "General treatment (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "7" ] ;
+       fhir:display [ fhir:v "Laboratory procedure (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "8" ] ;
+       fhir:display [ fhir:v "Nuclear medicine procedure (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "9" ] ;
+       fhir:display [ fhir:v "Obstetric procedure (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "10" ] ;
+       fhir:display [ fhir:v "Outpatient procedure (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "11" ] ;
+       fhir:display [ fhir:v "Patient encounter procedure (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "12" ] ;
+       fhir:display [ fhir:v "Postoperative procedure (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "13" ] ;
+       fhir:display [ fhir:v "Preoperative procedure (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "14" ] ;
+       fhir:display [ fhir:v "Procedure by intent (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "15" ] ;
+       fhir:display [ fhir:v "Procedure by method (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "16" ] ;
+       fhir:display [ fhir:v "Procedure by priority (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "17" ] ;
+       fhir:display [ fhir:v "Procedure by site (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "18" ] ;
+       fhir:display [ fhir:v "Procedure categorized by device involved (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "19" ] ;
+       fhir:display [ fhir:v "Procedure in coronary care unit (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "20" ] ;
+       fhir:display [ fhir:v "Procedure on ganglion cyst (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "21" ] ;
+       fhir:display [ fhir:v "Procedure on wound (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "22" ] ;
+       fhir:display [ fhir:v "Procedure related to anesthesia and sedation (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "23" ] ;
+       fhir:display [ fhir:v "Procedure related to breastfeeding (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "24" ] ;
+       fhir:display [ fhir:v "Procedure with a clinical finding focus (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "25" ] ;
+       fhir:display [ fhir:v "Procedure with a procedure focus (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "26" ] ;
+       fhir:display [ fhir:v "Procedures relating to eating and drinking (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "27" ] ;
+       fhir:display [ fhir:v "Procedures relating to mobility (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "28" ] ;
+       fhir:display [ fhir:v "Promotion (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "29" ] ;
+       fhir:display [ fhir:v "Provider-specific procedure (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "30" ] ;
+       fhir:display [ fhir:v "Regimes and therapies (regime/therapy)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "31" ] ;
+       fhir:display [ fhir:v "Social service procedure (procedure)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/procedure-type-description"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "32" ] ;
+       fhir:display [ fhir:v "Staff related procedure (procedure)" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

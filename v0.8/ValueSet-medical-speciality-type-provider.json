@@ -1,0 +1,455 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "medical-speciality-type-provider",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 86 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-general-medicine\"> </a>\u00a0\u00a0general_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>General Medicine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-dental-surgery\"> </a>\u00a0\u00a0dental_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Dental surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-nursing\"> </a>\u00a0\u00a0nursing</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Nursing</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-pharmacy\"> </a>\u00a0\u00a0pharmacy</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Pharmacy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-nursing-midwifery\"> </a>\u00a0\u00a0nursing_midwifery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Nursing Midwifery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-military-surgeons\"> </a>\u00a0\u00a0military_surgeons</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Military surgeons</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-cardio-thoracic-and-vascular-surgery\"> </a>\u00a0\u00a0cardio_thoracic_and_vascular_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Cardio Thoracic and Vascular Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-cardiology\"> </a>\u00a0\u00a0cardiology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Cardiology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-allergy\"> </a>\u00a0\u00a0allergy</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Allergy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-chest-medicine\"> </a>\u00a0\u00a0chest_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Chest Medicine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-clinical-psychology\"> </a>\u00a0\u00a0clinical_psychology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Clinical Psychology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-cosmetic-dentistry\"> </a>\u00a0\u00a0cosmetic_dentistry</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Cosmetic Dentistry</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-cosmetic-surgery\"> </a>\u00a0\u00a0cosmetic_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Cosmetic Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-endodontics\"> </a>\u00a0\u00a0endodontics</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Endodontics</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-ent\"> </a>\u00a0\u00a0ent</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>ENT</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-critical-care\"> </a>\u00a0\u00a0critical_care</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Critical Care</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-dental-implants-and-cosmetic-dentistry\"> </a>\u00a0\u00a0dental_implants_and_cosmetic_dentistry</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Dental Implants &amp; Cosmetic Dentistry</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-dermatology-venereology-and-leprology\"> </a>\u00a0\u00a0dermatology_venereology_and_leprology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Dermatology Venereology and Leprology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-dermatology\"> </a>\u00a0\u00a0dermatology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Dermatology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-facial-plastic-surgery\"> </a>\u00a0\u00a0facial_plastic_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Facial Plastic Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-diabetology\"> </a>\u00a0\u00a0diabetology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Diabetology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-endocrinology\"> </a>\u00a0\u00a0endocrinology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Endocrinology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-diet-and-nutrition\"> </a>\u00a0\u00a0diet_and_nutrition</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Diet and Nutrition</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-diabetology-and-internal-medicine\"> </a>\u00a0\u00a0diabetology_and_internal_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Diabetology &amp; Internal Medicine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-gastrosurgery\"> </a>\u00a0\u00a0gastrosurgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Gastrosurgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-gastroenterology\"> </a>\u00a0\u00a0gastroenterology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Gastroenterology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-general-surgery\"> </a>\u00a0\u00a0general_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>General Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-general-surgery-and-laparoscopic-surgery\"> </a>\u00a0\u00a0general_surgery_and_laparoscopic_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>General Surgery &amp; Laparoscopic Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-gynecology-and-ultrasonology\"> </a>\u00a0\u00a0gynecology_and_ultrasonology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Gynecology &amp; Ultrasonology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-head-and-neck-surgery\"> </a>\u00a0\u00a0head_and_neck_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Head &amp; Neck Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-head-and-neck-surgical-oncology\"> </a>\u00a0\u00a0head_and_neck_surgical_oncology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Head &amp; Neck Surgical Oncology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-hepato-pancreato-biliary-surgery\"> </a>\u00a0\u00a0hepato_pancreato_biliary_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Hepato Pancreato Biliary Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-infectious-disease-medicine\"> </a>\u00a0\u00a0infectious_disease_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Infectious Disease medicine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-internal-medicine\"> </a>\u00a0\u00a0internal_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Internal Medicine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-neuro-surgery\"> </a>\u00a0\u00a0neuro_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Neuro Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-resident-physicians\"> </a>\u00a0\u00a0resident_physicians</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Resident Physicians</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-respiratory-allergy-and-sleep-medicine\"> </a>\u00a0\u00a0respiratory_allergy_and_sleep_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Respiratory Allergy And Sleep Medicine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-rheumatology\"> </a>\u00a0\u00a0rheumatology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Rheumatology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-sexual-medicine\"> </a>\u00a0\u00a0sexual_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Sexual Medicine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-spine-surgery\"> </a>\u00a0\u00a0spine_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Spine Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-sports-medicine\"> </a>\u00a0\u00a0sports_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Sports Medicine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-surgical-gastroenterology\"> </a>\u00a0\u00a0surgical_gastroenterology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Surgical Gastroenterology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-surgical-oncology\"> </a>\u00a0\u00a0surgical_oncology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Surgical Oncology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-urology\"> </a>\u00a0\u00a0urology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Urology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-physiotherapy\"> </a>\u00a0\u00a0physiotherapy</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Physiotherapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-physiotherapy-and-rehabilitation\"> </a>\u00a0\u00a0physiotherapy_and_rehabilitation</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Physiotherapy &amp; Rehabilitation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-plastic-and-cosmetic-surgery\"> </a>\u00a0\u00a0plastic_and_cosmetic_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Plastic and Cosmetic Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-plastic-surgery\"> </a>\u00a0\u00a0plastic_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Plastic Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-podiatry\"> </a>\u00a0\u00a0podiatry</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Podiatry</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-prosthodontics-and-implants\"> </a>\u00a0\u00a0prosthodontics_and_implants</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Prosthodontics &amp; Implants</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-psychiatry\"> </a>\u00a0\u00a0psychiatry</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Psychiatry</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-pulmonology\"> </a>\u00a0\u00a0pulmonology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Pulmonology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-radiation-oncology\"> </a>\u00a0\u00a0radiation_oncology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Radiation Oncology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-radiology\"> </a>\u00a0\u00a0radiology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Radiology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-laparoscopic-and-robotic-surgery\"> </a>\u00a0\u00a0laparoscopic_and_robotic_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Laparoscopic and Robotic Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-medical-gastroenterology\"> </a>\u00a0\u00a0medical_gastroenterology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Medical Gastroenterology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-medical-oncology\"> </a>\u00a0\u00a0medical_oncology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Medical Oncology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-nephrology\"> </a>\u00a0\u00a0nephrology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Nephrology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-neurology\"> </a>\u00a0\u00a0neurology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Neurology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-neurology-and-neuro-surgery\"> </a>\u00a0\u00a0neurology_and_neuro_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Neurology &amp; Neuro Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-neuropsychiatry\"> </a>\u00a0\u00a0neuropsychiatry</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Neuropsychiatry</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-obstetrics-and-gynecology\"> </a>\u00a0\u00a0obstetrics_and_gynecology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Obstetrics &amp; Gynecology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-oncology\"> </a>\u00a0\u00a0oncology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Oncology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-ophthalmology\"> </a>\u00a0\u00a0ophthalmology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Ophthalmology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-oral-and-maxillofacial-surgery\"> </a>\u00a0\u00a0oral_and_maxillofacial_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Oral &amp; Maxillofacial Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-ortho-dontia\"> </a>\u00a0\u00a0ortho_dontia</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Ortho Dontia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-orthopedic-surgeon\"> </a>\u00a0\u00a0orthopedic_surgeon</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Orthopedic Surgeon</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-orthopedics\"> </a>\u00a0\u00a0orthopedics</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Orthopedics</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-orthopedics-and-sports-medicine\"> </a>\u00a0\u00a0orthopedics_and_sports_medicine</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Orthopedics &amp; Sports Medicine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-orthopedics-and-spine-surgery\"> </a>\u00a0\u00a0orthopedics_and_spine_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Orthopedics And Spine Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-orthopedics-and-upper-limb-surgery\"> </a>\u00a0\u00a0orthopedics_and_upper_limb_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Orthopedics And Upper Limb Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-pediatric-endocrinology\"> </a>\u00a0\u00a0pediatric_endocrinology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Pediatric Endocrinology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-pediatric-ophthalmology-and-squint\"> </a>\u00a0\u00a0pediatric_ophthalmology_and_squint</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Pediatric Ophthalmology And Squint</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-paediatrics\"> </a>\u00a0\u00a0paediatrics</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Paediatrics</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-paediatrics-and-neonatology\"> </a>\u00a0\u00a0paediatrics_and_neonatology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Paediatrics &amp; Neonatology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-paediatrics-nephrology\"> </a>\u00a0\u00a0paediatrics_nephrology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Paediatrics - Nephrology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-paediatrics-neurology\"> </a>\u00a0\u00a0paediatrics_neurology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Paediatrics - Neurology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-paediatrics-surgery\"> </a>\u00a0\u00a0paediatrics_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Paediatrics - Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-pathology\"> </a>\u00a0\u00a0pathology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Pathology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-peadodontology-child-dentistry\"> </a>\u00a0\u00a0peadodontology_child_dentistry</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Peadodontology (Child Dentistry)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-pediatric-pulmonology\"> </a>\u00a0\u00a0pediatric_pulmonology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Pediatric Pulmonology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-periodontia\"> </a>\u00a0\u00a0periodontia</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Periodontia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-periodontology-and-implantology\"> </a>\u00a0\u00a0periodontology_and_implantology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Periodontology and Implantology</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-peripheral-vascular-surgery\"> </a>\u00a0\u00a0peripheral_vascular_surgery</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Peripheral Vascular Surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-physical-medicine-and-rehabilitation\"> </a>\u00a0\u00a0physical_medicine_and_rehabilitation</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Physical Medicine &amp; Rehabilitation</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-medical-specility-type-provider-physician-and-diabetology\"> </a>\u00a0\u00a0physician_and_diabetology</td><td>http://hcxprotocol.io/codes/medical-specility-type-provider</td><td>Physician &amp; Diabetology</td></tr></table></div>"
+  },
+  "url" : "https://ig.hcxprotocol.io/v0.8/ValueSet-medical-speciality-type-provider.html",
+  "version" : "0.8.0",
+  "name" : "MedicalSpecialityTypeProvider",
+  "status" : "active",
+  "date" : "2021-09-07",
+  "publisher" : "HCX Open Community",
+  "contact" : [{
+    "name" : "HCX Open Community",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hcxprotocol.io/"
+    }]
+  }],
+  "description" : "This is the value set that includes the codes to identify the medical specialty provider",
+  "expansion" : {
+    "timestamp" : "2021-09-07T08:15:30+05:30",
+    "contains" : [{
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "general_medicine",
+      "display" : "General Medicine"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "dental_surgery",
+      "display" : "Dental surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "nursing",
+      "display" : "Nursing"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "pharmacy",
+      "display" : "Pharmacy"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "nursing_midwifery",
+      "display" : "Nursing Midwifery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "military_surgeons",
+      "display" : "Military surgeons"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "cardio_thoracic_and_vascular_surgery",
+      "display" : "Cardio Thoracic and Vascular Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "cardiology",
+      "display" : "Cardiology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "allergy",
+      "display" : "Allergy"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "chest_medicine",
+      "display" : "Chest Medicine"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "clinical_psychology",
+      "display" : "Clinical Psychology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "cosmetic_dentistry",
+      "display" : "Cosmetic Dentistry"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "cosmetic_surgery",
+      "display" : "Cosmetic Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "endodontics",
+      "display" : "Endodontics"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "ent",
+      "display" : "ENT"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "critical_care",
+      "display" : "Critical Care"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "dental_implants_and_cosmetic_dentistry",
+      "display" : "Dental Implants & Cosmetic Dentistry"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "dermatology_venereology_and_leprology",
+      "display" : "Dermatology Venereology and Leprology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "dermatology",
+      "display" : "Dermatology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "facial_plastic_surgery",
+      "display" : "Facial Plastic Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "diabetology",
+      "display" : "Diabetology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "endocrinology",
+      "display" : "Endocrinology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "diet_and_nutrition",
+      "display" : "Diet and Nutrition"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "diabetology_and_internal_medicine",
+      "display" : "Diabetology & Internal Medicine"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "gastrosurgery",
+      "display" : "Gastrosurgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "gastroenterology",
+      "display" : "Gastroenterology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "general_surgery",
+      "display" : "General Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "general_surgery_and_laparoscopic_surgery",
+      "display" : "General Surgery & Laparoscopic Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "gynecology_and_ultrasonology",
+      "display" : "Gynecology & Ultrasonology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "head_and_neck_surgery",
+      "display" : "Head & Neck Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "head_and_neck_surgical_oncology",
+      "display" : "Head & Neck Surgical Oncology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "hepato_pancreato_biliary_surgery",
+      "display" : "Hepato Pancreato Biliary Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "infectious_disease_medicine",
+      "display" : "Infectious Disease medicine"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "internal_medicine",
+      "display" : "Internal Medicine"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "neuro_surgery",
+      "display" : "Neuro Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "resident_physicians",
+      "display" : "Resident Physicians"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "respiratory_allergy_and_sleep_medicine",
+      "display" : "Respiratory Allergy And Sleep Medicine"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "rheumatology",
+      "display" : "Rheumatology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "sexual_medicine",
+      "display" : "Sexual Medicine"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "spine_surgery",
+      "display" : "Spine Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "sports_medicine",
+      "display" : "Sports Medicine"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "surgical_gastroenterology",
+      "display" : "Surgical Gastroenterology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "surgical_oncology",
+      "display" : "Surgical Oncology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "urology",
+      "display" : "Urology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "physiotherapy",
+      "display" : "Physiotherapy"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "physiotherapy_and_rehabilitation",
+      "display" : "Physiotherapy & Rehabilitation"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "plastic_and_cosmetic_surgery",
+      "display" : "Plastic and Cosmetic Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "plastic_surgery",
+      "display" : "Plastic Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "podiatry",
+      "display" : "Podiatry"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "prosthodontics_and_implants",
+      "display" : "Prosthodontics & Implants"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "psychiatry",
+      "display" : "Psychiatry"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "pulmonology",
+      "display" : "Pulmonology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "radiation_oncology",
+      "display" : "Radiation Oncology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "radiology",
+      "display" : "Radiology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "laparoscopic_and_robotic_surgery",
+      "display" : "Laparoscopic and Robotic Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "medical_gastroenterology",
+      "display" : "Medical Gastroenterology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "medical_oncology",
+      "display" : "Medical Oncology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "nephrology",
+      "display" : "Nephrology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "neurology",
+      "display" : "Neurology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "neurology_and_neuro_surgery",
+      "display" : "Neurology & Neuro Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "neuropsychiatry",
+      "display" : "Neuropsychiatry"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "obstetrics_and_gynecology",
+      "display" : "Obstetrics & Gynecology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "oncology",
+      "display" : "Oncology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "ophthalmology",
+      "display" : "Ophthalmology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "oral_and_maxillofacial_surgery",
+      "display" : "Oral & Maxillofacial Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "ortho_dontia",
+      "display" : "Ortho Dontia"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "orthopedic_surgeon",
+      "display" : "Orthopedic Surgeon"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "orthopedics",
+      "display" : "Orthopedics"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "orthopedics_and_sports_medicine",
+      "display" : "Orthopedics & Sports Medicine"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "orthopedics_and_spine_surgery",
+      "display" : "Orthopedics And Spine Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "orthopedics_and_upper_limb_surgery",
+      "display" : "Orthopedics And Upper Limb Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "pediatric_endocrinology",
+      "display" : "Pediatric Endocrinology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "pediatric_ophthalmology_and_squint",
+      "display" : "Pediatric Ophthalmology And Squint"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "paediatrics",
+      "display" : "Paediatrics"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "paediatrics_and_neonatology",
+      "display" : "Paediatrics & Neonatology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "paediatrics_nephrology",
+      "display" : "Paediatrics - Nephrology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "paediatrics_neurology",
+      "display" : "Paediatrics - Neurology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "paediatrics_surgery",
+      "display" : "Paediatrics - Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "pathology",
+      "display" : "Pathology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "peadodontology_child_dentistry",
+      "display" : "Peadodontology (Child Dentistry)"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "pediatric_pulmonology",
+      "display" : "Pediatric Pulmonology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "periodontia",
+      "display" : "Periodontia"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "periodontology_and_implantology",
+      "display" : "Periodontology and Implantology"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "peripheral_vascular_surgery",
+      "display" : "Peripheral Vascular Surgery"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "physical_medicine_and_rehabilitation",
+      "display" : "Physical Medicine & Rehabilitation"
+    },
+    {
+      "system" : "http://hcxprotocol.io/codes/medical-specility-type-provider",
+      "code" : "physician_and_diabetology",
+      "display" : "Physician & Diabetology"
+    }]
+  }
+}

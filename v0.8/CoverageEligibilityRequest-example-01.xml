@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CoverageEligibilityRequest xmlns="http://hl7.org/fhir">
+  <id value="example-01"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"> Admitted to Cardiac Unit,UVW Hospital between June 28 and July 9 2020</div>
+  </text>
+  <identifier>
+    <system value="https://www.tmh.in/coverage-eligibility-request"/>
+    <value value="dc82673b-8c71-48c2-8a17-16dcb3b035f6"/>
+  </identifier>
+  <status value="active"/>
+  <priority>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/processpriority"/>
+      <code value="normal"/>
+    </coding>
+  </priority>
+  <purpose value="discovery"/>
+  <patient id="RVH1003">
+    <identifier>
+      <type>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+          <code value="SN"/>
+          <display value="Subscriber Number"/>
+        </coding>
+      </type>
+      <system value="http://gicofIndia.com/beneficiaries"/>
+      <value value="BEN-101"/>
+    </identifier>
+  </patient>
+  <servicedPeriod>
+    <start value="2022-02-07T21:49:56+05:30"/>
+    <end value="2022-02-09T21:49:56+05:30"/>
+  </servicedPeriod>
+  <created value="2022-02-08T21:49:56+05:30"/>
+  <enterer id="NPR-6897">
+    <identifier>
+      <system value="https://ndhm.gov.in/npr"/>
+      <value value="NPR-6897"/>
+    </identifier>
+  </enterer>
+  <provider id="Tmh01">
+    <identifier>
+      <system value="http://abdm.gov.in/facilities"/>
+      <value value="HFR-ID-FOR-TMH"/>
+    </identifier>
+  </provider>
+  <insurer id="GICOFINDIA">
+    <identifier>
+      <system value="http://irdai.gov.in/insurers"/>
+      <value value="112"/>
+    </identifier>
+  </insurer>
+  <insurance>
+    <focal value="true"/>
+    <coverage id="dadde132-ad64-4d18-8c18-1d52d7e86abc">
+      <identifier>
+        <system value="https://www.gicofIndia.in/policies"/>
+        <value value="policy-RVH1003"/>
+      </identifier>
+    </coverage>
+  </insurance>
+</CoverageEligibilityRequest>
