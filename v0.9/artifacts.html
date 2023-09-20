@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HCXPROTOCOL.IO\Artifacts Summary - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"5"}
+    h3,h4,h5,h6{--heading-prefix:"5.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+  <a id="family-logo" no-external="true"><img height="50" alt="HCX Protocol"
+      src="assets/images/HCX_logo-final-2.png" />
+  </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:25pt;font-weight:bold">FHIR Implementation Guide for HCX</span><br/>0.9.0 - CI Build</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+<a href="index.html">Home</a>
+</li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artifacts<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="profiles.html">Profiles</a>
+      </li>
+      <li>
+        <a href="valuesets.html">Value Sets</a>
+      </li>
+    </ul>
+  </li>
+<li>
+  <a href="downloads.html">Downloads</a>
+</li>
+</ul>      
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">FHIR Implementation Guide for HCX - Local Development build (v0.9.0). See the <a href="https://hcxprotocol.io/fhir/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  <!--DO NOT EDIT THIS FILE - It is generated and any changes made will be overwritten--><div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#4">Example: Example Instances</a>
+      </li>
+      <li>
+         <a href="#5">Other</a>
+      </li>
+   </ul>
+</div>
+<div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Structures: Resource Profiles </h3>
+   <p>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-HCXInsurancePlan.html"
+                     title="StructureDefinition/HCXInsurancePlan">HCX InsurancePlan</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Communication.html"
+                     title="StructureDefinition/Communication">HCX Communication</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CommunicationRequest.html"
+                     title="StructureDefinition/CommunicationRequest">HCX CommunicationRequest</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CoverageEligibilityRequestBundle.html"
+                     title="StructureDefinition/CoverageEligibilityRequestBundle">HCX CoverageEligibility Request Bundle</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CoverageEligibilityResponseBundle.html"
+                     title="StructureDefinition/CoverageEligibilityResponseBundle">HCX CoverageEligibility Response Bundle</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ClaimRequestBundle.html"
+                     title="StructureDefinition/ClaimRequestBundle">HCX Claim Request Bundle</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ClaimResponseBundle.html"
+                     title="StructureDefinition/ClaimResponseBundle">HCX Claim Response Bundle</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CommunicationBundle.html"
+                     title="StructureDefinition/CommunicationBundle">HCX Communication Bundle</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ClaimResponse.html"
+                     title="StructureDefinition/ClaimResponse">HCX Claim Response</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Claim.html" title="StructureDefinition/Claim">HCX Claim</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Coverage.html"
+                     title="StructureDefinition/Coverage">HCX Coverage</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CoverageEligibilityRequest.html"
+                     title="StructureDefinition/CoverageEligibilityRequest">HCX Coverage Eligibility Request</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-CoverageEligibilityResponse.html"
+                     title="StructureDefinition/CoverageEligibilityResponse">HCX Coverage Eligibility Response</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PaymentNotice.html"
+                     title="StructureDefinition/PaymentNotice">HCX Payment Notice</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PaymentReconciliation.html"
+                     title="StructureDefinition/PaymentReconciliation">HCX Payment Reconciliation</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Task.html" title="StructureDefinition/Task">HCX Task</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Structures: Extension Definitions </h3>
+   <p>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-HCXSignatureExtension.html"
+                     title="StructureDefinition/HCXSignatureExtension">HCX Signature Extension</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-HCXDiagnosticDocumentsExtension.html"
+                     title="StructureDefinition/HCXDiagnosticDocumentsExtension">HCX Diagnostic DocumentsExtension</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-HCXInformationalMessagesExtension.html"
+                     title="StructureDefinition/HCXInformationalMessagesExtension">HCX Informational Messages Extension</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-HCXProofOfPresenceExtension.html"
+                     title="StructureDefinition/HCXProofOfPresenceExtension">HCX Proof Of PresenceExtension</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-HCXQuestionnairesExtension.html"
+                     title="StructureDefinition/HCXQuestionnairesExtension">HCX Questionnaires Extension</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-HCXProofOfIdentificationExtension.html"
+                     title="StructureDefinition/HCXProofOfIdentificationExtension">HCX Diagnostic DocumentsExtension</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-organization-extension.html"
+                     title="StructureDefinition/organization-extension">StructureDefinition/organization-extension</a>
+               </td>
+               <td>
+<p>Represents a wet or electronic signature for either the form overall or for the question or item it’s associated with.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-procedure-type-description.html"
+                     title="ValueSet/procedure-type-description">HCX Procedure Type Description</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-medical-speciality-type-provider.html"
+                     title="ValueSet/medical-speciality-type-provider">HCX Medical Speciality Provider</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-claim-denial-codes.html"
+                     title="ValueSet/claim-denial-codes">HCX Claim Denial Codes</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-hcx-claim-sub-types.html"
+                     title="ValueSet/hcx-claim-sub-types">HCX Claim Sub Types</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-hcx-procedure-categories.html"
+                     title="ValueSet/hcx-procedure-categories">HCX Procedure Categories</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-claim-service-categories.html"
+                     title="ValueSet/claim-service-categories">HCX Claim Service Categories</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-billing-subgroup-categories.html"
+                     title="ValueSet/billing-subgroup-categories">HCX Billing Subgroup Categories</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-claim-error-codes.html"
+                     title="ValueSet/claim-error-codes">HCX Claim Error Codes</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-claim-supporting-info-categories.html"
+                     title="ValueSet/claim-supporting-info-categories">HCX Claim Supporting Info Categories</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-claim-supporting-info-codes.html"
+                     title="ValueSet/claim-supporting-info-codes">HCX Claim Supporting Info Codes</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-claim-service-codes.html"
+                     title="ValueSet/claim-service-codes">HCX Claim Service Codes</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-clinical-diagnostics-document-codes.html"
+                     title="ValueSet/clinical-diagnostics-document-codes">HCX clinical-diagnostics-document-codes</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-informational-messages-codes.html"
+                     title="ValueSet/informational-messages-codes">HCX informational-messages-codes</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-proof-of-identity-codes.html"
+                     title="ValueSet/proof-of-identity-codes">HCX proof-of-identity-codes</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-proof-of-presence-codes.html"
+                     title="ValueSet/proof-of-presence-codes">HCX proof-of-presence-codes</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Example: Example Instances </h3>
+   <p>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClaimResponse-example-01.html" title="ClaimResponse/example-01">HCX Claim Response example</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Claim-example-01.html" title="Claim/example-01">HCX Claim example</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CoverageEligibilityRequest-example-01.html"
+                     title="CoverageEligibilityRequest/example-01">HCX Coverage Eligibility Request example</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CoverageEligibilityResponse-example-01.html"
+                     title="CoverageEligibilityResponse/example-01">HCX Coverage Eligibility Response example</a>
+               </td>
+               <td>
+<p><strong>Search by subject - a patient</strong><br />
+<strong>NOTE</strong>: This US Core SearchParameter definition extends the usage context of the
+<a href="http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html">Conformance expectation extension</a></p>
+<ul>
+  <li>multipleAnd</li>
+  <li>multipleOr</li>
+  <li>comparator</li>
+  <li>modifier</li>
+  <li>chain</li>
+</ul>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
+   <h3>Other </h3>
+   <p>
+    <p>These are resources that are used within this implementation guide that do not fit into one of the other categories.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-CoverageEligibilityRequestDocument-example-01.html"
+                     title="Bundle/CoverageEligibilityRequestDocument-example-01">Bundle/CoverageEligibilityRequestDocument-example-01</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-CoverageEligibilityResponseDocument-example-01.html"
+                     title="Bundle/CoverageEligibilityResponseDocument-example-01">Bundle/CoverageEligibilityResponseDocument-example-01</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="InsurancePlan-AB_GUJ_UniqueIdForTheObject.html"
+                     title="InsurancePlan/AB_GUJ_UniqueIdForTheObject">InsurancePlan/AB_GUJ_UniqueIdForTheObject</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-ClaimResponseDocument-example-01.html"
+                     title="Bundle/ClaimResponseDocument-example-01">Bundle/ClaimResponseDocument-example-01</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-ClaimRequestDocument-example-01.html"
+                     title="Bundle/ClaimRequestDocument-example-01">Bundle/ClaimRequestDocument-example-01</a>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hcxprotocol.io/">HCX Open Community</a>.  Package hcxprotocol.io#0.9.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 20, 2023 22:13+0530">2023-09-20</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

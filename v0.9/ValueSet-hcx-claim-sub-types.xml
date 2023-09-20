@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="hcx-claim-sub-types"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes for claim subtypes, which may also be referred to as admission types in certain terminologies.</p></div>
+  </text>
+  <url value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"/>
+  <version value="0.9.0"/>
+  <name value="HCXClaimSubTypes"/>
+  <status value="draft"/>
+  <date value="2023-03-06"/>
+  <publisher value="HCX Open Community"/>
+  <contact>
+    <name value="HCX Open Community"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hcxprotocol.io/"/>
+    </telecom>
+  </contact>
+  <description value="This is the value set listing the claim sub type codes, which may also be referred to as admission types in certain terminologies"/>
+  <expansion>
+    <timestamp value="2023-03-06T08:15:30+05:30"/>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+      <code value="EM"/>
+      <display value="Emergency"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+      <code value="PL"/>
+      <display value="Planned"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+      <code value="NC"/>
+      <display value="Natural Catastrophe"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+      <code value="MA"/>
+      <display value="Maternity"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+      <code value="UR"/>
+      <display value="Urgent"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+      <code value="EL"/>
+      <display value="Elective"/>
+    </contains>
+    <contains>
+      <system value="https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"/>
+      <code value="NB"/>
+      <display value="Newborn"/>
+    </contains>
+  </expansion>
+</ValueSet>

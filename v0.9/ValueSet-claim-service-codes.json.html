@@ -1,0 +1,558 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HCXPROTOCOL.IO\HCX Claim Service Codes - JSON Representation - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"5.34"}
+    h3,h4,h5,h6{--heading-prefix:"5.34"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+  <a id="family-logo" no-external="true"><img height="50" alt="HCX Protocol"
+      src="assets/images/HCX_logo-final-2.png" />
+  </a>
+</div>
+
+        <div id="ig-status">
+          <p><span style="font-size:25pt;font-weight:bold">FHIR Implementation Guide for HCX</span><br/>0.9.0 - CI Build</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+<a href="index.html">Home</a>
+</li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artifacts<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="profiles.html">Profiles</a>
+      </li>
+      <li>
+        <a href="valuesets.html">Value Sets</a>
+      </li>
+    </ul>
+  </li>
+<li>
+  <a href="downloads.html">Downloads</a>
+</li>
+</ul>      
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>HCX Claim Service Codes</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">FHIR Implementation Guide for HCX - Local Development build (v0.9.0). See the <a href="https://hcxprotocol.io/fhir/r4/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ValueSet-claim-service-codes.html">Narrative Content</a>
+  </li>
+
+
+  
+    <li>
+      <a href="ValueSet-claim-service-codes.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: HCX Claim Service Codes - JSON Representation</h2>
+
+<p><a href="ValueSet-claim-service-codes.json" no-download="true">Raw json</a> | <a href="ValueSet-claim-service-codes.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" style="white-space: pre; overflow: hidden"><code>
+{
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">id</a>" : "claim-service-codes",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;This value set contains 51 concepts&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Level&lt;/b&gt;&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;System&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-BM001\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0BM001&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Thermal burns&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-BM001A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0BM001A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;% Total Body Surface Area Burns (TBSA) - any %(not requiring admission). Needs at least 5-6 dressing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-BM001B\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0BM001B&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;% Total Body Surface Area Burns (TBSA): Upto 40 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-BM001C\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0BM001C&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;% Total Body Surface Area Burns (TBSA): 40% - 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-BM001D\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0BM001D&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;% Total Body Surface Area Burns (TBSA): &amp;gt; 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-BM002\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0BM002&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Scald burns&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-BM002A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0BM002A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;% Total Body Surface Area Burns (TBSA) - any %(not requiring admission). Needs at least 5-6 dressing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-BM002B\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0BM002B&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;% Total Body Surface Area Burns (TBSA): Upto 40 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-BM002C\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0BM002C&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;% Total Body Surface Area Burns (TBSA): 40% - 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-BM002D\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0BM002D&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;% Total Body Surface Area Burns (TBSA): &amp;gt; 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-BM003\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0BM003&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Flame burns&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-BM003A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0BM003A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;% Total Body Surface Area Burns (TBSA) - any %(not requiring admission). Needs at least 5-6 dressing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-BM003B\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0BM003B&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;% Total Body Surface Area Burns (TBSA): Upto 40 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-BM003C\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0BM003C&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;% Total Body Surface Area Burns (TBSA): 40% - 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-BM003D\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0BM003D&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;% Total Body Surface Area Burns (TBSA): &amp;gt; 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-ER001\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ER001&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Laceration - Suturing / Dressing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-ER001A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0ER001A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Laceration - Suturing / Dressing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-ER002\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ER002&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Cardiopulmonary emergency&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-ER002A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0ER002A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Emergency with stable cardiopulmonary status&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-ER002B\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0ER002B&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Emergency with unstable cardiopulmonary status with resuccitation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-ER003\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ER003&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Animal bites (Excluding Snake Bite)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-ER003A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0ER003A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Animal bites (Excluding Snake Bite)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-ID001\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ID001&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Laboratory Tests for COVID- 19 Infection (PCR) (Reimbursement level for this package will be as per the ICMR guidelines, issued from time to time)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-ID001A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0ID001A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Laboratory Tests for COVID- 19 Infection (PCR) (Reimbursement level for this package will be as per the ICMR guidelines, issued from time to time)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-ID003\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ID003&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Treatment of COVID-19 Infection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-ID003A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0ID003A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Treatment of COVID-19 Infection&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-IN001\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0IN001&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Dural AVMs / AVFs&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN001A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN001A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Dural AVMs (per sitting) with glue&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN001B\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN001B&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Dural AVFs (per sitting) with glue&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN001C\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN001C&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Dural AVMs (per sitting) with onyx&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN001D\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN001D&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Dural AVFs (per sitting) with onyx&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-IN002\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0IN002&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Cerebral &amp;amp; Spinal AVM embolization - Using Histoacryl (per sitting)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN002A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN002A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Cerebral AVM embolization - Using Histoacryl (per sitting)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN002B\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN002B&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Spinal AVM embolization - Using Histoacryl (per sitting)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-IN003\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0IN003&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Coil embolization for aneurysms (includes cost of first 3 coils + balloon and / or stent if used)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN003A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN003A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Coil embolization for aneurysms (includes cost of first 3 coils + balloon and / or stent if used)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-IN004\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0IN004&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Carotico-cavernous Fistula (CCF) embolization&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN004A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN004A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Carotico-cavernous Fistula (CCF) embolization with coils. [includes 5 coils, guide catheter, micro-catheter, micro- guidewire, general items]&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN004B\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN004B&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Carotid-cavernous Fistula (CCF) embolization with balloon (includes one balloon, guide catheter, micro-catheter, micro- guidewire, general items)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-IN005\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0IN005&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Pre-operative tumour embolization (per session)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN005A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN005A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Pre-operative tumour embolization (per session)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-IN006\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0IN006&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Intracranial balloon angioplasty with stenting&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN006A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN006A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Intracranial balloon angioplasty with stenting&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-IN007\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0IN007&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Intracranial thrombolysis / clot retrieval&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN007A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN007A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Intracranial thrombolysis / clot retrieval&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-IN008\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0IN008&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Balloon test occlusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN008A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN008A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Balloon test occlusion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-IN009\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0IN009&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Parent vessel occlusion - Basic&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN009A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN009A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Parent vessel occlusion - Basic&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-package-code-IN010\&quot;&gt; &lt;/a&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0IN010&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-package-code&lt;/td&gt;&lt;td&gt;Vertebroplasty&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;https---pmjay.gov.in-hbp-procedure-code-IN010A\&quot;&gt; &lt;/a&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0\u00a0\u00a0IN010A&lt;/td&gt;&lt;td&gt;https://pmjay.gov.in/hbp-procedure-code&lt;/td&gt;&lt;td&gt;Vertebroplasty&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>" : "https://ig.hcxprotocol.io/v0.9/ValueSet-claim-service-codes.html",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "0.9.0",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a>" : "ClaimServiceCodes",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2021-08-15",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "HCX Open Community",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "HCX Open Community",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://hcxprotocol.io/"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">description</a>" : "This value set includes sample codes for products and services provided by PMJAY",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">expansion</a>" : {
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a>" : "2021-08-15T08:15:30+05:30",
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM001",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Thermal burns",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM001A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "% Total Body Surface Area Burns (TBSA) - any %(not requiring admission). Needs at least 5-6 dressing"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM001B",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "% Total Body Surface Area Burns (TBSA): Upto 40 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM001C",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "% Total Body Surface Area Burns (TBSA): 40% - 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM001D",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "% Total Body Surface Area Burns (TBSA): &gt; 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM002",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Scald burns",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM002A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "% Total Body Surface Area Burns (TBSA) - any %(not requiring admission). Needs at least 5-6 dressing"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM002B",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "% Total Body Surface Area Burns (TBSA): Upto 40 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM002C",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "% Total Body Surface Area Burns (TBSA): 40% - 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM002D",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "% Total Body Surface Area Burns (TBSA): &gt; 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM003",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Flame burns",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM003A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "% Total Body Surface Area Burns (TBSA) - any %(not requiring admission). Needs at least 5-6 dressing"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM003B",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "% Total Body Surface Area Burns (TBSA): Upto 40 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM003C",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "% Total Body Surface Area Burns (TBSA): 40% - 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BM003D",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "% Total Body Surface Area Burns (TBSA): &gt; 60 %; Includes % TBSA skin grafted, flap cover, follow-up dressings etc. as deemed necessary; Surgical procedures are required for deep burns that are not amenable to heal with dressings alone."
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ER001",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Laceration - Suturing / Dressing",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ER001A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Laceration - Suturing / Dressing"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ER002",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cardiopulmonary emergency",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ER002A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Emergency with stable cardiopulmonary status"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ER002B",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Emergency with unstable cardiopulmonary status with resuccitation"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ER003",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Animal bites (Excluding Snake Bite)",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ER003A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Animal bites (Excluding Snake Bite)"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ID001",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Laboratory Tests for COVID- 19 Infection (PCR) (Reimbursement level for this package will be as per the ICMR guidelines, issued from time to time)",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ID001A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Laboratory Tests for COVID- 19 Infection (PCR) (Reimbursement level for this package will be as per the ICMR guidelines, issued from time to time)"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ID003",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Treatment of COVID-19 Infection",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ID003A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Treatment of COVID-19 Infection"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN001",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dural AVMs / AVFs",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN001A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dural AVMs (per sitting) with glue"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN001B",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dural AVFs (per sitting) with glue"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN001C",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dural AVMs (per sitting) with onyx"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN001D",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dural AVFs (per sitting) with onyx"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN002",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cerebral &amp; Spinal AVM embolization - Using Histoacryl (per sitting)",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN002A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cerebral AVM embolization - Using Histoacryl (per sitting)"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN002B",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Spinal AVM embolization - Using Histoacryl (per sitting)"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN003",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Coil embolization for aneurysms (includes cost of first 3 coils + balloon and / or stent if used)",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN003A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Coil embolization for aneurysms (includes cost of first 3 coils + balloon and / or stent if used)"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN004",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Carotico-cavernous Fistula (CCF) embolization",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN004A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Carotico-cavernous Fistula (CCF) embolization with coils. [includes 5 coils, guide catheter, micro-catheter, micro- guidewire, general items]"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN004B",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Carotid-cavernous Fistula (CCF) embolization with balloon (includes one balloon, guide catheter, micro-catheter, micro- guidewire, general items)"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN005",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Pre-operative tumour embolization (per session)",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN005A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Pre-operative tumour embolization (per session)"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN006",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intracranial balloon angioplasty with stenting",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN006A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intracranial balloon angioplasty with stenting"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN007",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intracranial thrombolysis / clot retrieval",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN007A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intracranial thrombolysis / clot retrieval"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN008",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Balloon test occlusion",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN008A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Balloon test occlusion"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN009",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Parent vessel occlusion - Basic",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN009A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Parent vessel occlusion - Basic"
+          }
+        ]
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-package-code",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN010",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Vertebroplasty",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.contains">contains</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "https://pmjay.gov.in/hbp-procedure-code",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IN010A",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Vertebroplasty"
+          }
+        ]
+      }
+    ]
+  }
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hcxprotocol.io/">HCX Open Community</a>.  Package hcxprotocol.io#0.9.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 20, 2023 22:13+0530">2023-09-20</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,299 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/CoverageEligibilityResponse/example-01> a fhir:CoverageEligibilityResponse ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-01"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: CoverageEligibilityResponse</b><a name=\"example-01\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource CoverageEligibilityResponse &quot;example-01&quot; </p></div><p><b>identifier</b>: id: urn:uuiad:581da6a9</p><p><b>status</b>: active</p><p><b>purpose</b>: discovery, benefits</p><p><b>patient</b>: <span/></p><p><b>serviced</b>: 2021-12-22 --&gt; 2021-12-25</p><p><b>created</b>: 2021-12-22</p><p><b>requestor</b>: <span/></p><p><b>request</b>: <span/></p><p><b>outcome</b>: complete</p><p><b>insurer</b>: <span/></p><blockquote><p><b>insurance</b></p><p><b>coverage</b>: <span/></p><p><b>inforce</b>: true</p><blockquote><p><b>item</b></p><p><b>category</b>: Health Benefit Plan Coverage <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ex-benefitcategory.html\">Benefit Category Codes</a>#30)</span></p><p><b>network</b>: In Network <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-network.html\">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-unit.html\">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Annual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-term.html\">Benefit Term Codes</a>#annual)</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: Benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-type.html\">Benefit Type Codes</a>#benefit)</span></p><p><b>allowed</b>: <span title=\"Indian Rupee\">₹500,000.00</span> (INR)</p></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: Copayment maximum per service <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-type.html\">Benefit Type Codes</a>#copay-maximum)</span></p><p><b>allowed</b>: <span title=\"Indian Rupee\">₹100.00</span> (INR)</p></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: Copayment Percent per service <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-type.html\">Benefit Type Codes</a>#copay-percent)</span></p><p><b>allowed</b>: 20</p></blockquote></blockquote><blockquote><p><b>item</b></p><p><b>category</b>: Maternity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ex-benefitcategory.html\">Benefit Category Codes</a>#69)</span></p><p><b>network</b>: In Network <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-network.html\">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-unit.html\">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Annual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-term.html\">Benefit Term Codes</a>#annual)</span></p><h3>Benefits</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Allowed[x]</b></td></tr><tr><td>*</td><td>Benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-type.html\">Benefit Type Codes</a>#benefit)</span></td><td><span title=\"Indian Rupee\">₹15,000.00</span> (INR)</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>category</b>: Dental Coverage <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ex-benefitcategory.html\">Benefit Category Codes</a>#F3)</span></p><p><b>network</b>: In Network <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-network.html\">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-unit.html\">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Annual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-term.html\">Benefit Term Codes</a>#annual)</span></p><h3>Benefits</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Allowed[x]</b></td></tr><tr><td>*</td><td>Benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-type.html\">Benefit Type Codes</a>#benefit)</span></td><td><span title=\"Indian Rupee\">₹2,000.00</span> (INR)</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>category</b>: Vision Coverage <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ex-benefitcategory.html\">Benefit Category Codes</a>#F6)</span></p><p><b>network</b>: In Network <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-network.html\">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-unit.html\">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Annual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-term.html\">Benefit Term Codes</a>#annual)</span></p><h3>Benefits</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Allowed[x]</b></td></tr><tr><td>*</td><td>Benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-type.html\">Benefit Type Codes</a>#benefit)</span></td><td><span title=\"Indian Rupee\">₹400.00</span> (INR)</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>category</b>: Hospital Room and Board <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-ex-benefitcategory.html\">Benefit Category Codes</a>#49)</span></p><p><b>network</b>: In Network <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-network.html\">Network Type Codes</a>#in)</span></p><p><b>unit</b>: Individual <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-unit.html\">Unit Type Codes</a>#individual)</span></p><p><b>term</b>: Day <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-term.html\">Benefit Term Codes</a>#day)</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: Room <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-type.html\">Benefit Type Codes</a>#room)</span></p><p><b>allowed</b>: shared</p></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: Benefit <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-benefit-type.html\">Benefit Type Codes</a>#benefit)</span></p><p><b>allowed</b>: <span title=\"Indian Rupee\">₹600.00</span> (INR)</p></blockquote></blockquote></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuiad:581da6a9" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:purpose ( [ fhir:v "discovery"] [ fhir:v "benefits"] ) ; # 
+  fhir:patient [
+     fhir:id [ fhir:v "RVH1003" ] ;
+     fhir:identifier [
+       fhir:type [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "SN" ] ;
+           fhir:display [ fhir:v "Subscriber Number" ]
+         ] )
+       ] ;
+       fhir:system [ fhir:v "http://gicofIndia.com/beneficiaries"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "BEN-101" ]
+     ]
+  ] ; # 
+  fhir:serviced [
+     a fhir:Period ;
+     fhir:start [ fhir:v "2021-12-22"^^xsd:date ] ;
+     fhir:end [ fhir:v "2021-12-25"^^xsd:date ]
+  ] ; # 
+  fhir:created [ fhir:v "2021-12-22"^^xsd:date] ; # 
+  fhir:requestor [
+     fhir:id [ fhir:v "NPR-6897" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "https://ndhm.gov.in/npr"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "NPR-6897" ]
+     ]
+  ] ; # 
+  fhir:request [
+     fhir:id [ fhir:v "example-01" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "https://www.tmh.in/coverage-eligibility-request"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "dc82673b-8c71-48c2-8a17-16dcb3b035f6" ]
+     ]
+  ] ; # 
+  fhir:outcome [ fhir:v "complete"] ; # 
+  fhir:insurer [
+     fhir:id [ fhir:v "GICOFINDIA" ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "http://irdai.gov.in/insurers"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "112" ]
+     ]
+  ] ; # 
+  fhir:insurance ( [
+     fhir:coverage [
+       fhir:id [ fhir:v "dadde132-ad64-4d18-8c18-1d52d7e86abc" ] ;
+       fhir:identifier [
+         fhir:system [ fhir:v "https://www.gicofIndia.in/policies"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "policy-RVH1003" ]
+       ]
+     ] ;
+     fhir:inforce [ fhir:v "true"^^xsd:boolean ] ;
+     fhir:item ( [
+       fhir:category [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/ex-benefitcategory"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "30" ] ;
+           fhir:display [ fhir:v "Health Benefit Plan Coverage" ]
+         ] )
+       ] ;
+       fhir:network [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-network"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "in" ]
+         ] )
+       ] ;
+       fhir:unit [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-unit"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "individual" ]
+         ] )
+       ] ;
+       fhir:term [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-term"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "annual" ]
+         ] )
+       ] ;
+       fhir:benefit ( [
+         fhir:type [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-type"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "benefit" ]
+           ] )
+         ] ;
+         fhir:allowed [
+           a fhir:Money ;
+           fhir:value [ fhir:v "500000"^^xsd:decimal ] ;
+           fhir:currency [ fhir:v "INR" ]
+         ]
+       ] [
+         fhir:type [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-type"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "copay-maximum" ]
+           ] )
+         ] ;
+         fhir:allowed [
+           a fhir:Money ;
+           fhir:value [ fhir:v "100"^^xsd:decimal ] ;
+           fhir:currency [ fhir:v "INR" ]
+         ]
+       ] [
+         fhir:type [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-type"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "copay-percent" ]
+           ] )
+         ] ;
+         fhir:allowed [ fhir:v "20"^^xsd:nonNegativeInteger ]
+       ] )
+     ] [
+       fhir:category [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/ex-benefitcategory"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "69" ] ;
+           fhir:display [ fhir:v "Maternity" ]
+         ] )
+       ] ;
+       fhir:network [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-network"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "in" ]
+         ] )
+       ] ;
+       fhir:unit [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-unit"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "individual" ]
+         ] )
+       ] ;
+       fhir:term [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-term"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "annual" ]
+         ] )
+       ] ;
+       fhir:benefit ( [
+         fhir:type [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-type"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "benefit" ]
+           ] )
+         ] ;
+         fhir:allowed [
+           a fhir:Money ;
+           fhir:value [ fhir:v "15000"^^xsd:decimal ] ;
+           fhir:currency [ fhir:v "INR" ]
+         ]
+       ] )
+     ] [
+       fhir:category [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/ex-benefitcategory"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "F3" ] ;
+           fhir:display [ fhir:v "Dental Coverage" ]
+         ] )
+       ] ;
+       fhir:network [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-network"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "in" ]
+         ] )
+       ] ;
+       fhir:unit [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-unit"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "individual" ]
+         ] )
+       ] ;
+       fhir:term [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-term"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "annual" ]
+         ] )
+       ] ;
+       fhir:benefit ( [
+         fhir:type [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-type"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "benefit" ]
+           ] )
+         ] ;
+         fhir:allowed [
+           a fhir:Money ;
+           fhir:value [ fhir:v "2000"^^xsd:decimal ] ;
+           fhir:currency [ fhir:v "INR" ]
+         ]
+       ] )
+     ] [
+       fhir:category [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/ex-benefitcategory"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "F6" ] ;
+           fhir:display [ fhir:v "Vision Coverage" ]
+         ] )
+       ] ;
+       fhir:network [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-network"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "in" ]
+         ] )
+       ] ;
+       fhir:unit [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-unit"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "individual" ]
+         ] )
+       ] ;
+       fhir:term [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-term"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "annual" ]
+         ] )
+       ] ;
+       fhir:benefit ( [
+         fhir:type [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-type"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "benefit" ]
+           ] )
+         ] ;
+         fhir:allowed [
+           a fhir:Money ;
+           fhir:value [ fhir:v "400"^^xsd:decimal ] ;
+           fhir:currency [ fhir:v "INR" ]
+         ]
+       ] )
+     ] [
+       fhir:category [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/ex-benefitcategory"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "49" ] ;
+           fhir:display [ fhir:v "Hospital Room and Board" ]
+         ] )
+       ] ;
+       fhir:network [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-network"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "in" ]
+         ] )
+       ] ;
+       fhir:unit [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-unit"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "individual" ]
+         ] )
+       ] ;
+       fhir:term [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-term"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "day" ]
+         ] )
+       ] ;
+       fhir:benefit ( [
+         fhir:type [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-type"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "room" ]
+           ] )
+         ] ;
+         fhir:allowed [ fhir:v "shared" ]
+       ] [
+         fhir:type [
+           fhir:coding ( [
+             fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/benefit-type"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "benefit" ]
+           ] )
+         ] ;
+         fhir:allowed [
+           a fhir:Money ;
+           fhir:value [ fhir:v "600"^^xsd:decimal ] ;
+           fhir:currency [ fhir:v "INR" ]
+         ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,324 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/Bundle/ClaimRequestDocument-example-01> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ClaimRequestDocument-example-01"] ; # 
+  fhir:meta [
+     fhir:lastUpdated [ fhir:v "2022-02-08T21:49:55.458+05:30"^^xsd:dateTime ]
+  ] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "https://www.tmh.in/bundle"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "ClaimRequestDocument-example-01" ]
+  ] ; # 
+  fhir:type [ fhir:v "document"] ; # 
+  fhir:timestamp [ fhir:v "2022-02-08T21:49:55.458+05:30"^^xsd:dateTime] ; # 
+  fhir:entry ( [
+     fhir:fullUrl [ fhir:v "Composition/42ff4a07-3e36-402f-a99e-29f16c0c9eee"^^xsd:anyURI ] ;
+     fhir:resource ( <Composition/42ff4a07-3e36-402f-a99e-29f16c0c9eee> )
+  ] [
+     fhir:fullUrl [ fhir:v "Organization/Tmh01"^^xsd:anyURI ] ;
+     fhir:resource ( <Organization/Tmh01> )
+  ] [
+     fhir:fullUrl [ fhir:v "Patient/RVH1003"^^xsd:anyURI ] ;
+     fhir:resource ( <Patient/RVH1003> )
+  ] [
+     fhir:fullUrl [ fhir:v "ClaimRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6"^^xsd:anyURI ] ;
+     fhir:resource ( <ClaimRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6> )
+  ] [
+     fhir:fullUrl [ fhir:v "Organization/GICOFINDIA"^^xsd:anyURI ] ;
+     fhir:resource ( <Organization/GICOFINDIA> )
+  ] [
+     fhir:fullUrl [ fhir:v "Coverage/dadde132-ad64-4d18-8c18-1d52d7e86abc"^^xsd:anyURI ] ;
+     fhir:resource ( <Coverage/dadde132-ad64-4d18-8c18-1d52d7e86abc> )
+  ] ) . # 
+
+<Composition/42ff4a07-3e36-402f-a99e-29f16c0c9eee> a fhir:Composition ;
+  fhir:id [ fhir:v "42ff4a07-3e36-402f-a99e-29f16c0c9eee"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"42ff4a07-3e36-402f-a99e-29f16c0c9eee\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;42ff4a07-3e36-402f-a99e-29f16c0c9eee&quot; </p></div><p><b>identifier</b>: id: 42ff4a07-3e36-402f-a99e-29f16c0c9eee</p><p><b>status</b>: final</p><p><b>type</b>: Claim Request Doc <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (document-type#HcxClaimRequest)</span></p><p><b>date</b>: 2022-02-08 21:49:55+0530</p><p><b>author</b>: <a href=\"#Organization_Tmh01\">See above (Organization/Tmh01)</a></p><p><b>title</b>: Claim Request</p></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:system [ fhir:v "https://www.tmh.in/hcx-documents"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "42ff4a07-3e36-402f-a99e-29f16c0c9eee" ]
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://www.hcx.org/document-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "HcxClaimRequest" ] ;
+       fhir:display [ fhir:v "Claim Request Doc" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Patient/RVH1003> ;
+     fhir:reference [ fhir:v "Patient/RVH1003" ]
+  ] ; # 
+  fhir:date [ fhir:v "2022-02-08T21:49:55+05:30"^^xsd:dateTime] ; # 
+  fhir:author ( [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Organization/Tmh01> ;
+     fhir:reference [ fhir:v "Organization/Tmh01" ]
+  ] ) ; # 
+  fhir:title [ fhir:v "Claim Request"] ; # 
+  fhir:section ( [
+     fhir:title [ fhir:v "# Claim Request" ] ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/ValueSet/resource-types"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "ClaimRequest" ] ;
+         fhir:display [ fhir:v "Claim Request" ]
+       ] ) ;
+       fhir:text [ fhir:v "ClaimRequest" ]
+     ] ;
+     fhir:entry ( [
+       fhir:link <https://hcxprotocol.io/fhir/r4/ClaimRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6> ;
+       fhir:reference [ fhir:v "ClaimRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6" ]
+     ] )
+  ] ) . # 
+
+<Organization/Tmh01> a fhir:Organization ;
+  fhir:id [ fhir:v "Tmh01"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"Tmh01\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;Tmh01&quot; </p></div><p><b>identifier</b>: id: HFR-ID-FOR-TMH, id: IRDA-ID-FOR-TMH</p><p><b>name</b>: Tata Memorial Hospital</p><p><b>alias</b>: TMH, TMC</p><p><b>telecom</b>: ph: (+91) 022-2417-7000</p><p><b>address</b>: Dr Ernest Borges Rd, Parel East, Parel, Mumbai, Maharashtra 400012 Mumbai Maharashtra 400012 INDIA </p><p><b>endpoint</b>: <a href=\"https://www.tmc.gov.in/\">https://www.tmc.gov.in/: Website</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://abdm.gov.in/facilities"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "HFR-ID-FOR-TMH" ]
+  ] [
+     fhir:system [ fhir:v "http://irdai.gov.in/facilities"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "IRDA-ID-FOR-TMH" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "Tata Memorial Hospital"] ; # 
+  fhir:alias ( [ fhir:v "TMH"] [ fhir:v "TMC"] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "(+91) 022-2417-7000" ]
+  ] ) ; # 
+  fhir:address ( [
+     fhir:line ( [ fhir:v "Dr Ernest Borges Rd, Parel East, Parel, Mumbai, Maharashtra 400012" ] ) ;
+     fhir:city [ fhir:v "Mumbai" ] ;
+     fhir:state [ fhir:v "Maharashtra" ] ;
+     fhir:postalCode [ fhir:v "400012" ] ;
+     fhir:country [ fhir:v "INDIA" ]
+  ] ) ; # 
+  fhir:endpoint ( [
+     fhir:link <https://www.tmc.gov.in/> ;
+     fhir:reference [ fhir:v "https://www.tmc.gov.in/" ] ;
+     fhir:display [ fhir:v "Website" ]
+  ] ) . # 
+
+<Patient/RVH1003> a fhir:Patient ;
+  fhir:id [ fhir:v "RVH1003"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"RVH1003\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;RVH1003&quot; </p></div><p><b>identifier</b>: Subscriber Number: BEN-101, id: hinapatel@abdm</p><p><b>name</b>: Hina Patel</p><p><b>gender</b>: female</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "SN" ] ;
+         fhir:display [ fhir:v "Subscriber Number" ]
+       ] )
+     ] ;
+     fhir:system [ fhir:v "http://gicofIndia.com/beneficiaries"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "BEN-101" ]
+  ] [
+     fhir:system [ fhir:v "http://abdm.gov.in/patients"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "hinapatel@abdm" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:text [ fhir:v "Hina Patel" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "female"] . # 
+
+<ClaimRequest/dc82673b-8c71-48c2-8a17-16dcb3b035f6> a fhir:Claim ;
+  fhir:id [ fhir:v "1532676"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2020-10-07T03:26:09.060+00:00"^^xsd:dateTime ] ;
+     fhir:source [ fhir:v "#BHZcRrcF4oS0JQ42"^^xsd:anyURI ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Claim</b><a name=\"1532676\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Claim &quot;1532676&quot; Version &quot;1&quot; Updated &quot;2020-10-07 03:26:09+0000&quot; </p><p style=\"margin-bottom: 0px\">Information Source: #BHZcRrcF4oS0JQ42!</p></div><p><b>status</b>: active</p><p><b>type</b>: Institutional <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-claim-type.html\">Claim Type Codes</a>#institutional)</span></p><p><b>use</b>: claim</p><p><b>patient</b>: <a href=\"Patient/1531634\">Patient/1531634: Hina Patel</a></p><p><b>billablePeriod</b>: 1979-02-27 16:01:08-0500 --&gt; 1979-02-28 16:01:08-0500</p><p><b>created</b>: 1979-02-28 16:01:08-0500</p><p><b>provider</b>: <a href=\"Bundle-CoverageEligibilityResponseDocument-example-01.html#Organization_2\">Organization/2: PMJAY, MoHFW, Govt Of India</a></p><p><b>priority</b>: Normal <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-processpriority.html\">Process Priority Codes</a>#normal)</span></p><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 1</p><p><b>procedure</b>: <a href=\"Procedure/1532663\">Procedure/1532663</a></p></blockquote><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 2</p><p><b>procedure</b>: <a href=\"Procedure/1532664\">Procedure/1532664</a></p></blockquote><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 3</p><p><b>procedure</b>: <a href=\"Procedure/1532665\">Procedure/1532665</a></p></blockquote><h3>Insurances</h3><table class=\"grid\"><tr><td>-</td><td><b>Sequence</b></td><td><b>Focal</b></td><td><b>Coverage</b></td></tr><tr><td>*</td><td>1</td><td>true</td><td><span>: Cigna Health</span></td></tr></table><blockquote><p><b>item</b></p><p><b>sequence</b>: 1</p><p><b>productOrService</b>: Encounter for problem <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#185347001)</span></p><p><b>encounter</b>: <a href=\"Encounter/1532617\">Encounter/1532617</a></p></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 2</p><p><b>procedureSequence</b>: 1</p><p><b>productOrService</b>: Hearing examination (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#398171003)</span></p><h3>Nets</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>516.65</td><td>USD</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 3</p><p><b>procedureSequence</b>: 2</p><p><b>productOrService</b>: Combined chemotherapy and radiation therapy (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#703423002)</span></p><h3>Nets</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>16924.49</td><td>USD</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 4</p><p><b>procedureSequence</b>: 3</p><p><b>productOrService</b>: High resolution computed tomography of chest without contrast (procedure) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#16335031000119103)</span></p><h3>Nets</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>516.65</td><td>USD</td></tr></table></blockquote><h3>Totals</h3><table class=\"grid\"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>129.16</td><td>USD</td></tr></table></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/claim-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "institutional" ]
+     ] )
+  ] ; # 
+  fhir:use [ fhir:v "claim"] ; # 
+  fhir:patient [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Patient/1531634> ;
+     fhir:reference [ fhir:v "Patient/1531634" ] ;
+     fhir:display [ fhir:v "Hina Patel" ]
+  ] ; # 
+  fhir:billablePeriod [
+     fhir:start [ fhir:v "1979-02-27T16:01:08-05:00"^^xsd:dateTime ] ;
+     fhir:end [ fhir:v "1979-02-28T16:01:08-05:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:created [ fhir:v "1979-02-28T16:01:08-05:00"^^xsd:dateTime] ; # 
+  fhir:provider [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Organization/2> ;
+     fhir:reference [ fhir:v "Organization/2" ] ;
+     fhir:display [ fhir:v "PMJAY, MoHFW, Govt Of India" ]
+  ] ; # 
+  fhir:priority [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/processpriority"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "normal" ]
+     ] )
+  ] ; # 
+  fhir:procedure ( [
+     fhir:sequence [ fhir:v "1"^^xsd:positiveInteger ] ;
+     fhir:procedure [
+       a fhir:Reference ;
+       fhir:link <https://hcxprotocol.io/fhir/r4/Procedure/1532663> ;
+       fhir:reference [ fhir:v "Procedure/1532663" ]
+     ]
+  ] [
+     fhir:sequence [ fhir:v "2"^^xsd:positiveInteger ] ;
+     fhir:procedure [
+       a fhir:Reference ;
+       fhir:link <https://hcxprotocol.io/fhir/r4/Procedure/1532664> ;
+       fhir:reference [ fhir:v "Procedure/1532664" ]
+     ]
+  ] [
+     fhir:sequence [ fhir:v "3"^^xsd:positiveInteger ] ;
+     fhir:procedure [
+       a fhir:Reference ;
+       fhir:link <https://hcxprotocol.io/fhir/r4/Procedure/1532665> ;
+       fhir:reference [ fhir:v "Procedure/1532665" ]
+     ]
+  ] ) ; # 
+  fhir:insurance ( [
+     fhir:sequence [ fhir:v "1"^^xsd:positiveInteger ] ;
+     fhir:focal [ fhir:v "true"^^xsd:boolean ] ;
+     fhir:coverage [
+       fhir:display [ fhir:v "Cigna Health" ]
+     ]
+  ] ) ; # 
+  fhir:item ( [
+     fhir:sequence [ fhir:v "1"^^xsd:positiveInteger ] ;
+     fhir:productOrService [
+       fhir:coding ( [
+         a sct:185347001 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "185347001" ] ;
+         fhir:display [ fhir:v "Encounter for problem" ]
+       ] ) ;
+       fhir:text [ fhir:v "Encounter for problem" ]
+     ] ;
+     fhir:encounter ( [
+       fhir:link <https://hcxprotocol.io/fhir/r4/Encounter/1532617> ;
+       fhir:reference [ fhir:v "Encounter/1532617" ]
+     ] )
+  ] [
+     fhir:sequence [ fhir:v "2"^^xsd:positiveInteger ] ;
+     fhir:procedureSequence ( [ fhir:v "1"^^xsd:positiveInteger ] ) ;
+     fhir:productOrService [
+       fhir:coding ( [
+         a sct:398171003 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "398171003" ] ;
+         fhir:display [ fhir:v "Hearing examination (procedure)" ]
+       ] ) ;
+       fhir:text [ fhir:v "Hearing examination (procedure)" ]
+     ] ;
+     fhir:net [
+       fhir:value [ fhir:v "516.65"^^xsd:decimal ] ;
+       fhir:currency [ fhir:v "USD" ]
+     ]
+  ] [
+     fhir:sequence [ fhir:v "3"^^xsd:positiveInteger ] ;
+     fhir:procedureSequence ( [ fhir:v "2"^^xsd:positiveInteger ] ) ;
+     fhir:productOrService [
+       fhir:coding ( [
+         a sct:703423002 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "703423002" ] ;
+         fhir:display [ fhir:v "Combined chemotherapy and radiation therapy (procedure)" ]
+       ] ) ;
+       fhir:text [ fhir:v "Combined chemotherapy and radiation therapy (procedure)" ]
+     ] ;
+     fhir:net [
+       fhir:value [ fhir:v "16924.49"^^xsd:decimal ] ;
+       fhir:currency [ fhir:v "USD" ]
+     ]
+  ] [
+     fhir:sequence [ fhir:v "4"^^xsd:positiveInteger ] ;
+     fhir:procedureSequence ( [ fhir:v "3"^^xsd:positiveInteger ] ) ;
+     fhir:productOrService [
+       fhir:coding ( [
+         a sct:16335031000119103 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "16335031000119103" ] ;
+         fhir:display [ fhir:v "High resolution computed tomography of chest without contrast (procedure)" ]
+       ] ) ;
+       fhir:text [ fhir:v "High resolution computed tomography of chest without contrast (procedure)" ]
+     ] ;
+     fhir:net [
+       fhir:value [ fhir:v "516.65"^^xsd:decimal ] ;
+       fhir:currency [ fhir:v "USD" ]
+     ]
+  ] ) ; # 
+  fhir:total [
+     fhir:value [ fhir:v "129.16"^^xsd:decimal ] ;
+     fhir:currency [ fhir:v "USD" ]
+  ] . # 
+
+<Organization/GICOFINDIA> a fhir:Organization ;
+  fhir:id [ fhir:v "GICOFINDIA"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"GICOFINDIA\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;GICOFINDIA&quot; </p></div><p><b>identifier</b>: id: 112</p><p><b>name</b>: General Insurance Corporation of India</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://irdai.gov.in/insurers"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "112" ]
+  ] ) ; # 
+  fhir:name [ fhir:v "General Insurance Corporation of India"] . # 
+
+<Coverage/dadde132-ad64-4d18-8c18-1d52d7e86abc> a fhir:Coverage ;
+  fhir:id [ fhir:v "dadde132-ad64-4d18-8c18-1d52d7e86abc"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Coverage</b><a name=\"dadde132-ad64-4d18-8c18-1d52d7e86abc\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Coverage &quot;dadde132-ad64-4d18-8c18-1d52d7e86abc&quot; </p></div><p><b>identifier</b>: id: policy-RVH1003</p><p><b>status</b>: active</p><p><b>subscriber</b>: <a href=\"#Patient_RVH1003\">See above (Patient/RVH1003)</a></p><p><b>subscriberId</b>: SN-RVH1003</p><p><b>beneficiary</b>: <a href=\"#Patient_RVH1003\">See above (Patient/RVH1003)</a></p><p><b>relationship</b>: self <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (subscriber-relationship#self)</span></p><p><b>payor</b>: <a href=\"#Organization_GICOFINDIA\">See above (Organization/GICOFINDIA)</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://www.gicofIndia.in/policies"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "policy-RVH1003" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:subscriber [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Patient/RVH1003> ;
+     fhir:reference [ fhir:v "Patient/RVH1003" ]
+  ] ; # 
+  fhir:subscriberId [ fhir:v "SN-RVH1003"] ; # 
+  fhir:beneficiary [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Patient/RVH1003> ;
+     fhir:reference [ fhir:v "Patient/RVH1003" ]
+  ] ; # 
+  fhir:relationship [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/ValueSet/subscriber-relationship"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "self" ]
+     ] )
+  ] ; # 
+  fhir:payor ( [
+     fhir:link <https://hcxprotocol.io/fhir/r4/Organization/GICOFINDIA> ;
+     fhir:reference [ fhir:v "Organization/GICOFINDIA" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

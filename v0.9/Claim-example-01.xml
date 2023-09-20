@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Claim xmlns="http://hl7.org/fhir">
+  <id value="example-01"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2020-10-07T03:26:09.060+00:00"/>
+    <source value="#BHZcRrcF4oS0JQ42"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Claim</b><a name="example-01"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Claim &quot;example-01&quot; Version &quot;1&quot; Updated &quot;2020-10-07 03:26:09+0000&quot; </p><p style="margin-bottom: 0px">Information Source: #BHZcRrcF4oS0JQ42!</p></div><p><b>identifier</b>: id: dc82673b-8c71-29js-8a17-16dj3i20352n</p><p><b>status</b>: active</p><p><b>type</b>: Institutional <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-claim-type.html">Claim Type Codes</a>#institutional)</span></p><p><b>use</b>: claim</p><p><b>patient</b>: <span/></p><p><b>billablePeriod</b>: 1979-02-27 16:01:08-0500 --&gt; 1979-02-28 16:01:08-0500</p><p><b>created</b>: 1979-02-28 16:01:08-0500</p><p><b>insurer</b>: <span/></p><p><b>provider</b>: <span/></p><p><b>priority</b>: Normal <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-processpriority.html">Process Priority Codes</a>#normal)</span></p><h3>Payees</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Party</b></td></tr><tr><td>*</td><td>Provider <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-payeetype.html">Payee Type Codes</a>#provider)</span></td><td><span/></td></tr></table><h3>CareTeams</h3><table class="grid"><tr><td>-</td><td><b>Sequence</b></td><td><b>Provider</b></td></tr><tr><td>*</td><td>1</td><td><span/></td></tr></table><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 1</p><p><b>procedure</b>: PROC-1 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R4/codesystem-icd-10-procedures.html">ICD-10 Procedure Codes</a>#123001)</span></p></blockquote><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 2</p><p><b>procedure</b>: PROC-2 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R4/codesystem-icd-10-procedures.html">ICD-10 Procedure Codes</a>#123002)</span></p></blockquote><blockquote><p><b>procedure</b></p><p><b>sequence</b>: 3</p><p><b>procedure</b>: PROC-3 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R4/codesystem-icd-10-procedures.html">ICD-10 Procedure Codes</a>#123003)</span></p></blockquote><h3>Insurances</h3><table class="grid"><tr><td>-</td><td><b>Sequence</b></td><td><b>Focal</b></td><td><b>Coverage</b></td></tr><tr><td>*</td><td>1</td><td>true</td><td><span>: Cigna Health</span></td></tr></table><blockquote><p><b>item</b></p><p><b>sequence</b>: 1</p><p><b>productOrService</b>: Encounter for problem <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#185347001)</span></p></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 2</p><p><b>procedureSequence</b>: 1</p><p><b>productOrService</b>: Hearing examination (procedure) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#398171003)</span></p><h3>Nets</h3><table class="grid"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>516.65</td><td>USD</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 3</p><p><b>procedureSequence</b>: 2</p><p><b>productOrService</b>: Combined chemotherapy and radiation therapy (procedure) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#703423002)</span></p><h3>Nets</h3><table class="grid"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>16924.49</td><td>USD</td></tr></table></blockquote><blockquote><p><b>item</b></p><p><b>sequence</b>: 4</p><p><b>procedureSequence</b>: 3</p><p><b>productOrService</b>: High resolution computed tomography of chest without contrast (procedure) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#16335031000119103)</span></p><h3>Nets</h3><table class="grid"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>516.65</td><td>USD</td></tr></table></blockquote><h3>Totals</h3><table class="grid"><tr><td>-</td><td><b>Value</b></td><td><b>Currency</b></td></tr><tr><td>*</td><td>129.16</td><td>USD</td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="https://www.tmh.in/claim-request"/>
+    <value value="dc82673b-8c71-29js-8a17-16dj3i20352n"/>
+  </identifier>
+  <status value="active"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/claim-type"/>
+      <code value="institutional"/>
+    </coding>
+  </type>
+  <use value="claim"/>
+  <patient id="RVH1003">
+    <identifier>
+      <type>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+          <code value="SN"/>
+          <display value="Subscriber Number"/>
+        </coding>
+      </type>
+      <system value="http://gicofIndia.com/beneficiaries"/>
+      <value value="BEN-101"/>
+    </identifier>
+  </patient>
+  <billablePeriod>
+    <start value="1979-02-27T16:01:08-05:00"/>
+    <end value="1979-02-28T16:01:08-05:00"/>
+  </billablePeriod>
+  <created value="1979-02-28T16:01:08-05:00"/>
+  <insurer id="GICOFINDIA">
+    <identifier>
+      <system value="http://irdai.gov.in/insurers"/>
+      <value value="112"/>
+    </identifier>
+  </insurer>
+  <provider id="Tmh01">
+    <identifier>
+      <system value="http://abdm.gov.in/facilities"/>
+      <value value="HFR-ID-FOR-TMH"/>
+    </identifier>
+  </provider>
+  <priority>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/processpriority"/>
+      <code value="normal"/>
+    </coding>
+  </priority>
+  <payee>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/payeetype"/>
+        <code value="provider"/>
+      </coding>
+    </type>
+    <party id="Tmh02">
+      <identifier>
+        <system value="http://abdm.gov.in/facilities"/>
+        <value value="HFR-ID-FOR-TMH"/>
+      </identifier>
+    </party>
+  </payee>
+  <careTeam>
+    <sequence value="1"/>
+    <provider id="Tmh03">
+      <identifier>
+        <system value="http://abdm.gov.in/facilities"/>
+        <value value="HFR-ID-FOR-TMH"/>
+      </identifier>
+    </provider>
+  </careTeam>
+  <procedure>
+    <sequence value="1"/>
+    <procedureCodeableConcept>
+      <coding>
+        <system value="http://hl7.org/fhir/sid/ex-icd-10-procedures"/>
+        <code value="123001"/>
+      </coding>
+    </procedureCodeableConcept>
+  </procedure>
+  <procedure>
+    <sequence value="2"/>
+    <procedureCodeableConcept>
+      <coding>
+        <system value="http://hl7.org/fhir/sid/ex-icd-10-procedures"/>
+        <code value="123002"/>
+      </coding>
+    </procedureCodeableConcept>
+  </procedure>
+  <procedure>
+    <sequence value="3"/>
+    <procedureCodeableConcept>
+      <coding>
+        <system value="http://hl7.org/fhir/sid/ex-icd-10-procedures"/>
+        <code value="123003"/>
+      </coding>
+    </procedureCodeableConcept>
+  </procedure>
+  <insurance>
+    <sequence value="1"/>
+    <focal value="true"/>
+    <coverage>
+      <display value="Cigna Health"/>
+    </coverage>
+  </insurance>
+  <item>
+    <sequence value="1"/>
+    <productOrService>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="185347001"/>
+        <display value="Encounter for problem"/>
+      </coding>
+      <text value="Encounter for problem"/>
+    </productOrService>
+  </item>
+  <item>
+    <sequence value="2"/>
+    <procedureSequence value="1"/>
+    <productOrService>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="398171003"/>
+        <display value="Hearing examination (procedure)"/>
+      </coding>
+      <text value="Hearing examination (procedure)"/>
+    </productOrService>
+    <net>
+      <value value="516.65"/>
+      <currency value="USD"/>
+    </net>
+  </item>
+  <item>
+    <sequence value="3"/>
+    <procedureSequence value="2"/>
+    <productOrService>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="703423002"/>
+        <display value="Combined chemotherapy and radiation therapy (procedure)"/>
+      </coding>
+      <text value="Combined chemotherapy and radiation therapy (procedure)"/>
+    </productOrService>
+    <net>
+      <value value="16924.49"/>
+      <currency value="USD"/>
+    </net>
+  </item>
+  <item>
+    <sequence value="4"/>
+    <procedureSequence value="3"/>
+    <productOrService>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="16335031000119103"/>
+        <display value="High resolution computed tomography of chest without contrast (procedure)"/>
+      </coding>
+      <text value="High resolution computed tomography of chest without contrast (procedure)"/>
+    </productOrService>
+    <net>
+      <value value="516.65"/>
+      <currency value="USD"/>
+    </net>
+  </item>
+  <total>
+    <value value="129.16"/>
+    <currency value="USD"/>
+  </total>
+</Claim>

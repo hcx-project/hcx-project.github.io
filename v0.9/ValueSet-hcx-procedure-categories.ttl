@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/ValueSet/hcx-procedure-categories> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hcx-procedure-categories"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains codes for procedure categories.</p></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-procedure-categories"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "HCXProcedureCategories"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-03-06"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HCX Open Community"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HCX Open Community" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hcxprotocol.io/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This is the value set listing the procedure categories"] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2023-03-06T08:15:30+05:30"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MED" ] ;
+       fhir:display [ fhir:v "Medical Management" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SUR" ] ;
+       fhir:display [ fhir:v "Surgical Management" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "ICU" ] ;
+       fhir:display [ fhir:v "Intensive Care" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "INV" ] ;
+       fhir:display [ fhir:v "Investigation" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NAT" ] ;
+       fhir:display [ fhir:v "Non-allopathic Treatment" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MOD" ] ;
+       fhir:display [ fhir:v "Modern Treatment" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FAD" ] ;
+       fhir:display [ fhir:v "First Aid" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "RES" ] ;
+       fhir:display [ fhir:v "Resuscitation" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-procedure-categories"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "OTH" ] ;
+       fhir:display [ fhir:v "Others" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

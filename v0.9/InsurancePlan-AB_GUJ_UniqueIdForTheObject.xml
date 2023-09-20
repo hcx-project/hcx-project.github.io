@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<InsurancePlan xmlns="http://hl7.org/fhir">
+  <id value="AB_GUJ_UniqueIdForTheObject"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: InsurancePlan</b><a name="AB_GUJ_UniqueIdForTheObject"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource InsurancePlan &quot;AB_GUJ_UniqueIdForTheObject&quot; </p></div><p><b>identifier</b>: id: AB_GUJ_Plan1 (use: USUAL, period: 2001-05-06 --&gt; (ongoing))</p><p><b>status</b>: active</p><p><b>type</b>: Medical <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-insurance-plan-type.html">Insurance plan type</a>#medical)</span></p><p><b>name</b>: PMJAY-Mukhyamantri Amrutam &amp; Mukhyamantri Vatsalya</p><p><b>period</b>: 2020-09-23 --&gt; (ongoing)</p><p><b>ownedBy</b>: <a href="Organization/AB_GUJ_SHA">Organization/AB_GUJ_SHA: Gujarat State Health Protection Society</a></p><p><b>administeredBy</b>: <a href="Organization/AB_GUJ_TPA_1">Organization/AB_GUJ_TPA_1: MD India Healthcare Service (TPA) Pvt. Ltd.</a></p><p><b>coverageArea</b>: <a href="Location/GUJARAT">Location/GUJARAT: Gujarat</a></p><blockquote><p><b>coverage</b></p><p><b>type</b>: Medical <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (coverage-type#Medical)</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: Inpatient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (benefit-type#Inpatient)</span></p><h3>Limits</h3><table class="grid"><tr><td>-</td><td><b>Value</b></td></tr><tr><td>*</td><td>500000 INR</td></tr></table></blockquote></blockquote><blockquote><p><b>plan</b></p><p><b>type</b>: PMJAY_GUJ_GOLD_CARD <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (plan-type#PMJAY_GUJ_GOLD_CARD)</span></p><blockquote><p><b>specificCost</b></p><p><b>category</b>: Inpatient-packages <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (cost-category#Inpatient-packages)</span></p><blockquote><p><b>benefit</b></p><p><b>type</b>: Vertebroplasty <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (packages#IN010)</span></p><h3>Costs</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Applicability</b></td><td><b>Value</b></td></tr><tr><td>*</td><td>hospitalization <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (pacakgeCostTypes#hospitalization)</span></td><td>Gujarat SHA empaneled hospitals <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (applicabilityCodes#in-network)</span></td><td>22800 INR</td></tr></table></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: ABC Surgery <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (procedures#MC999A; unknown#ICD_PCS_001)</span></p><blockquote><p><b>cost</b></p><p><b>type</b>: hospitalization <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (pacakgeCostTypes#hospitalization)</span></p><p><b>applicability</b>: Gujarat SHA empaneled hospitals <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (applicabilityCodes#in-network)</span></p><p><b>value</b>: 11000 INR</p></blockquote><blockquote><p><b>cost</b></p><p><b>type</b>: hospitalization <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (pacakgeCostTypes#hospitalization)</span></p><p><b>applicability</b>: Gujarat SHA empaneled hospitals <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (applicabilityCodes#in-network)</span></p><p><b>qualifiers</b>: STRAT002 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (stratificationTypes#STRAT002)</span>, IMP0005 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (implantCodes#IMP0005)</span></p><p><b>value</b>: 12000 INR</p></blockquote></blockquote><blockquote><p><b>benefit</b></p><p><b>type</b>: Microlaryngoscopic Surgery <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (packages#HBP_PACKAGE_00003)</span></p><h3>Costs</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Applicability</b></td><td><b>Qualifiers</b></td><td><b>Value</b></td></tr><tr><td>*</td><td>hospitalization <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (pacakgeCostTypes#hospitalization)</span></td><td>Gujarat SHA empaneled hospitals <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (applicabilityCodes#in-network)</span></td><td>STRAT002 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (stratificationTypes#STRAT002)</span>, IMP0005 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (implantCodes#IMP0005)</span></td><td>18500 INR</td></tr></table></blockquote></blockquote></blockquote></div>
+  </text>
+  <identifier>
+    <use value="usual"/>
+    <value value="AB_GUJ_Plan1"/>
+    <period>
+      <start value="2001-05-06"/>
+    </period>
+  </identifier>
+  <status value="active"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/insurance-plan-type"/>
+      <code value="medical"/>
+    </coding>
+  </type>
+  <name value="PMJAY-Mukhyamantri Amrutam &amp; Mukhyamantri Vatsalya"/>
+  <period>
+    <start value="2020-09-23"/>
+  </period>
+  <ownedBy>
+    <reference value="Organization/AB_GUJ_SHA"/>
+    <display value="Gujarat State Health Protection Society"/>
+  </ownedBy>
+  <administeredBy>
+    <reference value="Organization/AB_GUJ_TPA_1"/>
+    <display value="MD India Healthcare Service (TPA) Pvt. Ltd."/>
+  </administeredBy>
+  <coverageArea>
+    <reference value="Location/GUJARAT"/>
+    <display value="Gujarat"/>
+  </coverageArea>
+  <coverage>
+    <type>
+      <coding>
+        <system value="http://terminologyServer/ValueSets/coverage-type"/>
+        <code value="Medical"/>
+      </coding>
+    </type>
+    <benefit>
+      <type>
+        <coding>
+          <system value="http://terminologyServer/ValueSets/benefit-type"/>
+          <code value="Inpatient"/>
+        </coding>
+      </type>
+      <limit>
+        <value>
+          <value value="500000"/>
+          <unit value="INR"/>
+        </value>
+      </limit>
+    </benefit>
+  </coverage>
+  <plan>
+    <extension url="https://hcx-base-url/StructureDefinition/HCXProofOfIdentificationExtension">
+      <extension url="ProofOfIdentificationDocumentCode">
+        <valueCodeableConcept>
+          <coding>
+            <system value="https://hcx-valuesets/proofOfIdentificationDocumentCodes"/>
+            <version value="1.0.0"/>
+            <code value="12345"/>
+            <display value="Aadhar Card"/>
+          </coding>
+        </valueCodeableConcept>
+      </extension>
+      <extension url="ProofOfIdentificationDocumentRequiredFlag">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="ProofOfIdentificationDocumentMimeType">
+        <valueCode value="application/pdf"/>
+      </extension>
+      <extension url="ClinicalDiagnosticDocumentClaimUse">
+        <valueCode value="preauthorization"/>
+      </extension>
+      <extension url="DocumentationUrl">
+        <valueUrl value="http://documentation-url"/>
+      </extension>
+    </extension>
+    <extension url="https://hcx-base-url/StructureDefinition/HCXProofOfPresenceExtension">
+      <extension url="ProofOfPresenceDocumentCode">
+        <valueCodeableConcept>
+          <coding>
+            <system value="https://hcx-valuesets/proofOfPresenceDocumentCodes"/>
+            <version value="1.0.0"/>
+            <code value="45678"/>
+            <display value="Aadhar Verification XML"/>
+          </coding>
+        </valueCodeableConcept>
+      </extension>
+      <extension url="ProofOfPresenceDocumentRequiredFlag">
+        <valueBoolean value="true"/>
+      </extension>
+      <extension url="ProofOfPresenceDocumentMimeType">
+        <valueCode value="application/xml"/>
+      </extension>
+      <extension url="ClinicalDiagnosticDocumentClaimUse">
+        <valueCode value="preauthorization"/>
+      </extension>
+      <extension url="DocumentationUrl">
+        <valueUrl value="http://documentation-url"/>
+      </extension>
+    </extension>
+    <type>
+      <coding>
+        <system value="http://terminologyServer/ValueSets/plan-type"/>
+        <code value="PMJAY_GUJ_GOLD_CARD"/>
+      </coding>
+    </type>
+    <specificCost>
+      <category>
+        <coding>
+          <system value="http://terminologyServer/ValueSets/cost-category"/>
+          <code value="Inpatient-packages"/>
+        </coding>
+      </category>
+      <benefit>
+        <type>
+          <coding>
+            <system value="http://terminologyServer/ValueSets/packages"/>
+            <code value="IN010"/>
+            <display value="Vertebroplasty"/>
+          </coding>
+        </type>
+        <cost>
+          <type>
+            <coding>
+              <system value="http://terminologyServer/ValueSets/pacakgeCostTypes"/>
+              <code value="hospitalization"/>
+            </coding>
+          </type>
+          <applicability>
+            <coding>
+              <system value="http://terminologyServer/ValueSets/applicabilityCodes"/>
+              <code value="in-network"/>
+              <display value="Gujarat SHA empaneled hospitals"/>
+            </coding>
+          </applicability>
+          <value>
+            <value value="22800"/>
+            <unit value="INR"/>
+          </value>
+        </cost>
+      </benefit>
+      <benefit>
+        <type>
+          <coding>
+            <system value="http://terminologyServer/ValueSets/procedures"/>
+            <code value="MC999A"/>
+            <display value="ABC Surgery"/>
+          </coding>
+          <coding>
+            <system value="ICD PCS codes"/>
+            <code value="ICD_PCS_001"/>
+          </coding>
+        </type>
+        <cost>
+          <type>
+            <coding>
+              <system value="http://terminologyServer/ValueSets/pacakgeCostTypes"/>
+              <code value="hospitalization"/>
+            </coding>
+          </type>
+          <applicability>
+            <coding>
+              <system value="http://terminologyServer/ValueSets/applicabilityCodes"/>
+              <code value="in-network"/>
+              <display value="Gujarat SHA empaneled hospitals"/>
+            </coding>
+          </applicability>
+          <value>
+            <value value="11000"/>
+            <unit value="INR"/>
+          </value>
+        </cost>
+        <cost>
+          <type>
+            <coding>
+              <system value="http://terminologyServer/ValueSets/pacakgeCostTypes"/>
+              <code value="hospitalization"/>
+            </coding>
+          </type>
+          <applicability>
+            <coding>
+              <system value="http://terminologyServer/ValueSets/applicabilityCodes"/>
+              <code value="in-network"/>
+              <display value="Gujarat SHA empaneled hospitals"/>
+            </coding>
+          </applicability>
+          <qualifiers>
+            <coding>
+              <system value="http://terminologyServer/ValueSets/stratificationTypes"/>
+              <code value="STRAT002"/>
+            </coding>
+          </qualifiers>
+          <qualifiers>
+            <coding>
+              <system value="http://terminologyServer/ValueSets/implantCodes"/>
+              <code value="IMP0005"/>
+            </coding>
+          </qualifiers>
+          <value>
+            <value value="12000"/>
+            <unit value="INR"/>
+          </value>
+        </cost>
+      </benefit>
+      <benefit>
+        <extension url="https://hcx-base-url/StructureDefinition/HCXDiagnosticDocumentsExtension">
+          <extension url="ClinicalDiagnosticDocumentCode">
+            <valueCodeableConcept>
+              <coding>
+                <system value="https://hcx-valuesets/clinicalDiagnosticsDocumentCodes"/>
+                <version value="1.0.0"/>
+                <code value="DOC-001"/>
+                <display value="Investigation Report 1"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="ClinicalDiagnosticDocumentRequiredFlag">
+            <valueBoolean value="true"/>
+          </extension>
+          <extension url="ClinicalDiagnosticDocumentMimeType">
+            <valueCode value="application/pdf"/>
+          </extension>
+          <extension url="ClinicalDiagnosticDocumentClaimUse">
+            <valueCode value="claim"/>
+          </extension>
+          <extension url="DocumentationUrl">
+            <valueUrl value="http://documentation-url"/>
+          </extension>
+        </extension>
+        <extension url="https://hcx-base-url/StructureDefinition/HCXInformationalMessagesExtension">
+          <extension url="InformationalMessagesCode">
+            <valueCodeableConcept>
+              <coding>
+                <system value="https://hcx-valuesets/InformationalMessagesCodes"/>
+                <version value="1.0.0"/>
+                <code value="INF-001"/>
+                <display value="Information Message 1"/>
+              </coding>
+            </valueCodeableConcept>
+          </extension>
+          <extension url="InformationalMessageCode">
+            <valueCode value="information"/>
+          </extension>
+          <extension url="InformationalMessageClaimUse">
+            <valueCode value="claim"/>
+          </extension>
+          <extension url="DocumentationUrl">
+            <valueUrl value="http://documentation-url"/>
+          </extension>
+        </extension>
+        <extension url="https://hcx-base-url/StructureDefinition/HCXQuestionnairesExtension">
+          <extension url="Questionnaire">
+            <valueReference>
+              <reference value="Questionnnaire/1"/>
+            </valueReference>
+          </extension>
+          <extension url="QuestionnaireRequiredFlag">
+            <valueBoolean value="true"/>
+          </extension>
+          <extension url="QuestionnaireClaimUse">
+            <valueCode value="claim"/>
+          </extension>
+          <extension url="DocumentationUrl">
+            <valueUrl value="http://documentation-url"/>
+          </extension>
+        </extension>
+        <type>
+          <coding>
+            <system value="http://terminologyServer/ValueSets/packages"/>
+            <code value="HBP_PACKAGE_00003"/>
+            <display value="Microlaryngoscopic Surgery"/>
+          </coding>
+        </type>
+        <cost>
+          <type>
+            <coding>
+              <system value="http://terminologyServer/ValueSets/pacakgeCostTypes"/>
+              <code value="hospitalization"/>
+            </coding>
+          </type>
+          <applicability>
+            <coding>
+              <system value="http://terminologyServer/ValueSets/applicabilityCodes"/>
+              <code value="in-network"/>
+              <display value="Gujarat SHA empaneled hospitals"/>
+            </coding>
+          </applicability>
+          <qualifiers>
+            <coding>
+              <system value="http://terminologyServer/ValueSets/stratificationTypes"/>
+              <code value="STRAT002"/>
+            </coding>
+          </qualifiers>
+          <qualifiers>
+            <coding>
+              <system value="http://terminologyServer/ValueSets/implantCodes"/>
+              <code value="IMP0005"/>
+            </coding>
+          </qualifiers>
+          <value>
+            <value value="18500"/>
+            <unit value="INR"/>
+          </value>
+        </cost>
+      </benefit>
+    </specificCost>
+  </plan>
+</InsurancePlan>

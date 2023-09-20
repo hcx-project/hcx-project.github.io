@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/ValueSet/hcx-claim-sub-types> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hcx-claim-sub-types"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes for claim subtypes, which may also be referred to as admission types in certain terminologies.</p></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "HCXClaimSubTypes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-03-06"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HCX Open Community"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HCX Open Community" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hcxprotocol.io/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This is the value set listing the claim sub type codes, which may also be referred to as admission types in certain terminologies"] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2023-03-06T08:15:30+05:30"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "EM" ] ;
+       fhir:display [ fhir:v "Emergency" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "PL" ] ;
+       fhir:display [ fhir:v "Planned" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NC" ] ;
+       fhir:display [ fhir:v "Natural Catastrophe" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MA" ] ;
+       fhir:display [ fhir:v "Maternity" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "UR" ] ;
+       fhir:display [ fhir:v "Urgent" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "EL" ] ;
+       fhir:display [ fhir:v "Elective" ]
+     ] [
+       fhir:system [ fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NB" ] ;
+       fhir:display [ fhir:v "Newborn" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

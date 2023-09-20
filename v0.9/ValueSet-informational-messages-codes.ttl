@@ -1,0 +1,579 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/ValueSet/informational-messages-codes> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "informational-messages-codes"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 136 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MG045A\"> </a>  MG045A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Dialysis payable separately as an add on package</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MG072A\"> </a>  MG072A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Package cost of one session</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MG075A\"> </a>  MG075A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Rs. 5000 is the upper limit.\nCan be booked at a lower rate also.\nIn fact the SHA should examine this package and  confirm wheter the package has been booked at the usual market rate.\nCan be booked for a pt. already admitted under any medical package.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO014F\"> </a>  MO014F</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant and adjuvant rectal cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO062A1\"> </a>  MO062A1</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>ACUTE LYMPHOBLASTIC LEUKEMIA</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MR001A\"> </a>  MR001A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>The Procedure will cover ALL, Hodgkin's Lymphoma, Wilm's Tumour, NHL, Retinoblastoma &amp; certain Bone Tumours`</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SB030A\"> </a>  SB030A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Can be used for ORIF, wherever indicated.\nCan not be used as an Add - on package</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SB032A\"> </a>  SB032A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Surgical Management for Type III &amp; IV Rockwood to be decided by the surgeon on case to case basis\nType V &amp; VI to be taken up for Surgery straight away\nIn case Type I or II is booked a Pop Up to be shown &quot;For Rockwood Type I &amp; II - AC Joint injury, experts recommend Medical Management, are you sure you want to do Surgical Correction in this case ?&quot; \nFor Hospitals booking Surgical Correction in Type I &amp; Type II cases, Medical Audit will be conducted.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SB032C\"> </a>  SB032C</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Surgical Management for Type III &amp; IV Rockwood to be decided by the surgeon on case to case basis\nType V &amp; VI to be taken up for Surgery straight away</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SB070A\"> </a>  SB070A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>LA for - K Wire &amp; Screw\nGA for - Nail &amp; Plate</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SC076A\"> </a>  SC076A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>If the Hospital choses Pediatric Port in a pt. aged more than 14 years. Then it should be audited</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SE012A\"> </a>  SE012A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>The package is inclusive of Eye Bank processing fee</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SE012B\"> </a>  SE012B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>This is a special  follow up package, as in Corneal graft surgery, a follow up at 1 week is required.\nAt this time, the surgeon has to examine and then prescribe medicine for next one month.\nThe medicine for 1 month has to be given at the time of booking this package.\nA signed reciept from the pt. is an essential document</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SE018A\"> </a>  SE018A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>To be done only after a prior scleral buckling surgery history</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SE022A\"> </a>  SE022A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Can be booked only after 1 year of cataract surgery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SE025A\"> </a>  SE025A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Can be booked as a complication of cataract surgery atleast 15 days after discharge</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SE029A\"> </a>  SE029A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>The procedure is done only once per eye and not repeated</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SE029B\"> </a>  SE029B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>1. Claim to be raised after all 3 sittings have been done per eye.\n2. The interval between subsequent sittings is atleast 1 week.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SE033A\"> </a>  SE033A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Pre-auth to be raised only in cases which have a prior history of Vitreoretinal surgery done atleast 3 months ago</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SG097A\"> </a>  SG097A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Can be booked only after 15 days of Ileostomy and then every 2 months thereafter till the closure of stoma.\nThe Hospital has to upload a signed statement from pt. that s/he has received the cosnumables: Ileostomy - bags, adhesive, clips etc for 2 months</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SG097B\"> </a>  SG097B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Can be booked only after 15 days of Colostomy and then every 2 months thereafter till the closure of stoma.\nThe Hospital has to upload a signed statement from pt. that s/he has received the cosnumables: colostomy - bags, adhesive, clips etc for 2 months</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SU052A\"> </a>  SU052A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Payment to be made after completion of one month.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SU060A\"> </a>  SU060A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Claim to be raised after 6th Cycle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SU060B\"> </a>  SU060B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Claim for Rs. 15,000 can be raised after 6th Cycle.\nRemainaing Rs. 15,000 can be claimed after 12th Cycle</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SU071C\"> </a>  SU071C</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>No payment to be done to the Hospital for this stage\nThe package can be booked only if the first stage package has been booked prior to this</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SU071D\"> </a>  SU071D</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>The package can be booked only if the first stage and / or intermediate stage package has been booked prior to this</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-SV032A\"> </a>  SV032A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Associated with CABG\nNeed to submit Barcode/ ID number of IABP. Intra-operative use of IABP as a part of operative strategy, not included\nIncidence - 5% to 7%\nScrutiny of Hospitals where incidence is more than twice of prescribed limit</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO001A\"> </a>  MO001A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant therapy in breast cancer\nMetastatic breast cancer\n(should not have received the same regimen or AC earlier)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO001B\"> </a>  MO001B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant therapy after 4 cycles of AC or EC</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO001C\"> </a>  MO001C</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metstatic breast cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO001D\"> </a>  MO001D</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant therapy in breast cancer with cardiac dysfunction or not suitable for anthracycline based therapy\nMetstatic breast cancer\n(should not have received the same regimen earlier)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO001E\"> </a>  MO001E</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant therapy in breast cancer with cardiac dysfunction or not suitable for anthracycline based therapy and high nodal burden\nMetastatic breast cancer\n(should not have received the same regimen earlier)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO001F\"> </a>  MO001F</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant therapy in breast cancer with Her-2 neu positive patients</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO001G\"> </a>  MO001G</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant or neoadjuvant therapy in ER / PR psotive breast cancer\nER / PR positive metastatic breast cancer\n(if not receive earlier)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO001H\"> </a>  MO001H</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant or neoadjuvant therapy in ER / PR psotive breast cancer\nER / PR positive metastatic breast cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO001I\"> </a>  MO001I</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant or neoadjuvant therapy breast cancer\nmetastatic breast cancer\n(if not received earlier)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO001L\"> </a>  MO001L</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant therapy in breast cancer\nMetstatic breast cancer\n(should not have received the same regimen or EC earlier)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO001M\"> </a>  MO001M</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic  breast cancer ER / PR positive</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO001N\"> </a>  MO001N</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant or neoadjuvant therapy breast cancer\nmetastatic breast cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO001O\"> </a>  MO001O</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic breast cancer ER / PR positive</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO002A\"> </a>  MO002A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic bone malignancy and multiple myeloma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO003A\"> </a>  MO003A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic ovarian adenocarcinoma second line</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO003B\"> </a>  MO003B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant, adjuvant and metastatic ovarian adenocarcinoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO004A\"> </a>  MO004A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Testicular Seminoma, Adjuvant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO004B\"> </a>  MO004B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Germ cell tumour of any site for Neoadjuvant, adjuvant or metastatic first line</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO004D\"> </a>  MO004D</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Germ cell tumour second line therapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO005A\"> </a>  MO005A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>First line therapy for high - risk Gestational Trophoblastic Neoplasia\nSecond line</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO005C\"> </a>  MO005C</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>First line therapy for low risk Gestational Trophoblastic Neoplasia</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO006A\"> </a>  MO006A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant and metastatic Cervical Cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO006B\"> </a>  MO006B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Stage II and Stage III cervical cancer definitive therapy along with Radiation therapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO007A\"> </a>  MO007A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant, Adjuvant and Metastatic Endometrial Cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO007B\"> </a>  MO007B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic Endometrial Cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO008A\"> </a>  MO008A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>NACT, mets</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO008B\"> </a>  MO008B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Stage II and Stage III cervical cancer definitive therapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO009A\"> </a>  MO009A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Ewing Sarcoma second line chemotherapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO010A\"> </a>  MO010A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Osteogenic carcinoma Neoadjuvant and adjuvant therapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO010B\"> </a>  MO010B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Relapsed Osteogenic Sarcoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO010C\"> </a>  MO010C</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Osteogenic carcinoma Neoadjuvant therapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO010D\"> </a>  MO010D</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Osteogenic carcinoma adjuvant therapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO011A\"> </a>  MO011A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>NACT, Adjuvant, mets (if cardiac dysfunction)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO011B\"> </a>  MO011B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Soft tissue sarcoma neoadjuvant, adjuvant and metastatic</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO012A\"> </a>  MO012A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic Melanoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO013A\"> </a>  MO013A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Stage II and III anal Cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO013C\"> </a>  MO013C</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic Anal Cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO014A\"> </a>  MO014A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant and Metastatic Colorectal Cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO014B\"> </a>  MO014B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic Colorectal Cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO014H\"> </a>  MO014H</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant and adjuvant Colorectal Cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO015A\"> </a>  MO015A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant and adjuvant esophageal cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO015B\"> </a>  MO015B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Upper esophageal  neoadjuvant and  with RT as adjuvant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO015D\"> </a>  MO015D</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>With RT in definitive non-metastatic</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO015E\"> </a>  MO015E</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic without RT</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO016B\"> </a>  MO016B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic second line esophageal and stomach cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO016C\"> </a>  MO016C</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Till RT ends\nLower esophageal and stomach Cancer with RT as adjuvant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO016D\"> </a>  MO016D</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Till completion of RT\nLower esophageal and stomach Cancer with RT as adjuvant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO016E\"> </a>  MO016E</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant and Metastatic Stomach, Lower esophageal (adenocarcinoma) cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO016F\"> </a>  MO016F</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant, adjuvant and metastatic stomach and lower esophageal (adenocarcinoma) cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO016J\"> </a>  MO016J</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metatstaic lower esophageal and stomach Cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO016K\"> </a>  MO016K</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant for stomach and lower esophageal (adenocarcinoma) cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO016L\"> </a>  MO016L</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant, adjuvant, along with Radiation (concurrent), metastatic esophageal cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO017A\"> </a>  MO017A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Liver confined hepatocellular carcinoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO017B\"> </a>  MO017B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Meatastatic hepatocellular carcinoma (except child Pugh c)\nLiver confined but not suitable for liver directed therapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO018B\"> </a>  MO018B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic pancreatic cancer - first line</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO018C\"> </a>  MO018C</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant and adjuvant locally advanced pancreatic cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO018E\"> </a>  MO018E</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Till RT ends\nNeoadjuvant and adjuvant locally advanced pancreatic cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO018F\"> </a>  MO018F</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Pancreatic cancer - adjuvant</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO019A\"> </a>  MO019A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant and metastatic gall bladder and cholnagicarcinoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO019B\"> </a>  MO019B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant, adjuvant and metastatic pancreatic cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO019C\"> </a>  MO019C</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic gall bladder and cholngiocarcinoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO019D\"> </a>  MO019D</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Till RT ends\nDefinitive and Adjuvant therapy in gall bladder cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO019E\"> </a>  MO019E</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metatstatic Gall Bladder Cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO020A\"> </a>  MO020A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant, adjuvant and metastatic GIST</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO020B\"> </a>  MO020B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic GIST</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO021A\"> </a>  MO021A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Adjuvant therapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO022A\"> </a>  MO022A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic mesothelioma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO022B\"> </a>  MO022B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant,adjuvant and metastatic mesothelioma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO023A\"> </a>  MO023A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant Chemotherapy and metastatic thymic carcinoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO024A\"> </a>  MO024A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant and metastatic head and neck squamou cell cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO024B\"> </a>  MO024B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Definitive therapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO024C\"> </a>  MO024C</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic squamous cell head and neck cancer, nasopharyngeal cancer, salivary gland cancers</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO024D\"> </a>  MO024D</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant, Metastatic squamou cell head and neck cancer, nasopharyngeal cancer, salivary gland cancers</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO024E\"> </a>  MO024E</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic squamou cell head and neck cancer, salivary gland cancers</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO024F\"> </a>  MO024F</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic Head and neck squamous cell carcinoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO024G\"> </a>  MO024G</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant, adjuvant and metastatic esthesioneuroblastoma and Neuroendocrine carcinoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO024L\"> </a>  MO024L</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic squamous cell head and neck cancer, salivary gland cancers, nasopharyngeal carcinoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO024M\"> </a>  MO024M</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic squamous cell head and neck cancer, salivary gland cancers</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO025A\"> </a>  MO025A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic renal cell carcinoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO026A\"> </a>  MO026A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant, Metastatic urothelial cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO026B\"> </a>  MO026B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant, Adjuvant, Metastatic urothelial cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO026F\"> </a>  MO026F</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic urothelial cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO027A\"> </a>  MO027A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant, Adjuvant, Metastatic penile cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO027C\"> </a>  MO027C</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic Penile Cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO028A\"> </a>  MO028A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic prostate cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO033A\"> </a>  MO033A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Multiagent chemotherapy variable in each protocol</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO047C\"> </a>  MO047C</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Optional Vincristine and Prednsiolone\nIntrathecal Methotrexate</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO048C\"> </a>  MO048C</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Optional Vincristine and Prednsiolone, intrathecal Methotrexate</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO054A\"> </a>  MO054A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Histiocytosis Protocol - Induction</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO054B\"> </a>  MO054B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Histiocytosis Protocol - Maintenance</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO055A\"> </a>  MO055A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Low Grade Glioma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO056A\"> </a>  MO056A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Medulloblastoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO057A\"> </a>  MO057A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neuroblastoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO058A\"> </a>  MO058A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Retinoblastoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO059A\"> </a>  MO059A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Rhabdomyosarcoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO060A\"> </a>  MO060A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Relapsed Rhabdomyosarcoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO062A\"> </a>  MO062A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Phase II, CNS Therapy Reinduction</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO066A\"> </a>  MO066A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Relapsed Hodgkins Lymphoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO066B\"> </a>  MO066B</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Hodgkins Lymphoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO068A\"> </a>  MO068A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Non - Hodgkins Lymphoma</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO071A\"> </a>  MO071A</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metstatic non small cell lung cancer - second line</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO071E\"> </a>  MO071E</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic non small cell lung (adenocarcinoma) cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO071F\"> </a>  MO071F</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic small cell lung cancer - second line</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO071G\"> </a>  MO071G</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic Non Small Cell Lung Cancer - in patients unfit for combination therapy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO071H\"> </a>  MO071H</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant, concurrent with radiation and metastaic small cell lung cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO071K\"> </a>  MO071K</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant and Metastatic Non Small Cell Lung cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO071O\"> </a>  MO071O</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Concurrent chemoradiation in Non Small Cell lung cancer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO071Q\"> </a>  MO071Q</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Neoadjuvant, Adjuvant and Metastatic Non Small Cell Lung cancer (adnocarcinoma and adenosquamous carcinoma)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-informational-messages-codes-MO071R\"> </a>  MO071R</td><td>http://hcxprotocol.io/codes/informational-messages-codes</td><td>Metastatic non small cell lung cancer (adenocarcinoma) as maintenance after\nCarboplatin + Pemetrexed and\nCisplatin + Pemetrexed 4 -6 cycles</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://ig.hcxprotocol.io/v0.9/ValueSet-informational-messages-codes.html"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "InformationalMessagesCodes"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2022-06-01"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HCX Open Community"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HCX Open Community" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hcxprotocol.io/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This is the value set that includes the informational messages codes"] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2022-06-01T08:15:30+05:30"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MG045A" ] ;
+       fhir:display [ fhir:v "Dialysis payable separately as an add on package" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MG072A" ] ;
+       fhir:display [ fhir:v "Package cost of one session" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MG075A" ] ;
+       fhir:display [ fhir:v "Rs. 5000 is the upper limit.\nCan be booked at a lower rate also.\nIn fact the SHA should examine this package and  confirm wheter the package has been booked at the usual market rate.\nCan be booked for a pt. already admitted under any medical package." ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO014F" ] ;
+       fhir:display [ fhir:v "Neoadjuvant and adjuvant rectal cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO062A1" ] ;
+       fhir:display [ fhir:v "ACUTE LYMPHOBLASTIC LEUKEMIA" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MR001A" ] ;
+       fhir:display [ fhir:v "The Procedure will cover ALL, Hodgkin's Lymphoma, Wilm's Tumour, NHL, Retinoblastoma & certain Bone Tumours`" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SB030A" ] ;
+       fhir:display [ fhir:v "Can be used for ORIF, wherever indicated.\nCan not be used as an Add - on package" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SB032A" ] ;
+       fhir:display [ fhir:v "Surgical Management for Type III & IV Rockwood to be decided by the surgeon on case to case basis\nType V & VI to be taken up for Surgery straight away\nIn case Type I or II is booked a Pop Up to be shown \"For Rockwood Type I & II - AC Joint injury, experts recommend Medical Management, are you sure you want to do Surgical Correction in this case ?\" \nFor Hospitals booking Surgical Correction in Type I & Type II cases, Medical Audit will be conducted." ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SB032C" ] ;
+       fhir:display [ fhir:v "Surgical Management for Type III & IV Rockwood to be decided by the surgeon on case to case basis\nType V & VI to be taken up for Surgery straight away" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SB070A" ] ;
+       fhir:display [ fhir:v "LA for - K Wire & Screw\nGA for - Nail & Plate" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SC076A" ] ;
+       fhir:display [ fhir:v "If the Hospital choses Pediatric Port in a pt. aged more than 14 years. Then it should be audited" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SE012A" ] ;
+       fhir:display [ fhir:v "The package is inclusive of Eye Bank processing fee" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SE012B" ] ;
+       fhir:display [ fhir:v "This is a special  follow up package, as in Corneal graft surgery, a follow up at 1 week is required.\nAt this time, the surgeon has to examine and then prescribe medicine for next one month.\nThe medicine for 1 month has to be given at the time of booking this package.\nA signed reciept from the pt. is an essential document" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SE018A" ] ;
+       fhir:display [ fhir:v "To be done only after a prior scleral buckling surgery history" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SE022A" ] ;
+       fhir:display [ fhir:v "Can be booked only after 1 year of cataract surgery" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SE025A" ] ;
+       fhir:display [ fhir:v "Can be booked as a complication of cataract surgery atleast 15 days after discharge" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SE029A" ] ;
+       fhir:display [ fhir:v "The procedure is done only once per eye and not repeated" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SE029B" ] ;
+       fhir:display [ fhir:v "1. Claim to be raised after all 3 sittings have been done per eye.\n2. The interval between subsequent sittings is atleast 1 week." ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SE033A" ] ;
+       fhir:display [ fhir:v "Pre-auth to be raised only in cases which have a prior history of Vitreoretinal surgery done atleast 3 months ago" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SG097A" ] ;
+       fhir:display [ fhir:v "Can be booked only after 15 days of Ileostomy and then every 2 months thereafter till the closure of stoma.\nThe Hospital has to upload a signed statement from pt. that s/he has received the cosnumables: Ileostomy - bags, adhesive, clips etc for 2 months" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SG097B" ] ;
+       fhir:display [ fhir:v "Can be booked only after 15 days of Colostomy and then every 2 months thereafter till the closure of stoma.\nThe Hospital has to upload a signed statement from pt. that s/he has received the cosnumables: colostomy - bags, adhesive, clips etc for 2 months" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SU052A" ] ;
+       fhir:display [ fhir:v "Payment to be made after completion of one month." ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SU060A" ] ;
+       fhir:display [ fhir:v "Claim to be raised after 6th Cycle" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SU060B" ] ;
+       fhir:display [ fhir:v "Claim for Rs. 15,000 can be raised after 6th Cycle.\nRemainaing Rs. 15,000 can be claimed after 12th Cycle" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SU071C" ] ;
+       fhir:display [ fhir:v "No payment to be done to the Hospital for this stage\nThe package can be booked only if the first stage package has been booked prior to this" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SU071D" ] ;
+       fhir:display [ fhir:v "The package can be booked only if the first stage and / or intermediate stage package has been booked prior to this" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SV032A" ] ;
+       fhir:display [ fhir:v "Associated with CABG\nNeed to submit Barcode/ ID number of IABP. Intra-operative use of IABP as a part of operative strategy, not included\nIncidence - 5% to 7%\nScrutiny of Hospitals where incidence is more than twice of prescribed limit" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO001A" ] ;
+       fhir:display [ fhir:v "Adjuvant therapy in breast cancer\nMetastatic breast cancer\n(should not have received the same regimen or AC earlier)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO001B" ] ;
+       fhir:display [ fhir:v "Adjuvant therapy after 4 cycles of AC or EC" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO001C" ] ;
+       fhir:display [ fhir:v "Metstatic breast cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO001D" ] ;
+       fhir:display [ fhir:v "Adjuvant therapy in breast cancer with cardiac dysfunction or not suitable for anthracycline based therapy\nMetstatic breast cancer\n(should not have received the same regimen earlier)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO001E" ] ;
+       fhir:display [ fhir:v "Adjuvant therapy in breast cancer with cardiac dysfunction or not suitable for anthracycline based therapy and high nodal burden\nMetastatic breast cancer\n(should not have received the same regimen earlier)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO001F" ] ;
+       fhir:display [ fhir:v "Adjuvant therapy in breast cancer with Her-2 neu positive patients" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO001G" ] ;
+       fhir:display [ fhir:v "Adjuvant or neoadjuvant therapy in ER / PR psotive breast cancer\nER / PR positive metastatic breast cancer\n(if not receive earlier)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO001H" ] ;
+       fhir:display [ fhir:v "Adjuvant or neoadjuvant therapy in ER / PR psotive breast cancer\nER / PR positive metastatic breast cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO001I" ] ;
+       fhir:display [ fhir:v "Adjuvant or neoadjuvant therapy breast cancer\nmetastatic breast cancer\n(if not received earlier)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO001L" ] ;
+       fhir:display [ fhir:v "Adjuvant therapy in breast cancer\nMetstatic breast cancer\n(should not have received the same regimen or EC earlier)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO001M" ] ;
+       fhir:display [ fhir:v "Metastatic  breast cancer ER / PR positive" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO001N" ] ;
+       fhir:display [ fhir:v "Adjuvant or neoadjuvant therapy breast cancer\nmetastatic breast cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO001O" ] ;
+       fhir:display [ fhir:v "Metastatic breast cancer ER / PR positive" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO002A" ] ;
+       fhir:display [ fhir:v "Metastatic bone malignancy and multiple myeloma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO003A" ] ;
+       fhir:display [ fhir:v "Metastatic ovarian adenocarcinoma second line" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO003B" ] ;
+       fhir:display [ fhir:v "Neoadjuvant, adjuvant and metastatic ovarian adenocarcinoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO004A" ] ;
+       fhir:display [ fhir:v "Testicular Seminoma, Adjuvant" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO004B" ] ;
+       fhir:display [ fhir:v "Germ cell tumour of any site for Neoadjuvant, adjuvant or metastatic first line" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO004D" ] ;
+       fhir:display [ fhir:v "Germ cell tumour second line therapy" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO005A" ] ;
+       fhir:display [ fhir:v "First line therapy for high - risk Gestational Trophoblastic Neoplasia\nSecond line" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO005C" ] ;
+       fhir:display [ fhir:v "First line therapy for low risk Gestational Trophoblastic Neoplasia" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO006A" ] ;
+       fhir:display [ fhir:v "Neoadjuvant and metastatic Cervical Cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO006B" ] ;
+       fhir:display [ fhir:v "Stage II and Stage III cervical cancer definitive therapy along with Radiation therapy" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO007A" ] ;
+       fhir:display [ fhir:v "Neoadjuvant, Adjuvant and Metastatic Endometrial Cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO007B" ] ;
+       fhir:display [ fhir:v "Metastatic Endometrial Cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO008A" ] ;
+       fhir:display [ fhir:v "NACT, mets" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO008B" ] ;
+       fhir:display [ fhir:v "Stage II and Stage III cervical cancer definitive therapy" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO009A" ] ;
+       fhir:display [ fhir:v "Ewing Sarcoma second line chemotherapy" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO010A" ] ;
+       fhir:display [ fhir:v "Osteogenic carcinoma Neoadjuvant and adjuvant therapy" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO010B" ] ;
+       fhir:display [ fhir:v "Relapsed Osteogenic Sarcoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO010C" ] ;
+       fhir:display [ fhir:v "Osteogenic carcinoma Neoadjuvant therapy" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO010D" ] ;
+       fhir:display [ fhir:v "Osteogenic carcinoma adjuvant therapy" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO011A" ] ;
+       fhir:display [ fhir:v "NACT, Adjuvant, mets (if cardiac dysfunction)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO011B" ] ;
+       fhir:display [ fhir:v "Soft tissue sarcoma neoadjuvant, adjuvant and metastatic" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO012A" ] ;
+       fhir:display [ fhir:v "Metastatic Melanoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO013A" ] ;
+       fhir:display [ fhir:v "Stage II and III anal Cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO013C" ] ;
+       fhir:display [ fhir:v "Metastatic Anal Cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO014A" ] ;
+       fhir:display [ fhir:v "Adjuvant and Metastatic Colorectal Cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO014B" ] ;
+       fhir:display [ fhir:v "Metastatic Colorectal Cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO014H" ] ;
+       fhir:display [ fhir:v "Neoadjuvant and adjuvant Colorectal Cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO015A" ] ;
+       fhir:display [ fhir:v "Neoadjuvant and adjuvant esophageal cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO015B" ] ;
+       fhir:display [ fhir:v "Upper esophageal  neoadjuvant and  with RT as adjuvant" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO015D" ] ;
+       fhir:display [ fhir:v "With RT in definitive non-metastatic" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO015E" ] ;
+       fhir:display [ fhir:v "Metastatic without RT" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO016B" ] ;
+       fhir:display [ fhir:v "Metastatic second line esophageal and stomach cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO016C" ] ;
+       fhir:display [ fhir:v "Till RT ends\nLower esophageal and stomach Cancer with RT as adjuvant" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO016D" ] ;
+       fhir:display [ fhir:v "Till completion of RT\nLower esophageal and stomach Cancer with RT as adjuvant" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO016E" ] ;
+       fhir:display [ fhir:v "Adjuvant and Metastatic Stomach, Lower esophageal (adenocarcinoma) cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO016F" ] ;
+       fhir:display [ fhir:v "Neoadjuvant, adjuvant and metastatic stomach and lower esophageal (adenocarcinoma) cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO016J" ] ;
+       fhir:display [ fhir:v "Metatstaic lower esophageal and stomach Cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO016K" ] ;
+       fhir:display [ fhir:v "Adjuvant for stomach and lower esophageal (adenocarcinoma) cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO016L" ] ;
+       fhir:display [ fhir:v "Neoadjuvant, adjuvant, along with Radiation (concurrent), metastatic esophageal cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO017A" ] ;
+       fhir:display [ fhir:v "Liver confined hepatocellular carcinoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO017B" ] ;
+       fhir:display [ fhir:v "Meatastatic hepatocellular carcinoma (except child Pugh c)\nLiver confined but not suitable for liver directed therapy" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO018B" ] ;
+       fhir:display [ fhir:v "Metastatic pancreatic cancer - first line" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO018C" ] ;
+       fhir:display [ fhir:v "Neoadjuvant and adjuvant locally advanced pancreatic cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO018E" ] ;
+       fhir:display [ fhir:v "Till RT ends\nNeoadjuvant and adjuvant locally advanced pancreatic cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO018F" ] ;
+       fhir:display [ fhir:v "Pancreatic cancer - adjuvant" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO019A" ] ;
+       fhir:display [ fhir:v "Adjuvant and metastatic gall bladder and cholnagicarcinoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO019B" ] ;
+       fhir:display [ fhir:v "Neoadjuvant, adjuvant and metastatic pancreatic cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO019C" ] ;
+       fhir:display [ fhir:v "Metastatic gall bladder and cholngiocarcinoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO019D" ] ;
+       fhir:display [ fhir:v "Till RT ends\nDefinitive and Adjuvant therapy in gall bladder cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO019E" ] ;
+       fhir:display [ fhir:v "Metatstatic Gall Bladder Cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO020A" ] ;
+       fhir:display [ fhir:v "Neoadjuvant, adjuvant and metastatic GIST" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO020B" ] ;
+       fhir:display [ fhir:v "Metastatic GIST" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO021A" ] ;
+       fhir:display [ fhir:v "Adjuvant therapy" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO022A" ] ;
+       fhir:display [ fhir:v "Metastatic mesothelioma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO022B" ] ;
+       fhir:display [ fhir:v "Neoadjuvant,adjuvant and metastatic mesothelioma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO023A" ] ;
+       fhir:display [ fhir:v "Neoadjuvant Chemotherapy and metastatic thymic carcinoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO024A" ] ;
+       fhir:display [ fhir:v "Neoadjuvant and metastatic head and neck squamou cell cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO024B" ] ;
+       fhir:display [ fhir:v "Definitive therapy" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO024C" ] ;
+       fhir:display [ fhir:v "Metastatic squamous cell head and neck cancer, nasopharyngeal cancer, salivary gland cancers" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO024D" ] ;
+       fhir:display [ fhir:v "Neoadjuvant, Metastatic squamou cell head and neck cancer, nasopharyngeal cancer, salivary gland cancers" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO024E" ] ;
+       fhir:display [ fhir:v "Metastatic squamou cell head and neck cancer, salivary gland cancers" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO024F" ] ;
+       fhir:display [ fhir:v "Metastatic Head and neck squamous cell carcinoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO024G" ] ;
+       fhir:display [ fhir:v "Neoadjuvant, adjuvant and metastatic esthesioneuroblastoma and Neuroendocrine carcinoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO024L" ] ;
+       fhir:display [ fhir:v "Metastatic squamous cell head and neck cancer, salivary gland cancers, nasopharyngeal carcinoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO024M" ] ;
+       fhir:display [ fhir:v "Metastatic squamous cell head and neck cancer, salivary gland cancers" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO025A" ] ;
+       fhir:display [ fhir:v "Metastatic renal cell carcinoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO026A" ] ;
+       fhir:display [ fhir:v "Neoadjuvant, Metastatic urothelial cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO026B" ] ;
+       fhir:display [ fhir:v "Neoadjuvant, Adjuvant, Metastatic urothelial cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO026F" ] ;
+       fhir:display [ fhir:v "Metastatic urothelial cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO027A" ] ;
+       fhir:display [ fhir:v "Neoadjuvant, Adjuvant, Metastatic penile cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO027C" ] ;
+       fhir:display [ fhir:v "Metastatic Penile Cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO028A" ] ;
+       fhir:display [ fhir:v "Metastatic prostate cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO033A" ] ;
+       fhir:display [ fhir:v "Multiagent chemotherapy variable in each protocol" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO047C" ] ;
+       fhir:display [ fhir:v "Optional Vincristine and Prednsiolone\nIntrathecal Methotrexate" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO048C" ] ;
+       fhir:display [ fhir:v "Optional Vincristine and Prednsiolone, intrathecal Methotrexate" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO054A" ] ;
+       fhir:display [ fhir:v "Histiocytosis Protocol - Induction" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO054B" ] ;
+       fhir:display [ fhir:v "Histiocytosis Protocol - Maintenance" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO055A" ] ;
+       fhir:display [ fhir:v "Low Grade Glioma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO056A" ] ;
+       fhir:display [ fhir:v "Medulloblastoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO057A" ] ;
+       fhir:display [ fhir:v "Neuroblastoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO058A" ] ;
+       fhir:display [ fhir:v "Retinoblastoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO059A" ] ;
+       fhir:display [ fhir:v "Rhabdomyosarcoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO060A" ] ;
+       fhir:display [ fhir:v "Relapsed Rhabdomyosarcoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO062A" ] ;
+       fhir:display [ fhir:v "Phase II, CNS Therapy Reinduction" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO066A" ] ;
+       fhir:display [ fhir:v "Relapsed Hodgkins Lymphoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO066B" ] ;
+       fhir:display [ fhir:v "Hodgkins Lymphoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO068A" ] ;
+       fhir:display [ fhir:v "Non - Hodgkins Lymphoma" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO071A" ] ;
+       fhir:display [ fhir:v "Metstatic non small cell lung cancer - second line" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO071E" ] ;
+       fhir:display [ fhir:v "Metastatic non small cell lung (adenocarcinoma) cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO071F" ] ;
+       fhir:display [ fhir:v "Metastatic small cell lung cancer - second line" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO071G" ] ;
+       fhir:display [ fhir:v "Metastatic Non Small Cell Lung Cancer - in patients unfit for combination therapy" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO071H" ] ;
+       fhir:display [ fhir:v "Neoadjuvant, concurrent with radiation and metastaic small cell lung cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO071K" ] ;
+       fhir:display [ fhir:v "Neoadjuvant and Metastatic Non Small Cell Lung cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO071O" ] ;
+       fhir:display [ fhir:v "Concurrent chemoradiation in Non Small Cell lung cancer" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO071Q" ] ;
+       fhir:display [ fhir:v "Neoadjuvant, Adjuvant and Metastatic Non Small Cell Lung cancer (adnocarcinoma and adenosquamous carcinoma)" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/informational-messages-codes"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO071R" ] ;
+       fhir:display [ fhir:v "Metastatic non small cell lung cancer (adenocarcinoma) as maintenance after\nCarboplatin + Pemetrexed and\nCisplatin + Pemetrexed 4 -6 cycles" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
