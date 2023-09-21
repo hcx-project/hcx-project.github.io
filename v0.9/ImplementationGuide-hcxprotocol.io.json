@@ -1141,6 +1141,22 @@
     },
     {
       "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/ValueSet/communication-reason-codes",
+        "valueString" : "SearchParameter"
+      },
+      {
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/communication-reason-codes"
+      },
+      "name" : "HCX Communication Reason Codes",
+      "description" : "**Search by subject - a patient**  \n**NOTE**: This US Core SearchParameter definition extends the usage context of the\n[Conformance expectation extension](http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html)\n - multipleAnd\n - multipleOr\n - comparator\n - modifier\n - chain",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
         "url" : "http://hl7.org/fhir/tools/ValueSet/claim-supporting-info-categories",
         "valueString" : "SearchParameter"
       },
@@ -1590,6 +1606,15 @@
           }],
           "nameUrl" : "ValueSet-claim-error-codes.html",
           "title" : "HCX Claim Error Codes",
+          "generation" : "generated"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "ValueSet-communication-reason-codes.html"
+          }],
+          "nameUrl" : "ValueSet-communication-reason-codes.html",
+          "title" : "HCX Communication Reason Codes",
           "generation" : "generated"
         },
         {

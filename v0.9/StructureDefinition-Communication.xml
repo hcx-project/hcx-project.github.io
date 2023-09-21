@@ -1120,7 +1120,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="Codes for describing reasons for the occurrence of a communication."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/clinical-findings"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.9/ValueSet-communication-reason-codes.html"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -1504,6 +1504,52 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       <mapping>
         <identity value="w5"/>
         <map value="FiveWs.actor"/>
+      </mapping>
+    </element>
+    <element id="Communication.reasonCode">
+      <path value="Communication.reasonCode"/>
+      <short value="Indication for message"/>
+      <definition value="The reason or justification for the communication."/>
+      <comment value="Textual reasons can be captured using reasonCode.text."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Communication.reasonCode"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="CommunicationReason"/>
+        </extension>
+        <strength value="example"/>
+        <description value="Codes for describing reasons for the occurrence of a communication."/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.9/ValueSet-communication-reason-codes.html"/>
+      </binding>
+      <mapping>
+        <identity value="workflow"/>
+        <map value="Event.reasonCode"/>
+      </mapping>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.why[x]"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".reasonCode"/>
       </mapping>
     </element>
     <element id="Communication.reasonReference">

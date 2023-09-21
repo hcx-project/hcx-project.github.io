@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "f017ca3e-3bbe-49cd-9849-21b9e9e4b8d9",
+  "id" : "cd5d2a05-9db3-4f86-bdbc-4f8b96b601dd",
   "meta" : {
-    "lastUpdated" : "2023-09-20T22:13:04.842+05:30"
+    "lastUpdated" : "2023-09-21T13:11:48.694+05:30"
   },
   "type" : "collection",
   "entry" : [{
@@ -5583,6 +5583,44 @@
           "system" : "http://hcxprotocol.io/codes/clinical-diagnostics-document-codes",
           "code" : "MAND1049",
           "display" : "Clinical Reports"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://ig.hcxprotocol.io/v0.9/ValueSet-communication-reason-codes.html",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "communication-reason-codes",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-communication-reason-codes-COMM-PATIENT-CONSENT\"> </a>\u00a0\u00a0COMM-PATIENT-CONSENT</td><td>http://hcxprotocol.io/codes/communication-reason-codes</td><td>Patient Consent Details</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-communication-reason-codes-COMM-ACCOUNT-INFORMATION\"> </a>\u00a0\u00a0COMM-ACCOUNT-INFORMATION</td><td>http://hcxprotocol.io/codes/communication-reason-codes</td><td>Payment Account Information</td></tr></table></div>"
+      },
+      "url" : "https://ig.hcxprotocol.io/v0.9/ValueSet-communication-reason-codes.html",
+      "version" : "0.9.0",
+      "name" : "CommunicationReasonCodes",
+      "status" : "active",
+      "date" : "2023-09-20",
+      "publisher" : "HCX Open Community",
+      "contact" : [{
+        "name" : "HCX Open Community",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://hcxprotocol.io/"
+        }]
+      }],
+      "description" : "This is an example value set that includes a set of codes specifying the motivation, cause, or reason for a communication.",
+      "expansion" : {
+        "timestamp" : "2023-09-20T08:15:30+05:30",
+        "contains" : [{
+          "system" : "http://hcxprotocol.io/codes/communication-reason-codes",
+          "code" : "COMM-PATIENT-CONSENT",
+          "display" : "Patient Consent Details"
+        },
+        {
+          "system" : "http://hcxprotocol.io/codes/communication-reason-codes",
+          "code" : "COMM-ACCOUNT-INFORMATION",
+          "display" : "Payment Account Information"
         }]
       }
     }

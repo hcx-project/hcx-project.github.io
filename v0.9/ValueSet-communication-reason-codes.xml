@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="communication-reason-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 2 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-communication-reason-codes-COMM-PATIENT-CONSENT"> </a>  COMM-PATIENT-CONSENT</td><td>http://hcxprotocol.io/codes/communication-reason-codes</td><td>Patient Consent Details</td></tr><tr><td style="white-space:nowrap"><a name="http---hcxprotocol.io-codes-communication-reason-codes-COMM-ACCOUNT-INFORMATION"> </a>  COMM-ACCOUNT-INFORMATION</td><td>http://hcxprotocol.io/codes/communication-reason-codes</td><td>Payment Account Information</td></tr></table></div>
+  </text>
+  <url value="https://ig.hcxprotocol.io/v0.9/ValueSet-communication-reason-codes.html"/>
+  <version value="0.9.0"/>
+  <name value="CommunicationReasonCodes"/>
+  <status value="active"/>
+  <date value="2023-09-20"/>
+  <publisher value="HCX Open Community"/>
+  <contact>
+    <name value="HCX Open Community"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hcxprotocol.io/"/>
+    </telecom>
+  </contact>
+  <description value="This is an example value set that includes a set of codes specifying the motivation, cause, or reason for a communication."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"/>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2023-09-20T08:15:30+05:30"/>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/communication-reason-codes"/>
+      <code value="COMM-PATIENT-CONSENT"/>
+      <display value="Patient Consent Details"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/communication-reason-codes"/>
+      <code value="COMM-ACCOUNT-INFORMATION"/>
+      <display value="Payment Account Information"/>
+    </contains>
+  </expansion>
+</ValueSet>

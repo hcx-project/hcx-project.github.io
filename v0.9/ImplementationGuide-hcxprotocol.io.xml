@@ -920,6 +920,20 @@ These requirements were originally developed, balloted, and published in FHIR DS
       <exampleBoolean value="false"/>
     </resource>
     <resource>
+      <extension url="http://hl7.org/fhir/tools/ValueSet/communication-reason-codes">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/communication-reason-codes"/>
+      </reference>
+      <name value="HCX Communication Reason Codes"/>
+      <description value="**Search by subject - a patient**  &#xA;**NOTE**: This US Core SearchParameter definition extends the usage context of the&#xA;[Conformance expectation extension](http://hl7.org/fhir/R4/extension-capabilitystatement-expectation.html)&#xA; - multipleAnd&#xA; - multipleOr&#xA; - comparator&#xA; - modifier&#xA; - chain"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
       <extension url="http://hl7.org/fhir/tools/ValueSet/claim-supporting-info-categories">
         <valueString value="SearchParameter"/>
       </extension>
@@ -1318,6 +1332,14 @@ These requirements were originally developed, balloted, and published in FHIR DS
           </extension>
           <nameUrl value="ValueSet-claim-error-codes.html"/>
           <title value="HCX Claim Error Codes"/>
+          <generation value="generated"/>
+        </page>
+        <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="ValueSet-communication-reason-codes.html"/>
+          </extension>
+          <nameUrl value="ValueSet-communication-reason-codes.html"/>
+          <title value="HCX Communication Reason Codes"/>
           <generation value="generated"/>
         </page>
         <page>

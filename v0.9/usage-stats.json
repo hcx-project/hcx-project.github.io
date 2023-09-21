@@ -541,6 +541,9 @@
     "http://hl7.org/fhir/tools/ValueSet/clinical-diagnostics-document-codes": [
       "ImplementationGuide.definition.resource"
     ],
+    "http://hl7.org/fhir/tools/ValueSet/communication-reason-codes": [
+      "ImplementationGuide.definition.resource"
+    ],
     "http://hl7.org/fhir/tools/ValueSet/hcx-claim-sub-types": [
       "ImplementationGuide.definition.resource"
     ],
