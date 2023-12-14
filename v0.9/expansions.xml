@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="cd5d2a05-9db3-4f86-bdbc-4f8b96b601dd"/>
+  <id value="f44b321a-f125-44d3-b0e9-cc0b4c2e40d9"/>
   <meta>
-    <lastUpdated value="2023-09-21T13:11:48.694+05:30"/>
+    <lastUpdated value="2023-12-14T13:22:36.138+05:30"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -13382,7 +13382,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"/>
+    <fullUrl value="https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-sub-types.html"/>
     <resource>
       <ValueSet>
         <id value="hcx-claim-sub-types"/>
@@ -13454,7 +13454,7 @@
             </table>
           </div>
         </text>
-        <url value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"/>
+        <url value="https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-sub-types.html"/>
         <version value="0.9.0"/>
         <name value="HCXClaimSubTypes"/>
         <status value="draft"/>
@@ -14340,6 +14340,122 @@
             <system value="http://hcxprotocol.io/codes/claim-error-codes"/>
             <code value="CLAI-020"/>
             <display value="Missing IR-DRG code"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-types.html"/>
+    <resource>
+      <ValueSet>
+        <id value="hcx-claim-types"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hcxprotocol.io-codes-hcx-claim-types-institutional"> </a>  institutional
+                </td>
+                <td>http://hcxprotocol.io/codes/hcx-claim-types</td>
+                <td>Institutional</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hcxprotocol.io-codes-hcx-claim-types-oral"> </a>  oral
+                </td>
+                <td>http://hcxprotocol.io/codes/hcx-claim-types</td>
+                <td>Oral</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hcxprotocol.io-codes-hcx-claim-types-pharmacy"> </a>  pharmacy
+                </td>
+                <td>http://hcxprotocol.io/codes/hcx-claim-types</td>
+                <td>Pharmacy</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hcxprotocol.io-codes-hcx-claim-types-professional"> </a>  professional
+                </td>
+                <td>http://hcxprotocol.io/codes/hcx-claim-types</td>
+                <td>Professional</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hcxprotocol.io-codes-hcx-claim-types-vision"> </a>  vision
+                </td>
+                <td>http://hcxprotocol.io/codes/hcx-claim-types</td>
+                <td>Vision</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hcxprotocol.io-codes-hcx-claim-types-diagnostics"> </a>  diagnostics
+                </td>
+                <td>http://hcxprotocol.io/codes/hcx-claim-types</td>
+                <td>Diagnostics</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-types.html"/>
+        <version value="0.9.0"/>
+        <name value="HCXClaimTypes"/>
+        <status value="draft"/>
+        <date value="2023-03-06"/>
+        <publisher value="HCX Open Community"/>
+        <contact>
+          <name value="HCX Open Community"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hcxprotocol.io/"/>
+          </telecom>
+        </contact>
+        <description value="This is the value set listing the claim type codes, with Professional and Diagnostics commonly applied to OPD claims. Subsequent protocol versions will require a thorough examination of this value set to precisely articulate various claim categorizations through the claim.type and claim.subType elements. It is crucial to guarantee seamless backward compatibility in future iterations in case the valueset definition undergoes changes following the review."/>
+        <expansion>
+          <timestamp value="2023-03-06T08:15:30+05:30"/>
+          <contains>
+            <system value="http://hcxprotocol.io/codes/hcx-claim-types"/>
+            <code value="institutional"/>
+            <display value="Institutional"/>
+          </contains>
+          <contains>
+            <system value="http://hcxprotocol.io/codes/hcx-claim-types"/>
+            <code value="oral"/>
+            <display value="Oral"/>
+          </contains>
+          <contains>
+            <system value="http://hcxprotocol.io/codes/hcx-claim-types"/>
+            <code value="pharmacy"/>
+            <display value="Pharmacy"/>
+          </contains>
+          <contains>
+            <system value="http://hcxprotocol.io/codes/hcx-claim-types"/>
+            <code value="professional"/>
+            <display value="Professional"/>
+          </contains>
+          <contains>
+            <system value="http://hcxprotocol.io/codes/hcx-claim-types"/>
+            <code value="vision"/>
+            <display value="Vision"/>
+          </contains>
+          <contains>
+            <system value="http://hcxprotocol.io/codes/hcx-claim-types"/>
+            <code value="diagnostics"/>
+            <display value="Diagnostics"/>
           </contains>
         </expansion>
       </ValueSet>

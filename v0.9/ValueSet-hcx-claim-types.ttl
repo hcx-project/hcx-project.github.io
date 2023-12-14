@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hcxprotocol.io/fhir/r4/ValueSet/hcx-claim-types> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hcx-claim-types"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes for claim types.</p></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-types.html"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.0"] ; # 
+  fhir:name [ fhir:v "HCXClaimTypes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-03-06"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "HCX Open Community"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HCX Open Community" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hcxprotocol.io/" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This is the value set listing the claim type codes, with Professional and Diagnostics commonly applied to OPD claims. Subsequent protocol versions will require a thorough examination of this value set to precisely articulate various claim categorizations through the claim.type and claim.subType elements. It is crucial to guarantee seamless backward compatibility in future iterations in case the valueset definition undergoes changes following the review."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/claim-type"^^xsd:anyURI ]
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2023-03-06T08:15:30+05:30"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/hcx-claim-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "institutional" ] ;
+       fhir:display [ fhir:v "Institutional" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/hcx-claim-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "oral" ] ;
+       fhir:display [ fhir:v "Oral" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/hcx-claim-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "pharmacy" ] ;
+       fhir:display [ fhir:v "Pharmacy" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/hcx-claim-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "professional" ] ;
+       fhir:display [ fhir:v "Professional" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/hcx-claim-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "vision" ] ;
+       fhir:display [ fhir:v "Vision" ]
+     ] [
+       fhir:system [ fhir:v "http://hcxprotocol.io/codes/hcx-claim-types"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "diagnostics" ] ;
+       fhir:display [ fhir:v "Diagnostics" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

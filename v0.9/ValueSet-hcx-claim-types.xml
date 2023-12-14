@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="hcx-claim-types"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes for claim types.</p></div>
+  </text>
+  <url value="https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-types.html"/>
+  <version value="0.9.0"/>
+  <name value="HCXClaimTypes"/>
+  <status value="draft"/>
+  <date value="2023-03-06"/>
+  <publisher value="HCX Open Community"/>
+  <contact>
+    <name value="HCX Open Community"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hcxprotocol.io/"/>
+    </telecom>
+  </contact>
+  <description value="This is the value set listing the claim type codes, with Professional and Diagnostics commonly applied to OPD claims. Subsequent protocol versions will require a thorough examination of this value set to precisely articulate various claim categorizations through the claim.type and claim.subType elements. It is crucial to guarantee seamless backward compatibility in future iterations in case the valueset definition undergoes changes following the review."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/claim-type"/>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2023-03-06T08:15:30+05:30"/>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/hcx-claim-types"/>
+      <code value="institutional"/>
+      <display value="Institutional"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/hcx-claim-types"/>
+      <code value="oral"/>
+      <display value="Oral"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/hcx-claim-types"/>
+      <code value="pharmacy"/>
+      <display value="Pharmacy"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/hcx-claim-types"/>
+      <code value="professional"/>
+      <display value="Professional"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/hcx-claim-types"/>
+      <code value="vision"/>
+      <display value="Vision"/>
+    </contains>
+    <contains>
+      <system value="http://hcxprotocol.io/codes/hcx-claim-types"/>
+      <code value="diagnostics"/>
+      <display value="Diagnostics"/>
+    </contains>
+  </expansion>
+</ValueSet>

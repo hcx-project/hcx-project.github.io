@@ -515,8 +515,8 @@
        fhir:id [ fhir:v "Claim.type" ] ;
        fhir:path [ fhir:v "Claim.type" ] ;
        fhir:short [ fhir:v "Category or discipline" ] ;
-       fhir:definition [ fhir:v "The category of claim, e.g. oral, pharmacy, vision, institutional, professional." ] ;
-       fhir:comment [ fhir:v "The majority of jurisdictions use: oral, pharmacy, vision, professional and institutional, or variants on those terms, as the general styles of claims. The valueset is extensible to accommodate other jurisdictional requirements." ] ;
+       fhir:definition [ fhir:v "The category of claim, e.g. oral, pharmacy, vision, institutional, professional, or diagnostics." ] ;
+       fhir:comment [ fhir:v "The majority of jurisdictions use: oral, pharmacy, vision, professional, institutional, and diagnostics, or variants on those terms, as the general styles of claims. Professional and Diagnostics are typically used for OPD claims. The valueset is extensible to accommodate other jurisdictional requirements." ] ;
        fhir:requirements [ fhir:v "Claim type determine the general sets of business rules applied for information requirements and adjudication." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
@@ -549,8 +549,8 @@
          fhir:strength [ fhir:v "extensible" ] ;
          fhir:description [ fhir:v "The type or discipline-style of the claim." ] ;
          fhir:valueSet [
-           fhir:v "http://hl7.org/fhir/ValueSet/claim-type"^^xsd:anyURI ;
-           fhir:link <http://hl7.org/fhir/ValueSet/claim-type>
+           fhir:v "https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-types.html"^^xsd:anyURI ;
+           fhir:link <https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-types.html>
          ]
        ] ;
        fhir:mapping ( [
@@ -595,8 +595,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "A more granular claim typecode." ] ;
          fhir:valueSet [
-           fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"^^xsd:anyURI ;
-           fhir:link <https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types>
+           fhir:v "https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-sub-types.html"^^xsd:anyURI ;
+           fhir:link <https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-sub-types.html>
          ]
        ] ;
        fhir:mapping ( [
@@ -5679,6 +5679,52 @@
          fhir:map [ fhir:v "FiveWs.identifier" ]
        ] )
      ] [
+       fhir:id [ fhir:v "Claim.type" ] ;
+       fhir:path [ fhir:v "Claim.type" ] ;
+       fhir:short [ fhir:v "Category or discipline" ] ;
+       fhir:definition [ fhir:v "The category of claim, e.g. oral, pharmacy, vision, institutional, professional, or diagnostics." ] ;
+       fhir:comment [ fhir:v "The majority of jurisdictions use: oral, pharmacy, vision, professional, institutional, and diagnostics, or variants on those terms, as the general styles of claims. Professional and Diagnostics are typically used for OPD claims. The valueset is extensible to accommodate other jurisdictional requirements." ] ;
+       fhir:requirements [ fhir:v "Claim type determine the general sets of business rules applied for information requirements and adjudication." ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Claim.type" ] ;
+         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "CodeableConcept"^^xsd:anyURI ]
+       ] ) ;
+       fhir:constraint ( [
+         fhir:key [ fhir:v "ele-1" ] ;
+         fhir:severity [ fhir:v "error" ] ;
+         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
+         fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
+         fhir:source [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Element"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ] ) ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ] ;
+       fhir:isSummary [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:binding [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "ClaimType" ]
+         ] ) ;
+         fhir:strength [ fhir:v "extensible" ] ;
+         fhir:description [ fhir:v "The type or discipline-style of the claim." ] ;
+         fhir:valueSet [
+           fhir:v "https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-types.html"^^xsd:anyURI ;
+           fhir:link <https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-types.html>
+         ]
+       ] ;
+       fhir:mapping ( [
+         fhir:identity [ fhir:v "w5" ] ;
+         fhir:map [ fhir:v "FiveWs.class" ]
+       ] )
+     ] [
        fhir:id [ fhir:v "Claim.subType" ] ;
        fhir:path [ fhir:v "Claim.subType" ] ;
        fhir:short [ fhir:v "More granular claim type" ] ;
@@ -5716,8 +5762,8 @@
          fhir:strength [ fhir:v "example" ] ;
          fhir:description [ fhir:v "A more granular claim typecode." ] ;
          fhir:valueSet [
-           fhir:v "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"^^xsd:anyURI ;
-           fhir:link <https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types>
+           fhir:v "https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-sub-types.html"^^xsd:anyURI ;
+           fhir:link <https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-sub-types.html>
          ]
        ] ;
        fhir:mapping ( [

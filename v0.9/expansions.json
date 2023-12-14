@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "cd5d2a05-9db3-4f86-bdbc-4f8b96b601dd",
+  "id" : "f44b321a-f125-44d3-b0e9-cc0b4c2e40d9",
   "meta" : {
-    "lastUpdated" : "2023-09-21T13:11:48.694+05:30"
+    "lastUpdated" : "2023-12-14T13:22:36.138+05:30"
   },
   "type" : "collection",
   "entry" : [{
@@ -5626,7 +5626,7 @@
     }
   },
   {
-    "fullUrl" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types",
+    "fullUrl" : "https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-sub-types.html",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "hcx-claim-sub-types",
@@ -5634,7 +5634,7 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 7 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-EM\"> </a>\u00a0\u00a0EM</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Emergency</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-PL\"> </a>\u00a0\u00a0PL</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Planned</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-NC\"> </a>\u00a0\u00a0NC</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Natural Catastrophe</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-MA\"> </a>\u00a0\u00a0MA</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Maternity</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-UR\"> </a>\u00a0\u00a0UR</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Urgent</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-EL\"> </a>\u00a0\u00a0EL</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Elective</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---staging-hcx.swasth.app-hapi-fhir-fhir-CodeSystem-hcx-claim-sub-types-NB\"> </a>\u00a0\u00a0NB</td><td>https://staging-hcx.swasth.app/hapi-fhir/fhir/CodeSystem/hcx-claim-sub-types</td><td>Newborn</td></tr></table></div>"
       },
-      "url" : "https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types",
+      "url" : "https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-sub-types.html",
       "version" : "0.9.0",
       "name" : "HCXClaimSubTypes",
       "status" : "draft",
@@ -6042,6 +6042,64 @@
           "system" : "http://hcxprotocol.io/codes/claim-error-codes",
           "code" : "CLAI-020",
           "display" : "Missing IR-DRG code"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-types.html",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "hcx-claim-types",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-hcx-claim-types-institutional\"> </a>\u00a0\u00a0institutional</td><td>http://hcxprotocol.io/codes/hcx-claim-types</td><td>Institutional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-hcx-claim-types-oral\"> </a>\u00a0\u00a0oral</td><td>http://hcxprotocol.io/codes/hcx-claim-types</td><td>Oral</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-hcx-claim-types-pharmacy\"> </a>\u00a0\u00a0pharmacy</td><td>http://hcxprotocol.io/codes/hcx-claim-types</td><td>Pharmacy</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-hcx-claim-types-professional\"> </a>\u00a0\u00a0professional</td><td>http://hcxprotocol.io/codes/hcx-claim-types</td><td>Professional</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-hcx-claim-types-vision\"> </a>\u00a0\u00a0vision</td><td>http://hcxprotocol.io/codes/hcx-claim-types</td><td>Vision</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hcxprotocol.io-codes-hcx-claim-types-diagnostics\"> </a>\u00a0\u00a0diagnostics</td><td>http://hcxprotocol.io/codes/hcx-claim-types</td><td>Diagnostics</td></tr></table></div>"
+      },
+      "url" : "https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-types.html",
+      "version" : "0.9.0",
+      "name" : "HCXClaimTypes",
+      "status" : "draft",
+      "date" : "2023-03-06",
+      "publisher" : "HCX Open Community",
+      "contact" : [{
+        "name" : "HCX Open Community",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://hcxprotocol.io/"
+        }]
+      }],
+      "description" : "This is the value set listing the claim type codes, with Professional and Diagnostics commonly applied to OPD claims. Subsequent protocol versions will require a thorough examination of this value set to precisely articulate various claim categorizations through the claim.type and claim.subType elements. It is crucial to guarantee seamless backward compatibility in future iterations in case the valueset definition undergoes changes following the review.",
+      "expansion" : {
+        "timestamp" : "2023-03-06T08:15:30+05:30",
+        "contains" : [{
+          "system" : "http://hcxprotocol.io/codes/hcx-claim-types",
+          "code" : "institutional",
+          "display" : "Institutional"
+        },
+        {
+          "system" : "http://hcxprotocol.io/codes/hcx-claim-types",
+          "code" : "oral",
+          "display" : "Oral"
+        },
+        {
+          "system" : "http://hcxprotocol.io/codes/hcx-claim-types",
+          "code" : "pharmacy",
+          "display" : "Pharmacy"
+        },
+        {
+          "system" : "http://hcxprotocol.io/codes/hcx-claim-types",
+          "code" : "professional",
+          "display" : "Professional"
+        },
+        {
+          "system" : "http://hcxprotocol.io/codes/hcx-claim-types",
+          "code" : "vision",
+          "display" : "Vision"
+        },
+        {
+          "system" : "http://hcxprotocol.io/codes/hcx-claim-types",
+          "code" : "diagnostics",
+          "display" : "Diagnostics"
         }]
       }
     }

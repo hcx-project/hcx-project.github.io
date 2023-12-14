@@ -547,6 +547,9 @@
     "http://hl7.org/fhir/tools/ValueSet/hcx-claim-sub-types": [
       "ImplementationGuide.definition.resource"
     ],
+    "http://hl7.org/fhir/tools/ValueSet/hcx-claim-types": [
+      "ImplementationGuide.definition.resource"
+    ],
     "http://hl7.org/fhir/tools/ValueSet/hcx-procedure-categories": [
       "ImplementationGuide.definition.resource"
     ],

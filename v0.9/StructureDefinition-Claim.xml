@@ -593,8 +593,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
     <element id="Claim.type">
       <path value="Claim.type"/>
       <short value="Category or discipline"/>
-      <definition value="The category of claim, e.g. oral, pharmacy, vision, institutional, professional."/>
-      <comment value="The majority of jurisdictions use: oral, pharmacy, vision, professional and institutional, or variants on those terms, as the general styles of claims. The valueset is extensible to accommodate other jurisdictional requirements."/>
+      <definition value="The category of claim, e.g. oral, pharmacy, vision, institutional, professional, or diagnostics."/>
+      <comment value="The majority of jurisdictions use: oral, pharmacy, vision, professional, institutional, and diagnostics, or variants on those terms, as the general styles of claims. Professional and Diagnostics are typically used for OPD claims. The valueset is extensible to accommodate other jurisdictional requirements."/>
       <requirements value="Claim type determine the general sets of business rules applied for information requirements and adjudication."/>
       <min value="1"/>
       <max value="1"/>
@@ -622,7 +622,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="extensible"/>
         <description value="The type or discipline-style of the claim."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/claim-type"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-types.html"/>
       </binding>
       <mapping>
         <identity value="w5"/>
@@ -661,7 +661,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="A more granular claim typecode."/>
-        <valueSet value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-sub-types.html"/>
       </binding>
       <mapping>
         <identity value="w5"/>
@@ -5112,6 +5112,45 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         <map value="FiveWs.identifier"/>
       </mapping>
     </element>
+    <element id="Claim.type">
+      <path value="Claim.type"/>
+      <short value="Category or discipline"/>
+      <definition value="The category of claim, e.g. oral, pharmacy, vision, institutional, professional, or diagnostics."/>
+      <comment value="The majority of jurisdictions use: oral, pharmacy, vision, professional, institutional, and diagnostics, or variants on those terms, as the general styles of claims. Professional and Diagnostics are typically used for OPD claims. The valueset is extensible to accommodate other jurisdictional requirements."/>
+      <requirements value="Claim type determine the general sets of business rules applied for information requirements and adjudication."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="Claim.type"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="ClaimType"/>
+        </extension>
+        <strength value="extensible"/>
+        <description value="The type or discipline-style of the claim."/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-types.html"/>
+      </binding>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.class"/>
+      </mapping>
+    </element>
     <element id="Claim.subType">
       <path value="Claim.subType"/>
       <short value="More granular claim type"/>
@@ -5144,7 +5183,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         </extension>
         <strength value="example"/>
         <description value="A more granular claim typecode."/>
-        <valueSet value="https://staging-hcx.swasth.app/hapi-fhir/fhir/ValueSet/hcx-claim-sub-types"/>
+        <valueSet value="https://ig.hcxprotocol.io/v0.9/ValueSet-hcx-claim-sub-types.html"/>
       </binding>
       <mapping>
         <identity value="w5"/>
